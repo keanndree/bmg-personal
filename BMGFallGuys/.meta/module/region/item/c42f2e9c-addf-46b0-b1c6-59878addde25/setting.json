@@ -1,0 +1,112 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetPartAlpha",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Part",
+                        "action": "5defc5ab-762c-4513-8f47-6285ba3d7dea"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Double",
+                        "rawval": 0.5
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "6d818699-221b-455b-ae51-6bb997018e09"
+              },
+              "pos": {
+                "x": 780,
+                "y": 168
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_SetPartUseCollide",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Part"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "1da092a5-701c-4609-ae60-8e5d3b6a7bec"
+              },
+              "pos": {
+                "x": 775,
+                "y": 332
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "desc": "GetRegionPart",
+                  "script_name": "ScriptableNode_2"
+                }
+              ],
+              "id": {
+                "value": "5defc5ab-762c-4513-8f47-6285ba3d7dea"
+              },
+              "pos": {
+                "x": 1175,
+                "y": 204
+              }
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "6d818699-221b-455b-ae51-6bb997018e09"
+                  },
+                  {
+                    "action": "1da092a5-701c-4609-ae60-8e5d3b6a7bec"
+                  },
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "12ea45cc-64f6-40ab-8f3d-e6ca12e0b779"
+            }
+          },
+          "type": "Trigger_RegionEnter"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
+      "triggers.bts": "6724fc535de8ec457c3cea7d1c0e1f20"
+    },
+    "VERSION": "0.20"
+  }
+}

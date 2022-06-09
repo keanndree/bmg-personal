@@ -1,0 +1,374 @@
+{
+  "data": {
+    "back_enable": {
+      "enable": false
+    },
+    "canJoinMidway": false,
+    "defaultView": "Follow",
+    "firstPerson_enable": {
+      "enable": false
+    },
+    "fixed_viewPos": {
+      "pos": {
+        "__OBJ_TYPE": "Vector3i"
+      }
+    },
+    "follow_enable": {
+      "enable": true
+    },
+    "initPos": {
+      "map": "map001",
+      "pos": {
+        "y": 1
+      }
+    },
+    "nowTime": {
+      "h": 7,
+      "m": 40
+    },
+    "player_range": {
+      "max": 6,
+      "min": 1
+    },
+    "startPos": {
+      "map": "map001",
+      "pos": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_If",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Condition",
+                  "children": [
+                    {
+                      "action": "1ee9fc72-db36-4b5f-a721-8e8d82ea70c9"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c6d1c07b-50a5-4dd4-bce1-3e4efd02a2b9"
+              },
+              "pos": {
+                "x": 281,
+                "y": 122
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_IfBranch",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "action": "e62d1599-373d-40d3-a6ce-b98298178c80"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "b582995c-0356-4d1d-b571-51529c3bb2c2"
+                    },
+                    {
+                      "action": "089c1ae7-5ea9-4414-a2c5-68d82a844fa9"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "1ee9fc72-db36-4b5f-a721-8e8d82ea70c9"
+              },
+              "pos": {
+                "x": 487,
+                "y": 362
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ComputeBool",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Double",
+                        "action": "2a56b3d3-3dbd-4c0d-9b0f-fd2ddb4fe307"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BinaryOperBool",
+                        "rawval": "=="
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Double"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e62d1599-373d-40d3-a6ce-b98298178c80"
+              },
+              "pos": {
+                "x": 766,
+                "y": 4
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetGlobalVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_GlobalVar",
+                        "rawval": "init"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "2a56b3d3-3dbd-4c0d-9b0f-fd2ddb4fe307"
+              },
+              "pos": {
+                "x": 1102,
+                "y": 12
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_ForLoop",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 1
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 25
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 1
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "6063558b-3ec3-4490-a5db-26093293da1c"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "b582995c-0356-4d1d-b571-51529c3bb2c2"
+              },
+              "pos": {
+                "x": 794,
+                "y": 283
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ArrayAppend",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "TypeOfVar"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ArrayGlobalVar",
+                        "rawval": "platformList"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Layout"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "d073e839-fd26-49c4-b35b-0a71104da21e"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "6063558b-3ec3-4490-a5db-26093293da1c"
+              },
+              "pos": {
+                "x": 1121,
+                "y": 378
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_Random",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 1
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 2
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d073e839-fd26-49c4-b35b-0a71104da21e"
+              },
+              "pos": {
+                "x": 1537,
+                "y": 326
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_SetGlobalVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_GlobalVar",
+                        "rawval": "init"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 1
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "089c1ae7-5ea9-4414-a2c5-68d82a844fa9"
+              },
+              "pos": {
+                "x": 799,
+                "y": 617
+              }
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "c6d1c07b-50a5-4dd4-bce1-3e4efd02a2b9"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "68558fdf-a383-473f-a5cf-6478a183fbb0"
+            },
+            "pos": {
+              "x": 41,
+              "y": 146
+            }
+          },
+          "type": "Trigger_GameStart"
+        }
+      ]
+    },
+    "unlimitedPlayTime": true,
+    "vars": {
+      "entity": [
+        {
+          "key": "isQualified",
+          "type": "bool",
+          "value": {
+            "__OBJ_TYPE": "T_Bool"
+          }
+        }
+      ],
+      "global": [
+        {
+          "key": "platformList",
+          "struct_type": "array",
+          "value": {
+            "__OBJ_TYPE": "T_IntArray"
+          }
+        },
+        {
+          "key": "init"
+        },
+        {
+          "key": "playerQualified"
+        },
+        {
+          "key": "numToQualify",
+          "value": {
+            "rawval": 2
+          }
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e519ddcb92b4a8618dad4869db34bab6",
+      "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
+      "triggers.bts": "110e96b264c71f8d2d9fa5b082fd7007",
+      "triggers_client.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

@@ -1,0 +1,11 @@
+GAME_START {
+	If (@init == 0) {
+		ForLoop(from = 1, key = "", step = 1, to = 25) {
+			ArrayAppend(
+				array = @platformList,
+				value = Random(max = 2, min = 1)
+			)
+		}
+		@init = 1
+	}
+}

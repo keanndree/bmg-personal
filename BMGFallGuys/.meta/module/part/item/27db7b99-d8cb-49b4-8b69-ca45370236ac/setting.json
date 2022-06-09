@@ -1,0 +1,85 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "1164de93-dd54-4bf5-84ac-787d26905c57"
+              },
+              "pos": {
+                "x": 1162,
+                "y": 252
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_RemoveBuffByFullName",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "1164de93-dd54-4bf5-84ac-787d26905c57"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/JumpDebuff"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "97b8401e-5c97-459a-ae9d-30eb5e8f1559"
+              },
+              "pos": {
+                "x": 734,
+                "y": 260
+              }
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "97b8401e-5c97-459a-ae9d-30eb5e8f1559"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "48981f43-d15b-4abc-84df-ae25fb3fd128"
+            }
+          },
+          "type": "Trigger_PartTouchEntityBegin"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "triggers.bts": "97c8979b23bda4c79f243194e2ce36e5"
+    },
+    "VERSION": "0.20"
+  }
+}

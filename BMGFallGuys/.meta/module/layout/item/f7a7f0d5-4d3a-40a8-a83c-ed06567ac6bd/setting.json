@@ -1,0 +1,108 @@
+{
+  "data": {
+    "md5": "ce0e22e79ef64ea3f9bc9494c4f6bd33",
+    "path": "asset/UI/GameInfo.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Right"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 14,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "dcfbe07d-14bc-4529-8ed9-29774695dc2a"
+              },
+              "MousePassThroughEnabled": true,
+              "name": "QualifiedTextTitle",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.08
+                },
+                "UDim_Y": {
+                  "Scale": 0.08
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.25
+                }
+              },
+              "Text": "QUALIFIED",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "word_warpped": false
+            }
+          ],
+          "id": {
+            "value": "f98f5983-f311-44f5-8a86-0355d20bb512"
+          },
+          "Image": {
+            "asset": "asset/Sprite/QualifiedUI.png"
+          },
+          "MousePassThroughEnabled": true,
+          "name": "QualifiedBG",
+          "pos": {
+            "UDim_X": {
+              "Scale": 0.05
+            },
+            "UDim_Y": {
+              "Scale": 0.25
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.18
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.12
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "344dae4e-fb34-4948-b27c-cf9a87a5c796"
+      },
+      "pos": {
+        "UDim_X": {
+          "Offect": 1.1246707439423
+        }
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "ce0e22e79ef64ea3f9bc9494c4f6bd33",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

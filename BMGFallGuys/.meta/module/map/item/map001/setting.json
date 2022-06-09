@@ -1,0 +1,1153 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_back.png"
+        },
+        "bottom": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_bottom.png"
+        },
+        "front": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_front.png"
+        },
+        "left": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_left.png"
+        },
+        "right": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_right.png"
+        },
+        "top": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "26644713697705985",
+        "uniqueKey": "map001"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "27db7b99-d8cb-49b4-8b69-ca45370236ac",
+            "density": 0.6,
+            "friction": 0.46,
+            "id": "8663476891681161217",
+            "mass": 59.999935913086,
+            "material": {
+              "color": {
+                "b": 127,
+                "g": 170
+              },
+              "texture": "part_buliao.tga"
+            },
+            "name": "SpawnPlatform",
+            "restitution": 0.03,
+            "scale": {
+              "x": 20,
+              "y": 0.5,
+              "z": 10
+            },
+            "size": {
+              "x": 19.999994277954,
+              "y": 0.49999988079071,
+              "z": 9.9999971389771
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 99.999893188477
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a3bb460d-dc7f-4c4d-a6e6-4ea4beee92cc",
+            "density": 0.6,
+            "friction": 0.46,
+            "id": "8663506278434963457",
+            "mass": 59.999935913086,
+            "massCenter": {
+              "z": 30.25
+            },
+            "material": {
+              "color": {
+                "g": 170,
+                "r": 170
+              },
+              "texture": "part_buliao.tga"
+            },
+            "name": "WinPlatform",
+            "position": {
+              "z": 30.25
+            },
+            "restitution": 0.03,
+            "scale": {
+              "x": 20,
+              "y": 0.5,
+              "z": 10
+            },
+            "size": {
+              "x": 19.999994277954,
+              "y": 0.49999988079071,
+              "z": 9.9999971389771
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 99.999893188477
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "42962458-1ab4-4c37-b98b-162425c939cc",
+            "density": 0.6,
+            "friction": 0.46,
+            "id": "8663520650325147649",
+            "mass": 835.27895507813,
+            "massCenter": {
+              "x": -0.125,
+              "y": -6.5,
+              "z": 15
+            },
+            "material": {
+              "alpha": 0,
+              "color": {
+                "g": 170,
+                "r": 170
+              },
+              "texture": "part_buliao.tga"
+            },
+            "name": "FallPlatform",
+            "position": {
+              "x": -0.125,
+              "y": -6.5,
+              "z": 15
+            },
+            "restitution": 0.03,
+            "scale": {
+              "x": 41.2495,
+              "y": 0.499994,
+              "z": 67.499
+            },
+            "size": {
+              "x": 41.249500274658,
+              "y": 0.49999371170998,
+              "z": 67.498977661133
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 1392.1315917969
+          }
+        ],
+        "id": "8663567569011490817",
+        "name": "FixedPlatform"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "8280951f-a126-4277-96e0-c90910aae485",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8663569044373078017",
+            "mass": 11.618360805511,
+            "massCenter": {
+              "z": 7.125
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 209
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "ObsPlatform",
+            "position": {
+              "z": 7.125
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.2499575614929,
+              "y": 0.49999821186066,
+              "z": 3.2499461174011
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810730934143
+          }
+        ],
+        "id": "8663483301181374465",
+        "name": "Platforms"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "140a6eec-bbe9-47c5-97fd-2ea8b082c120",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664610311609139201",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "x": 4,
+          "z": 7.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "x": 4,
+          "z": 7.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "0dca4cfe-5c13-476c-bf65-7eb3000cbee5",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664610557028007937",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "x": 8,
+          "z": 7.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "x": 8,
+          "z": 7.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "df4d798e-30df-4fbb-8d7a-e9bac1eaa23b",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664610889730375681",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "x": -4,
+          "z": 7.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "x": -4,
+          "z": 7.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "92cb0031-079c-4c60-98ea-d4196196e0a6",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664610889733455873",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "x": -8,
+          "z": 7.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "x": -8,
+          "z": 7.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "e216dae9-be63-4f7b-add7-2da5d1b6ba2d",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664611289942671361",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "x": -8,
+          "z": 11.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "x": -8,
+          "z": 11.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "5b5cc355-e0a8-47ae-a31e-80daada83562",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664611289945325569",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "x": -4,
+          "z": 11.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "x": -4,
+          "z": 11.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "d920f5ba-f739-49ca-a204-98b7b0fd3367",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664611289947947009",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "z": 11.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "z": 11.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "fecf8ff1-a93a-4255-8e76-151dc7bd6882",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664611289950568449",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "x": 4,
+          "z": 11.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "x": 4,
+          "z": 11.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "ec56b81a-9523-46a7-9d7b-799a6379178e",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664611289953222657",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "x": 8,
+          "z": 11.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "x": 8,
+          "z": 11.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "156483ec-9d5d-4e5f-a416-ad4cf7a4206a",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664611641239912449",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "x": -4,
+          "z": 19.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "x": -4,
+          "z": 19.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "207cbbb7-9a29-4553-a4f4-64bfa9a9b9e9",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664611641242861569",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "x": 8,
+          "z": 15.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "x": 8,
+          "z": 15.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "a3f6fa42-c1d4-4661-bc95-25604623ce8f",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664611641245876225",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "z": 19.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "z": 19.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "83ef81e0-36b9-4810-b61d-dd233cbf9e77",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664611641248792577",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "z": 15.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "z": 15.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "c464af2c-5941-4ea9-94df-c9c918714d3f",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664611641251676161",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "x": 4,
+          "z": 15.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "x": 4,
+          "z": 15.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "4172d926-0d85-4c57-9c05-230f84838a5f",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664611641254608897",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "x": 8,
+          "z": 19.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "x": 8,
+          "z": 19.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "a90d352e-3907-4766-ad18-c23274e9f666",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664611641257541633",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "x": -8,
+          "z": 19.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "x": -8,
+          "z": 19.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "f4003569-1d20-4c79-bdd7-57a0bee364f7",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664611641260490753",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "x": -8,
+          "z": 15.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "x": -8,
+          "z": 15.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "873f77ba-2276-491a-a2fa-2ef62f3a32b2",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664611641263374337",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "x": 4,
+          "z": 19.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "x": 4,
+          "z": 19.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "9449afcb-74b8-49b1-938e-cb2657ef926a",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664611641266487297",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "x": -4,
+          "z": 15.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "x": -4,
+          "z": 15.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "40b44668-3509-4201-96e8-39a0abe36744",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664611914494017537",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "x": 8,
+          "z": 23.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "x": 8,
+          "z": 23.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "6d31ae2b-fe87-478b-b09b-443a6f529981",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664611914496507905",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "x": 4,
+          "z": 23.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "x": 4,
+          "z": 23.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "2666b713-6fd4-4316-b4fa-293518428c5f",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664611914498998273",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "x": -8,
+          "z": 23.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "x": -8,
+          "z": 23.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "e9dec291-95be-4ab6-824c-efe384df4975",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664611914501472257",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "z": 23.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "z": 23.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "86f4ee7c-99e8-4864-b646-cd0e4cba07dd",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8664611914503946241",
+        "mass": 11.618360805511,
+        "massCenter": {
+          "x": -4,
+          "z": 23.125
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 209
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "x": -4,
+          "z": 23.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.2499575614929,
+          "y": 0.49999821186066,
+          "z": 3.2499461174011
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810730934143
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/7312478f-e843-47bd-833d-00279a13d2b8",
+        "id": "8664636376285478913",
+        "name": "WinRegion",
+        "position": {
+          "x": 0.025671005249023,
+          "y": 1.7499990463257,
+          "z": 32.202198028564
+        },
+        "scale": {
+          "x": 20.2499,
+          "y": 3.49999,
+          "z": 5.66997
+        },
+        "size": {
+          "x": 20.249876022339,
+          "y": 3.4999868869781,
+          "z": 5.6699719429016
+        }
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6dc7a69a5ea224bf090263ef0d8367b9"
+    },
+    "VERSION": "0.20"
+  }
+}

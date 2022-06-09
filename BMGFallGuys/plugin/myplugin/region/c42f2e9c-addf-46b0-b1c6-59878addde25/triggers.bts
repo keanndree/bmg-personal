@@ -1,0 +1,4 @@
+REGION_ENTER {
+	SetPartAlpha(alpha = 0.5, part = ExecScript(script_name = "ScriptableNode_2"))
+	SetPartUseCollide(useCollide = false)
+}

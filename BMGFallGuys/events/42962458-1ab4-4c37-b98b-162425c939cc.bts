@@ -1,0 +1,7 @@
+PART_TOUCH_ENTITY_BEGIN {
+	ReviveEntity(
+		entity = $obj2,
+		map = GetStaticMap(create = true, name = "map001"),
+		pos = GetEntityStartPos(entity = $obj2)
+	)
+}
