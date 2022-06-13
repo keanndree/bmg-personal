@@ -1,8 +1,0 @@
-PART_TOUCH_ENTITY_BEGIN {
-	StartTimer2(interval = 20, time = 1, timer = "33") {
-		SetPartPosition(map = "map001", part = $part1, pos = { x = -400.2, y = -1004.96, z = -270.19 })
-	}
-	StartTimer2(interval = 40, time = 1, timer = "22") {
-		SetPartPosition(map = "map001", part = $part1, pos = { x = -6.3, y = 31.5, z = -40.29 })
-	}
-}
