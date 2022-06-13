@@ -44,8 +44,8 @@
                 "value": "06eb9f6d-65cf-4e99-b6e0-dc4cc4384f2f"
               },
               "pos": {
-                "x": 721,
-                "y": 106
+                "x": 1140,
+                "y": 1227
               }
             },
             {
@@ -60,8 +60,8 @@
                 "value": "da8ee69f-c4c8-427b-bc1c-ba99f8521b5e"
               },
               "pos": {
-                "x": 1186,
-                "y": 70
+                "x": 1605,
+                "y": 1191
               },
               "type": "T_Entity"
             },
@@ -133,8 +133,8 @@
                 "value": "8d957b36-19ef-4217-a51c-7c00fa18cb5d"
               },
               "pos": {
-                "x": 718,
-                "y": 373
+                "x": 596,
+                "y": 362
               }
             },
             {
@@ -160,7 +160,12 @@
                     {
                       "action": "bee474f3-c8fc-4d1d-81ad-5c2481ca2fec"
                     },
-                    []
+                    {
+                      "action": "c1aef71d-6562-4f72-9923-fde4bf1cd5ea"
+                    },
+                    {
+                      "action": "06eb9f6d-65cf-4e99-b6e0-dc4cc4384f2f"
+                    }
                   ]
                 }
               ],
@@ -168,8 +173,8 @@
                 "value": "46794757-82db-40c3-a5f0-7008e2ab4ec3"
               },
               "pos": {
-                "x": 894,
-                "y": 393
+                "x": 777,
+                "y": 366
               }
             },
             {
@@ -341,6 +346,81 @@
                 "y": 689
               },
               "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "bacbb4ec-3098-4951-97a5-7d8093947f0f",
+                      "param_name": "PlayerQualified"
+                    },
+                    {
+                      "action": "fe98cf1e-b554-474f-9d9e-5cdee813f415",
+                      "param_name": "NumToQualify"
+                    }
+                  ],
+                  "desc": "PlayerQualifiedEventNode",
+                  "script_name": "ScriptableNode"
+                }
+              ],
+              "id": {
+                "value": "c1aef71d-6562-4f72-9923-fde4bf1cd5ea"
+              },
+              "pos": {
+                "x": 1167,
+                "y": 908
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetGlobalVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_GlobalVar",
+                        "rawval": "playerQualified"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "bacbb4ec-3098-4951-97a5-7d8093947f0f"
+              },
+              "pos": {
+                "x": 1533,
+                "y": 972
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetGlobalVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_GlobalVar",
+                        "rawval": "numToQualify"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "fe98cf1e-b554-474f-9d9e-5cdee813f415"
+              },
+              "pos": {
+                "x": 1534,
+                "y": 1086
+              },
+              "type": "T_Int"
             }
           ],
           "root": {
@@ -349,9 +429,6 @@
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
                   {
-                    "action": "06eb9f6d-65cf-4e99-b6e0-dc4cc4384f2f"
-                  },
-                  {
                     "action": "8d957b36-19ef-4217-a51c-7c00fa18cb5d"
                   }
                 ]
@@ -359,6 +436,10 @@
             ],
             "id": {
               "value": "c9a16976-71ce-4d93-935b-2ffa94f170a6"
+            },
+            "pos": {
+              "x": 248,
+              "y": 345
             }
           },
           "type": "Trigger_RegionEnter"
@@ -369,7 +450,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
-      "triggers.bts": "b7e366e4f8470ebc30dce26498359ea6"
+      "triggers.bts": "28c941cc692bfab1d5909f7867a10de4"
     },
     "VERSION": "0.20"
   }

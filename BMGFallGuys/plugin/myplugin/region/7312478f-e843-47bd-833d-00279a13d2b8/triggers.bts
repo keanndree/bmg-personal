@@ -1,7 +1,8 @@
 REGION_ENTER {
-	ShowTip(entity = $obj1, keepTime = 100, textKey = "a9972bcb-9fa4-4a34-bf03-ef9ec36d5d84", tipType = "1")
 	If (@playerQualified < @numToQualify) {
 		$obj1.isQualified = true
 		@playerQualified = @playerQualified + 1
+		ExecScript(NumToQualify = @numToQualify, PlayerQualified = @playerQualified, script_name = "ScriptableNode")
+		ShowTip(entity = $obj1, keepTime = 100, textKey = "a9972bcb-9fa4-4a34-bf03-ef9ec36d5d84", tipType = "1")
 	}
 }

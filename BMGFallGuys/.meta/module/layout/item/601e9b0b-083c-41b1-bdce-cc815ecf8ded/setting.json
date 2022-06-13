@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "95091030efb1a4373ebef57908f91e00",
+    "md5": "8503be9339fb07888ad556cc378fce79",
     "path": "asset/UI/CurrentGameInfo.layout",
     "root": {
       "children": [
@@ -22,7 +22,7 @@
                   "Font_size": 24,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "e758581c-eb9e-4746-b80b-ce1ebb0e6ccc"
+                    "value": "7c080bf4-213c-431d-8708-eb87c616c0b3"
                   },
                   "name": "QualifiedText",
                   "pos": {
@@ -32,11 +32,11 @@
                   },
                   "size": {
                     "UDim_X": {
-                      "Offect": 0,
+                      "Offect": 0.0,
                       "Scale": 1
                     },
                     "UDim_Y": {
-                      "Offect": 0,
+                      "Offect": 0.0,
                       "Scale": 1.5
                     }
                   },
@@ -53,7 +53,7 @@
               "Font_size": 16,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "40ff4619-6788-4e71-95bf-818576cdac3e"
+                "value": "48a4c8e4-eff0-4081-9eb2-8a4858d216e1"
               },
               "name": "QualifiedTitleText",
               "pos": {
@@ -63,11 +63,11 @@
               },
               "size": {
                 "UDim_X": {
-                  "Offect": 0,
+                  "Offect": 0.0,
                   "Scale": 1
                 },
                 "UDim_Y": {
-                  "Offect": 0,
+                  "Offect": 0.0,
                   "Scale": 0.32
                 }
               },
@@ -80,7 +80,7 @@
             }
           ],
           "id": {
-            "value": "bbccd26c-d444-4b57-ada1-cf350ff05e37"
+            "value": "1332b433-64fe-4f69-8965-4f881244166a"
           },
           "Image": {
             "asset": "asset/Sprite/QualifiedUI.png"
@@ -96,18 +96,18 @@
           },
           "size": {
             "UDim_X": {
-              "Offect": 0,
+              "Offect": 0.0,
               "Scale": 0.21
             },
             "UDim_Y": {
-              "Offect": 0,
+              "Offect": 0.0,
               "Scale": 0.12
             }
           }
         }
       ],
       "id": {
-        "value": "17f80d09-79cf-4b28-9964-14b757bba285"
+        "value": "32cbcfdc-034d-470c-bfd1-9e046cfe58c5"
       },
       "MousePassThroughEnabled": true,
       "pos": {
@@ -117,7 +117,7 @@
       },
       "size": {
         "UDim_X": {
-          "Offect": 0,
+          "Offect": 0.0,
           "Scale": 1
         },
         "UDim_Y": {
@@ -129,7 +129,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "95091030efb1a4373ebef57908f91e00",
+      "layout": "8503be9339fb07888ad556cc378fce79",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.20"

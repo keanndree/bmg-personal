@@ -4,6 +4,7 @@
       "enable": false
     },
     "canJoinMidway": false,
+    "defaultPitch": 60,
     "defaultView": "Follow",
     "firstPerson_enable": {
       "enable": false
@@ -13,8 +14,13 @@
         "__OBJ_TYPE": "Vector3i"
       }
     },
+    "follow_dragView": false,
     "follow_enable": {
       "enable": true
+    },
+    "follow_view_offset": {
+      "y": 5,
+      "z": -3
     },
     "initPos": {
       "map": "map001",
@@ -23,7 +29,7 @@
       }
     },
     "nowTime": {
-      "h": 7,
+      "h": 16,
       "m": 40
     },
     "player_range": {
@@ -364,7 +370,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "e519ddcb92b4a8618dad4869db34bab6",
+      "setting.json": "346daa69bd375db9e8fca4bb9562c10e",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "110e96b264c71f8d2d9fa5b082fd7007",
       "triggers_client.bts": ""

@@ -2,8 +2,8 @@ local qualifiedBG = self:child('QualifiedBG')
 local qualifiedText = self:child('QualifiedText')
 
 
-function self:refreshQualifiedText()
+function self:RefreshQualifiedText(DataPacket)
   
-  QualifiedText:setText("1 / 2")
+  qualifiedText:setText(DataPacket[1].."/"..DataPacket[2])
   
 end

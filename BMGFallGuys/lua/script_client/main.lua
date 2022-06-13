@@ -1,3 +1,7 @@
 print('script_client:hello world')
 
-local window = UI:openWindow('UI/CurrentGameInfo')
+local GameWindow = UI:openWindow('UI/CurrentGameInfo')
+
+PackageHandlers.registerClientHandler("RefreshQualifiedPlayers", function(player, packet)
+    GameWindow:RefreshQualifiedText(packet)
+end)
