@@ -1,0 +1,6 @@
+PART_TOUCH_ENTITY_BEGIN {
+	SetPartSize(part = $part1, size = { __OBJ_TYPE = "Vector3", x = 2.3, y = 0.3, z = 2.3 })
+	StartTimer2(interval = 40, time = 1, timer = "") {
+		SetPartSize(part = $part1, size = { __OBJ_TYPE = "Vector3", x = 1, y = 1, z = 1 })
+	}
+}
