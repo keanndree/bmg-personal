@@ -1,0 +1,56 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8671684751007367169"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "15f0ac07-7e5c-4e70-81ad-da4fb47cdf4f",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8671685468155248641",
+        "mass": 120.99978179932,
+        "massCenter": {
+          "y": -0.21950000524521
+        },
+        "material": {
+          "color": {
+            "b": 127,
+            "g": 170
+          }
+        },
+        "position": {
+          "y": -0.21950000524521
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 0.999999,
+          "y": 55,
+          "z": 0.999999
+        },
+        "size": {
+          "x": 0.9999994635582,
+          "y": 55,
+          "z": 0.99999892711639
+        },
+        "volume": 54.999900817871
+      }
+    ],
+    "name": {
+      "value": "map_JumpKingLvl"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6f83818c85eb5362b2b20bb12d34f7be"
+    },
+    "VERSION": "0.20"
+  }
+}
