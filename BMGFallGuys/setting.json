@@ -46,7 +46,7 @@
         "lockSlideScreen": true,
         "offset": {
           "__OBJ_TYPE": "Vector3",
-          "x": 0,
+          "x": 0.0,
           "y": 5,
           "z": -3
         },
@@ -68,7 +68,7 @@
     ]
   },
   "canJoinMidway": false,
-  "defaultMap": "map001",
+  "defaultMap": "JumpKingLvl",
   "defaultQualityLevel": 2,
   "dragControlConfig": {
     "useDragControl": true
@@ -91,7 +91,7 @@
   "hideTeamStatusBar": false,
   "ignoreEmptyStartPos": false,
   "initPos": {
-    "map": "map001",
+    "map": "JumpKingLvl",
     "x": 0,
     "y": 1,
     "z": 0
@@ -124,8 +124,8 @@
     },
     "useGroup": "_imagesets_"
   },
-  "maxPlayers": 6,
-  "minPlayers": 1,
+  "maxPlayers": 12,
+  "minPlayers": 2,
   "moveStateConfig": {
     "isShow": false
   },
@@ -228,7 +228,7 @@
   },
   "startPos": [
     {
-      "map": "map001",
+      "map": "JumpKingLvl",
       "x": 0,
       "y": 1,
       "z": 0
@@ -318,6 +318,6 @@
   },
   "waitAtInitPos": true,
   "waitGoTime": 0,
-  "waitPlayerTime": 0,
+  "waitPlayerTime": 300,
   "waitStartTime": 0
 }

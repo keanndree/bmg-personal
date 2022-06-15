@@ -2,7 +2,25 @@
   "data": {
     "box": {
       "base": {
-        "__OBJ_TYPE": "SkyBoxStatic"
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "asset": "asset/Texture/SkyBox/Common/SkyBox_back.png"
+        },
+        "bottom": {
+          "asset": "asset/Texture/SkyBox/Common/SkyBox_bottom.png"
+        },
+        "front": {
+          "asset": "asset/Texture/SkyBox/Common/SkyBox_front.png"
+        },
+        "left": {
+          "asset": "asset/Texture/SkyBox/Common/SkyBox_left.png"
+        },
+        "right": {
+          "asset": "asset/Texture/SkyBox/Common/SkyBox_right.png"
+        },
+        "top": {
+          "asset": "asset/Texture/SkyBox/Common/SkyBox_top.png"
+        }
       }
     },
     "instances": [
@@ -16,31 +34,71 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8671685468155248641",
-        "mass": 120.99978179932,
+        "mass": 117.84924926758,
         "massCenter": {
-          "y": -0.21950000524521
+          "y": 0.023999989032745
         },
         "material": {
+          "alpha": 0.997,
           "color": {
             "b": 127,
-            "g": 170
+            "g": 171
           }
         },
+        "name": "SpawnPlatform",
         "position": {
-          "y": -0.21950000524521
+          "y": 0.023999989032745
         },
         "restitution": 0.3,
         "scale": {
-          "x": 0.999999,
-          "y": 55,
-          "z": 0.999999
+          "x": 12,
+          "y": 0.495999,
+          "z": 9
         },
         "size": {
-          "x": 0.9999994635582,
-          "y": 55,
-          "z": 0.99999892711639
+          "x": 12,
+          "y": 0.49599862098694,
+          "z": 9
         },
-        "volume": 54.999900817871
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 53.567840576172
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "btsKey": "098d042c-b175-4328-99c2-9afe4d329b5b",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8673405309001728001",
+        "mass": 68.462436676025,
+        "massCenter": {
+          "y": -0.066571414470673,
+          "z": 5.5149974822998
+        },
+        "mesh": "asset/Mesh/Environment/roundedTriangle/roundedTriangle.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Environment/roundedTriangle/roundedTriangle.mesh",
+          "selector": "asset/Mesh/Environment/roundedTriangle/roundedTriangle.mesh"
+        },
+        "name": "roundedTriangle.mesh",
+        "position": {
+          "y": -0.066571414470673,
+          "z": 5.5149974822998
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 1.5224,
+          "y": 1.5224,
+          "z": 1.5224
+        },
+        "size": {
+          "x": 9.6450023651123,
+          "y": 0.68564623594284,
+          "z": 4.7057347297668
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 31.119289398193
       }
     ],
     "name": {
@@ -49,7 +107,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "6f83818c85eb5362b2b20bb12d34f7be"
+      "setting.json": "70e490e0bbab4c55a14940826dd9f812"
     },
     "VERSION": "0.20"
   }

@@ -8,4 +8,5 @@ GAME_START {
 		}
 		@init = 1
 	}
+	ExecScript(output = @platformList = [], PlatformList = @platformList, script_name = "ScriptableNode_2")
 }

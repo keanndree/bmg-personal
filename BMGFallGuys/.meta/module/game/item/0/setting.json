@@ -23,7 +23,7 @@
       "z": -3
     },
     "initPos": {
-      "map": "map001",
+      "map": "JumpKingLvl",
       "pos": {
         "y": 1
       }
@@ -33,11 +33,11 @@
       "m": 40
     },
     "player_range": {
-      "max": 6,
-      "min": 1
+      "max": 12,
+      "min": 2
     },
     "startPos": {
-      "map": "map001",
+      "map": "JumpKingLvl",
       "pos": {
         "x": 0,
         "y": 1,
@@ -309,6 +309,85 @@
                 "x": 799,
                 "y": 617
               }
+            },
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "0f999258-a0e3-40ab-a7a1-d08b5b3bcaf8",
+                      "param_name": "PlatformList"
+                    },
+                    {
+                      "action": "56c6e027-f45f-463f-94ff-f500e0330db5",
+                      "param_name": "output"
+                    }
+                  ],
+                  "desc": "RandomizePlatform",
+                  "script_name": "ScriptableNode_2"
+                }
+              ],
+              "id": {
+                "value": "e6aa8113-631f-41f1-b05d-bec45255e1f0"
+              },
+              "pos": {
+                "x": 357,
+                "y": 700
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetGlobalVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_GlobalVar",
+                        "rawval": "platformList"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "0f999258-a0e3-40ab-a7a1-d08b5b3bcaf8"
+              },
+              "pos": {
+                "x": 838,
+                "y": 823
+              },
+              "type": "T_IntArray"
+            },
+            {
+              "__OBJ_TYPE": "Action_SetGlobalVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_GlobalVar",
+                        "rawval": "platformList"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_IntArray"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "56c6e027-f45f-463f-94ff-f500e0330db5"
+              },
+              "pos": {
+                "x": 816,
+                "y": 933
+              }
             }
           ],
           "root": {
@@ -318,6 +397,9 @@
                 "children": [
                   {
                     "action": "c6d1c07b-50a5-4dd4-bce1-3e4efd02a2b9"
+                  },
+                  {
+                    "action": "e6aa8113-631f-41f1-b05d-bec45255e1f0"
                   }
                 ]
               }
@@ -366,13 +448,16 @@
           }
         }
       ]
+    },
+    "waitPlayerTime": {
+      "value": 300
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "2f8d43cd6c6e257078662d51cae13fa7",
+      "setting.json": "330f64decefe7bf57f959f613390ab49",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
-      "triggers.bts": "110e96b264c71f8d2d9fa5b082fd7007",
+      "triggers.bts": "8945ebc4298d68431aa68c9f4846f44d",
       "triggers_client.bts": ""
     },
     "VERSION": "0.20"
