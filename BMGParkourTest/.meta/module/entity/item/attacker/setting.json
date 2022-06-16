@@ -12,8 +12,7 @@
       "modelType": "Customize"
     },
     "actorName": {
-      "asset": "asset/file/Snow monster/xueguai_xueguai.actor",
-      "selector": "editor/Parkour/asset/file/Snow monster/xueguai_xueguai.actor"
+      "asset": "asset/file/Snow monster/xueguai_xueguai.actor"
     },
     "AI_attack": {
       "attackMode": "autoAttack",
@@ -28,6 +27,9 @@
         }
       ]
     },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
     "collision": true,
     "damage": 1,
     "deadSound": {
@@ -37,8 +39,7 @@
     },
     "enableAI": true,
     "girlactor": {
-      "asset": "asset/file/Snow monster/xueguai_xueguai.actor",
-      "selector": "editor/Parkour/asset/file/Snow monster/xueguai_xueguai.actor"
+      "asset": "asset/file/Snow monster/xueguai_xueguai.actor"
     },
     "hideName": true,
     "moveSpeed": 0,
@@ -50,7 +51,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "5a60d9f7fecd5322364754ef224b8ad0",
+      "setting.json": "d0833d17fce26070349e63340633c62f",
       "triggers.bts": ""
     },
     "VERSION": "0.20"

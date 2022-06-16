@@ -1,0 +1,145 @@
+{
+  "data": {
+    "md5": "ec18c25d0d79299a5cdbabc9480f4de2",
+    "path": "asset/loadingscreen.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "FrameColours": {
+                "g": 85,
+                "r": 0
+              },
+              "FrameEnabled": true,
+              "id": {
+                "value": "55ad7fbe-f159-4f9a-9daf-0a884bc160f0"
+              },
+              "Image": {
+                "asset": "asset/Texture/Banner.png"
+              },
+              "name": "Banner",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.025
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.95
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.75
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "AutoScale": "3",
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 32,
+              "id": {
+                "value": "658c8e18-6892-4744-aa5f-ea37194cb66b"
+              },
+              "name": "LoadingTxt",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.125
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 201.0
+                },
+                "UDim_Y": {
+                  "Offect": 50.01
+                }
+              },
+              "Text": "LOADING",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "word_warpped": false
+            },
+            {
+              "__OBJ_TYPE": "ProgressBar",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "id": {
+                "value": "9f19cf22-7a89-4404-87e2-15a242adb63a"
+              },
+              "name": "LoadingProgress",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.8
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "115e2588-832b-4f09-adbb-ddb92fee8d96"
+          },
+          "Image": {
+            "asset": "asset/Texture/UI/MenuBackground.png"
+          },
+          "name": "Background",
+          "size": {
+            "UDim_X": {
+              "Offect": 0.0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0.0,
+              "Scale": 1
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "fd954059-7ede-4ec9-9838-1966d570f1e2"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "ec18c25d0d79299a5cdbabc9480f4de2",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

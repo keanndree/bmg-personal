@@ -11,8 +11,13 @@
       "modelType": "Customize"
     },
     "actorName": {
-      "asset": "asset/Actor/charactor/charactor_boy/skel/electricity2.actor",
-      "selector": "editor/Fun_Jump/asset/Actor/charactor/charactor_boy/skel/electricity2.actor"
+      "asset": "asset/Actor/charactor/charactor_boy/skel/electricity2.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
     },
     "checkPartTouchEvent": false,
     "deadSound": {
@@ -21,7 +26,7 @@
       }
     },
     "girlactor": {
-      "asset": ""
+      "asset": "empty.actor"
     },
     "hideName": true,
     "name": {
@@ -30,7 +35,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "0dc14e1b39c505d8d8aa83033aab16cd",
+      "setting.json": "596680285b3297b0e4e1816f6b87147c",
       "triggers.bts": ""
     },
     "VERSION": "0.20"

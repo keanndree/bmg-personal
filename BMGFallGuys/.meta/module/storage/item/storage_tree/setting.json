@@ -1,8 +1,46 @@
 {
-  "data": [],
+  "data": {
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_Part_Storage",
+        "btsKey": "4cc986f6-da03-4cb0-8446-9abbbfa864bc",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8674882615451648001",
+        "mass": 11.618381786346,
+        "material": {
+          "color": {
+            "b": 27,
+            "g": 0,
+            "r": 123
+          },
+          "texture": "part_boli.tga"
+        },
+        "name": "ObsPlatform",
+        "position": {
+          "x": -8,
+          "z": 7.125
+        },
+        "restitution": 0.18,
+        "scale": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "size": {
+          "x": 3.24996,
+          "y": 0.499998,
+          "z": 3.24995
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.2810826301575
+      }
+    ]
+  },
   "meta": {
     "EXPORT": {
-      "setting.json": "d751713988987e9331980363e24189ce"
+      "setting.json": "de9f190cc5f10e73affba691249caad1"
     },
     "VERSION": "0.20"
   }

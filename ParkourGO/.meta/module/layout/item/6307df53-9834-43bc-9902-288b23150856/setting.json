@@ -1,0 +1,94 @@
+{
+  "data": {
+    "md5": "42c0a977ecbca2207367c17ca38516ff",
+    "path": "asset/secondjump.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "children": [
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "DisabledImage": {
+                "asset": "asset/Texture/Skill/common/icon_跳_nor.png"
+              },
+              "HoverImage": {
+                "asset": "asset/Texture/Skill/common/icon_跳_act.png"
+              },
+              "id": {
+                "value": "6c86624b-156a-425c-830b-823a0c413d8a"
+              },
+              "name": "SecondJumpBtn",
+              "NormalImage": {
+                "asset": "asset/Texture/Skill/common/icon_跳_act.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.1617
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/Skill/common/icon_跳_act.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                }
+              },
+              "Text": ""
+            }
+          ],
+          "id": {
+            "value": "d25f44b9-9436-4e9f-ba3d-6f6eba2831be"
+          },
+          "name": "ControlRightZone",
+          "pos": {
+            "UDim_X": {
+              "Offect": -300,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": -300,
+              "Scale": 1
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 300
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "419450c1-8ec9-49fa-82c2-e9ac03d7f1a1"
+      },
+      "MousePassThroughEnabled": true,
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 9,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "42c0a977ecbca2207367c17ca38516ff",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

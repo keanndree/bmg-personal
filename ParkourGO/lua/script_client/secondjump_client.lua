@@ -13,5 +13,7 @@ PackageHandlers.registerClientHandler("CheckAndCloseSecondJump",function(player)
 end)
 
 PackageHandlers.registerClientHandler("MakePlayerJump",function(player)
-    player:jump(0,0)
+    print("DoubleJump!!!")
+    player:control():jump()
+    --player:jump(0,0)
 end)

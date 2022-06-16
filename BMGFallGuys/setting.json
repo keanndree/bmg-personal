@@ -1,54 +1,54 @@
 {
-  "automatch": true,
+  "automatch": false,
   "bagCap": 9,
   "cameraCfg": {
-    "canSwitchView": true,
-    "defaultPitch": 60,
-    "defaultView": 3,
+    "canSwitchView": false,
+    "defaultPitch": 0,
+    "defaultView": 1,
     "defaultYaw": 0,
     "viewModeConfig": [
       {
-        "enable": false,
+        "enable": true,
         "lockSlideScreen": false,
-        "viewFovAngle": 75
-      },
-      {
-        "distance": 4,
-        "enable": false,
-        "enableCollisionDetect": true,
-        "lockSlideScreen": false,
-        "offset": {
-          "__OBJ_TYPE": "Vector3",
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
-        "viewFovAngle": 75
-      },
-      {
-        "distance": 4,
-        "enable": false,
-        "enableCollisionDetect": true,
-        "lockSlideScreen": false,
-        "offset": {
-          "__OBJ_TYPE": "Vector3",
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
         "viewFovAngle": 75
       },
       {
         "distance": 4,
         "enable": true,
         "enableCollisionDetect": true,
-        "lockBodyRotation": false,
-        "lockSlideScreen": true,
+        "lockSlideScreen": false,
         "offset": {
           "__OBJ_TYPE": "Vector3",
           "x": 0.0,
-          "y": 5,
-          "z": -3
+          "y": 0.0,
+          "z": 0.0
+        },
+        "viewFovAngle": 75
+      },
+      {
+        "distance": 4,
+        "enable": false,
+        "enableCollisionDetect": true,
+        "lockSlideScreen": false,
+        "offset": {
+          "__OBJ_TYPE": "Vector3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "viewFovAngle": 75
+      },
+      {
+        "distance": 4,
+        "enable": false,
+        "enableCollisionDetect": true,
+        "lockBodyRotation": false,
+        "lockSlideScreen": false,
+        "offset": {
+          "__OBJ_TYPE": "Vector3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
         },
         "viewFovAngle": 75
       },
@@ -68,7 +68,7 @@
     ]
   },
   "canJoinMidway": false,
-  "defaultMap": "JumpKingLvl",
+  "defaultMap": "map001",
   "defaultQualityLevel": 2,
   "dragControlConfig": {
     "useDragControl": true
@@ -91,10 +91,10 @@
   "hideTeamStatusBar": false,
   "ignoreEmptyStartPos": false,
   "initPos": {
-    "map": "JumpKingLvl",
+    "map": "map001",
     "x": 0,
-    "y": 1,
-    "z": 0
+    "y": 0.29004005432129,
+    "z": -16
   },
   "isTimeStopped": true,
   "jumpControlConfig": {
@@ -228,60 +228,13 @@
   },
   "startPos": [
     {
-      "map": "JumpKingLvl",
+      "map": "map001",
       "x": 0,
-      "y": 1,
-      "z": 0
+      "y": 0.29002479553223,
+      "z": -16
     }
   ],
-  "team": [
-    {
-      "id": 1,
-      "ignorePlayerSkin": true,
-      "image": "asset/Texture/Team/flag/flag_1.png",
-      "initPos": {
-        "map": "JumpKingLvl",
-        "x": 0,
-        "y": 1,
-        "z": 0
-      },
-      "mainTeamImageBg": "",
-      "mainTeamImageFrame": "flag_textures/flag_frame",
-      "memberLimit": 5,
-      "name": "team1",
-      "startPos": [
-        {
-          "map": "JumpKingLvl",
-          "x": 0,
-          "y": 1,
-          "z": 0
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "ignorePlayerSkin": true,
-      "image": "asset/Texture/Team/flag/flag_2.png",
-      "initPos": {
-        "map": "JumpKingLvl",
-        "x": 0,
-        "y": 1,
-        "z": 0
-      },
-      "mainTeamImageBg": "",
-      "mainTeamImageFrame": "flag_textures/flag_frame",
-      "memberLimit": 5,
-      "name": "team2",
-      "startPos": [
-        {
-          "map": "JumpKingLvl",
-          "x": 0,
-          "y": 1,
-          "z": 0
-        }
-      ]
-    }
-  ],
+  "team": [],
   "teammateHurt": true,
   "topTeamInfo": {
     "teamDieIcon": "flag_textures/flag_die",

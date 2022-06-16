@@ -4,21 +4,27 @@
       "base": {
         "__OBJ_TYPE": "SkyBoxStatic",
         "back": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_back.png",
           "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_back.png"
         },
         "bottom": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_bottom.png",
           "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_bottom.png"
         },
         "front": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_front.png",
           "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_front.png"
         },
         "left": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_left.png",
           "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_left.png"
         },
         "right": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_right.png",
           "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_right.png"
         },
         "top": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_top.png",
           "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_top.png"
         }
       }
@@ -38,98 +44,112 @@
             "density": 0.6,
             "friction": 0.46,
             "id": "8663476891681161217",
-            "mass": 60,
+            "mass": 116.99998168945,
+            "massCenter": {
+              "z": -18.0
+            },
             "material": {
               "color": {
                 "b": 0,
-                "g": 172,
-                "r": 172
+                "g": 85
               },
               "texture": "part_buliao.tga"
             },
             "name": "SpawnPlatform",
-            "restitution": 0.03,
-            "scale": {
-              "x": 20,
-              "y": 0.5,
-              "z": 10
-            },
-            "size": {
-              "x": 20,
-              "y": 0.5,
-              "z": 10
-            },
-            "useAnchor": true,
-            "useGravity": false,
-            "volume": 100.0
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "a3bb460d-dc7f-4c4d-a6e6-4ea4beee92cc",
-            "density": 0.6,
-            "friction": 0.46,
-            "id": "8663506278434963457",
-            "mass": 60,
-            "material": {
-              "color": {
-                "b": 0
-              },
-              "texture": "part_buliao.tga"
-            },
-            "name": "WinPlatform",
             "position": {
-              "z": 30.25
+              "z": -18.0
             },
             "restitution": 0.03,
             "scale": {
-              "x": 20,
+              "x": 39,
               "y": 0.5,
               "z": 10
             },
             "size": {
-              "x": 20,
+              "x": 39,
               "y": 0.5,
               "z": 10
             },
             "useAnchor": true,
             "useGravity": false,
-            "volume": 100.0
+            "volume": 194.99996948242
           },
           {
             "__OBJ_TYPE": "Instance_Part",
             "btsKey": "42962458-1ab4-4c37-b98b-162425c939cc",
-            "density": 0.6,
-            "friction": 0.46,
+            "density": 0.9,
+            "friction": 0.022,
             "id": "8663520650325147649",
-            "mass": 835.27998046875,
+            "isLockedInEditor": true,
+            "mass": 4499.9459472656,
+            "massCenter": {
+              "x": -0.125,
+              "y": -12.600004196167,
+              "z": 15
+            },
             "material": {
-              "alpha": 0,
               "color": {
-                "g": 174,
-                "r": 174
+                "b": 5,
+                "g": 55
               },
-              "texture": "part_buliao.tga"
+              "texture": "part_bingkuai.tga"
             },
             "name": "FallPlatform",
             "position": {
               "x": -0.125,
-              "y": -6.5,
+              "y": -12.600004196167,
               "z": 15
             },
-            "restitution": 0.03,
+            "restitution": 0.2,
             "scale": {
-              "x": 41.2495,
+              "x": 100,
               "y": 0.499994,
-              "z": 67.499
+              "z": 100
             },
             "size": {
-              "x": 41.2495,
+              "x": 100,
               "y": 0.499994,
-              "z": 67.499
+              "z": 100
             },
             "useAnchor": true,
             "useGravity": false,
-            "volume": 1392.1333007812
+            "volume": 4999.9399414062
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "75f32a36-0a8e-44c6-8659-ca8590ceb324",
+            "density": 0.6,
+            "friction": 0.46,
+            "id": "8674903147481071617",
+            "mass": 117.0,
+            "massCenter": {
+              "z": 51.25
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 85
+              },
+              "texture": "part_buliao.tga"
+            },
+            "name": "SpawnPlatform",
+            "position": {
+              "z": 51.25
+            },
+            "restitution": 0.03,
+            "scale": {
+              "x": 39,
+              "y": 0.5,
+              "z": 10
+            },
+            "size": {
+              "x": 39,
+              "y": 0.5,
+              "z": 10
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 195.0
           }
         ],
         "id": "8663567569011490817",
@@ -140,21 +160,25 @@
         "children": [
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "8280951f-a126-4277-96e0-c90910aae485",
+            "btsKey": "aa72e1c6-aa50-46c3-af97-2d2f7091e661",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8663569044373078017",
+            "id": "8674859946040934401",
             "mass": 11.618381786346,
+            "massCenter": {
+              "z": -11.168995857239
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "z": 7.125
+              "z": -11.168995857239
             },
             "restitution": 0.18,
             "scale": {
@@ -173,22 +197,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "140a6eec-bbe9-47c5-97fd-2ea8b082c120",
+            "btsKey": "32f89d32-672e-4523-8905-de1a4ad6c4cd",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664610311609139201",
+            "id": "8674885016789434369",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": -3.5,
+              "z": -11.168995857239
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "x": 4,
-              "z": 7.125
+              "x": -3.5,
+              "z": -11.168995857239
             },
             "restitution": 0.18,
             "scale": {
@@ -207,22 +236,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "0dca4cfe-5c13-476c-bf65-7eb3000cbee5",
+            "btsKey": "9393a6fa-3cee-43f9-8c21-7a1033c710ff",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664610557028007937",
+            "id": "8674885115884617729",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": -7.0,
+              "z": -11.168995857239
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "x": 8,
-              "z": 7.125
+              "x": -7.0,
+              "z": -11.168995857239
             },
             "restitution": 0.18,
             "scale": {
@@ -241,22 +275,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "df4d798e-30df-4fbb-8d7a-e9bac1eaa23b",
+            "btsKey": "365dc024-c8a7-4b18-9b95-b1ca9cfeb0d4",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664610889730375681",
+            "id": "8674885303457857537",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": 3.5,
+              "z": -11.168995857239
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "x": -4,
-              "z": 7.125
+              "x": 3.5,
+              "z": -11.168995857239
             },
             "restitution": 0.18,
             "scale": {
@@ -275,22 +314,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "92cb0031-079c-4c60-98ea-d4196196e0a6",
+            "btsKey": "e24f508d-1706-4d82-8791-c753d147db0d",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664610889733455873",
+            "id": "8674885303460413441",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": 10.5,
+              "z": -11.168995857239
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "x": -8,
-              "z": 7.125
+              "x": 10.5,
+              "z": -11.168995857239
             },
             "restitution": 0.18,
             "scale": {
@@ -309,22 +353,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "e216dae9-be63-4f7b-add7-2da5d1b6ba2d",
+            "btsKey": "7729cf59-81a5-4bea-a1e7-b6c44771f9c5",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664611289942671361",
+            "id": "8674885303462903809",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": 7.0,
+              "z": -11.168995857239
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "x": -8,
-              "z": 11.125
+              "x": 7.0,
+              "z": -11.168995857239
             },
             "restitution": 0.18,
             "scale": {
@@ -343,22 +392,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "5b5cc355-e0a8-47ae-a31e-80daada83562",
+            "btsKey": "005a7533-1e10-4fab-9bf5-13fa6356a7dc",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664611289945325569",
+            "id": "8674885523743621121",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": -10.5,
+              "z": -11.168995857239
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "x": -4,
-              "z": 11.125
+              "x": -10.5,
+              "z": -11.168995857239
             },
             "restitution": 0.18,
             "scale": {
@@ -377,21 +431,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "d920f5ba-f739-49ca-a204-98b7b0fd3367",
+            "btsKey": "5bb69b06-05b1-475f-a29c-ae5c98cfa90d",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664611289947947009",
+            "id": "8674904323407921153",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": 5.25,
+              "z": -7.6689958572388
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "z": 11.125
+              "x": 5.25,
+              "z": -7.6689958572388
             },
             "restitution": 0.18,
             "scale": {
@@ -410,22 +470,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "fecf8ff1-a93a-4255-8e76-151dc7bd6882",
+            "btsKey": "6a46dedd-a30d-48b3-b70e-aa0f4c7c1491",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664611289950568449",
+            "id": "8674904323410100225",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": -5.25,
+              "z": -7.6689958572388
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "x": 4,
-              "z": 11.125
+              "x": -5.25,
+              "z": -7.6689958572388
             },
             "restitution": 0.18,
             "scale": {
@@ -444,22 +509,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "ec56b81a-9523-46a7-9d7b-799a6379178e",
+            "btsKey": "42d64cb3-6a07-477e-b026-670f32b64e3e",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664611289953222657",
+            "id": "8674904323413049345",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": 1.75,
+              "z": -7.6689958572388
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "x": 8,
-              "z": 11.125
+              "x": 1.75,
+              "z": -7.6689958572388
             },
             "restitution": 0.18,
             "scale": {
@@ -478,22 +548,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "156483ec-9d5d-4e5f-a416-ad4cf7a4206a",
+            "btsKey": "145e1479-59fc-4644-af1d-9886d04e24c4",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664611641239912449",
+            "id": "8674904323414949889",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": -8.75,
+              "z": -7.6689958572388
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "x": -4,
-              "z": 19.125
+              "x": -8.75,
+              "z": -7.6689958572388
             },
             "restitution": 0.18,
             "scale": {
@@ -512,22 +587,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "207cbbb7-9a29-4553-a4f4-64bfa9a9b9e9",
+            "btsKey": "f6a7f5e0-4d4c-4d0e-86c4-b45074b1ffc3",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664611641242861569",
+            "id": "8674904323417047041",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": 12.25,
+              "z": -7.6689958572388
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "x": 8,
-              "z": 15.125
+              "x": 12.25,
+              "z": -7.6689958572388
             },
             "restitution": 0.18,
             "scale": {
@@ -546,21 +626,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "a3f6fa42-c1d4-4661-bc95-25604623ce8f",
+            "btsKey": "7b66bade-be92-45a0-9224-ff2990faa79a",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664611641245876225",
+            "id": "8674904323418898433",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": 8.75,
+              "z": -7.6689958572388
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "z": 19.125
+              "x": 8.75,
+              "z": -7.6689958572388
             },
             "restitution": 0.18,
             "scale": {
@@ -579,21 +665,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "83ef81e0-36b9-4810-b61d-dd233cbf9e77",
+            "btsKey": "ca711d24-b0ce-458f-8e03-3fb4a7c052f3",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664611641248792577",
+            "id": "8674904323420749825",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": -1.75,
+              "z": -7.6689958572388
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "z": 15.125
+              "x": -1.75,
+              "z": -7.6689958572388
             },
             "restitution": 0.18,
             "scale": {
@@ -612,22 +704,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "c464af2c-5941-4ea9-94df-c9c918714d3f",
+            "btsKey": "804b2fee-ae3e-44ff-bc24-947c2e7f9320",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664611641251676161",
+            "id": "8674904820534591489",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": -12.25,
+              "z": -7.6689958572388
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "x": 4,
-              "z": 15.125
+              "x": -12.25,
+              "z": -7.6689958572388
             },
             "restitution": 0.18,
             "scale": {
@@ -646,22 +743,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "4172d926-0d85-4c57-9c05-230f84838a5f",
+            "btsKey": "40c415a3-e2cf-4a5d-adbf-ae13fd9945e7",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664611641254608897",
+            "id": "8674905280632700929",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": -10.5,
+              "z": -4.1689958572388
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "x": 8,
-              "z": 19.125
+              "x": -10.5,
+              "z": -4.1689958572388
             },
             "restitution": 0.18,
             "scale": {
@@ -680,22 +782,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "a90d352e-3907-4766-ad18-c23274e9f666",
+            "btsKey": "e4a7010b-c040-4876-8a9c-0914ced1f97f",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664611641257541633",
+            "id": "8674905280634781697",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": 15.75,
+              "z": -0.66899585723877
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "x": -8,
-              "z": 19.125
+              "x": 15.75,
+              "z": -0.66899585723877
             },
             "restitution": 0.18,
             "scale": {
@@ -714,22 +821,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "f4003569-1d20-4c79-bdd7-57a0bee364f7",
+            "btsKey": "d1793a85-44fa-4120-97a5-c877603ec567",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664611641260490753",
+            "id": "8674905280636731393",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": -7.0,
+              "z": -4.1689958572388
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "x": -8,
-              "z": 15.125
+              "x": -7.0,
+              "z": -4.1689958572388
             },
             "restitution": 0.18,
             "scale": {
@@ -748,22 +860,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "873f77ba-2276-491a-a2fa-2ef62f3a32b2",
+            "btsKey": "2762bee0-be36-4de7-b32d-85074f48a0d5",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664611641263374337",
+            "id": "8674905280638681089",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": 8.75,
+              "z": -0.66899585723877
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "x": 4,
-              "z": 19.125
+              "x": 8.75,
+              "z": -0.66899585723877
             },
             "restitution": 0.18,
             "scale": {
@@ -782,22 +899,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "9449afcb-74b8-49b1-938e-cb2657ef926a",
+            "btsKey": "fe279920-4765-4892-bb93-bdd6ba6168de",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664611641266487297",
+            "id": "8674905280640647169",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": 12.25,
+              "z": -0.66899585723877
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "x": -4,
-              "z": 15.125
+              "x": 12.25,
+              "z": -0.66899585723877
             },
             "restitution": 0.18,
             "scale": {
@@ -816,22 +938,25 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "40b44668-3509-4201-96e8-39a0abe36744",
+            "btsKey": "bf9956ef-5a98-47d2-82b8-08fb5d02b17d",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664611914494017537",
+            "id": "8674905280643448833",
             "mass": 11.618381786346,
+            "massCenter": {
+              "z": -4.1689958572388
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "x": 8,
-              "z": 23.125
+              "z": -4.1689958572388
             },
             "restitution": 0.18,
             "scale": {
@@ -850,22 +975,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "6d31ae2b-fe87-478b-b09b-443a6f529981",
+            "btsKey": "5854756c-d01b-4e33-85f4-911c8f5e8ffb",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664611914496507905",
+            "id": "8674905280645578753",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": -3.5,
+              "z": -4.1689958572388
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "x": 4,
-              "z": 23.125
+              "x": -3.5,
+              "z": -4.1689958572388
             },
             "restitution": 0.18,
             "scale": {
@@ -884,22 +1014,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "2666b713-6fd4-4316-b4fa-293518428c5f",
+            "btsKey": "63710afb-45c1-4877-bd7f-feecbd97d1cd",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664611914498998273",
+            "id": "8674905280647528449",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": 3.5,
+              "z": -4.1689958572388
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "x": -8,
-              "z": 23.125
+              "x": 3.5,
+              "z": -4.1689958572388
             },
             "restitution": 0.18,
             "scale": {
@@ -918,21 +1053,27 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "e9dec291-95be-4ab6-824c-efe384df4975",
+            "btsKey": "4f7d38e0-b9fd-4493-a617-f6017d0b017c",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664611914501472257",
+            "id": "8674905845352054785",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": -12.25,
+              "z": -0.66899585723877
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "z": 23.125
+              "x": -12.25,
+              "z": -0.66899585723877
             },
             "restitution": 0.18,
             "scale": {
@@ -951,22 +1092,5597 @@
           },
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "86f4ee7c-99e8-4864-b646-cd0e4cba07dd",
+            "btsKey": "284ce1d7-a00d-4f0e-9f8f-0650fbf0139e",
             "density": 2.2,
             "friction": 0.15,
-            "id": "8664611914503946241",
+            "id": "8674906082042658817",
             "mass": 11.618381786346,
+            "massCenter": {
+              "x": 15.75,
+              "z": -7.6689958572388
+            },
             "material": {
               "color": {
-                "b": 0,
-                "g": 85
+                "b": 97,
+                "g": 149,
+                "r": 217
               },
               "texture": "part_boli.tga"
             },
-            "name": "ObsPlatform",
+            "name": "FallPlat",
             "position": {
-              "x": -4,
-              "z": 23.125
+              "x": 15.75,
+              "z": -7.6689958572388
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "26123912-6833-4a4c-8619-9abc5e62e4b5",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674906082045181953",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 17.5,
+              "z": -4.1689958572388
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 17.5,
+              "z": -4.1689958572388
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a4b253ad-d42a-429d-944e-d96579f93836",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674906230724116481",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -15.75,
+              "z": -7.6689958572388
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -15.75,
+              "z": -7.6689958572388
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "b9bcf16a-489d-4727-ab78-6008fa15e955",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674906230726934529",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -17.5,
+              "z": -4.1689958572388
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -17.5,
+              "z": -4.1689958572388
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "ade3291e-c823-451d-91e6-10ee20705fd9",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674907014325288961",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 10.5,
+              "z": -4.1689958572388
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 10.5,
+              "z": -4.1689958572388
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a45e93da-e2a9-4488-83f0-2afb4f8fde42",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674907014327173121",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -14.0,
+              "z": -4.1689958572388
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -14.0,
+              "z": -4.1689958572388
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a1c6713f-0071-44e7-9938-a219fcb6d845",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674907014329073665",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -1.75,
+              "z": -0.66899585723877
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -1.75,
+              "z": -0.66899585723877
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "eac239d8-ce51-4986-a058-88dabf1cb1cc",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674907014330941441",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 14.0,
+              "z": -4.1689958572388
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 14.0,
+              "z": -4.1689958572388
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a93631f9-3104-4b84-bb68-68855bf305b6",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674907014332825601",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 5.25,
+              "z": -0.66899585723877
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 5.25,
+              "z": -0.66899585723877
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "04ea8af8-59a0-489b-8dd9-2e9211eda58f",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674907014334693377",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 19.25,
+              "z": -0.66899585723877
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 19.25,
+              "z": -0.66899585723877
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7d2ff846-d824-485f-8b72-3dc7c81a4898",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674907014336577537",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 7.0,
+              "z": -4.1689958572388
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 7.0,
+              "z": -4.1689958572388
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e129e55a-9858-4325-852f-55b628ea31ea",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674907014338461697",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -5.25,
+              "z": -0.66899585723877
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -5.25,
+              "z": -0.66899585723877
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e20de50b-becf-4508-871b-f47eb1de8e7e",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674907014340395009",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 1.75,
+              "z": -0.66899585723877
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 1.75,
+              "z": -0.66899585723877
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "3475d46f-911c-4a35-abc8-d0fe655d036b",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674907014342279169",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -8.75,
+              "z": -0.66899585723877
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -8.75,
+              "z": -0.66899585723877
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "2ea3d449-9dc4-4e18-ba9d-fc834b718ba4",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674907014344179713",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -15.75,
+              "z": -0.66899585723877
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -15.75,
+              "z": -0.66899585723877
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "90badba9-7a31-4179-8503-b9871cb47e97",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674909742297366529",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -19.25,
+              "z": -0.66899585723877
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -19.25,
+              "z": -0.66899585723877
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "ffe79757-dedc-406f-9f1c-0f113cc09a7f",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674910575643082753",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -14.0,
+              "z": 3.5810041427612
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -14.0,
+              "z": 3.5810041427612
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a9d50c1c-2cea-44dc-bc03-f48bc606ee76",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674910575644966913",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -3.5,
+              "z": 2.8310041427612
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -3.5,
+              "z": 2.8310041427612
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "6696d44e-a2bc-4f9e-ac17-4cb6f29588fe",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674910575646818305",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "z": 3.5810041427612
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "z": 3.5810041427612
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "80857265-7bbe-4923-9747-eb3641a07fcb",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674910575648718849",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -7.0,
+              "z": 3.5810041427612
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -7.0,
+              "z": 3.5810041427612
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "77ee1d94-e823-4e06-bb11-4af8ea1fc023",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674910575650586625",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 17.5,
+              "z": 2.8310041427612
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 17.5,
+              "z": 2.8310041427612
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "c178cc1d-cbb2-4b8c-9ebe-6d65a5adcc5f",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674910575652438017",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -17.5,
+              "z": 2.8310041427612
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -17.5,
+              "z": 2.8310041427612
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "b8e3caa4-685f-44ff-9511-7baca53def46",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674910575654273025",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 14.0,
+              "z": 3.5810041427612
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 14.0,
+              "z": 3.5810041427612
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "c2cb2c62-056f-40a3-880a-214e2b52ceeb",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674910575656140801",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -21.0,
+              "z": 3.5810041427612
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -21.0,
+              "z": 3.5810041427612
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "0f6eb5c5-316c-4263-8253-c8c4410cd054",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674910575658975233",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 7.0,
+              "z": 3.5810041427612
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 7.0,
+              "z": 3.5810041427612
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "f6369b5f-0d29-41d4-8a55-6da553f3f35d",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674910575661187073",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 10.5,
+              "z": 2.8310041427612
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 10.5,
+              "z": 2.8310041427612
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "5ba253bb-5e18-4b3b-8264-060d5e3e1fa3",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674910575663104001",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -10.5,
+              "z": 2.8310041427612
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -10.5,
+              "z": 2.8310041427612
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "bb95808b-6008-45b2-b073-aa3e686e8358",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674910575664971777",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 3.5,
+              "z": 2.8310041427612
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 3.5,
+              "z": 2.8310041427612
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "68e5bef7-d5ca-4703-8cc1-2556cf8bbcd4",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674911130857619457",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 21.0,
+              "z": 3.5810041427612
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 21.0,
+              "z": 3.5810041427612
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "100ad954-d5db-4a12-9ca8-32356ace9d8e",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674911717155569665",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -17.5,
+              "z": 7.0810041427612
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -17.5,
+              "z": 7.0810041427612
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "1ac43376-7517-49f8-a16e-053051249256",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674911717157519361",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -3.5,
+              "z": 7.0810041427612
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -3.5,
+              "z": 7.0810041427612
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "0565bbfd-8da0-480a-b901-e82b0355a832",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674911717163253761",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 3.5,
+              "z": 7.0810041427612
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 3.5,
+              "z": 7.0810041427612
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "ea7f6096-2f2a-478a-afdf-04cfe4b1fb11",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674911717165203457",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -10.5,
+              "z": 7.0810041427612
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -10.5,
+              "z": 7.0810041427612
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7d807e11-3f89-4d26-95a0-994e207addc5",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674911717167071233",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 17.5,
+              "z": 7.0810041427612
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 17.5,
+              "z": 7.0810041427612
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "cb8d6ccd-7f1a-4323-96fd-00e30ca81282",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674911717170806785",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 10.5,
+              "z": 7.0810041427612
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 10.5,
+              "z": 7.0810041427612
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "1ecef5f9-7053-4153-88ab-c8c704d00e41",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674911962547765249",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 14.0,
+              "z": 10.581004142761
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 14.0,
+              "z": 10.581004142761
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "62711829-c9c2-424e-9911-9c74eeac8e83",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674911962551484417",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "z": 10.581004142761
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "z": 10.581004142761
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7da41f2c-cac1-47d1-b1fe-d32f6c20ed46",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674911962553319425",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 7.0,
+              "z": 10.581004142761
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 7.0,
+              "z": 10.581004142761
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "901fe7f5-fea7-4f99-ac86-cc7f0613b124",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674911962555154433",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -21.0,
+              "z": 10.581004142761
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -21.0,
+              "z": 10.581004142761
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "0b10ce0a-18a6-4637-9acb-fd61d36a68d6",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674911962558840833",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 21.0,
+              "z": 10.581004142761
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 21.0,
+              "z": 10.581004142761
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7622089e-4e19-489b-95a3-126677536232",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674911962562445313",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -14.0,
+              "z": 10.581004142761
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -14.0,
+              "z": 10.581004142761
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "80e8737d-4210-46dc-961a-0f6732d2e739",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674911962564280321",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -7.0,
+              "z": 10.581004142761
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -7.0,
+              "z": 10.581004142761
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "67b97d39-ed75-4f13-bd3c-a67902b7c812",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912038022479873",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -10.5,
+              "z": 14.081004142761
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -10.5,
+              "z": 14.081004142761
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "f23e608d-8bb2-48cd-bc1c-448bdba7b61b",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912038026149889",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -3.5,
+              "z": 14.081004142761
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -3.5,
+              "z": 14.081004142761
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "9895d18a-52ce-4c62-91cd-821381d6c209",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912038029852673",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 17.5,
+              "z": 14.081004142761
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 17.5,
+              "z": 14.081004142761
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "9cc95c88-ca78-4a5f-8b8b-47ddaa3e4e02",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912038031671297",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 10.5,
+              "z": 14.081004142761
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 10.5,
+              "z": 14.081004142761
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "16276128-29f2-4725-ab90-6942de359ea5",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912038035390465",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -17.5,
+              "z": 14.081004142761
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -17.5,
+              "z": 14.081004142761
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "3518365d-fc0a-46b7-9072-afefe80c1ac9",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912038040895489",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 3.5,
+              "z": 14.081004142761
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 3.5,
+              "z": 14.081004142761
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "531ae06e-f080-476b-aecf-035af428833b",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912180145324033",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 17.5,
+              "z": 19.081005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 17.5,
+              "z": 19.081005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "179d8c7c-17ed-4baa-85aa-49380e0ae73e",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912180149075969",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -10.5,
+              "z": 19.081005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -10.5,
+              "z": 19.081005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d45c9d06-41ec-4d4c-a288-2301dad32d5b",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912180150927361",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 10.5,
+              "z": 19.081005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 10.5,
+              "z": 19.081005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "bae62686-dfd6-4914-a8f5-174c45a475ed",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912180156907521",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 3.5,
+              "z": 19.081005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 3.5,
+              "z": 19.081005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "3e1c7647-d55e-413e-9dfe-571a6bcc1617",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912180164624385",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -17.5,
+              "z": 19.081005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -17.5,
+              "z": 19.081005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "6eb70d9b-6e07-46fa-8fa5-e81a76cf97f7",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912180166541313",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -3.5,
+              "z": 19.081005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -3.5,
+              "z": 19.081005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "610aed83-179f-44d7-99ba-b0ba20f94782",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912407826186241",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -7.0,
+              "z": 22.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -7.0,
+              "z": 22.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "1c392615-b405-40ed-9397-0ab2b4fb9260",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912407828119553",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "z": 22.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "z": 22.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "9574f816-f2ec-4493-8f70-9844462321ad",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912407831887873",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -14.0,
+              "z": 22.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -14.0,
+              "z": 22.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "281d55ed-2c85-4f40-bb49-030a155c502f",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912407837605889",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -21.0,
+              "z": 22.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -21.0,
+              "z": 22.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "53d98930-b6f6-4ead-ba66-254aff3b157a",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912407839522817",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 21.0,
+              "z": 22.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 21.0,
+              "z": 22.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "aeb5fca5-d457-4631-8c03-0067f7093387",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912407841849345",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 14.0,
+              "z": 22.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 14.0,
+              "z": 22.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7cd63928-383c-40c6-890f-1f587de8540e",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912407849484289",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 7.0,
+              "z": 22.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 7.0,
+              "z": 22.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "9a0d9542-950f-4248-a6a4-0faf4bcb0a5e",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912482579103745",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 17.5,
+              "z": 26.081005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 17.5,
+              "z": 26.081005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "8bba6a4d-8310-4a0c-8ad8-e3ea98a46974",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912482582872065",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -3.5,
+              "z": 26.081005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -3.5,
+              "z": 26.081005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "26b1301c-0948-4db9-be6a-dd3aa5b8d9d9",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912482584821761",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -17.5,
+              "z": 26.081005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -17.5,
+              "z": 26.081005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "8ae4dbe0-3680-43e8-a0c2-7b38cadf5913",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912482586853377",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 3.5,
+              "z": 26.081005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 3.5,
+              "z": 26.081005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "aed0622e-e188-4763-bd46-a074d948c808",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912482592686081",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -10.5,
+              "z": 26.081005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -10.5,
+              "z": 26.081005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "fc3b0065-e6ad-4ee5-a41c-f0eed3e29ae3",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912482596552705",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 10.5,
+              "z": 26.081005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 10.5,
+              "z": 26.081005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "4c7a5dbf-fa6c-4238-bc13-32d428bd0aab",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912778579656705",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -10.5,
+              "z": 30.331005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -10.5,
+              "z": 30.331005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "2882f7cd-b8b6-427a-95f2-6e52f1b3b441",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912778581606401",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -14.0,
+              "z": 29.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -14.0,
+              "z": 29.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "cadbb5f3-1fe8-4b66-a647-057aa507fc86",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912778583539713",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -7.0,
+              "z": 29.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -7.0,
+              "z": 29.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7ff53457-be6c-4686-8c8a-37b10ad92cc2",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912778585440257",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "z": 29.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "z": 29.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "2743bd5c-5b3c-410f-abc0-b01d792fb7ce",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912778587340801",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -3.5,
+              "z": 30.331005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -3.5,
+              "z": 30.331005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "37628cd4-e762-4816-8b95-9d64090cf225",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912778589257729",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -21.0,
+              "z": 29.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -21.0,
+              "z": 29.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "dabab67a-520e-42ec-9b31-63d1d563843f",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912778591141889",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 10.5,
+              "z": 30.331005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 10.5,
+              "z": 30.331005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d48502e1-33b7-4c16-867e-cc12b2c2bb96",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912778593026049",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 7.0,
+              "z": 29.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 7.0,
+              "z": 29.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d924d758-a982-45b6-8f02-7381c79255a4",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912778594926593",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -17.5,
+              "z": 30.331005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -17.5,
+              "z": 30.331005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "33a22163-52a5-470e-92a2-3cc61754446f",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912778596794369",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 14.0,
+              "z": 29.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 14.0,
+              "z": 29.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "4b6d5ec0-400b-4b11-ac43-e4d2ede8c3d2",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912778598678529",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 17.5,
+              "z": 30.331005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 17.5,
+              "z": 30.331005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "6e9c8d8a-dd1d-467b-a439-d790bab6b0a9",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912778600562689",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 21.0,
+              "z": 29.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 21.0,
+              "z": 29.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "546cc72b-c74c-424e-9eda-096416cf2bd3",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674912778602446849",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 3.5,
+              "z": 30.331005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 3.5,
+              "z": 30.331005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "4fc38cd7-adca-45bf-9435-91cf8902565a",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582451818497",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 13.999998092651,
+              "z": 37.331001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 13.999998092651,
+              "z": 37.331001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7ac8cd60-3dfe-4d69-b167-acaf1d3a4b0c",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582453784577",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -17.5,
+              "z": 37.330997467041
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -17.5,
+              "z": 37.330997467041
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "cb2e38a6-7a5d-4f49-a5a6-d06e7e4ef47a",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582455619585",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 3.4999961853027,
+              "z": 37.331001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 3.4999961853027,
+              "z": 37.331001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "c277c454-85c8-499e-9509-eb5b8ed5f4cb",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582457470977",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -7.0000038146973,
+              "z": 37.331001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -7.0000038146973,
+              "z": 37.331001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "0e3d9dd3-5ea0-4b5f-ad6e-d2762aa2c49c",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582459305985",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 8.7499980926514,
+              "z": 40.831001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 8.7499980926514,
+              "z": 40.831001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "6ee65392-8378-4203-99dd-5d09c7dee0dd",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582461730817",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -4.7206740418915e-06,
+              "z": 44.331001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -4.7206740418915e-06,
+              "z": 44.331001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "8e31978b-2471-4152-ae03-083ef4c9d922",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582463614977",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 1.7499947547913,
+              "z": 33.830997467041
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 1.7499947547913,
+              "z": 33.830997467041
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "24de21fb-f640-4572-898d-7c2a75433467",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582465613825",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 10.499996185303,
+              "z": 44.331001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 10.499996185303,
+              "z": 44.331001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "4cede19c-052f-4d64-8078-69add7b2464a",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582467710977",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -8.75,
+              "z": 33.830997467041
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -8.75,
+              "z": 33.830997467041
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "74c4e460-cbef-455d-91f9-3e8ac962a7dd",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582470250497",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 5.2499980926514,
+              "z": 40.831001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 5.2499980926514,
+              "z": 40.831001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d9bd8005-9e47-4575-87ee-3404e201eac3",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582472232961",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 17.499998092651,
+              "z": 37.331001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 17.499998092651,
+              "z": 37.331001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e8ce90a4-3a91-48c3-a030-d567f696f40d",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582474182657",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 1.7499947547913,
+              "z": 40.831001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 1.7499947547913,
+              "z": 40.831001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "82cace27-e404-4390-8cb1-e6ce25d5ebd0",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582476394497",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -15.75,
+              "z": 40.830997467041
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -15.75,
+              "z": 40.830997467041
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "b74a6386-c663-4ca5-b92b-f8925dd26454",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582478524417",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -8.75,
+              "z": 40.831001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -8.75,
+              "z": 40.831001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7fa13704-1b9c-4180-8d0f-0d8394f8f331",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582480637953",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -10.5,
+              "z": 37.330997467041
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -10.5,
+              "z": 37.330997467041
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "52a29a02-0635-495e-8686-de50604a7062",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582482784257",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 15.749998092651,
+              "z": 40.831001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 15.749998092651,
+              "z": 40.831001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e4bfe46b-dbe9-41ce-95b8-1f2320ac7a35",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582484914177",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -7.0000038146973,
+              "z": 44.331001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -7.0000038146973,
+              "z": 44.331001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "1c12a309-37d8-44b5-9d54-13eff24c6879",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582487044097",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -1.7500052452087,
+              "z": 40.831001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -1.7500052452087,
+              "z": 40.831001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d4adf52e-034c-4278-96ef-9d39333b1ffa",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582489190401",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 6.9999980926514,
+              "z": 37.331001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 6.9999980926514,
+              "z": 37.331001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "fb4f7b7d-5649-4526-ad67-70d0a38691eb",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582491287553",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -15.75,
+              "z": 33.830997467041
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -15.75,
+              "z": 33.830997467041
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "3f8247ff-bb91-44c1-bee3-ea54ba17b404",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582493515777",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 19.249998092651,
+              "z": 33.831001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 19.249998092651,
+              "z": 33.831001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "164d78aa-b9a5-423e-bb06-ac36539485fa",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582495662081",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 3.4999961853027,
+              "z": 44.331001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 3.4999961853027,
+              "z": 44.331001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "c069c31c-7e1a-4e75-9ccf-822082722a1a",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582497792001",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -19.25,
+              "z": 33.830997467041
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -19.25,
+              "z": 33.830997467041
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "64a1288a-5a30-4577-88da-5708bca6813d",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582499905537",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -12.25,
+              "z": 33.830997467041
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -12.25,
+              "z": 33.830997467041
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "38e92648-22a8-4ab5-9861-d72d6187f50d",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582502395905",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -5.25,
+              "z": 33.830997467041
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -5.25,
+              "z": 33.830997467041
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "30d60fc2-5195-42ec-ae56-8cdabd49e64c",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582504525825",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 8.7499980926514,
+              "z": 33.830997467041
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 8.7499980926514,
+              "z": 33.830997467041
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "79a9ba18-3f5e-412b-bbdc-440bd07c5ddb",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582506639361",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 10.499998092651,
+              "z": 37.331001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 10.499998092651,
+              "z": 37.331001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "0efd1923-0261-4cdb-b3da-d85b288b9c87",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582508736513",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 15.749998092651,
+              "z": 33.831001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 15.749998092651,
+              "z": 33.831001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "9f4a552b-8738-41b3-8ab0-18cdc55739b8",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582510833665",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -10.500003814697,
+              "z": 44.331001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -10.500003814697,
+              "z": 44.331001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d224d910-94b1-4ade-acac-4031cd01b1fb",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582512881665",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 5.2499980926514,
+              "z": 33.830997467041
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 5.2499980926514,
+              "z": 33.830997467041
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "1c67e041-7d4d-4df7-8ff0-0ae2767b1576",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582514946049",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 12.249998092651,
+              "z": 33.831001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 12.249998092651,
+              "z": 33.831001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "1f438534-4776-47eb-b2f8-d89b45b605b1",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582517075969",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -4.7206740418915e-06,
+              "z": 37.331001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -4.7206740418915e-06,
+              "z": 37.331001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "78cc5b8d-722e-411a-bac8-21ac836f10b3",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582519222273",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 12.249998092651,
+              "z": 40.831001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 12.249998092651,
+              "z": 40.831001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "59829f47-e585-4f96-8e11-b179eb1d92a3",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582521401345",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -1.7500052452087,
+              "z": 33.830997467041
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -1.7500052452087,
+              "z": 33.830997467041
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "ba4d6dd2-6c2c-4657-917c-453bdd22ac7d",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582523629569",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -12.25,
+              "z": 40.830997467041
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -12.25,
+              "z": 40.830997467041
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "c0474e6d-1700-4a1e-951b-e4e1e8a03015",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582525792257",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -3.5000038146973,
+              "z": 44.331001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -3.5000038146973,
+              "z": 44.331001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e972df6b-956d-477b-b7c7-258451db1a56",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582527873025",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 6.9999980926514,
+              "z": 44.331001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 6.9999980926514,
+              "z": 44.331001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "5a3074bd-865b-4223-b589-ec6ccbad2f0c",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582530117633",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -14.0,
+              "z": 37.330997467041
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -14.0,
+              "z": 37.330997467041
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "3cf20b51-712d-4457-bbc4-823a4b7ff234",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582532149249",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -5.2500038146973,
+              "z": 40.831001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -5.2500038146973,
+              "z": 40.831001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "f6e283c9-622f-4701-a7ae-29ef87bc5b79",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674913582534836225",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -3.5000038146973,
+              "z": 37.331001281738
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -3.5000038146973,
+              "z": 37.331001281738
+            },
+            "restitution": 0.18,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "49ffb265-13be-4b2a-b103-286e8f1b76dc",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674916222826381313",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -24.5,
+              "z": 26.081005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -24.5,
+              "z": 26.081005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "75b22ef4-e713-4d03-a451-e9c09ec74ffa",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674916222828265473",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -28.0,
+              "z": 22.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -28.0,
+              "z": 22.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "894b672b-e258-4d2d-a4bf-7cdf936934de",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674916222830182401",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -28.0,
+              "z": 10.581004142761
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -28.0,
+              "z": 10.581004142761
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "04ca087b-cf69-4d67-8e83-a2e9c99b5b09",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674916222832066561",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -24.5,
+              "z": 7.0810041427612
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -24.5,
+              "z": 7.0810041427612
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "534d080c-3875-40b1-96c5-9e22816e03e4",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674916222833901569",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -24.5,
+              "z": 14.081004142761
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -24.5,
+              "z": 14.081004142761
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "87d72441-46ac-4054-b4df-6cd37ab72349",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674916222835736577",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -24.5,
+              "z": 19.081005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -24.5,
+              "z": 19.081005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "84722797-972c-4c02-a0d5-419e187693c5",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674916397106757633",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 24.5,
+              "z": 19.081005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 24.5,
+              "z": 19.081005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "20937d26-0e92-4805-a916-f4669b700d8e",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674916397108903937",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 24.5,
+              "z": 26.081005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 24.5,
+              "z": 26.081005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "96a7a8ff-e8d7-4919-9d36-12473ee8d6a9",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674916397111050241",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 24.5,
+              "z": 14.081004142761
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 24.5,
+              "z": 14.081004142761
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "de9cf915-aad7-4317-ae98-3daefdc769f4",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674916397113311233",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 27.5,
+              "z": 10.581004142761
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 27.5,
+              "z": 10.581004142761
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "627d43fa-8524-4074-96a5-2fc39f9b07c9",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674916397115473921",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 27.5,
+              "z": 22.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 27.5,
+              "z": 22.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "cd4e9e62-9542-4507-8dbf-088321974c51",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674916397117620225",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 24.5,
+              "z": 7.0810041427612
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 24.5,
+              "z": 7.0810041427612
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "0e6b72cc-eedf-4acb-be0a-bacadfc82244",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674938452774060033",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -28.0,
+              "z": 16.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -28.0,
+              "z": 16.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "85ceed16-d55c-4cf1-ac32-726ecc9de3ee",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674938814188077057",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 28.0,
+              "z": 16.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 28.0,
+              "z": 16.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e5b86284-6c41-4167-b6b0-d51bdaf38eda",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674939022838071297",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 21.0,
+              "z": 16.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 21.0,
+              "z": 16.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "59fedf61-c501-4d99-8c08-c9d17b35094a",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674939116158877697",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 14.0,
+              "z": 16.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 14.0,
+              "z": 16.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d5165091-be36-488c-8b08-b7de9ca0dcf8",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674939201995931649",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": 7.0,
+              "z": 16.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": 7.0,
+              "z": 16.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "1e26099e-4e7c-43de-b6d0-52330b5dcf31",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674939331073835009",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "z": 16.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "z": 16.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "3e4e03bd-687d-46a6-9a41-9e5b11a42de5",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674939331076702209",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -7.0,
+              "z": 16.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -7.0,
+              "z": 16.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e9f4d3b9-650b-43d0-a447-009229b74346",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674939331079553025",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -14.0,
+              "z": 16.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -14.0,
+              "z": 16.581005096436
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "size": {
+              "x": 3.24996,
+              "y": 0.499998,
+              "z": 3.24995
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 5.2810826301575
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "db0f2783-fc23-4f7e-bafc-81a6cec9b5b0",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8674939527316144129",
+            "mass": 11.618381786346,
+            "massCenter": {
+              "x": -21.0,
+              "z": 16.581005096436
+            },
+            "material": {
+              "color": {
+                "b": 97,
+                "g": 149,
+                "r": 217
+              },
+              "texture": "part_boli.tga"
+            },
+            "name": "FallPlat",
+            "position": {
+              "x": -21.0,
+              "z": 16.581005096436
             },
             "restitution": 0.18,
             "scale": {
@@ -988,37 +6704,224 @@
         "name": "Platforms"
       },
       {
-        "__OBJ_TYPE": "Instance_RegionPart",
-        "cfgName": "myplugin/7312478f-e843-47bd-833d-00279a13d2b8",
-        "id": "8664636376285478913",
-        "name": "WinRegion",
-        "position": {
-          "x": 0.025671005249023,
-          "y": 1.7499990463257,
-          "z": 32.202198028564
-        },
-        "scale": {
-          "x": 20.2499,
-          "y": 3.49999,
-          "z": 5.66997
-        },
-        "size": {
-          "x": 20.2499,
-          "y": 3.49999,
-          "z": 5.66997
-        }
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "btsKey": "3d251b01-1dbd-4d4a-96a8-e156202a9d76",
+            "density": 2.2,
+            "enableStaticBatching": true,
+            "friction": 0.37,
+            "id": "8674831948884164609",
+            "isLockedInEditor": true,
+            "mass": 779311.84375,
+            "massCenter": {
+              "x": -30.031995773315,
+              "y": 16.566381454468,
+              "z": 16
+            },
+            "mesh": "asset/Mesh/Environment/Colosseum/ColL.mesh",
+            "mesh_selector": {
+              "asset": "asset/Mesh/Environment/Colosseum/ColL.mesh",
+              "selector": "asset/Mesh/Environment/Colosseum/ColL.mesh"
+            },
+            "name": "ColL.mesh",
+            "position": {
+              "x": -30.031995773315,
+              "y": 16.566381454468,
+              "z": 16
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3.32902,
+              "y": 3.32902,
+              "z": 3.32902
+            },
+            "size": {
+              "x": 70.757843017578,
+              "y": 35.49621963501,
+              "z": 141.03666687012
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false,
+            "volume": 354232.65625
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "btsKey": "cbbbc875-05c3-4507-8f35-efa070c717d4",
+            "density": 2.2,
+            "enableStaticBatching": true,
+            "friction": 0.37,
+            "id": "8674828300085116929",
+            "isLockedInEditor": true,
+            "mass": 779311.84375,
+            "massCenter": {
+              "x": 28.59397315979,
+              "y": 16.566381454468,
+              "z": 16
+            },
+            "mesh": "asset/Mesh/Environment/Colosseum/ColL.mesh",
+            "mesh_selector": {
+              "asset": "asset/Mesh/Environment/Colosseum/ColL.mesh",
+              "selector": "asset/Mesh/Environment/Colosseum/ColL.mesh"
+            },
+            "name": "ColL.mesh",
+            "position": {
+              "x": 28.59397315979,
+              "y": 16.566381454468,
+              "z": 16
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 180
+            },
+            "scale": {
+              "x": 3.32902,
+              "y": 3.32902,
+              "z": 3.32902
+            },
+            "size": {
+              "x": 70.757843017578,
+              "y": 35.49621963501,
+              "z": 141.03666687012
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false,
+            "volume": 354232.65625
+          },
+          {
+            "__OBJ_TYPE": "Instance_PartOperation",
+            "btsKey": "7e9d3552-dfe7-455a-b4e6-2ac56ecffc48",
+            "cameraCollideEnable": false,
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "c7891fe6-9086-45c1-9136-8b6cd0949555",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8674849511781810177",
+                "mass": 547279.8375,
+                "massCenter": {
+                  "x": -0.22836929559708,
+                  "y": -26.8063621521,
+                  "z": 16.451877593994
+                },
+                "position": {
+                  "x": -0.22836929559708,
+                  "y": -26.8063621521,
+                  "z": 16.451877593994
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 77.9986,
+                  "y": 52.0886,
+                  "z": 77.9986
+                },
+                "shape": "3",
+                "size": {
+                  "x": 77.998649597168,
+                  "y": 52.088642120361,
+                  "z": 77.998649597168
+                },
+                "volume": 248763.5625
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "booleanOperation": 2,
+                "btsKey": "4c65bb98-01da-4a7f-8323-adb049d5dae1",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8674849511784890369",
+                "mass": 375850.921875,
+                "massCenter": {
+                  "x": -0.22836929559708,
+                  "y": -25.742866516113,
+                  "z": 16.451877593994
+                },
+                "material": {
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  }
+                },
+                "position": {
+                  "x": -0.22836929559708,
+                  "y": -25.742866516113,
+                  "z": 16.451877593994
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 66,
+                  "y": 49.9615,
+                  "z": 66
+                },
+                "shape": "3",
+                "size": {
+                  "x": 66,
+                  "y": 49.961494445801,
+                  "z": 66
+                },
+                "volume": 170841.328125
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8674849511856783361",
+            "isLockedInEditor": true,
+            "mass": 0.89498806595802,
+            "massCenter": {
+              "x": -0.77000004053116,
+              "y": -26.806360244751,
+              "z": 16.451875686646
+            },
+            "material": {
+              "color": {
+                "b": 16,
+                "g": 26,
+                "r": 37
+              }
+            },
+            "mergeShapesDataKey": "8674849511787233281",
+            "position": {
+              "x": -0.77000004053116,
+              "y": -26.806360244751,
+              "z": 16.451875686646
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 77.9986,
+              "y": 52.0886,
+              "z": 77.9986
+            },
+            "size": {
+              "x": 77.998573303223,
+              "y": 52.088592529297,
+              "z": 77.998573303223
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false,
+            "volume": 0.40681275725365
+          }
+        ],
+        "id": "8674835124784611329",
+        "name": "Colosseum"
       }
     ],
     "name": {
       "value": "map_map001"
     },
+    "rotateSpeed": 1,
     "touch_pos": {
       "up": 600
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "406eb26fe5d3e3266ab793565b3722c6"
+      "setting.json": "4f4c2553b11e1d6b185abf0dcf178f45"
     },
     "VERSION": "0.20"
   }

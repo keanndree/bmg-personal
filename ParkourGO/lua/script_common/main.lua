@@ -8,5 +8,5 @@ Entity.addValueDef("ItemAttribute",{
     shield={level=1,maxlevel=5,expnow=0,expneed=50},
     sniper={level=1,maxlevel=5,expnow=0,expneed=50}
     },false,false,true)
-Entity.addValueDef("Money",0,false,false,true)
+Entity.addValueDef("Money",1000,false,false,true)
 Entity.addValueDef("LevelProgress",{level=1,maxlevel=100,expnow=0,expneed=50},false,false,true)

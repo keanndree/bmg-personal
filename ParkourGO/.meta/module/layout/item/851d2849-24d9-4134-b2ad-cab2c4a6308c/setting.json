@@ -1,0 +1,840 @@
+{
+  "data": {
+    "md5": "64830d117258205ae0d9ed9c1f181778",
+    "path": "asset/roommenu.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "DisabledImage": {
+                "asset": "asset/Texture/UI/DeathCross_PlayerTab_CloseBtn.png"
+              },
+              "HoverImage": {
+                "asset": "asset/Texture/UI/DeathCross_PlayerTab_CloseBtn.png"
+              },
+              "id": {
+                "value": "bb4bc8da-0a82-42e2-ae96-d1fce882e7a0"
+              },
+              "name": "CloseBtn",
+              "NormalImage": {
+                "asset": "asset/Texture/UI/DeathCross_PlayerTab_CloseBtn.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": -15
+                },
+                "UDim_Y": {
+                  "Offect": 15
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/UI/DeathCross_PlayerTab_CloseBtn.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 75
+                },
+                "UDim_Y": {
+                  "Offect": 75
+                }
+              },
+              "Text": ""
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "id": {
+                "value": "3408c01a-c8f9-47e2-a1c7-58a2d394a81e"
+              },
+              "Image": {
+                "asset": "asset/Texture/UI/ParkourGo_ChooseARoom.png"
+              },
+              "name": "Title",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.03
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 870
+                },
+                "UDim_Y": {
+                  "Offect": 58
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "ScrollableView",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "BackGroundImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "VerticalLayoutContainer",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre"
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "anchor": {
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "id": {
+                            "value": "485a0276-f878-497a-b0a2-553ad4c5306e"
+                          },
+                          "Image": {
+                            "asset": "asset/Texture/Skill/common/icon_潜行_act.png"
+                          },
+                          "name": "IconImg",
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 10
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 100
+                            },
+                            "UDim_Y": {
+                              "Offect": 100.0
+                            }
+                          }
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticText",
+                          "anchor": {
+                            "VerticalAlignment": "Centre"
+                          },
+                          "AutoScale": "3",
+                          "ClippedByParent": true,
+                          "Font": "HarmonyOS_Sans_SC_Black",
+                          "Font_size": 35,
+                          "id": {
+                            "value": "2d26a859-37a9-4068-a623-e31da4a37273"
+                          },
+                          "name": "NameTxt",
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 150
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 389.0
+                            },
+                            "UDim_Y": {
+                              "Offect": 54.7
+                            }
+                          },
+                          "Text": "Parkour Training",
+                          "TextColours": {
+                            "b": 255,
+                            "g": 255,
+                            "r": 255
+                          },
+                          "word_warpped": false
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticText",
+                          "anchor": {
+                            "VerticalAlignment": "Centre"
+                          },
+                          "AutoScale": "3",
+                          "ClippedByParent": true,
+                          "Font": "HarmonyOS_Sans_SC_Black",
+                          "Font_size": 35,
+                          "id": {
+                            "value": "f371cba2-6432-439a-af37-dc49427c3fb4"
+                          },
+                          "name": "PlayerNumTxt",
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 650
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 160.0
+                            },
+                            "UDim_Y": {
+                              "Offect": 54.7
+                            }
+                          },
+                          "Text": "Player:",
+                          "TextColours": {
+                            "b": 255,
+                            "g": 255,
+                            "r": 255
+                          },
+                          "Visible": false,
+                          "word_warpped": false
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Right",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/JoinButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/JoinButton_nor.png"
+                          },
+                          "id": {
+                            "value": "9e39cccb-a575-48d8-bb1b-bc2cd5ce2262"
+                          },
+                          "name": "JoinBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/JoinButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": -25
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/JoinButton_act.png"
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 200
+                            },
+                            "UDim_Y": {
+                              "Offect": 75.0
+                            }
+                          },
+                          "Text": ""
+                        }
+                      ],
+                      "ClippedByParent": true,
+                      "id": {
+                        "value": "78c1e860-fcc8-413e-a0fb-234406a48807"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/UI/RoomFrame.png"
+                      },
+                      "name": "Room1",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "anchor": {
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "id": {
+                            "value": "d5d84539-6535-426d-893a-0a0611d88bc6"
+                          },
+                          "Image": {
+                            "asset": "asset/Texture/Skill/common/icon_跑_act.png"
+                          },
+                          "name": "IconImg",
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 10
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 100
+                            },
+                            "UDim_Y": {
+                              "Offect": 100.0
+                            }
+                          }
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticText",
+                          "anchor": {
+                            "VerticalAlignment": "Centre"
+                          },
+                          "AutoScale": "3",
+                          "ClippedByParent": true,
+                          "Font": "HarmonyOS_Sans_SC_Black",
+                          "Font_size": 35,
+                          "id": {
+                            "value": "6a874335-91d8-4dca-8ce4-71177fa5d21b"
+                          },
+                          "name": "NameTxt",
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 150
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 244.0
+                            },
+                            "UDim_Y": {
+                              "Offect": 54.7
+                            }
+                          },
+                          "Text": "Speed Run",
+                          "TextColours": {
+                            "b": 255,
+                            "g": 255,
+                            "r": 255
+                          },
+                          "word_warpped": false
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticText",
+                          "anchor": {
+                            "VerticalAlignment": "Centre"
+                          },
+                          "AutoScale": "3",
+                          "ClippedByParent": true,
+                          "Font": "HarmonyOS_Sans_SC_Black",
+                          "Font_size": 35,
+                          "id": {
+                            "value": "7493035a-df49-4b48-8e60-3158fa79acf9"
+                          },
+                          "name": "PlayerNumTxt",
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 650
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 160.0
+                            },
+                            "UDim_Y": {
+                              "Offect": 54.7
+                            }
+                          },
+                          "Text": "Player:",
+                          "TextColours": {
+                            "b": 255,
+                            "g": 255,
+                            "r": 255
+                          },
+                          "Visible": false,
+                          "word_warpped": false
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Right",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/JoinButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/JoinButton_nor.png"
+                          },
+                          "id": {
+                            "value": "04a9e627-8210-45d7-a531-8957c97b5bfb"
+                          },
+                          "name": "JoinBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/JoinButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": -25
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/JoinButton_act.png"
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 200
+                            },
+                            "UDim_Y": {
+                              "Offect": 75.0
+                            }
+                          },
+                          "Text": ""
+                        }
+                      ],
+                      "ClippedByParent": true,
+                      "id": {
+                        "value": "f8ecc199-71e0-45b0-9fd0-938fbcae4f55"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/UI/RoomFrame.png"
+                      },
+                      "name": "Room2",
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": 128.0
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "anchor": {
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "id": {
+                            "value": "22c12940-38a6-45fc-9694-d58daf0ce057"
+                          },
+                          "Image": {
+                            "asset": "asset/Texture/Skill/common/icon_近战攻击_act.png"
+                          },
+                          "name": "IconImg",
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 10
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 100
+                            },
+                            "UDim_Y": {
+                              "Offect": 100.0
+                            }
+                          }
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticText",
+                          "anchor": {
+                            "VerticalAlignment": "Centre"
+                          },
+                          "AutoScale": "3",
+                          "ClippedByParent": true,
+                          "Font": "HarmonyOS_Sans_SC_Black",
+                          "Font_size": 35,
+                          "id": {
+                            "value": "f1513e9c-b78c-4cc4-9029-c8eda7799cad"
+                          },
+                          "name": "NameTxt",
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 150
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 221.0
+                            },
+                            "UDim_Y": {
+                              "Offect": 54.7
+                            }
+                          },
+                          "Text": "PVP Time",
+                          "TextColours": {
+                            "b": 255,
+                            "g": 255,
+                            "r": 255
+                          },
+                          "word_warpped": false
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticText",
+                          "anchor": {
+                            "VerticalAlignment": "Centre"
+                          },
+                          "AutoScale": "3",
+                          "ClippedByParent": true,
+                          "Font": "HarmonyOS_Sans_SC_Black",
+                          "Font_size": 35,
+                          "id": {
+                            "value": "b1b1c177-ce0e-4d47-8a17-08adfd60ea6c"
+                          },
+                          "name": "PlayerNumTxt",
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 450
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 160.0
+                            },
+                            "UDim_Y": {
+                              "Offect": 54.7
+                            }
+                          },
+                          "Text": "Player:",
+                          "TextColours": {
+                            "b": 255,
+                            "g": 255,
+                            "r": 255
+                          },
+                          "word_warpped": false
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticText",
+                          "anchor": {
+                            "VerticalAlignment": "Centre"
+                          },
+                          "AutoScale": "3",
+                          "ClippedByParent": true,
+                          "Font": "HarmonyOS_Sans_SC_Black",
+                          "Font_size": 35,
+                          "id": {
+                            "value": "dab7cf36-b0ee-4cc4-aa1b-0a0586d582e4"
+                          },
+                          "name": "StatusTxt",
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 750
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 164.0
+                            },
+                            "UDim_Y": {
+                              "Offect": 54.7
+                            }
+                          },
+                          "Text": "Status:",
+                          "TextColours": {
+                            "b": 255,
+                            "g": 255,
+                            "r": 255
+                          },
+                          "word_warpped": false
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Right",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/JoinButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/JoinButton_nor.png"
+                          },
+                          "id": {
+                            "value": "3f4fc1af-d1a5-4a19-99c1-c34a43a79834"
+                          },
+                          "name": "JoinBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/JoinButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": -25
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/JoinButton_act.png"
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 200
+                            },
+                            "UDim_Y": {
+                              "Offect": 75.0
+                            }
+                          },
+                          "Text": ""
+                        }
+                      ],
+                      "ClippedByParent": true,
+                      "id": {
+                        "value": "18044b12-e2ca-4ee9-9f8c-32ca89c5f1f4"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/UI/RoomFrame.png"
+                      },
+                      "name": "Room3",
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": 256.0
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "anchor": {
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "id": {
+                            "value": "cc7ea088-3d17-4190-97c9-277428379616"
+                          },
+                          "Image": {
+                            "asset": "asset/Texture/Skill/common/icon_飞.png"
+                          },
+                          "name": "IconImg",
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 10
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 100
+                            },
+                            "UDim_Y": {
+                              "Offect": 100.0
+                            }
+                          }
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticText",
+                          "anchor": {
+                            "VerticalAlignment": "Centre"
+                          },
+                          "AutoScale": "3",
+                          "ClippedByParent": true,
+                          "Font": "HarmonyOS_Sans_SC_Black",
+                          "Font_size": 35,
+                          "id": {
+                            "value": "86654088-fcbc-44a9-a1a2-124a9b4520cb"
+                          },
+                          "name": "NameTxt",
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 150
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 249.0
+                            },
+                            "UDim_Y": {
+                              "Offect": 54.7
+                            }
+                          },
+                          "Text": "Hell Tower",
+                          "TextColours": {
+                            "b": 255,
+                            "g": 255,
+                            "r": 255
+                          },
+                          "word_warpped": false
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticText",
+                          "anchor": {
+                            "VerticalAlignment": "Centre"
+                          },
+                          "AutoScale": "3",
+                          "ClippedByParent": true,
+                          "Font": "HarmonyOS_Sans_SC_Black",
+                          "Font_size": 35,
+                          "id": {
+                            "value": "f66b1fd3-eae0-4796-93d6-14dca0f16c9b"
+                          },
+                          "name": "PlayerNumTxt",
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 650
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 160.0
+                            },
+                            "UDim_Y": {
+                              "Offect": 54.7
+                            }
+                          },
+                          "Text": "Player:",
+                          "TextColours": {
+                            "b": 255,
+                            "g": 255,
+                            "r": 255
+                          },
+                          "Visible": false,
+                          "word_warpped": false
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Right",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/JoinButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/JoinButton_nor.png"
+                          },
+                          "id": {
+                            "value": "8b6fa949-30b7-4556-ac0d-dff67cdecb9d"
+                          },
+                          "name": "JoinBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/JoinButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": -25
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/JoinButton_act.png"
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 200
+                            },
+                            "UDim_Y": {
+                              "Offect": 75.0
+                            }
+                          },
+                          "Text": ""
+                        }
+                      ],
+                      "ClippedByParent": true,
+                      "id": {
+                        "value": "a4644ea5-4e9c-48e2-ba89-4350e01a034c"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/UI/RoomFrame.png"
+                      },
+                      "name": "Room4",
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": 384.0
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0.0,
+                          "Scale": 1
+                        }
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "99638ad9-406a-43aa-b04b-62c953cf3ade"
+                  },
+                  "name": "VerticalLayout",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 1281.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 512.0
+                    }
+                  }
+                }
+              ],
+              "ForceHorzScrollbar": false,
+              "ForceVertScrollbar": false,
+              "id": {
+                "value": "d860b195-518a-4ffa-93f9-01aa1888c4c1"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.75
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "5bc66da5-c06b-4e4f-8bec-f4768475f84a"
+          },
+          "Image": {
+            "asset": "asset/Texture/UI/UIBackground.png"
+          },
+          "name": "Background",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          },
+          "StaticImageStretch": {
+            "bottom_left": 78,
+            "bottom_right": 68,
+            "top_left": 74,
+            "top_right": 77
+          }
+        }
+      ],
+      "id": {
+        "value": "99282d29-5512-4bb5-9f9a-c1623f87e51b"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "64830d117258205ae0d9ed9c1f181778",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

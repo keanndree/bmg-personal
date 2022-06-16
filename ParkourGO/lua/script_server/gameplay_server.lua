@@ -279,6 +279,7 @@ Trigger.addHandler(cfg,"ENTITY_ENTER",function(context)
     end)
 end)
 
+
 Trigger.addHandler(cfg,"ENTITY_TOUCH_PART_BEGIN",function(context)
     local player = context.obj1
     local part = context.part

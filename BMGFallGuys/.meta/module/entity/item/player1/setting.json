@@ -1,18 +1,13 @@
 {
   "data": {
     "actorModel": {
-      "actorName": {
-        "asset": ""
-      },
-      "girlactor": {
-        "asset": ""
-      }
+      "modelType": "Customize"
     },
     "AI_attack": {
       "enable": true
     },
     "AI_home": {
-      "homeSize": 5.0
+      "homeSize": 5
     },
     "AI_patrol": {
       "patrolMode": "randomPath"
@@ -35,8 +30,9 @@
     ],
     "hideHp": false,
     "isPlayer": true,
-    "jumpSpeed": 16.0,
-    "moveSpeed": 6.0,
+    "jumpSpeed": 16,
+    "maxHp": 1,
+    "moveSpeed": 6,
     "name": {
       "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
     },
@@ -46,7 +42,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "763aa5606d6d92029d312b46a3d6408f",
+      "setting.json": "358bedb6b9627ea7913738f0f83ec1cd",
       "triggers.bts": ""
     },
     "VERSION": "0.20"

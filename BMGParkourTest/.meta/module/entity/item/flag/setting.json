@@ -12,8 +12,13 @@
       "modelType": "Customize"
     },
     "actorName": {
-      "asset": "asset/file/flag/flag.actor",
-      "selector": "editor/Fun_Jump/asset/file/flag/flag.actor"
+      "asset": "asset/file/flag/flag.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
     },
     "deadSound": {
       "volume": {
@@ -21,8 +26,7 @@
       }
     },
     "girlactor": {
-      "asset": "asset/file/flag/flag.actor",
-      "selector": "editor/Fun_Jump/asset/file/flag/flag.actor"
+      "asset": "asset/file/flag/flag.actor"
     },
     "hideName": true,
     "name": {
@@ -33,7 +37,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a8653df04a8a4e8c64ca75ac972f853e",
+      "setting.json": "070cd00072d2ab9285277697a8e21b18",
       "triggers.bts": ""
     },
     "VERSION": "0.20"
