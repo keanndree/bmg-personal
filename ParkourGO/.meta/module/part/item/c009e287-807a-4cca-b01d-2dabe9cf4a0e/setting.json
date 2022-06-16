@@ -1,0 +1,79 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_KillEntity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "1d8d602a-ce28-4ef7-885b-17131f266e49"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "19b9c123-b0bc-43a5-8e90-a2bcb8948dbe"
+              },
+              "pos": {
+                "x": 658,
+                "y": 249.5
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "1d8d602a-ce28-4ef7-885b-17131f266e49"
+              },
+              "pos": {
+                "x": 1016,
+                "y": 326.5
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "19b9c123-b0bc-43a5-8e90-a2bcb8948dbe"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "30dced64-15c7-4376-b8eb-d71f33b42a17"
+            }
+          },
+          "type": "Trigger_PartTouchEntityBegin"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "triggers.bts": "2a66487b7194814eef54159c357806a2"
+    },
+    "VERSION": "0.20"
+  }
+}

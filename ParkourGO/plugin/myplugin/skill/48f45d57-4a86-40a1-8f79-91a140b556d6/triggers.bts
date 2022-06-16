@@ -1,0 +1,9 @@
+SKILL_CAST {
+	SetEntityPosition(
+		entity = $obj1,
+		map = GetPlayerMap(player = $obj1),
+		pos = GetRebirthPos(entity = $obj1),
+		rp = 0,
+		ry = 0
+	)
+}

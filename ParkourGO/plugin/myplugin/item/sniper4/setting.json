@@ -1,0 +1,21 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Texture/Item/AWM.png",
+  "itemintroduction": "25c8e686-3422-4779-82ae-74bf43fdf043",
+  "itemname": "8f0fec2a-1665-4523-b478-a048ccb463a5",
+  "mesh": "asset/Mesh/AWP/gun_69.mesh",
+  "needSave": true,
+  "skill": [
+    "myplugin/shoot4"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

@@ -1,0 +1,32 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Mesh/crystal plain/crystal.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "girlactor": {
+      "asset": "empty.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_crystal"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "fdad669b674268c97592d62c43d3d8e3",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

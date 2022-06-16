@@ -1,0 +1,20 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": true,
+  "icon": "@asset/Texture/Item/Crafting_Item_Spring.PNG.png",
+  "itemintroduction": "4c42775f-baba-4118-b0e3-bc3c67b28606",
+  "itemname": "7f8d181e-8b93-4479-bd2b-f9bf5c923574",
+  "needSave": true,
+  "stack_count_max": 10,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false,
+  "useBuff": {
+    "cfg": "myplugin/jumphigh",
+    "time": 120
+  }
+}

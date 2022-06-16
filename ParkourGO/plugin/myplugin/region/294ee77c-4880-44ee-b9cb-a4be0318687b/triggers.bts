@@ -1,0 +1,3 @@
+REGION_ENTER {
+	AddEntityBuff(cfg = "myplugin/SpeedRun_Buff", entity = $obj1)
+}

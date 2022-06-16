@@ -1,0 +1,30 @@
+{
+  "data": {
+    "canUse": true,
+    "icon": {
+      "asset": "asset/Texture/Item/Crafting_Item_Spring.PNG.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemUse",
+        "time": {
+          "value": 120
+        },
+        "useBuff": "myplugin/jumphigh"
+      },
+      "type": "Use"
+    },
+    "name": {
+      "value": "7f8d181e-8b93-4479-bd2b-f9bf5c923574"
+    },
+    "needSave": true,
+    "stack_count_max": 10
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b7410a67d5da1ccf9c1292dc23f54b9d",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

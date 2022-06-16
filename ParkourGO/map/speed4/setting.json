@@ -1,0 +1,4159 @@
+{
+  "canBreak": true,
+  "hideCloud": true,
+  "moveDownGravity": 0.15,
+  "scene": [
+    {
+      "class": "VoxelTerrain",
+      "properties": {
+        "id": "8506438527407505409",
+        "name": "VoxelTerrain",
+        "uniqueKey": ""
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/player1",
+      "properties": {
+        "id": "8506438609836851201",
+        "name": "Player",
+        "needSync": "true",
+        "position": "x:0 y:0.99989986419678 z:0",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515328753329537025",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515329917113925633",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515330833111138305",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515331422834081793",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515331786722066433",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "4971967c-b3fa-4eb3-8e7e-dbd5d785aaa2",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515192109072809985",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "18243.218554688",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:0 y:-17.333972930908 z:2.559999704361",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:15 y:36.855 z:15",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515333171573227521",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515333171572408321",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515333171569639425",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515333171571294209",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515333171570475009",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "9ae4bae4-52dd-4536-8c33-4fefd7912aac",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515192984577753089",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "538.18497009277",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:0 y:0.5499062538147 z:22.740001678467",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:14.9999 y:1.08725 z:15",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354765670858753",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354765671677953",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354765672497153",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354765673316353",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354765670039553",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "83ebe78d-8731-4009-a32a-bbb8a1155066",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515193913238077441",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "538.18856201172",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:0 y:-1.6921430826187 z:42.623805999756",
+        "restitution": "0.3",
+        "rotation": "x:10 y:0 z:0",
+        "scale": "x:15 y:1.08725 z:15",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354931154059265",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354931154878465",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354931155714049",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354931156533249",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354931153240065",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "277ff99a-03ee-4714-9364-4d2333e203a1",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515194399727452161",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "16424.775683594",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:0 y:-19.277126312256 z:63.360004425049",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:15 y:33.1816 z:14.9999",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515355637805072385",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515355637805907969",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515355637806743553",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515355637807562753",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515355637804204033",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "d4550106-4612-4c70-bc27-5cc55f0a88dc",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515194963148996609",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "10992.340820312",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:2.4805436134338 y:-19.277126312256 z:83.959999084473",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:10.0389 y:33.1815 z:14.9998",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515355808679313409",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515355808680148993",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515355808680968193",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515355808681820161",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515355808678445057",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "790513a1-d54c-4e90-bda4-6094251b74cb",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515195682254192641",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "6535.4464355469",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:3.9556179046631 y:-19.277126312256 z:103.37491607666",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:7.08873 y:33.1814 z:12.6296",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515355985308286977",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515355985309122561",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515355985309958145",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515355985310793729",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515355985307451393",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "63e4e0c5-5b24-4687-8d45-7f0922436b30",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515196077817036801",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "3771.8836181641",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:3.9556179046631 y:-19.277126312256 z:118.90466308594",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:7.08872 y:33.1813 z:7.28911",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354581204549633",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354581205385217",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354581206204417",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354581207023617",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354581203681281",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "1f7ef747-1c41-4776-b2fb-6c594307a6f0",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515196386588639233",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "4256.7916015625",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-4.6550030708313 y:-21.133533477783 z:146.69808959961",
+        "restitution": "0.3",
+        "rotation": "x:-29.999996185303 y:0 z:0",
+        "scale": "x:5.50986 y:7.2862 z:48.1968",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354291040354305",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354291041189889",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354291042025473",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354291042861057",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354291039518721",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "d3040cd4-7ac3-4469-abb3-25d79e43144b",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515198568652177409",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "4256.7916015625",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:0.94499707221985 y:-11.533411026001 z:191",
+        "restitution": "0.3",
+        "rotation": "x:-29.999996185303 y:0 z:0",
+        "scale": "x:5.50986 y:7.2862 z:48.1968",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354099661438977",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354099662274561",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354099663077377",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354099663912961",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515354099660603393",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "ce0df445-797b-4b4d-8ae5-68e8157dcdfd",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515199527965999105",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "494.99986572266",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:0 y:2.5197336673737 z:220.90466308594",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:15 y:1 z:15",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515353951393693697",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515353951394529281",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515353951395332097",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515353951396167681",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515353951392858113",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "768ac112-db71-4ad9-b640-f545b0157bee",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515200561136140289",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "494.99986572266",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-11.39999961853 y:4.9197330474854 z:240.70468139648",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:15 y:1 z:15",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515353770042441729",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515353770043260929",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515353770044096513",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515353770044915713",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515353770041606145",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "9b4122b4-439b-4fcf-aed2-2462f84127d3",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515200800690438145",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "494.99986572266",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-20.200002670288 y:8.1197309494019 z:260.70465087891",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:15 y:1 z:15",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515353069604519937",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515353069605355521",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515353069606207489",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515353069607043073",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515353069603684353",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "f10c2aa1-d764-4fbe-bf57-fe617fd6baf4",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515205718805315585",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "21129.811914063",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-27.200004577637 y:-18.323570251465 z:281.50463867188",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:15 y:42.6865 z:15",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515352777155100673",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515352777155919873",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515352777156755457",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515352777157591041",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515352777154281473",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "aeae5cd2-0e36-4d94-856a-22a8f456756b",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515206656421560321",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "660.71146850586",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-49.54 y:5.0352172851563 z:293.10461425781",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:-19.999992370605",
+        "scale": "x:15 y:1.33478 z:14.9999",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515352531271909377",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515352531278757889",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515352531280543745",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515352531282640897",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515352531269730305",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "56bb1eb2-cf10-418f-a1d8-ebe892d4df4d",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515207349653880833",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "23470.84609375",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-70.029342651367 y:-15.112622261047 z:293.10461425781",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:15 y:47.4165 z:14.9998",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515352214040494081",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515352214041346049",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515352214042165249",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515352214043000833",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515352214039658497",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "7d4d6cae-91e2-401c-8873-f55b28992795",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515208064159203329",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "10045.505078125",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-93.629318237305 y:-15.112622261047 z:288.81475830078",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:15 y:47.4163 z:6.41993",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515351510176759809",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515351510177595393",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515351510178414593",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515351510179266561",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515351510175924225",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "c439306d-e77c-4dc6-8546-16caa8d3b5a9",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515208420970889217",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "28290.15234375",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-122.72685241699 y:-15.112622261047 z:282.66192626953",
+        "restitution": "0.3",
+        "rotation": "x:0 y:-39.999992370605 z:0",
+        "scale": "x:22.2148 y:47.4161 z:12.208",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515351298166489089",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515351298167308289",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515351298168176641",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515351298169012225",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515351298165653505",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "8ccc94f3-d83c-43a0-a1f5-fb1cdf8d2c3c",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515209441770848257",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "1359.0012573242",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-147.69984436035 y:3.2176170349121 z:241.30703735352",
+        "restitution": "0.3",
+        "rotation": "x:29.999996185303 y:0 z:0",
+        "scale": "x:20 y:1.54432 z:20",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515350985158180865",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515350985159032833",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515350985159852033",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515350985160818689",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515350985157345281",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "f8383922-7d7a-49f8-b73e-7ab8ab4f9369",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515210608201940993",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "900.91584472656",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-147.69984436035 y:3.2176172733307 z:265.07772827148",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:20 y:1.54432 z:13.2585",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515350239624888321",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515350239626526721",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515350239627395073",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515350239628230657",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515350239623970817",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "2751d38e-177b-418f-ba30-3ff687ccb658",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515211143879819265",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "2781.7394042969",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-147.69984436035 y:1.0147221088409 z:220.04885864258",
+        "restitution": "0.3",
+        "rotation": "x:30 y:0 z:0",
+        "scale": "x:4.99998 y:4.99998 z:50.5775",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515349391739961345",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515349391740780545",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515349391741583361",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515349391742402561",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515349391739125761",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "b98808b9-8e2b-427c-be43-59b27611900f",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515212307702562817",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "12248.232519531",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-147.69984436035 y:-12.035647392273 z:186.27769470215",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:9.99999 y:55.6739 z:9.99999",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515344893716594689",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515344893717446657",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515344893718282241",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515344893719117825",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515344893715759105",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "fbbdde5a-da7c-465c-99af-98450c712b2d",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515215047202095105",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "12248.254003906",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-147.69984436035 y:-12.035647392273 z:147.67785644531",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:10 y:55.6739 z:10",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515342917602754561",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515342917603606529",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515342917604474881",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515342917605326849",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515342917601886209",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "2e467350-f112-4bed-87d9-7030c7e36c5a",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515215751558397953",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "286.89082946777",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-153.09983825684 y:15.149240493774 z:167.27778625488",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:9.99996 y:1.30406 z:9.99996",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515341719439458305",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515341719440277505",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515341719441145857",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515341719441997825",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515341719438622721",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "b716093c-dac7-4d05-8db0-1647b2b2e4a3",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515216251613298689",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "286.89082946777",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-153.09983825684 y:15.149240493774 z:129.47787475586",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:9.99996 y:1.30406 z:9.99996",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515338607641133057",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515338607641968641",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515338607642771457",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515338607643623425",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515338607640313857",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "bd0b7f8d-ba5d-47b9-aa33-9714ae78a90b",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515216424307539969",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "143.4459854126",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-153.09983825684 y:15.149240493774 z:111.27777862549",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:5 y:1.30406 z:9.99996",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515338462853971969",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515338462854922241",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515338462855856129",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515338462856790017",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515338462853038081",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "c531102f-e37a-4bfc-8efa-6026eaa27e6f",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515217145356468225",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "143.4459854126",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-153.09983825684 y:17.149244308472 z:94.077796936035",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:5 y:1.30406 z:9.99996",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515338109663936513",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515338109664837633",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515338109665738753",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515338109666738177",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515338109663002625",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "3faf7219-a309-4de4-8ec9-42c715c53492",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515217431167254529",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "143.4459854126",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-153.09983825684 y:17.149244308472 z:77.477821350098",
+        "restitution": "0.3",
+        "rotation": "x:29.999996185303 y:0 z:0",
+        "scale": "x:5 y:1.30406 z:9.99996",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515337791380668417",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515337791381995521",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515337791383617537",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515337791384518657",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515337791379832833",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "edb05528-9b31-4c3d-a3e8-11e5e469ab97",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515217695306989569",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "87.466247558594",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-153.09983825684 y:18.949249267578 z:57.353870391846",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:2 y:1.30406 z:15.2437",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "0",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515336515874652161",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "1",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515336515875504129",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515336515876356097",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "3",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515336515872980993",
+            "name": "Decal"
+          }
+        },
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "2",
+            "decalTexture": "asset/speedrung/map4/blackwhite.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8515336515873832961",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "c68faf77-6936-48d8-9a93-452f8c294f0f",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8515218253319061505",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "48993.016015625",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-150.49983215332 y:-12.035647392273 z:29.877737045288",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:20 y:55.6739 z:20",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "false",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "1",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453697227980801",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "4",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453697228783617",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "3",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453697229570049",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "2",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453697230372865",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "0",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453697231159297",
+                "name": "Decal"
+              }
+            }
+          ],
+          "class": "Part",
+          "properties": {
+            "angleVelocity": "x:0 y:0 z:0",
+            "bloom": "false",
+            "booleanOperation": "0",
+            "btsKey": "9db0009a-47c0-48e9-8e9b-4b8dcf6cd428",
+            "cameraCollideEnable": "true",
+            "collisionUniqueKey": "",
+            "customThreshold": "1",
+            "density": "2.2",
+            "discardAlpha": "1.0",
+            "friction": "0.37",
+            "id": "8539453697227603969",
+            "isLockedInEditor": "false",
+            "isVisibleInEditor": "true",
+            "lineVelocity": "x:0 y:0 z:0",
+            "mass": "1.7599995017052",
+            "materialAlpha": "1.0",
+            "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "materialOffset": "x:1 y:1 z:1.0",
+            "materialTexture": "part_suliao.tga",
+            "name": "Part",
+            "needSync": "true",
+            "partNavMeshType": "1",
+            "position": "x:-158.51470947266 y:20.511365890503 z:29.264638900757",
+            "restitution": "0.3",
+            "rotation": "x:0 y:0 z:0",
+            "scale": "x:1 y:0.8 z:1",
+            "selectable": "true",
+            "shape": "1",
+            "staticBatchNo": "",
+            "staticObject": "false",
+            "useAnchor": "true",
+            "useCollide": "true",
+            "useGravity": "false",
+            "useTextureAlpha": "false"
+          }
+        },
+        {
+          "children": [
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "1",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539452972435701761",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "4",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539452972436520961",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "3",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539452972437323777",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "2",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539452972438110209",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "0",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539452972438913025",
+                "name": "Decal"
+              }
+            }
+          ],
+          "class": "Part",
+          "properties": {
+            "angleVelocity": "x:0 y:0 z:0",
+            "bloom": "false",
+            "booleanOperation": "0",
+            "btsKey": "b580b42e-9f4f-4773-a43c-22604409d4c2",
+            "cameraCollideEnable": "true",
+            "collisionUniqueKey": "",
+            "customThreshold": "1",
+            "density": "2.2",
+            "discardAlpha": "1.0",
+            "friction": "0.37",
+            "id": "8539452972435292161",
+            "isLockedInEditor": "false",
+            "isVisibleInEditor": "true",
+            "lineVelocity": "x:0 y:0 z:0",
+            "mass": "1.7599995017052",
+            "materialAlpha": "1.0",
+            "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "materialOffset": "x:1 y:1 z:1.0",
+            "materialTexture": "part_suliao.tga",
+            "name": "Part",
+            "needSync": "true",
+            "partNavMeshType": "1",
+            "position": "x:-158.51470947266 y:19.201366424561 z:30.434644699097",
+            "restitution": "0.3",
+            "rotation": "x:0 y:0 z:0",
+            "scale": "x:1 y:0.8 z:1",
+            "selectable": "true",
+            "shape": "1",
+            "staticBatchNo": "",
+            "staticObject": "false",
+            "useAnchor": "true",
+            "useCollide": "true",
+            "useGravity": "false",
+            "useTextureAlpha": "false"
+          }
+        },
+        {
+          "children": [
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "1",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453429585231873",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "4",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453429586051073",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "3",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453429586837505",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "2",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453429587623937",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "0",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453429588426753",
+                "name": "Decal"
+              }
+            }
+          ],
+          "class": "Part",
+          "properties": {
+            "angleVelocity": "x:0 y:0 z:0",
+            "bloom": "false",
+            "booleanOperation": "0",
+            "btsKey": "df8cf26e-4612-45dd-8368-272d4cbd2d64",
+            "cameraCollideEnable": "true",
+            "collisionUniqueKey": "",
+            "customThreshold": "1",
+            "density": "2.2",
+            "discardAlpha": "1.0",
+            "friction": "0.37",
+            "id": "8539453429584838657",
+            "isLockedInEditor": "false",
+            "isVisibleInEditor": "true",
+            "lineVelocity": "x:0 y:0 z:0",
+            "mass": "1.7599995017052",
+            "materialAlpha": "1.0",
+            "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "materialOffset": "x:1 y:1 z:1.0",
+            "materialTexture": "part_suliao.tga",
+            "name": "Part",
+            "needSync": "true",
+            "partNavMeshType": "1",
+            "position": "x:-158.51470947266 y:20.001361846924 z:29.914640426636",
+            "restitution": "0.3",
+            "rotation": "x:0 y:0 z:0",
+            "scale": "x:1 y:0.8 z:1",
+            "selectable": "true",
+            "shape": "1",
+            "staticBatchNo": "",
+            "staticObject": "false",
+            "useAnchor": "true",
+            "useCollide": "true",
+            "useGravity": "false",
+            "useTextureAlpha": "false"
+          }
+        },
+        {
+          "children": [
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "1",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453871731605505",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "4",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453871732408321",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "3",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453871733194753",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "2",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453871733981185",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "0",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453871734767617",
+                "name": "Decal"
+              }
+            }
+          ],
+          "class": "Part",
+          "properties": {
+            "angleVelocity": "x:0 y:0 z:0",
+            "bloom": "false",
+            "booleanOperation": "0",
+            "btsKey": "27a72fed-ed9e-4b61-b1cb-1503e92226d4",
+            "cameraCollideEnable": "true",
+            "collisionUniqueKey": "",
+            "customThreshold": "1",
+            "density": "2.2",
+            "discardAlpha": "1.0",
+            "friction": "0.37",
+            "id": "8539453871731212289",
+            "isLockedInEditor": "false",
+            "isVisibleInEditor": "true",
+            "lineVelocity": "x:0 y:0 z:0",
+            "mass": "6.5999984264374",
+            "materialAlpha": "1.0",
+            "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "materialOffset": "x:1 y:1 z:1.0",
+            "materialTexture": "part_suliao.tga",
+            "name": "Part",
+            "needSync": "true",
+            "partNavMeshType": "1",
+            "position": "x:-158.51470947266 y:17.301362991333 z:27.544628143311",
+            "restitution": "0.3",
+            "rotation": "x:0 y:-179.99998474121 z:0",
+            "scale": "x:1 y:3 z:1",
+            "selectable": "true",
+            "shape": "1",
+            "staticBatchNo": "",
+            "staticObject": "false",
+            "useAnchor": "true",
+            "useCollide": "true",
+            "useGravity": "false",
+            "useTextureAlpha": "false"
+          }
+        },
+        {
+          "children": [
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "1",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453871738486785",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "4",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453871740141569",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "3",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453871741960193",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "2",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453871744106497",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "0",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453871746252801",
+                "name": "Decal"
+              }
+            }
+          ],
+          "class": "Part",
+          "properties": {
+            "angleVelocity": "x:0 y:0 z:0",
+            "bloom": "false",
+            "booleanOperation": "0",
+            "btsKey": "6ebbebee-5955-4221-bc78-66a81d92f0ad",
+            "cameraCollideEnable": "true",
+            "collisionUniqueKey": "",
+            "customThreshold": "1",
+            "density": "2.2",
+            "discardAlpha": "1.0",
+            "friction": "0.37",
+            "id": "8539453871737929729",
+            "isLockedInEditor": "false",
+            "isVisibleInEditor": "true",
+            "lineVelocity": "x:0 y:0 z:0",
+            "mass": "1.7599995017052",
+            "materialAlpha": "1.0",
+            "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "materialOffset": "x:1 y:1 z:1.0",
+            "materialTexture": "part_suliao.tga",
+            "name": "Part",
+            "needSync": "true",
+            "partNavMeshType": "1",
+            "position": "x:-158.51470947266 y:19.201366424561 z:28.024639129639",
+            "restitution": "0.3",
+            "rotation": "x:0 y:-179.99998474121 z:0",
+            "scale": "x:1 y:0.8 z:1",
+            "selectable": "true",
+            "shape": "1",
+            "staticBatchNo": "",
+            "staticObject": "false",
+            "useAnchor": "true",
+            "useCollide": "true",
+            "useGravity": "false",
+            "useTextureAlpha": "false"
+          }
+        },
+        {
+          "children": [
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "1",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453871724822529",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "4",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453871725625345",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "3",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453871726428161",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "2",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453871727230977",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "0",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539453871728033793",
+                "name": "Decal"
+              }
+            }
+          ],
+          "class": "Part",
+          "properties": {
+            "angleVelocity": "x:0 y:0 z:0",
+            "bloom": "false",
+            "booleanOperation": "0",
+            "btsKey": "beb25603-ec5c-4fe6-8eaa-27903ac54d70",
+            "cameraCollideEnable": "true",
+            "collisionUniqueKey": "",
+            "customThreshold": "1",
+            "density": "2.2",
+            "discardAlpha": "1.0",
+            "friction": "0.37",
+            "id": "8539453871724412929",
+            "isLockedInEditor": "false",
+            "isVisibleInEditor": "true",
+            "lineVelocity": "x:0 y:0 z:0",
+            "mass": "1.7599995017052",
+            "materialAlpha": "1.0",
+            "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "materialOffset": "x:1 y:1 z:1.0",
+            "materialTexture": "part_suliao.tga",
+            "name": "Part",
+            "needSync": "true",
+            "partNavMeshType": "1",
+            "position": "x:-158.51470947266 y:20.001361846924 z:28.5446434021",
+            "restitution": "0.3",
+            "rotation": "x:0 y:-179.99998474121 z:0",
+            "scale": "x:1 y:0.8 z:1",
+            "selectable": "true",
+            "shape": "1",
+            "staticBatchNo": "",
+            "staticObject": "false",
+            "useAnchor": "true",
+            "useCollide": "true",
+            "useGravity": "false",
+            "useTextureAlpha": "false"
+          }
+        },
+        {
+          "children": [
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "1",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539452709923078145",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "4",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539452709923880961",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "3",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539452709924683777",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "2",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539452709925470209",
+                "name": "Decal"
+              }
+            },
+            {
+              "class": "Decal",
+              "properties": {
+                "decalAlpha": "1",
+                "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+                "decalImageType": "0",
+                "decalOffset": "x:0 y:0 z:1.0",
+                "decalSurface": "0",
+                "decalTexture": "asset/speedrung/map4/blackwhite.png",
+                "decalTiling": "x:0 y:0 z:1.0",
+                "id": "8539452709922275329",
+                "name": "Decal"
+              }
+            }
+          ],
+          "class": "Part",
+          "properties": {
+            "angleVelocity": "x:0 y:0 z:0",
+            "bloom": "false",
+            "booleanOperation": "0",
+            "btsKey": "cc7c8325-492c-4404-9d6f-ccd4f07aaf0a",
+            "cameraCollideEnable": "true",
+            "collisionUniqueKey": "",
+            "customThreshold": "1",
+            "density": "2.2",
+            "discardAlpha": "1.0",
+            "friction": "0.37",
+            "id": "8539452130874195969",
+            "isLockedInEditor": "false",
+            "isVisibleInEditor": "true",
+            "lineVelocity": "x:0 y:0 z:0",
+            "mass": "6.5999984264374",
+            "materialAlpha": "1.0",
+            "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "materialOffset": "x:1 y:1 z:1.0",
+            "materialTexture": "part_suliao.tga",
+            "name": "Part",
+            "needSync": "true",
+            "partNavMeshType": "1",
+            "position": "x:-158.51470947266 y:17.301362991333 z:30.91464805603",
+            "restitution": "0.3",
+            "rotation": "x:0 y:0 z:0",
+            "scale": "x:1 y:3 z:1",
+            "selectable": "true",
+            "shape": "1",
+            "staticBatchNo": "",
+            "staticObject": "false",
+            "useAnchor": "true",
+            "useCollide": "true",
+            "useGravity": "false",
+            "useTextureAlpha": "false"
+          }
+        }
+      ],
+      "class": "Model",
+      "properties": {
+        "id": "8539454103028940801",
+        "name": "Model",
+        "needSync": "true",
+        "position": "x:-158.51470947266 y:18.356363296509 z:29.229637145996",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true"
+      }
+    },
+    {
+      "class": "RegionPart",
+      "properties": {
+        "cfgName": "myplugin/998cc67d-4a6e-47d4-9353-6106f2aa0269",
+        "id": "8540008268303220737",
+        "name": "NextMap",
+        "needSync": "true",
+        "position": "x:-158.5516204834 y:18.125701904297 z:29.230556488037",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:0.999996 y:4.64878 z:2.81442",
+        "selectable": "true"
+      }
+    },
+    {
+      "children": [
+        {
+          "class": "Decal",
+          "properties": {
+            "decalAlpha": "1",
+            "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+            "decalImageType": "0",
+            "decalOffset": "x:0 y:0 z:1.0",
+            "decalSurface": "4",
+            "decalTexture": "asset/Texture/Skill/common/icon_开镜_act.png",
+            "decalTiling": "x:0 y:0 z:1.0",
+            "id": "8540926807431184385",
+            "name": "Decal"
+          }
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "de3cfc33-496c-4433-9e00-c9ace82836d4",
+        "cameraCollideEnable": "true",
+        "cameraEnableCollide": "true",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "1.0",
+        "friction": "0.37",
+        "id": "8540926305916944385",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "84.208234405518",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "checkpoint",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:0.093560695648193 y:1.2002004384995 z:2.6885356903076",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:13.4364 y:0.213339 z:13.353",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "true",
+        "useTextureAlpha": "false"
+      }
+    }
+  ],
+  "skyBox": [
+    {
+      "texture": [
+        "@asset/speedrung/map4/blackwhite.png",
+        "@asset/speedrung/map4/blackwhite.png",
+        "@asset/speedrung/map4/blackwhite.png",
+        "@asset/speedrung/map4/blackwhite.png",
+        "@asset/speedrung/map4/blackwhite.png",
+        "@asset/speedrung/map4/blackwhite.png"
+      ]
+    }
+  ],
+  "skyBoxRotate": {
+    "x": 0,
+    "y": 3000,
+    "z": 0
+  },
+  "skyBoxTexPixFmt": "RGBA8",
+  "skyBoxTexSize": 512,
+  "touchPosY": {
+    "touchdownPosY": -30.0,
+    "touchupPosY": 720.0
+  }
+}

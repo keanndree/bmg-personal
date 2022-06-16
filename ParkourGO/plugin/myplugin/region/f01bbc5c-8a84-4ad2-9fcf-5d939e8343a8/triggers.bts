@@ -1,0 +1,12 @@
+REGION_ENTER {
+	SetEntityPosition(entity = $obj1, map = "speed13", pos = { x = 0, y = 7, z = 0 }, rp = 0, ry = 0)
+	SetEntityRebirthPosition(
+		entity = $obj1,
+		map = GetStaticMap(create = true, name = "speed13"),
+		pos = {
+			x = 0,
+			y = 7,
+			z = 0
+		}
+	)
+}

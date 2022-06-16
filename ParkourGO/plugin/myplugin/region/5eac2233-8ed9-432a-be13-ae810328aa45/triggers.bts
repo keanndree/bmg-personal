@@ -1,0 +1,4 @@
+REGION_ENTER {
+	RemoveBuffByFullName(buff = "myplugin/SpeedRun_Buff", entity = $obj1, toTeam = false)
+	RemoveBuffByFullName(buff = "myplugin/19a4a6c1-bd2a-48bb-bbfd-ea7260a446df", entity = $obj1, toTeam = false)
+}

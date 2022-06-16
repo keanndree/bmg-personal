@@ -1,0 +1,58 @@
+<ActorTemplates>
+	<ActorTemplate IsShowShadow="true" MaxDistance="16" SoundName1="" name="111.actor" Originalscale="1 1 1" SoundName3="" SelectedRingSize="1" WoundBone="" Volume="0.8" Alpha="1" WoundAngle="25" IntervalTime="2" AttackScale="1" SoundFileNum="0" SoundName5="" SoundName2="" TextHeight="0" Skeleton="stone01.skel" SoundName4="" MinDistance="1">
+		<Skills/>
+		<BodyParts>
+			<BodyPart ColorParams="1 1 1 1" DefaultUse="true" MasterName="body" SlaveName="1" EdgeColor="1 1 1 1">
+				<StaticMesh type_name="g2030_island_leiyun_3" LocalAlpha="1" DiscardAlpha="0">
+					<UseEdge value="false"/>
+					<UseOriginalcolor value="false"/>
+					<yaw value="0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<scale value="8"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<SocketName value="bip01"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<Position_Y value="-14.5"/>
+					<UseBloom value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<Position_Z value="0"/>
+					<SpecularStrength value="1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<SpecularCoef value="0.15"/>
+					<roll value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/g2030_island_leiyun_3.mesh"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart ColorParams="1 1 1 1" DefaultUse="true" MasterName="mutex_name_1" SlaveName="group1" EdgeColor="1 1 1 1">
+				<StaticMesh type_name="g2030_island_leiyun_2" LocalAlpha="1" DiscardAlpha="0">
+					<UseEdge value="false"/>
+					<UseOriginalcolor value="false"/>
+					<yaw value="1.6778298231657e-05"/>
+					<LocalBrightnessScale value="1.0"/>
+					<pitch value="-2.9999897480011"/>
+					<Position_X value="0"/>
+					<SpecularColor value="0.82 1.0 0.99 1.0"/>
+					<scale value="6"/>
+					<OverlayColor value="0.81 1.0 0.99 1.0"/>
+					<SocketName value="Origin197011"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<Position_Y value="0"/>
+					<UseBloom value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<Position_Z value="0"/>
+					<SpecularStrength value="1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<SpecularCoef value="0.15"/>
+					<roll value="-47.94"/>
+					<FileName value="asset/speedrung/map20/g2030_island_leiyun_2.mesh"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims/>
+	</ActorTemplate>
+</ActorTemplates>

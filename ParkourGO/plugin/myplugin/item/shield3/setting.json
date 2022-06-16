@@ -1,0 +1,20 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": true,
+  "icon": "@asset/Texture/Item/Dark-Shield.png",
+  "itemintroduction": "aab96d97-2f94-4136-95d4-5391a6258559",
+  "itemname": "945c5ddb-d334-4391-8a5c-b08ac1e569d0",
+  "needSave": true,
+  "stack_count_max": 10,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false,
+  "useBuff": {
+    "cfg": "myplugin/invincible",
+    "time": 120
+  }
+}

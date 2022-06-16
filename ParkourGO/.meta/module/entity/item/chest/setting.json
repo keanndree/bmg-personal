@@ -1,0 +1,31 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Golden Treasure Chest1/g2021_chest_01.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "girlactor": {
+      "asset": "empty.actor"
+    },
+    "name": {
+      "value": "entity_chest"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c08a53a37872c77f494a9066a0f6a03a",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

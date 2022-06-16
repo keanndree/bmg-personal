@@ -1,0 +1,43 @@
+{
+  "data": {
+    "castAction": "smg_shoot",
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "cdTime": {
+      "value": 120
+    },
+    "frontSight": "myplugin/frontsight1",
+    "name": {
+      "value": "skill_shoot2"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Ray",
+        "hitEntityHeadSkill": "myplugin/hit",
+        "hitEntitySkill": "myplugin/hit",
+        "rayLenth": 1000,
+        "recoil": 8
+      },
+      "type": "Ray"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_开枪_act.png"
+      },
+      "iconPos": {
+        "area_number": 7
+      }
+    },
+    "startAction": "smg_shoot"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "9a017c8bc505d3659091ebd081bd977f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

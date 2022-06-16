@@ -1,0 +1,42 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/speedrung/map20/Thunder Cloud IslandúLarger.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "params": {
+        "x": 22.6,
+        "y": 5.8,
+        "z": 13.6
+      }
+    },
+    "checkPartTouchEvent": false,
+    "collision": true,
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "girlactor": {
+      "asset": "empty.actor"
+    },
+    "gravity": 0,
+    "hideName": true,
+    "name": {
+      "value": "entity_May"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "65646d31e7f9237e943ee8c1a26389cf",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

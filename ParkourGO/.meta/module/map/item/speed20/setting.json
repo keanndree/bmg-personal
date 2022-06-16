@@ -1,0 +1,2075 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "asset": "asset/Texture/SkyBox/Common/SkyBox_back.png",
+          "selector": "editor/ParkourGame/asset/Texture/SkyBox/Common/SkyBox_back.png"
+        },
+        "bottom": {
+          "asset": "asset/Texture/SkyBox/Common/SkyBox_bottom.png",
+          "selector": "editor/ParkourGame/asset/Texture/SkyBox/Common/SkyBox_bottom.png"
+        },
+        "front": {
+          "asset": "asset/Texture/SkyBox/Common/SkyBox_front.png",
+          "selector": "editor/ParkourGame/asset/Texture/SkyBox/Common/SkyBox_front.png"
+        },
+        "left": {
+          "asset": "asset/Texture/SkyBox/Common/SkyBox_left.png",
+          "selector": "editor/ParkourGame/asset/Texture/SkyBox/Common/SkyBox_left.png"
+        },
+        "right": {
+          "asset": "asset/Texture/SkyBox/Common/SkyBox_right.png",
+          "selector": "editor/ParkourGame/asset/Texture/SkyBox/Common/SkyBox_right.png"
+        },
+        "top": {
+          "asset": "asset/Texture/SkyBox/Common/SkyBox_top.png",
+          "selector": "editor/ParkourGame/asset/Texture/SkyBox/Common/SkyBox_top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8506583726064353281"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/player1",
+        "id": "8506583776218447873",
+        "name": "Player",
+        "position": {
+          "y": 2.119898557663
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "bb049fda-ee85-4ca0-bbd8-c73edbc4e702",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518059037654532097",
+        "mass": 63.695863723755,
+        "position": {
+          "x": -12.130814552307,
+          "y": 1.2451400756836,
+          "z": -6.1322679519653
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 7.46316,
+          "y": 0.999998,
+          "z": 3.87942
+        },
+        "size": {
+          "x": 7.46316,
+          "y": 0.999998,
+          "z": 3.87942
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 28.952665328979
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "d643b5e2-c2da-4fc0-acdc-a53cb18a7239",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518084792435245057",
+        "mass": 16.861070728302,
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 247
+          }
+        },
+        "position": {
+          "x": -0.79428112506866,
+          "y": 1.3167185783386,
+          "z": 1.3145664930344
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 16.7783,
+          "y": 0.456793,
+          "z": 0.999989
+        },
+        "size": {
+          "x": 16.7783,
+          "y": 0.456793,
+          "z": 0.999989
+        },
+        "useAnchor": true,
+        "useCollide": false,
+        "useGravity": false,
+        "volume": 7.6641230583191
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May",
+        "id": "8518087413983952897",
+        "name": "May",
+        "position": {
+          "x": 0.086177349090576,
+          "y": -4.2303876876831,
+          "z": 0.92451155185699
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May",
+        "id": "8518088702039392257",
+        "name": "May",
+        "position": {
+          "x": -12.223822593689,
+          "y": -4.2303876876831,
+          "z": 23.20450592041
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May",
+        "id": "8518093078471819265",
+        "name": "May",
+        "position": {
+          "x": -22.28381729126,
+          "y": -4.2303876876831,
+          "z": 45.724502563477
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May",
+        "id": "8518093366322429953",
+        "name": "May",
+        "position": {
+          "x": 6.1361770629883,
+          "y": -4.2303876876831,
+          "z": 43.784492492676
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May",
+        "id": "8518093920052822017",
+        "name": "May",
+        "position": {
+          "x": -7.9238219261169,
+          "y": -6.8203887939453,
+          "z": 66.414505004883
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May2",
+        "id": "8518103734130114561",
+        "name": "May2",
+        "position": {
+          "x": -20.298566818237,
+          "y": -7.9703722000122,
+          "z": 89.884506225586
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May2",
+        "id": "8518104190308827137",
+        "name": "May2",
+        "position": {
+          "x": 6.8507175445557,
+          "y": -7.9703722000122,
+          "z": 90.155487060547
+        },
+        "rotation": {
+          "y": 169.9991607666
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "34118bf6-1fb5-4f47-a154-9c4a3f126620",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518105374027972609",
+        "mass": 595.63764648438,
+        "material": {
+          "color": {
+            "r": 177
+          }
+        },
+        "position": {
+          "x": 4.3877558708191,
+          "y": -4.5840644836426,
+          "z": 89.061508178711
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": -48.999980926514
+        },
+        "scale": {
+          "x": 1.19519,
+          "y": 20.1825,
+          "z": 11.224
+        },
+        "size": {
+          "x": 1.19519,
+          "y": 20.1825,
+          "z": 11.224
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 270.74438476562
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "be1ecf1d-6f81-4de0-81d4-53fa2468ca7b",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518107780191158273",
+        "mass": 885.56754150391,
+        "material": {
+          "color": {
+            "r": 177
+          }
+        },
+        "position": {
+          "x": -18.933458328247,
+          "y": -5.0137457847595,
+          "z": 92.597061157227
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 8.7461633682251,
+          "y": -8.248327255249,
+          "z": 46.368083953857
+        },
+        "scale": {
+          "x": 3.07691,
+          "y": 14.2524,
+          "z": 9.17902
+        },
+        "size": {
+          "x": 3.07691,
+          "y": 14.2524,
+          "z": 9.17902
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 402.53070068359
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May",
+        "id": "8518110386403065857",
+        "name": "May",
+        "position": {
+          "x": -7.9238219261169,
+          "y": -15.060384750366,
+          "z": 111.24450683594
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "dd82f72a-1f03-4d41-9dfc-44628f04eee6",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8516774336747454465",
+                "slavePartID": "8516771158967402497"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8516772017668374529",
+            "isLockedInEditor": true,
+            "mass": 90807.0796875,
+            "material": {
+              "color": {
+                "b": 178,
+                "g": 175,
+                "r": 123
+              }
+            },
+            "position": {
+              "x": -190.14381408691,
+              "y": -1.08622610569,
+              "z": 97.620849609375
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 1.21795,
+              "y": 107.93,
+              "z": 313.997
+            },
+            "size": {
+              "x": 1.21795,
+              "y": 107.93,
+              "z": 313.997
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false,
+            "volume": 41275.9453125
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7c6bce13-c7b6-4678-8f8e-9d6ce4e9c921",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8516774091483480065",
+                "slavePartID": "8516771158967402497"
+              },
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8516774123780014081",
+                "slavePartID": "8516772793770246145"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8516772388162371585",
+            "isLockedInEditor": true,
+            "mass": 76812.76796875,
+            "material": {
+              "color": {
+                "b": 178,
+                "g": 175,
+                "r": 123
+              }
+            },
+            "position": {
+              "x": -64.61784362793,
+              "y": -1.5984770059586,
+              "z": -54.781433105469
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 268.166,
+              "y": 106.9,
+              "z": 1.21795
+            },
+            "size": {
+              "x": 268.166,
+              "y": 106.9,
+              "z": 1.21795
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false,
+            "volume": 34914.89453125
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "4d4d5b7c-fe02-4a25-9ca4-5cd4625b8c36",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8516774161097752577",
+                "slavePartID": "8516771158967402497"
+              },
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8516774202629013505",
+                "slavePartID": "8516773206407004161"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8516772793770246145",
+            "isLockedInEditor": true,
+            "mass": 90036.16015625,
+            "material": {
+              "color": {
+                "b": 178,
+                "g": 175,
+                "r": 123
+              }
+            },
+            "position": {
+              "x": 64.247421264648,
+              "y": -1.7688876390457,
+              "z": 97.591453552246
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 1.21795,
+              "y": 106.561,
+              "z": 315.331
+            },
+            "size": {
+              "x": 1.21795,
+              "y": 106.561,
+              "z": 315.331
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 40925.52734375
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "f5f4e6d4-06af-4c0d-8af8-fd524c66f713",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8516774257530880001",
+                "slavePartID": "8516771158967402497"
+              },
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8516774290043109377",
+                "slavePartID": "8516772017668374529"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8516773206407004161",
+            "isLockedInEditor": true,
+            "mass": 76342.24296875,
+            "material": {
+              "color": {
+                "b": 178,
+                "g": 175,
+                "r": 123
+              }
+            },
+            "position": {
+              "x": -65.806587219238,
+              "y": -1.4193221330643,
+              "z": 252.89971923828
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 265.626,
+              "y": 107.262,
+              "z": 1.21794
+            },
+            "size": {
+              "x": 265.626,
+              "y": 107.262,
+              "z": 1.21794
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 34701.01953125
+          },
+          {
+            "__OBJ_TYPE": "Instance_Model",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "a4ce51bc-ff17-47a2-a4d8-3d1dcfc23622",
+                "children": [
+                  {
+                    "__OBJ_TYPE": "Instance_FixedConstraint",
+                    "id": "8516775551920291841",
+                    "slavePartID": "8516771158967402497"
+                  },
+                  {
+                    "__OBJ_TYPE": "Instance_FixedConstraint",
+                    "id": "8516775720777744385",
+                    "slavePartID": "8516772793770246145"
+                  },
+                  {
+                    "__OBJ_TYPE": "Instance_FixedConstraint",
+                    "id": "8516775773370761217",
+                    "slavePartID": "8516773206407004161"
+                  },
+                  {
+                    "__OBJ_TYPE": "Instance_FixedConstraint",
+                    "id": "8516775818083745793",
+                    "slavePartID": "8516772017668374529"
+                  },
+                  {
+                    "__OBJ_TYPE": "Instance_FixedConstraint",
+                    "id": "8516775876688117761",
+                    "slavePartID": "8516772388162371585"
+                  }
+                ],
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8516774870344384513",
+                "mass": 1144997.5625,
+                "material": {
+                  "alpha": 0.56,
+                  "color": {
+                    "b": 178,
+                    "g": 174,
+                    "r": 73
+                  }
+                },
+                "name": "nen",
+                "position": {
+                  "x": -60.461544036865,
+                  "y": -59.032249450684,
+                  "z": 99.902114868164
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 292.205,
+                  "y": 5.11136,
+                  "z": 348.464
+                },
+                "size": {
+                  "x": 292.205,
+                  "y": 5.11136,
+                  "z": 348.464
+                },
+                "useAnchor": true,
+                "useGravity": false,
+                "volume": 520453.4375
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "1ec83357-75cd-4c5e-b039-67aadbecaceb",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8516771158967402497",
+                "mass": 300547.6375,
+                "material": {
+                  "color": {
+                    "b": 178,
+                    "g": 175,
+                    "r": 123
+                  }
+                },
+                "name": "nen2",
+                "position": {
+                  "x": -60.461666107178,
+                  "y": -60.904109954834,
+                  "z": 99.90209197998
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 292.206,
+                  "y": 1.34166,
+                  "z": 348.465
+                },
+                "size": {
+                  "x": 292.206,
+                  "y": 1.34166,
+                  "z": 348.465
+                },
+                "useAnchor": true,
+                "useGravity": false,
+                "volume": 136612.5625
+              }
+            ],
+            "id": "8518111529241411585",
+            "position": {
+              "x": -60.528396606445,
+              "y": -53.85221862793,
+              "z": 99.892242431641
+            },
+            "scale": {
+              "x": 1.21571,
+              "y": 1.21571,
+              "z": 1.21572
+            },
+            "size": {
+              "x": 1.21571,
+              "y": 1.21571,
+              "z": 1.21572
+            }
+          }
+        ],
+        "id": "8518112371505741825",
+        "position": {
+          "x": -62.909408569336,
+          "y": -1.931902885437,
+          "z": 99.136756896973
+        },
+        "scale": {
+          "x": 1.10361,
+          "y": 1.10361,
+          "z": 1.10361
+        },
+        "size": {
+          "x": 1.10361,
+          "y": 1.10361,
+          "z": 1.10361
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May",
+        "id": "8518118654627938305",
+        "name": "May",
+        "position": {
+          "x": -2.195729970932,
+          "y": -15.590063095093,
+          "z": 137.57861328125
+        },
+        "rotation": {
+          "y": -88.999816894531
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May",
+        "id": "8518119526960889857",
+        "name": "May",
+        "position": {
+          "x": -1.8933975696564,
+          "y": -15.590063095093,
+          "z": 154.89604187012
+        },
+        "rotation": {
+          "y": -88.999816894531
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May",
+        "id": "8518132708817534977",
+        "name": "May",
+        "position": {
+          "x": -23.516288757324,
+          "y": -15.590063095093,
+          "z": 166.37489318848
+        },
+        "rotation": {
+          "y": -88.999816894531
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May",
+        "id": "8518132946477760513",
+        "name": "May",
+        "position": {
+          "x": -23.25096321106,
+          "y": -15.590063095093,
+          "z": 181.57255554199
+        },
+        "rotation": {
+          "y": -88.999816894531
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May2",
+        "id": "8518133359766945793",
+        "name": "May2",
+        "position": {
+          "x": -4.2714676856995,
+          "y": -13.850063323975,
+          "z": 201.80780029297
+        },
+        "rotation": {
+          "y": -161.99917602539
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May2",
+        "id": "8518134661837570049",
+        "name": "May2",
+        "position": {
+          "x": -24.30616569519,
+          "y": -13.850063323975,
+          "z": 215.25291442871
+        },
+        "rotation": {
+          "y": -100.99884796143
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May2",
+        "id": "8518135260080160769",
+        "name": "May2",
+        "position": {
+          "x": -44.846591949463,
+          "y": -19.770067214966,
+          "z": 202.54379272461
+        },
+        "rotation": {
+          "y": -0.99881982803345
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May2",
+        "id": "8518136497949966337",
+        "name": "May2",
+        "position": {
+          "x": -56.142723083496,
+          "y": -13.610069274902,
+          "z": 206.23745727539
+        },
+        "rotation": {
+          "y": -0.99881982803345
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May2",
+        "id": "8518136920255692801",
+        "name": "May2",
+        "position": {
+          "x": -70.863502502441,
+          "y": -12.500069618225,
+          "z": 182.67250061035
+        },
+        "rotation": {
+          "y": 36.000995635986
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May2",
+        "id": "8518137971475316737",
+        "name": "May2",
+        "position": {
+          "x": -79.902404785156,
+          "y": -7.1400685310364,
+          "z": 177.90461730957
+        },
+        "rotation": {
+          "y": 36.000995635986
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May",
+        "id": "8518138461767270401",
+        "name": "May",
+        "position": {
+          "x": -84.193817138672,
+          "y": -4.2303876876831,
+          "z": 152.92448425293
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May",
+        "id": "8518138956226215937",
+        "name": "May",
+        "position": {
+          "x": -80.723823547363,
+          "y": 2.8096120357513,
+          "z": 130.77444458008
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May",
+        "id": "8518139172609064961",
+        "name": "May",
+        "position": {
+          "x": -107.65382385254,
+          "y": 6.8096122741699,
+          "z": 117.51445007324
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May",
+        "id": "8518139589710774273",
+        "name": "May",
+        "position": {
+          "x": -74.153831481934,
+          "y": 8.2696113586426,
+          "z": 109.01445770264
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May",
+        "id": "8518140220586016769",
+        "name": "May",
+        "position": {
+          "x": -94.293830871582,
+          "y": 6.6596112251282,
+          "z": 92.954437255859
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May2",
+        "id": "8518141146887127041",
+        "name": "May2",
+        "position": {
+          "x": -108.28518676758,
+          "y": 11.639611244202,
+          "z": 73.338668823242
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May2",
+        "id": "8518142324478820353",
+        "name": "May2",
+        "position": {
+          "x": -83.216026306152,
+          "y": 11.639611244202,
+          "z": 72.565818786621
+        },
+        "rotation": {
+          "y": -170.99900817871
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May",
+        "id": "8518143283962003457",
+        "name": "May",
+        "position": {
+          "x": -94.293830871582,
+          "y": 6.6596112251282,
+          "z": 51.274459838867
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May2",
+        "id": "8518145052434595841",
+        "name": "May2",
+        "position": {
+          "x": -99.894691467285,
+          "y": 10.129749298096,
+          "z": 28.904752731323
+        },
+        "rotation": {
+          "y": 78.999336242676
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May2",
+        "id": "8518146067169558529",
+        "name": "May2",
+        "position": {
+          "x": -101.11064147949,
+          "y": 18.469747543335,
+          "z": 17.289337158203
+        },
+        "rotation": {
+          "y": 78.999336242676
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May2",
+        "id": "8518146422727114753",
+        "name": "May2",
+        "position": {
+          "x": -82.366310119629,
+          "y": 20.959754943848,
+          "z": 8.0667524337769
+        },
+        "rotation": {
+          "y": 78.999336242676
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May2",
+        "id": "8518146895105851393",
+        "name": "May2",
+        "position": {
+          "x": -84.837356567383,
+          "y": 26.519752502441,
+          "z": 0.44515973329544
+        },
+        "rotation": {
+          "y": 78.999336242676
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May",
+        "id": "8518147221695643649",
+        "name": "May",
+        "position": {
+          "x": -94.293830871582,
+          "y": 30.549591064453,
+          "z": -14.615536689758
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/May",
+        "id": "8518147546478952449",
+        "name": "May",
+        "position": {
+          "x": -106.74388122559,
+          "y": 30.549591064453,
+          "z": -14.615536689758
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "73d0caac-47c1-4218-901a-2efe6b2547df",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8518168265188081665",
+            "slavePartID": "8518149822894047233"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518148787993837569",
+        "mass": 613.93615722656,
+        "material": {
+          "color": {
+            "r": 184
+          }
+        },
+        "position": {
+          "x": -98.218116760254,
+          "y": 12.267707824707,
+          "z": 31.571804046631
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -46.802085876465,
+          "y": 22.216199874878,
+          "z": -16.580221176147
+        },
+        "scale": {
+          "x": 10.5742,
+          "y": 19.931,
+          "z": 1.32411
+        },
+        "size": {
+          "x": 10.5742,
+          "y": 19.931,
+          "z": 1.32411
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 279.06188964844
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "87b2d40a-f7b5-4f22-8502-cd52569696c6",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518149822894047233",
+        "mass": 529.83761901855,
+        "material": {
+          "color": {
+            "r": 184
+          }
+        },
+        "position": {
+          "x": -101.25678253174,
+          "y": 22.732927322388,
+          "z": 18.325244903564
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -56.288414001465,
+          "y": 27.338418960571,
+          "z": -20.60623550415
+        },
+        "scale": {
+          "x": 10.5742,
+          "y": 17.2008,
+          "z": 1.32411
+        },
+        "size": {
+          "x": 10.5742,
+          "y": 17.2008,
+          "z": 1.32411
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 240.83528137207
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "a4d65aef-f44e-498e-8669-499d6358fe10",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8518168336451174401",
+            "slavePartID": "8518151593254551553"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518151247645540353",
+        "mass": 604.96327514648,
+        "material": {
+          "color": {
+            "r": 184
+          }
+        },
+        "position": {
+          "x": -82.371452331543,
+          "y": 23.701662063599,
+          "z": 10.683945655823
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -46.802085876465,
+          "y": 22.216199874878,
+          "z": -16.580221176147
+        },
+        "scale": {
+          "x": 10.5742,
+          "y": 19.6397,
+          "z": 1.32411
+        },
+        "size": {
+          "x": 10.5742,
+          "y": 19.6397,
+          "z": 1.32411
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 274.98330688477
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "e7a6f844-f792-4ec0-87f7-5f7c00a68593",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518151593254551553",
+        "mass": 158.36461791992,
+        "material": {
+          "color": {
+            "r": 184
+          }
+        },
+        "position": {
+          "x": -83.409255981445,
+          "y": 32.8430519104,
+          "z": 0.086466670036316
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -54.41024017334,
+          "y": 26.129104614258,
+          "z": -19.611267089844
+        },
+        "scale": {
+          "x": 9.09129,
+          "y": 11.0213,
+          "z": 0.718418
+        },
+        "size": {
+          "x": 9.09129,
+          "y": 11.0213,
+          "z": 0.718418
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 71.983917236328
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "0145bdc5-21a8-4a2b-8d32-a0a87ff90871",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8516769493073969153",
+                "slavePartID": "8516766749597368321"
+              },
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8518156008828682241",
+                "slavePartID": "8518153605014552577"
+              }
+            ],
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8516768206743404545",
+            "mass": 8.3776390552521,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -110.58963012695,
+              "y": 39.010398864746,
+              "z": -12.075758934021
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 0.999999,
+              "y": 3.35107,
+              "z": 0.999997
+            },
+            "size": {
+              "x": 0.999999,
+              "y": 3.35107,
+              "z": 0.999997
+            },
+            "useAnchor": true,
+            "volume": 3.3510556221008
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "db45fedc-f83f-42a7-ba0c-28b38b606bd6",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8516769434588233729",
+                "slavePartID": "8516768824456347649"
+              }
+            ],
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8516769020721692673",
+            "mass": 2.0144042372704,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -110.58963012695,
+              "y": 41.331882476807,
+              "z": -13.165756225586
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 0.999995,
+              "y": 0.805774,
+              "z": 0.99999
+            },
+            "size": {
+              "x": 0.999995,
+              "y": 0.805774,
+              "z": 0.99999
+            },
+            "useAnchor": true,
+            "volume": 0.80576169490814
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e7caa234-a3d8-443f-a152-6a1895b25d80",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8516769466428866561",
+                "slavePartID": "8516768206743404545"
+              }
+            ],
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8516768824456347649",
+            "mass": 2.0144042372704,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -110.58963012695,
+              "y": 40.761875152588,
+              "z": -12.635759353638
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 0.999995,
+              "y": 0.805774,
+              "z": 0.99999
+            },
+            "size": {
+              "x": 0.999995,
+              "y": 0.805774,
+              "z": 0.99999
+            },
+            "useAnchor": true,
+            "volume": 0.80576169490814
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "ed1cdac3-5a1d-4bff-a824-5d12c66f72e8",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8516769410123055105",
+                "slavePartID": "8516769020721692673"
+              }
+            ],
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8516769210445922305",
+            "mass": 2.0144042372704,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -110.58963012695,
+              "y": 41.591884613037,
+              "z": -13.855755805969
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 0.999995,
+              "y": 0.805774,
+              "z": 0.99999
+            },
+            "size": {
+              "x": 0.999995,
+              "y": 0.805774,
+              "z": 0.99999
+            },
+            "useAnchor": true,
+            "volume": 0.80576169490814
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "59344eb4-30e3-45d9-b7a6-1f029e6f6995",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8516769324996149249",
+                "slavePartID": "8516768471190487041"
+              },
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8516769540019716097",
+                "slavePartID": "8516766749578756097"
+              },
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8518156037225709569",
+                "slavePartID": "8518153605014552577"
+              }
+            ],
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8516768364515590145",
+            "mass": 8.3776390552521,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -110.58963012695,
+              "y": 39.010398864746,
+              "z": -15.64575958252
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 0.999999,
+              "y": 3.35107,
+              "z": 0.999997
+            },
+            "size": {
+              "x": 0.999999,
+              "y": 3.35107,
+              "z": 0.999997
+            },
+            "useAnchor": true,
+            "volume": 3.3510556221008
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "584fe3c1-f14e-47e2-8945-ba06ced8223b",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8516769354731405313",
+                "slavePartID": "8516769101366837249"
+              }
+            ],
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8516768471190487041",
+            "mass": 2.0144042372704,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -110.58963012695,
+              "y": 40.761875152588,
+              "z": -15.055760383606
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 0.999995,
+              "y": 0.805774,
+              "z": 0.99999
+            },
+            "size": {
+              "x": 0.999995,
+              "y": 0.805774,
+              "z": 0.99999
+            },
+            "useAnchor": true,
+            "volume": 0.80576169490814
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "f4ed3f86-2a6a-480f-a25f-a5346c9861e1",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8516769386850107393",
+                "slavePartID": "8516769210445922305"
+              }
+            ],
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8516769101366837249",
+            "mass": 2.0144042372704,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -110.58963012695,
+              "y": 41.331882476807,
+              "z": -14.565759658813
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 0.999995,
+              "y": 0.805774,
+              "z": 0.99999
+            },
+            "size": {
+              "x": 0.999995,
+              "y": 0.805774,
+              "z": 0.99999
+            },
+            "useAnchor": true,
+            "volume": 0.80576169490814
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "9b280573-115b-4440-a662-2ca542084c09",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8518153605014552577",
+            "mass": 347.74582519531,
+            "position": {
+              "x": -103.43281555176,
+              "y": 37.092182159424,
+              "z": -14.3440990448
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 17.3061,
+              "y": 0.801302,
+              "z": 11.3984
+            },
+            "size": {
+              "x": 17.3061,
+              "y": 0.801302,
+              "z": 11.3984
+            },
+            "useAnchor": true,
+            "volume": 158.06628417969
+          }
+        ],
+        "id": "8518156945383030785",
+        "position": {
+          "x": -109.9467086792,
+          "y": 39.343149185181,
+          "z": -13.759326934814
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "45136c8c-8fec-47ef-9b1e-c039d9198082",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518158038401794049",
+        "mass": 241.40498352051,
+        "material": {
+          "color": {
+            "r": 177
+          }
+        },
+        "position": {
+          "x": -105.48495483398,
+          "y": 15.107183456421,
+          "z": 74.249069213867
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": 46.999980926514
+        },
+        "scale": {
+          "x": 0.672096,
+          "y": 17.779,
+          "z": 9.18301
+        },
+        "size": {
+          "x": 0.672096,
+          "y": 17.779,
+          "z": 9.18301
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 109.72953796387
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "342ebd64-b49a-4e46-8a5d-69f7c71c5e8c",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518159249936154625",
+        "mass": 513.96100158691,
+        "material": {
+          "color": {
+            "r": 177
+          }
+        },
+        "position": {
+          "x": -85.145324707031,
+          "y": 15.070315361023,
+          "z": 71.407775878906
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -0.92794740200043,
+          "y": -3.2824747562408,
+          "z": -47.782711029053
+        },
+        "scale": {
+          "x": 0.999453,
+          "y": 20.4174,
+          "z": 11.4484
+        },
+        "size": {
+          "x": 0.999453,
+          "y": 20.4174,
+          "z": 11.4484
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 233.61863708496
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "0247b777-1020-4e5b-b7dc-393a3467fb76",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8518160779457413121",
+        "mass": 512.39096374512,
+        "material": {
+          "color": {
+            "r": 177
+          },
+          "texture": "part_boli.tga"
+        },
+        "position": {
+          "x": -7.3129510879517,
+          "y": -11.768283843994,
+          "z": 199.63037109375
+        },
+        "restitution": 0.18,
+        "rotation": {
+          "x": -11.058599472046,
+          "y": -12.992890357971,
+          "z": -45.736835479736
+        },
+        "scale": {
+          "x": 0.999992,
+          "y": 22.7193,
+          "z": 10.2515
+        },
+        "size": {
+          "x": 0.999992,
+          "y": 22.7193,
+          "z": 10.2515
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 232.90498352051
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "f5227f4e-c628-494d-9d30-645dc0359e42",
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8518162306986131457",
+        "mass": 370.45212402344,
+        "material": {
+          "color": {
+            "r": 177
+          },
+          "texture": "part_boli.tga"
+        },
+        "position": {
+          "x": -23.983186721802,
+          "y": -11.319186210632,
+          "z": 211.20797729492
+        },
+        "restitution": 0.18,
+        "rotation": {
+          "x": 46.999881744385
+        },
+        "scale": {
+          "x": 10.9646,
+          "y": 21.2774,
+          "z": 0.721769
+        },
+        "size": {
+          "x": 10.9646,
+          "y": 21.2774,
+          "z": 0.721769
+        },
+        "useAnchor": true,
+        "volume": 168.38732910156
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "d843f0df-898b-4d71-99bf-ba604ab550dd",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518163383501373441",
+        "mass": 335.6895324707,
+        "material": {
+          "color": {
+            "r": 177
+          }
+        },
+        "position": {
+          "x": -42.716777801514,
+          "y": -15.962438583374,
+          "z": 202.3952331543
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": 49.000007629395
+        },
+        "scale": {
+          "x": 0.709085,
+          "y": 17.1864,
+          "z": 12.5208
+        },
+        "size": {
+          "x": 0.709085,
+          "y": 17.1864,
+          "z": 12.5208
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 152.58615112305
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "dfc60c06-38af-41ec-9251-30cbd910354a",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518164286359928833",
+        "mass": 375.55073547363,
+        "material": {
+          "color": {
+            "r": 177
+          }
+        },
+        "position": {
+          "x": -55.090312957764,
+          "y": -8.5831098556519,
+          "z": 206.58117675781
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": 58.999996185303
+        },
+        "scale": {
+          "x": 0.709084,
+          "y": 20.8704,
+          "z": 11.535
+        },
+        "size": {
+          "x": 0.709084,
+          "y": 20.8704,
+          "z": 11.535
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 170.70487976074
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "2aa92a91-0219-4170-87c6-9ba8733ba984",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8518167914420125697",
+            "slavePartID": "8518167274175234049"
+          },
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8518167943204175873",
+            "slavePartID": "8518166945318993921"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518165887056609281",
+        "mass": 507.40306396484,
+        "material": {
+          "color": {
+            "r": 177
+          }
+        },
+        "position": {
+          "x": -69.723022460938,
+          "y": -8.818603515625,
+          "z": 184.99313354492
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 9.2984924316406,
+          "y": -37.618995666504,
+          "z": 50.37947845459
+        },
+        "scale": {
+          "x": 0.999992,
+          "y": 20.9701,
+          "z": 10.9985
+        },
+        "size": {
+          "x": 0.999992,
+          "y": 20.9701,
+          "z": 10.9985
+        },
+        "useAnchor": true,
+        "volume": 230.63775634766
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "3c4587e0-b98d-44bd-8225-40c8133fe65b",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518166945318993921",
+        "mass": 385.57020874023,
+        "material": {
+          "color": {
+            "r": 177
+          }
+        },
+        "position": {
+          "x": -79.99877166748,
+          "y": -2.5286822319031,
+          "z": 180.2342376709
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 9.2984924316406,
+          "y": -37.618995666504,
+          "z": 50.37947845459
+        },
+        "scale": {
+          "x": 0.999993,
+          "y": 19.4234,
+          "z": 9.02316
+        },
+        "size": {
+          "x": 0.999993,
+          "y": 19.4234,
+          "z": 9.02316
+        },
+        "useAnchor": true,
+        "volume": 175.25918579102
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "ef7c432b-e800-49e3-af2d-c9602de7f366",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8518167881266757633",
+            "slavePartID": "8518166945318993921"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518167274175234049",
+        "mass": 278.53859405518,
+        "material": {
+          "color": {
+            "r": 177
+          }
+        },
+        "position": {
+          "x": -77.321632385254,
+          "y": -3.1980807781219,
+          "z": 174.51293945313
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -25.758172988892,
+          "y": -6.9996151924133,
+          "z": 45.673114776611
+        },
+        "scale": {
+          "x": 0.999992,
+          "y": 19.4234,
+          "z": 6.5184
+        },
+        "size": {
+          "x": 0.999992,
+          "y": 19.4234,
+          "z": 6.5184
+        },
+        "useAnchor": true,
+        "volume": 126.60845184326
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "36c4cc1e-ec03-44b8-9e7c-4b1f2c54cac6",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8518176044080168961",
+            "slavePartID": "8518107780191158273"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518175015804780545",
+        "mass": 726.31427612305,
+        "material": {
+          "color": {
+            "r": 177
+          }
+        },
+        "position": {
+          "x": -19.441377639771,
+          "y": -5.8380212783813,
+          "z": 86.189582824707
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -14.970234870911,
+          "y": 14.947034835815,
+          "z": 54.954647064209
+        },
+        "scale": {
+          "x": 3.07691,
+          "y": 14.2524,
+          "z": 7.52834
+        },
+        "size": {
+          "x": 3.07691,
+          "y": 14.2524,
+          "z": 7.52834
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 330.1428527832
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/7d18d252-e621-4322-a11c-cdd355737fa3",
+        "id": "8540057140267892737",
+        "name": "NextMap",
+        "position": {
+          "x": -110.62071228027,
+          "y": 39.637275695801,
+          "z": -13.885669708252
+        },
+        "scale": {
+          "x": 0.999998,
+          "y": 4.2887,
+          "z": 2.89412
+        },
+        "size": {
+          "x": 0.999998,
+          "y": 4.2887,
+          "z": 2.89412
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "58bbe125-cc47-45b1-8e9c-3071daecf2ee",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/Skill/common/icon_开镜_act.png"
+            },
+            "id": "8540945785165840385"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8540944922875920385",
+        "mass": 252.46107788086,
+        "name": "checkpoint",
+        "position": {
+          "x": -0.10837340354919,
+          "y": 2.3541612625122,
+          "z": 2.2337808609009
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 13.707,
+          "y": 0.682788,
+          "z": 12.2615
+        },
+        "size": {
+          "x": 13.707,
+          "y": 0.682788,
+          "z": 12.2615
+        },
+        "useAnchor": true,
+        "volume": 114.75503540039
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "dd9be507-156d-4bef-b31a-d607da63b5e2",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8545098115726966792",
+            "slavePartID": "8545098115726966791"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8545098115726966789",
+        "mass": 838.20456542969,
+        "material": {
+          "color": {
+            "r": 177
+          }
+        },
+        "position": {
+          "x": -85.009414672852,
+          "y": -2.4979705810547,
+          "z": 152.67434692383
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": 90
+        },
+        "scale": {
+          "x": 0.999983,
+          "y": 26.7997,
+          "z": 14.2169
+        },
+        "size": {
+          "x": 0.999983,
+          "y": 26.7997,
+          "z": 14.2169
+        },
+        "useAnchor": true,
+        "volume": 381.00207519531
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "d3a3c942-c6e2-4ebd-81cf-b366d3f5c43a",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8545098981129846792",
+            "slavePartID": "8545098981129846791"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8545098981129846789",
+        "mass": 838.20456542969,
+        "material": {
+          "color": {
+            "r": 177
+          }
+        },
+        "position": {
+          "x": -81.489418029785,
+          "y": 3.9020240306854,
+          "z": 130.8343963623
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": 90
+        },
+        "scale": {
+          "x": 0.999983,
+          "y": 26.7997,
+          "z": 14.2169
+        },
+        "size": {
+          "x": 0.999983,
+          "y": 26.7997,
+          "z": 14.2169
+        },
+        "useAnchor": true,
+        "volume": 381.00207519531
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "75519b11-5d44-48bc-a6de-fa080f103b15",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8545099285298806792",
+            "slavePartID": "8545099285298806791"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8545099285298806789",
+        "mass": 657.80302124023,
+        "material": {
+          "color": {
+            "r": 177
+          }
+        },
+        "position": {
+          "x": -73.151542663574,
+          "y": 10.002023696899,
+          "z": 109.7444152832
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": 90
+        },
+        "scale": {
+          "x": 0.999979,
+          "y": 21.032,
+          "z": 14.2168
+        },
+        "size": {
+          "x": 0.999979,
+          "y": 21.032,
+          "z": 14.2168
+        },
+        "useAnchor": true,
+        "volume": 299.00137329102
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "a556103e-ce35-4409-b5c7-55fbde1bddea",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8545099879399030792",
+            "slavePartID": "8545099879399030791"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8545099879399030789",
+        "mass": 657.80302124023,
+        "material": {
+          "color": {
+            "r": 177
+          }
+        },
+        "position": {
+          "x": -106.43138122559,
+          "y": 8.7820262908936,
+          "z": 117.48868560791
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 3.3247281407967e-06,
+          "y": 5.0000009536743,
+          "z": 90
+        },
+        "scale": {
+          "x": 0.999979,
+          "y": 21.032,
+          "z": 14.2168
+        },
+        "size": {
+          "x": 0.999979,
+          "y": 21.032,
+          "z": 14.2168
+        },
+        "useAnchor": true,
+        "volume": 299.00137329102
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "8edce1f4-77cf-4612-b9bc-43b73941e546",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8545100637355638792",
+            "slavePartID": "8545100637355638791"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8545100637355638789",
+        "mass": 524.05822143555,
+        "material": {
+          "color": {
+            "r": 177
+          }
+        },
+        "position": {
+          "x": -93.914939880371,
+          "y": 10.002042770386,
+          "z": 93.384994506836
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": 90
+        },
+        "scale": {
+          "x": 0.999977,
+          "y": 18.0252,
+          "z": 13.2156
+        },
+        "size": {
+          "x": 0.999977,
+          "y": 18.0252,
+          "z": 13.2156
+        },
+        "useAnchor": true,
+        "volume": 238.2082824707
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "917e55a6-c46b-4387-9178-2a934436d8b9",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8545101143735926792",
+            "slavePartID": "8545101143735926791"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8545101143735926789",
+        "mass": 524.05822143555,
+        "material": {
+          "color": {
+            "r": 177
+          }
+        },
+        "position": {
+          "x": -93.943725585938,
+          "y": 10.002042770386,
+          "z": 52.025730133057
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 1.9964588773291e-06,
+          "y": 2.9999959468842,
+          "z": 90
+        },
+        "scale": {
+          "x": 0.999977,
+          "y": 18.0252,
+          "z": 13.2156
+        },
+        "size": {
+          "x": 0.999977,
+          "y": 18.0252,
+          "z": 13.2156
+        },
+        "useAnchor": true,
+        "volume": 238.2082824707
+      }
+    ],
+    "name": {
+      "value": "map_speed20"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "edd624d3280b814cc9b4fd0f34cbaaff"
+    },
+    "VERSION": "0.20"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "data": {
+    "canUse": true,
+    "icon": {
+      "asset": "asset/Texture/Item/boots_brigan.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemUse",
+        "time": {
+          "value": 160
+        },
+        "useBuff": "myplugin/speedboots"
+      },
+      "type": "Use"
+    },
+    "name": {
+      "value": "d91cc6c5-e5e7-4910-a109-4eb651e748c9"
+    },
+    "needSave": true,
+    "stack_count_max": 10
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a861cb9c0c3956457ff536a743fecd3f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

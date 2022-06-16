@@ -1,0 +1,2992 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8506456195370401793"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/player1",
+        "id": "8506456278331310081",
+        "name": "Player",
+        "position": {
+          "y": 0.99990081787109
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "f8097eda-357d-4159-9015-5bb9db7fd123",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522605343760859137",
+        "mass": 17756.756445313,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "y": -9.6445541381836,
+          "z": 0.4162003993988
+        },
+        "restitution": 0.05,
+        "scale": {
+          "x": 9.99993,
+          "y": 21.289,
+          "z": 10.8323
+        },
+        "size": {
+          "x": 9.99993,
+          "y": 21.289,
+          "z": 10.8323
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2306.072265625
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "8530f9df-c554-4aa5-be85-1fca701704ad",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522606384328441857",
+        "mass": 7774.9250793457,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "y": -2.0627644062042,
+          "z": 36.612312316895
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "x": -29.999996185303
+        },
+        "scale": {
+          "x": 9.9999,
+          "y": 7.62788,
+          "z": 13.2375
+        },
+        "size": {
+          "x": 9.9999,
+          "y": 7.62788,
+          "z": 13.2375
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1009.7305297852
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "56d9a884-9d8a-42e8-a06f-776e48a7c14a",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522606559246008321",
+        "mass": 18259.2265625,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": 13.957448959351,
+          "y": -11.05347442627,
+          "z": 16.621238708496
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "z": 20
+        },
+        "scale": {
+          "x": 15.0716,
+          "y": 22.044,
+          "z": 7.13743
+        },
+        "size": {
+          "x": 15.0716,
+          "y": 22.044,
+          "z": 7.13743
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2371.328125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "ba2e2214-350a-4319-8236-72a77cea1948",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522608378844954625",
+        "mass": 22207.862133789,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "y": -11.336166381836,
+          "z": 36.645309448242
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "x": 2.4088137706713e-06
+        },
+        "scale": {
+          "x": 9.99991,
+          "y": 18.6722,
+          "z": 15.4463
+        },
+        "size": {
+          "x": 9.99991,
+          "y": 18.6722,
+          "z": 15.4463
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2884.1379394531
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "26abd1e2-c50b-4f1c-829c-62eff8e0a54a",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522608900666408961",
+        "mass": 15657.848486328,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -7.6481437683105,
+          "y": -11.346840858459,
+          "z": 58.645309448242
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "z": -10
+        },
+        "scale": {
+          "x": 6.99999,
+          "y": 18.807,
+          "z": 15.4463
+        },
+        "size": {
+          "x": 6.99999,
+          "y": 18.807,
+          "z": 15.4463
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2033.4868164063
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "d530ca73-76b2-460e-b02a-9f695bbb5599",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522609588258422785",
+        "mass": 11412.828710937,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": 9.6126890182495,
+          "y": -11.461784362793,
+          "z": 77.079246520996
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "z": 9.9999990463257
+        },
+        "scale": {
+          "x": 13,
+          "y": 16.2878,
+          "z": 6.99998
+        },
+        "size": {
+          "x": 13,
+          "y": 16.2878,
+          "z": 6.99998
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1482.185546875
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "6c5d9ffa-5a9b-4277-b9ba-71178fb6c4ea",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522610741181759489",
+        "mass": 11187.990966797,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": 9.5848178863525,
+          "y": -11.303736686707,
+          "z": 91.079246520996
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "z": 9.9999990463257
+        },
+        "scale": {
+          "x": 13,
+          "y": 15.9669,
+          "z": 6.99999
+        },
+        "size": {
+          "x": 13,
+          "y": 15.9669,
+          "z": 6.99999
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1452.9858398438
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "089640f7-d809-44c2-8a15-26f320f63d4f",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522610974610014209",
+        "mass": 19368.03972168,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "y": -12.055490493774,
+          "z": 106.64530944824
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "x": 2.4088137706713e-06
+        },
+        "scale": {
+          "x": 15,
+          "y": 16.7689,
+          "z": 9.99998
+        },
+        "size": {
+          "x": 15,
+          "y": 16.7689,
+          "z": 9.99998
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2515.3298339844
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "a5cf1ea1-8078-41e7-a479-2cef7807c3e4",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522613627901722625",
+        "mass": 22465.765136719,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "y": -11.444501876831,
+          "z": 126.64529418945
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "x": 2.4088137706713e-06
+        },
+        "scale": {
+          "x": 9.99992,
+          "y": 18.8889,
+          "z": 15.4464
+        },
+        "size": {
+          "x": 9.99992,
+          "y": 18.8889,
+          "z": 15.4464
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2917.6318359375
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "2b40b276-667f-424f-add2-8581858bfcf8",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522613883387248641",
+        "mass": 21112.215673828,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": 9.0000009536743,
+          "y": -12.632786750793,
+          "z": 153.57954406738
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "x": -19.999994277954
+        },
+        "scale": {
+          "x": 6.99999,
+          "y": 25.3582,
+          "z": 15.4464
+        },
+        "size": {
+          "x": 6.99999,
+          "y": 25.3582,
+          "z": 15.4464
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2741.8461914063
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "616bdeaf-037c-45fe-9508-4be666f1ad88",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522614629805047809",
+        "mass": 14389.751916504,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": 9.0000009536743,
+          "y": -11.412508964539,
+          "z": 171.20143127441
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "x": 10.000005722046
+        },
+        "scale": {
+          "x": 6.99998,
+          "y": 20.9569,
+          "z": 12.7391
+        },
+        "size": {
+          "x": 6.99998,
+          "y": 20.9569,
+          "z": 12.7391
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1868.7989501953
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "cde26e99-1ed9-4e85-9871-397f91ebf05c",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522614936431443969",
+        "mass": 32128.133447266,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -7,
+          "y": -11.272309303284,
+          "z": 191.64529418945
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "x": 2.4088137706713e-06
+        },
+        "scale": {
+          "x": 15,
+          "y": 18.5445,
+          "z": 14.9999
+        },
+        "size": {
+          "x": 15,
+          "y": 18.5445,
+          "z": 14.9999
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 4172.4848632813
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "6e2ddbe2-3984-4616-8366-92c5ead69583",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522615919640068097",
+        "mass": 8151.0553222656,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -11.000000953674,
+          "y": -10.110416412354,
+          "z": 226.30760192871
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "x": -9.9999971389771
+        },
+        "scale": {
+          "x": 6.99998,
+          "y": 21.6038,
+          "z": 6.99997
+        },
+        "size": {
+          "x": 6.99998,
+          "y": 21.6038,
+          "z": 6.99997
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1058.5786132813
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "d8947547-f2b8-4ef1-9ead-cdc8ad7b8713",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522616391714586625",
+        "mass": 14573.473803711,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -8.0000009536743,
+          "y": -11.463405609131,
+          "z": 212.64529418945
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "x": 2.4088137706713e-06
+        },
+        "scale": {
+          "x": 9.99997,
+          "y": 18.9267,
+          "z": 9.99997
+        },
+        "size": {
+          "x": 9.99997,
+          "y": 18.9267,
+          "z": 9.99997
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1892.6589355469
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "2b71e6fc-2f19-4eb8-9bf7-636ee6798647",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522617043551518721",
+        "mass": 20908.284106445,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -21.135244369507,
+          "y": -11.173615455627,
+          "z": 239.24745178223
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "x": -10.000000953674
+        },
+        "scale": {
+          "x": 15,
+          "y": 18.1025,
+          "z": 9.99995
+        },
+        "size": {
+          "x": 15,
+          "y": 18.1025,
+          "z": 9.99995
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2715.3615722656
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "807b8da2-848e-4e49-b6d1-5c7518a67e42",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522617442207694849",
+        "mass": 10407.259655762,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -44.307411193848,
+          "y": -3.2296772003174,
+          "z": 239.64529418945
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "z": -29.999996185303
+        },
+        "scale": {
+          "x": 15.1421,
+          "y": 8.92617,
+          "z": 9.99987
+        },
+        "size": {
+          "x": 15.1421,
+          "y": 8.92617,
+          "z": 9.99987
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1351.5921630859
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "2d8026c0-12fc-478e-b5f0-bbf299e3c2f8",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522618394028441601",
+        "mass": 22895.93684082,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -44.353527069092,
+          "y": -11.614763259888,
+          "z": 239.63009643555
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "x": -3.2568950791498e-13
+        },
+        "scale": {
+          "x": 17.4365,
+          "y": 17.0534,
+          "z": 9.99994
+        },
+        "size": {
+          "x": 17.4365,
+          "y": 17.0534,
+          "z": 9.99994
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2973.4982910156
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "d0890097-06fe-460e-bf94-d590745eb0ae",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522619186230509569",
+        "mass": 17201.501098633,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -72.519325256348,
+          "y": -7.7324414253235,
+          "z": 242.8427734375
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "x": -3.2568950791498e-13
+        },
+        "scale": {
+          "x": 25.7679,
+          "y": 24.253,
+          "z": 3.57463
+        },
+        "size": {
+          "x": 25.7679,
+          "y": 24.253,
+          "z": 3.57463
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2233.9611816406
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "7aad4b11-4ba3-43f9-a01d-2371426565ca",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522619819873419265",
+        "mass": 10772.91472168,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -98.906715393066,
+          "y": -9.7080354690552,
+          "z": 238.34878540039
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "x": -9.84654712677,
+          "y": -21.753782272339,
+          "z": 10.151083946228
+        },
+        "scale": {
+          "x": 15.7834,
+          "y": 24.7976,
+          "z": 3.57464
+        },
+        "size": {
+          "x": 15.7834,
+          "y": 24.7976,
+          "z": 3.57464
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1399.0798339844
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "5b6335a9-a702-4554-b7a4-ab1a05de490d",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522621978916749313",
+        "mass": 5078.3638366699,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -118.66510772705,
+          "y": -12.093642234802,
+          "z": 224.90406799316
+        },
+        "restitution": 0.05,
+        "scale": {
+          "x": 8.05968,
+          "y": 14.844,
+          "z": 5.5127
+        },
+        "size": {
+          "x": 8.05968,
+          "y": 14.844,
+          "z": 5.5127
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 659.52777099609
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "b3f9574b-2900-45bb-a3fa-07a1abfacece",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522622701294157825",
+        "mass": 5030.2971130371,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -118.66510772705,
+          "y": -15.288291931152,
+          "z": 217.86679077148
+        },
+        "restitution": 0.05,
+        "scale": {
+          "x": 8.05962,
+          "y": 8.45465,
+          "z": 9.58722
+        },
+        "size": {
+          "x": 8.05962,
+          "y": 8.45465,
+          "z": 9.58722
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 653.28533935547
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "2a257c65-8341-43c5-935a-f42a0af6d85a",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522623088763469825",
+        "mass": 2857.1175689697,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -118.66510772705,
+          "y": -15.288291931152,
+          "z": 198.65951538086
+        },
+        "restitution": 0.05,
+        "scale": {
+          "x": 8.05961,
+          "y": 8.45464,
+          "z": 5.44538
+        },
+        "size": {
+          "x": 8.05961,
+          "y": 8.45464,
+          "z": 5.44538
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 371.05422973633
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "f1b872b7-a244-4536-a054-3fd856f134cc",
+        "density": 3.85,
+        "friction": 0.2,
+        "id": "8522625858541289473",
+        "mass": 275510.2109375,
+        "material": {
+          "alpha": 0.76,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 174
+          },
+          "texture": "part_huagangyan.tga"
+        },
+        "position": {
+          "x": -49.486232757568,
+          "y": -18.737672805786,
+          "z": 122.19628143311
+        },
+        "restitution": 0.17,
+        "scale": {
+          "x": 168.221,
+          "y": 1.55584,
+          "z": 273.421
+        },
+        "size": {
+          "x": 168.221,
+          "y": 1.55584,
+          "z": 273.421
+        },
+        "useAnchor": true,
+        "useCollide": false,
+        "useGravity": false,
+        "volume": 71561.09375
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "c09e815f-8b19-4b9f-abfa-25cd03945ee3",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522628432908861441",
+        "mass": 742.13596572876,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -120.65788269043,
+          "y": -18.457807540894,
+          "z": 181.18946838379
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "y": -19.999998092651
+        },
+        "scale": {
+          "x": 5.61478,
+          "y": 2.1156,
+          "z": 8.11384
+        },
+        "size": {
+          "x": 5.61478,
+          "y": 2.1156,
+          "z": 8.11384
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 96.381294250488
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "37f87050-4254-4545-8d85-222081985e6f",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522628958312284161",
+        "mass": 753.47894363403,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -118.66510772705,
+          "y": -18.400775909424,
+          "z": 164.65951538086
+        },
+        "restitution": 0.05,
+        "scale": {
+          "x": 8.05958,
+          "y": 2.22967,
+          "z": 5.44537
+        },
+        "size": {
+          "x": 8.05958,
+          "y": 2.22967,
+          "z": 5.44537
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 97.85440826416
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "76da2cb3-5cd6-410f-a162-696e41ff5d6f",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522629603349463041",
+        "mass": 753.47894363403,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -118.66510772705,
+          "y": -18.400775909424,
+          "z": 146.65951538086
+        },
+        "restitution": 0.05,
+        "scale": {
+          "x": 8.05958,
+          "y": 2.22967,
+          "z": 5.44537
+        },
+        "size": {
+          "x": 8.05958,
+          "y": 2.22967,
+          "z": 5.44537
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 97.85440826416
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "f1c55e30-c575-4aa5-ae97-e5bd7341ddf2",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522629801481355265",
+        "mass": 753.47894363403,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -119.60480499268,
+          "y": -18.400775909424,
+          "z": 149.31750488281
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "y": -20
+        },
+        "scale": {
+          "x": 8.05958,
+          "y": 2.22967,
+          "z": 5.44537
+        },
+        "size": {
+          "x": 8.05958,
+          "y": 2.22967,
+          "z": 5.44537
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 97.85440826416
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "bc2e84c6-bd8a-48d8-bb66-b66c5d66c5fa",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522629956671766529",
+        "mass": 753.47894363403,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -119.60481262207,
+          "y": -18.400775909424,
+          "z": 144.00149536133
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "y": 19.999998092651
+        },
+        "scale": {
+          "x": 8.05958,
+          "y": 2.22967,
+          "z": 5.44537
+        },
+        "size": {
+          "x": 8.05958,
+          "y": 2.22967,
+          "z": 5.44537
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 97.85440826416
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "822d48fe-3006-4b74-901d-45ba661eac70",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522630593984217089",
+        "mass": 1101.1610961914,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -125.42208862305,
+          "y": -18.400775909424,
+          "z": 126.70362854004
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "y": 10
+        },
+        "scale": {
+          "x": 6.49349,
+          "y": 2.22965,
+          "z": 9.87746
+        },
+        "size": {
+          "x": 6.49349,
+          "y": 2.22965,
+          "z": 9.87746
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 143.00793457031
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "c75c2ef1-8653-4ba6-b97c-23ba4c7e5dac",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522630808569872385",
+        "mass": 753.47894363403,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -109.66510772705,
+          "y": -18.400775909424,
+          "z": 129.65951538086
+        },
+        "restitution": 0.05,
+        "scale": {
+          "x": 8.05958,
+          "y": 2.22967,
+          "z": 5.44537
+        },
+        "size": {
+          "x": 8.05958,
+          "y": 2.22967,
+          "z": 5.44537
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 97.85440826416
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "dd924fba-f413-4982-82b1-e90cd93e9929",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522631430786105345",
+        "mass": 808.42116241455,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -125.50632476807,
+          "y": -18.400775909424,
+          "z": 119.50650024414
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "y": -9.9999990463257
+        },
+        "scale": {
+          "x": 6.49349,
+          "y": 2.22965,
+          "z": 7.25157
+        },
+        "size": {
+          "x": 6.49349,
+          "y": 2.22965,
+          "z": 7.25157
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 104.98976135254
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "78026a31-6499-473e-955c-698a8fd304d6",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522632091101773825",
+        "mass": 1508.4538040161,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -111.19463348389,
+          "y": -18.400775909424,
+          "z": 123.38102722168
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "y": 20
+        },
+        "scale": {
+          "x": 8.05958,
+          "y": 2.22966,
+          "z": 10.9016
+        },
+        "size": {
+          "x": 8.05958,
+          "y": 2.22966,
+          "z": 10.9016
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 195.90309143066
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "eb31c97d-1d80-44e3-8db4-9b4498cf9029",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522632450654191617",
+        "mass": 5572.5027832031,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -117.35105133057,
+          "y": -17.903879165649,
+          "z": 101.5987701416
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "x": 29.999992370605,
+          "y": -3.389849098312e-06,
+          "z": -1.2248675381257e-12
+        },
+        "scale": {
+          "x": 8.05955,
+          "y": 8.2368,
+          "z": 10.9016
+        },
+        "size": {
+          "x": 8.05955,
+          "y": 8.2368,
+          "z": 10.9016
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 723.70166015625
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "8c3909b1-7aa7-45fc-b172-a372345caeee",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522633638601457665",
+        "mass": 5572.5027832031,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -117.35105133057,
+          "y": -17.903879165649,
+          "z": 101.5987701416
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "x": 29.999992370605,
+          "y": -3.389849098312e-06,
+          "z": -1.2248675381257e-12
+        },
+        "scale": {
+          "x": 8.05955,
+          "y": 8.2368,
+          "z": 10.9016
+        },
+        "size": {
+          "x": 8.05955,
+          "y": 8.2368,
+          "z": 10.9016
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 723.70166015625
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "0b4663d5-3034-43e2-8252-f6667e6c7bad",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522634099981565953",
+        "mass": 681.63469848633,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -115.35105133057,
+          "y": -16.65128326416,
+          "z": 82.936981201172
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "x": -1.160920237453e-05,
+          "y": -3.3898484161909e-06
+        },
+        "scale": {
+          "x": 1.99999,
+          "y": 5.74209,
+          "z": 7.70838
+        },
+        "size": {
+          "x": 1.99999,
+          "y": 5.74209,
+          "z": 7.70838
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 88.523986816406
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "af5f43cf-eb59-47f1-9342-07468bf77932",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522634940371271681",
+        "mass": 1659.1750534058,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -115.35105133057,
+          "y": -17.076347351074,
+          "z": 74.913681030273
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "x": 30
+        },
+        "scale": {
+          "x": 1.99998,
+          "y": 9.88719,
+          "z": 10.8969
+        },
+        "size": {
+          "x": 1.99998,
+          "y": 9.88719,
+          "z": 10.8969
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 215.47727966309
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "0d9af2e7-5b48-447b-aa73-51babf0a8846",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522635505169367041",
+        "mass": 2108.6974487305,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -115.35105133057,
+          "y": -15.57629108429,
+          "z": 57.271614074707
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "x": 4.1448734009464e-06
+        },
+        "scale": {
+          "x": 3,
+          "y": 10,
+          "z": 9.12856
+        },
+        "size": {
+          "x": 3,
+          "y": 10,
+          "z": 9.12856
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 273.85681152344
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "8b657d29-5e0e-41fb-91d5-f24c15cfe954",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522638276100358145",
+        "mass": 1924.9942428589,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -116.72872924805,
+          "y": -16.15877532959,
+          "z": 42.33863067627
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "x": 9.8465566635132,
+          "y": 10.151081085205,
+          "z": 1.7537832260132
+        },
+        "scale": {
+          "x": 5,
+          "y": 9.99997,
+          "z": 5
+        },
+        "size": {
+          "x": 5,
+          "y": 9.99997,
+          "z": 5
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 249.99925231934
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "58bc86d7-58bb-46f9-b872-31741a24b373",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522638826289479681",
+        "mass": 1924.9942428589,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -114.69834899902,
+          "y": -16.045433044434,
+          "z": 41.695823669434
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "x": 9.8465566635132,
+          "y": -10.151078224182,
+          "z": -1.7537831068039
+        },
+        "scale": {
+          "x": 5,
+          "y": 9.99997,
+          "z": 5
+        },
+        "size": {
+          "x": 5,
+          "y": 9.99997,
+          "z": 5
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 249.99925231934
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "ac2ae274-4cc5-4329-a4fe-7fdd9a1a741e",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8522639360410959873",
+        "mass": 7700,
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": -115.35105133057,
+          "y": -16.576290130615,
+          "z": 24.271614074707
+        },
+        "restitution": 0.05,
+        "rotation": {
+          "x": 4.1448734009464e-06
+        },
+        "scale": {
+          "x": 10,
+          "y": 10,
+          "z": 10
+        },
+        "size": {
+          "x": 10,
+          "y": 10,
+          "z": 10
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1000
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "f9caa8db-9172-48e1-8e2f-6b3dceb540e1",
+        "density": 3.85,
+        "friction": 0.2,
+        "id": "8522646135942725633",
+        "mass": 179123.44570313,
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 174
+          },
+          "texture": "part_huagangyan.tga"
+        },
+        "position": {
+          "x": 33.490772247314,
+          "y": 18.017889022827,
+          "z": 122.19628143311
+        },
+        "restitution": 0.17,
+        "scale": {
+          "x": 2.26681,
+          "y": 75.0668,
+          "z": 273.419
+        },
+        "size": {
+          "x": 2.26681,
+          "y": 75.0668,
+          "z": 273.419
+        },
+        "useAnchor": true,
+        "useCollide": false,
+        "useGravity": false,
+        "volume": 46525.5703125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "6d06089d-cc82-4de8-a780-89577d51ec28",
+        "density": 3.85,
+        "friction": 0.2,
+        "id": "8522646683893661697",
+        "mass": 179123.44570313,
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 174
+          },
+          "texture": "part_huagangyan.tga"
+        },
+        "position": {
+          "x": -134.50923156738,
+          "y": 18.017889022827,
+          "z": 122.19628143311
+        },
+        "restitution": 0.17,
+        "scale": {
+          "x": 2.26681,
+          "y": 75.0668,
+          "z": 273.419
+        },
+        "size": {
+          "x": 2.26681,
+          "y": 75.0668,
+          "z": 273.419
+        },
+        "useAnchor": true,
+        "useCollide": false,
+        "useGravity": false,
+        "volume": 46525.5703125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "7575b9ca-9cf6-4b17-88fa-66965d5fe439",
+        "density": 3.85,
+        "friction": 0.2,
+        "id": "8522646848922648577",
+        "mass": 50916.084570313,
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 174
+          },
+          "texture": "part_huagangyan.tga"
+        },
+        "position": {
+          "x": -49.486232757568,
+          "y": 18.090980529785,
+          "z": 258.38391113281
+        },
+        "restitution": 0.17,
+        "scale": {
+          "x": 168.22,
+          "y": 75.2129,
+          "z": 1.04526
+        },
+        "size": {
+          "x": 168.22,
+          "y": 75.2129,
+          "z": 1.04526
+        },
+        "useAnchor": true,
+        "useCollide": false,
+        "useGravity": false,
+        "volume": 13224.95703125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "adfbf5f0-2c3c-4d5b-b55e-f93e2a225e24",
+        "density": 3.85,
+        "friction": 0.2,
+        "id": "8522647178894131201",
+        "mass": 50916.084570313,
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 174
+          },
+          "texture": "part_huagangyan.tga"
+        },
+        "position": {
+          "x": -49.486232757568,
+          "y": 18.090980529785,
+          "z": -13.616088867188
+        },
+        "restitution": 0.17,
+        "scale": {
+          "x": 168.22,
+          "y": 75.2129,
+          "z": 1.04526
+        },
+        "size": {
+          "x": 168.22,
+          "y": 75.2129,
+          "z": 1.04526
+        },
+        "useAnchor": true,
+        "useCollide": false,
+        "useGravity": false,
+        "volume": 13224.95703125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "862ad18e-9c08-4c3e-8c51-8d9c4bb91d67",
+        "density": 3.85,
+        "friction": 0.2,
+        "id": "8522647492275027969",
+        "mass": 275510.2109375,
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 174
+          },
+          "texture": "part_huagangyan.tga"
+        },
+        "position": {
+          "x": -49.486232757568,
+          "y": 55.262329101563,
+          "z": 122.19628143311
+        },
+        "restitution": 0.17,
+        "scale": {
+          "x": 168.221,
+          "y": 1.55584,
+          "z": 273.421
+        },
+        "size": {
+          "x": 168.221,
+          "y": 1.55584,
+          "z": 273.421
+        },
+        "useAnchor": true,
+        "useCollide": false,
+        "useGravity": false,
+        "volume": 71561.09375
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "4684e757-7a2f-4ced-85b7-68fc94c0d2b6",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522651813399773185",
+            "mass": 144,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -50.201839447021,
+              "y": 9.5402851104736,
+              "z": 84.876174926758
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 4,
+              "y": 2,
+              "z": 4
+            },
+            "size": {
+              "x": 4,
+              "y": 2,
+              "z": 4
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 32
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "3e0c3e9e-346d-4c2f-8df9-d7ac510bc5d9",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8522652204321800193",
+            "mass": 367.18589477539,
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 174
+              }
+            },
+            "position": {
+              "x": -50.201839447021,
+              "y": 35.40355682373,
+              "z": 84.876174926758
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 1.99999,
+              "y": 41.7263,
+              "z": 1.99998
+            },
+            "size": {
+              "x": 1.99999,
+              "y": 41.7263,
+              "z": 1.99998
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 166.90267944336
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "dd19120c-c201-4823-b219-647a41494fa5",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522651974454919169",
+            "mass": 36,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -50.201839447021,
+              "y": 13.540285110474,
+              "z": 84.876174926758
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 8
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "bf55487b-3589-4db1-b97a-5a18c6c31d20",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522651637593915393",
+            "mass": 324,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -50.201839447021,
+              "y": 5.5402851104736,
+              "z": 84.876174926758
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 6,
+              "y": 2,
+              "z": 6
+            },
+            "size": {
+              "x": 6,
+              "y": 2,
+              "z": 6
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 72
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "cacfeaf1-72b9-408f-b890-226a47202dec",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522651212123029505",
+            "mass": 576,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -50.201839447021,
+              "y": 1.5402851104736,
+              "z": 84.876174926758
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 8,
+              "y": 2,
+              "z": 8
+            },
+            "size": {
+              "x": 8,
+              "y": 2,
+              "z": 8
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 128
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "36dda099-d09f-43f6-b251-a0267a0a3ee0",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522651374139129857",
+            "mass": 441,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -50.201839447021,
+              "y": 3.5402851104736,
+              "z": 84.876174926758
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 7,
+              "y": 2,
+              "z": 7
+            },
+            "size": {
+              "x": 7,
+              "y": 2,
+              "z": 7
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 98
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "0517870e-0186-44a7-bf41-543a3ad65a91",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522651898422657025",
+            "mass": 81,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -50.201839447021,
+              "y": 11.540285110474,
+              "z": 84.876174926758
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 3,
+              "y": 2,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 2,
+              "z": 3
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 18
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "09e35fb4-a1e1-45dc-86e2-497f9e7444b6",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522650853791121409",
+            "mass": 1461.5643768311,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -50.201839447021,
+              "y": -0.83574020862579,
+              "z": 84.876174926758
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 9.99997,
+              "y": 3.24794,
+              "z": 9.99997
+            },
+            "size": {
+              "x": 9.99997,
+              "y": 3.24794,
+              "z": 9.99997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 324.79208374023
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "c2b4af6d-6a8c-4b8f-ac92-72d1d7f5524b",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522651728045752321",
+            "mass": 225,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -50.201839447021,
+              "y": 7.5402851104736,
+              "z": 84.876174926758
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 5,
+              "y": 2,
+              "z": 5
+            },
+            "size": {
+              "x": 5,
+              "y": 2,
+              "z": 5
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 50
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "85e86f71-7fdc-4612-b3d8-4a8b52784e51",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522650617532760065",
+            "mass": 1089,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -50.201839447021,
+              "y": -3.4597148895264,
+              "z": 84.876174926758
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 11,
+              "y": 2,
+              "z": 11
+            },
+            "size": {
+              "x": 11,
+              "y": 2,
+              "z": 11
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 242
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "8e3673f7-842e-430e-b37a-8002d0596818",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522650497436598273",
+            "mass": 1521,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -50.201839447021,
+              "y": -5.4597148895264,
+              "z": 84.876174926758
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 13,
+              "y": 2,
+              "z": 13
+            },
+            "size": {
+              "x": 13,
+              "y": 2,
+              "z": 13
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 338
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "b7c18ce4-cab1-4e20-9376-0dcd3e2ec2de",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522650124039110657",
+            "mass": 3600,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -50.201839447021,
+              "y": -9.4597148895264,
+              "z": 84.876174926758
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 20,
+              "y": 2,
+              "z": 20
+            },
+            "size": {
+              "x": 20,
+              "y": 2,
+              "z": 20
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 800
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e399c4a2-f610-4674-ab59-ecb67d2d164a",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522650225143889921",
+            "mass": 2025,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -50.201839447021,
+              "y": -7.4597148895264,
+              "z": 84.876174926758
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 15,
+              "y": 2,
+              "z": 15
+            },
+            "size": {
+              "x": 15,
+              "y": 2,
+              "z": 15
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 450
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "0ef92e8a-d6b4-441f-be90-c6b09a9d2dac",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522649894994919425",
+            "mass": 4761,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -50.201839447021,
+              "y": -11.459714889526,
+              "z": 84.876174926758
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 23,
+              "y": 2,
+              "z": 23
+            },
+            "size": {
+              "x": 23,
+              "y": 2,
+              "z": 23
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 1058
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e61bdf4f-bf71-4626-a3e9-6e89570cf05e",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522649624826789889",
+            "mass": 5625,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -50.201839447021,
+              "y": -13.459714889526,
+              "z": 84.876174926758
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 25,
+              "y": 2,
+              "z": 25
+            },
+            "size": {
+              "x": 25,
+              "y": 2,
+              "z": 25
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 1250
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "5ea1c0a3-b2eb-4537-8212-67a220146d3e",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522649362357616641",
+            "mass": 7056,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -50.201839447021,
+              "y": -15.459714889526,
+              "z": 84.876174926758
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 28,
+              "y": 2,
+              "z": 28
+            },
+            "size": {
+              "x": 28,
+              "y": 2,
+              "z": 28
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 1568
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "cf7cb53e-b3e6-499c-baa2-5fc4660a73f6",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522648232970076161",
+            "mass": 8100,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -50.201839447021,
+              "y": -17.459714889526,
+              "z": 84.876174926758
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 30,
+              "y": 2,
+              "z": 30
+            },
+            "size": {
+              "x": 30,
+              "y": 2,
+              "z": 30
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 1800
+          }
+        ],
+        "id": "8522653094139297793",
+        "position": {
+          "x": -50.201837539673,
+          "y": 18.903489112854,
+          "z": 84.876174926758
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "4684e757-7a2f-4ced-85b7-68fc94c0d2b6",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522653138416320513",
+            "mass": 144,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -40.201927185059,
+              "y": 9.540412902832,
+              "z": 206.87615966797
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 4,
+              "y": 2,
+              "z": 4
+            },
+            "size": {
+              "x": 4,
+              "y": 2,
+              "z": 4
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 32
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "3e0c3e9e-346d-4c2f-8df9-d7ac510bc5d9",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8522653138418417665",
+            "mass": 367.18589477539,
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 174
+              }
+            },
+            "position": {
+              "x": -40.201927185059,
+              "y": 35.40355682373,
+              "z": 206.87615966797
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 1.99999,
+              "y": 41.7263,
+              "z": 1.99998
+            },
+            "size": {
+              "x": 1.99999,
+              "y": 41.7263,
+              "z": 1.99998
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 166.90267944336
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "dd19120c-c201-4823-b219-647a41494fa5",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522653138420498433",
+            "mass": 36,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -40.201927185059,
+              "y": 13.540412902832,
+              "z": 206.87615966797
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 8
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "bf55487b-3589-4db1-b97a-5a18c6c31d20",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522653138422611969",
+            "mass": 324,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -40.201927185059,
+              "y": 5.5404434204102,
+              "z": 206.87615966797
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 6,
+              "y": 2,
+              "z": 6
+            },
+            "size": {
+              "x": 6,
+              "y": 2,
+              "z": 6
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 72
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "cacfeaf1-72b9-408f-b890-226a47202dec",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522653138424741889",
+            "mass": 576,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -40.201927185059,
+              "y": 1.5404663085938,
+              "z": 206.87615966797
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 8,
+              "y": 2,
+              "z": 8
+            },
+            "size": {
+              "x": 8,
+              "y": 2,
+              "z": 8
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 128
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "36dda099-d09f-43f6-b251-a0267a0a3ee0",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522653138426822657",
+            "mass": 441,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -40.201927185059,
+              "y": 3.5404586791992,
+              "z": 206.87615966797
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 7,
+              "y": 2,
+              "z": 7
+            },
+            "size": {
+              "x": 7,
+              "y": 2,
+              "z": 7
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 98
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "0517870e-0186-44a7-bf41-543a3ad65a91",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522653138428903425",
+            "mass": 81,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -40.201927185059,
+              "y": 11.540412902832,
+              "z": 206.87615966797
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 3,
+              "y": 2,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 2,
+              "z": 3
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 18
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "09e35fb4-a1e1-45dc-86e2-497f9e7444b6",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522653138431033345",
+            "mass": 1461.5643768311,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -40.201927185059,
+              "y": -0.83554756641388,
+              "z": 206.87615966797
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 9.99997,
+              "y": 3.24794,
+              "z": 9.99997
+            },
+            "size": {
+              "x": 9.99997,
+              "y": 3.24794,
+              "z": 9.99997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 324.79208374023
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "c2b4af6d-6a8c-4b8f-ac92-72d1d7f5524b",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522653138433114113",
+            "mass": 225,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -40.201927185059,
+              "y": 7.5404434204102,
+              "z": 206.87615966797
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 5,
+              "y": 2,
+              "z": 5
+            },
+            "size": {
+              "x": 5,
+              "y": 2,
+              "z": 5
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 50
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "85e86f71-7fdc-4612-b3d8-4a8b52784e51",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522653138435211265",
+            "mass": 1089,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -40.201927185059,
+              "y": -3.4595108032227,
+              "z": 206.87615966797
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 11,
+              "y": 2,
+              "z": 11
+            },
+            "size": {
+              "x": 11,
+              "y": 2,
+              "z": 11
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 242
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "8e3673f7-842e-430e-b37a-8002d0596818",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522653138437292033",
+            "mass": 1521,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -40.201927185059,
+              "y": -5.4594955444336,
+              "z": 206.87615966797
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 13,
+              "y": 2,
+              "z": 13
+            },
+            "size": {
+              "x": 13,
+              "y": 2,
+              "z": 13
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 338
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "b7c18ce4-cab1-4e20-9376-0dcd3e2ec2de",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522653138439389185",
+            "mass": 3600,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -40.201927185059,
+              "y": -9.4594650268555,
+              "z": 206.87615966797
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 20,
+              "y": 2,
+              "z": 20
+            },
+            "size": {
+              "x": 20,
+              "y": 2,
+              "z": 20
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 800
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e399c4a2-f610-4674-ab59-ecb67d2d164a",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522653138441502721",
+            "mass": 2025,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -40.201927185059,
+              "y": -7.4594955444336,
+              "z": 206.87615966797
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 15,
+              "y": 2,
+              "z": 15
+            },
+            "size": {
+              "x": 15,
+              "y": 2,
+              "z": 15
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 450
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "0ef92e8a-d6b4-441f-be90-c6b09a9d2dac",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522653138443583489",
+            "mass": 4761,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -40.201927185059,
+              "y": -11.459465026855,
+              "z": 206.87615966797
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 23,
+              "y": 2,
+              "z": 23
+            },
+            "size": {
+              "x": 23,
+              "y": 2,
+              "z": 23
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 1058
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e61bdf4f-bf71-4626-a3e9-6e89570cf05e",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522653138445713409",
+            "mass": 5625,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -40.201927185059,
+              "y": -13.459465026855,
+              "z": 206.87615966797
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 25,
+              "y": 2,
+              "z": 25
+            },
+            "size": {
+              "x": 25,
+              "y": 2,
+              "z": 25
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 1250
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "5ea1c0a3-b2eb-4537-8212-67a220146d3e",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522653138447826945",
+            "mass": 7056,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -40.201927185059,
+              "y": -15.459465026855,
+              "z": 206.87615966797
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 28,
+              "y": 2,
+              "z": 28
+            },
+            "size": {
+              "x": 28,
+              "y": 2,
+              "z": 28
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 1568
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "cf7cb53e-b3e6-499c-baa2-5fc4660a73f6",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8522653138449940481",
+            "mass": 8100,
+            "material": {
+              "color": {
+                "b": 21,
+                "g": 51,
+                "r": 82
+              },
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -40.201927185059,
+              "y": -17.459403991699,
+              "z": 206.87615966797
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 30,
+              "y": 2,
+              "z": 30
+            },
+            "size": {
+              "x": 30,
+              "y": 2,
+              "z": 30
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 1800
+          }
+        ],
+        "id": "8522653138415665153",
+        "position": {
+          "x": -40.201927185059,
+          "y": 18.903554916382,
+          "z": 206.87615966797
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a940cc1e-e6de-43d8-bd53-345faa7d8c8c",
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8539461535164350465",
+            "mass": 7.5,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -119.14488220215,
+              "y": -10.076234817505,
+              "z": 25.55033493042
+            },
+            "restitution": 0.15,
+            "scale": {
+              "y": 3
+            },
+            "size": {
+              "y": 3
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 3
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "3e9e4ce4-1690-445b-abe8-5a1a3729665a",
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8539461979148533761",
+            "mass": 2.0000000298023,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -119.14488220215,
+              "y": -8.1862335205078,
+              "z": 25.040330886841
+            },
+            "restitution": 0.15,
+            "scale": {
+              "y": 0.8
+            },
+            "size": {
+              "y": 0.8
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "2c504689-2f43-4756-860f-f1f03fa726a9",
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8539462185777577985",
+            "mass": 2.0000000298023,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -119.14488220215,
+              "y": -7.3862338066101,
+              "z": 24.510330200195
+            },
+            "restitution": 0.15,
+            "scale": {
+              "y": 0.8
+            },
+            "size": {
+              "y": 0.8
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "3d3a187a-c5be-4615-b8df-ee72f73668a7",
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8539462380911837185",
+            "mass": 2.0000000298023,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -119.14488220215,
+              "y": -6.8662333488464,
+              "z": 23.840326309204
+            },
+            "restitution": 0.15,
+            "scale": {
+              "y": 0.8
+            },
+            "size": {
+              "y": 0.8
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "b4d39f86-e88f-41a4-9612-cef10e9a7a6f",
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8539462569881632769",
+            "mass": 2.0000000298023,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -119.13988494873,
+              "y": -7.3862338066101,
+              "z": 23.135334014893
+            },
+            "restitution": 0.15,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "y": 0.8
+            },
+            "size": {
+              "y": 0.8
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "9fe29ed0-c428-4855-8750-816dbcb98a74",
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8539462569886138369",
+            "mass": 2.0000000298023,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -119.14988708496,
+              "y": -8.1862335205078,
+              "z": 22.615329742432
+            },
+            "restitution": 0.15,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "y": 0.8
+            },
+            "size": {
+              "y": 0.8
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "6b9063a3-57f2-4220-8777-9bec3afd6665",
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8539462569883992065",
+            "mass": 7.5,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -119.13988494873,
+              "y": -10.076234817505,
+              "z": 22.095325469971
+            },
+            "restitution": 0.15,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "y": 3
+            },
+            "size": {
+              "y": 3
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 3
+          }
+        ],
+        "id": "8539463135409979393",
+        "position": {
+          "x": -119.14488601685,
+          "y": -9.0212340354919,
+          "z": 23.822830200195
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/e55c9162-91e3-43bb-be7b-b324afd0f3a4",
+        "id": "8540013877971828737",
+        "name": "NextMap",
+        "position": {
+          "x": -119.14550018311,
+          "y": -9.2624597549438,
+          "z": 23.802545547485
+        },
+        "scale": {
+          "x": 0.999996,
+          "y": 4.62764,
+          "z": 2.62652
+        },
+        "size": {
+          "x": 0.999996,
+          "y": 4.62764,
+          "z": 2.62652
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "adc4cf8c-03ae-4d7d-aecf-9399624b0a3d",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/Skill/common/icon_开镜_act.png"
+            },
+            "id": "8540929825052688385"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8540929389434896385",
+        "mass": 42.208505249023,
+        "name": "checkpoint",
+        "position": {
+          "x": 0.025423765182495,
+          "y": 1.1007952690125,
+          "z": 0.56026387214661
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 9.65368,
+          "y": 0.201694,
+          "z": 9.85352
+        },
+        "size": {
+          "x": 9.65368,
+          "y": 0.201694,
+          "z": 9.85352
+        },
+        "useAnchor": true,
+        "volume": 19.185684204102
+      }
+    ],
+    "name": {
+      "value": "map_speed7"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c67de399608f5e6ce3f38fdf53c2ca35"
+    },
+    "VERSION": "0.20"
+  }
+}

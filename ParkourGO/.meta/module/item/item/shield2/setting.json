@@ -1,0 +1,30 @@
+{
+  "data": {
+    "canUse": true,
+    "icon": {
+      "asset": "asset/Texture/Item/Dark-Shield.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemUse",
+        "time": {
+          "value": 80
+        },
+        "useBuff": "myplugin/invincible"
+      },
+      "type": "Use"
+    },
+    "name": {
+      "value": "e5e44820-7f0c-4b0c-a39e-94a7318d896f"
+    },
+    "needSave": true,
+    "stack_count_max": 10
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2b0cac8bb3deb1a88a715c00d4bf630a",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

@@ -1,0 +1,12 @@
+print('script_server:hello world')
+require "script_server.backpack_server_script"
+require "script_server.secondjump_server"
+require "script_server.upgrade_server"
+require "script_server.resetvalue"
+--require "script_server.money_server"
+require "script_server.shop_server"
+--require "script_server.level_server"
+require "script_server.playerattr_server"
+require "script_server.gameplay_server"
+require "script_server.part_moving_ABA"
+require "script_server.testgameusers"

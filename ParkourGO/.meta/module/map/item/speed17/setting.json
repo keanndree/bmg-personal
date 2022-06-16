@@ -1,0 +1,4977 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "asset": "asset/speedrung/map5/sky.png",
+          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+        },
+        "bottom": {
+          "asset": "asset/speedrung/map5/sky.png",
+          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+        },
+        "front": {
+          "asset": "asset/speedrung/map5/sky.png",
+          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+        },
+        "left": {
+          "asset": "asset/speedrung/map5/sky.png",
+          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+        },
+        "right": {
+          "asset": "asset/speedrung/map5/sky.png",
+          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+        },
+        "top": {
+          "asset": "asset/speedrung/map5/sky.png",
+          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8506582839150002177"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/player1",
+        "id": "8506582898618761217",
+        "name": "Player",
+        "position": {
+          "y": 0.99989700317383
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "55ad70ad-d104-411e-98ad-064538ae05a4",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511010335323783169"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511010335326273537"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511010335328878593"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511010335331188737"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511010335333629953"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511010335336022017"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511010335323275265",
+        "mass": 1059.0891174316,
+        "position": {
+          "x": 0.047579824924469,
+          "y": 0.34900277853012,
+          "z": 9.5127201080322
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 12.9954,
+          "y": 1.30846,
+          "z": 28.3113
+        },
+        "size": {
+          "x": 12.9954,
+          "y": 1.30846,
+          "z": 28.3113
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 481.40414428711
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "75fcef71-cca4-4ea9-9a66-e1355c1d925d",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8511014655747473409",
+            "slavePartID": "8511010335323275265"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511014027910430721",
+        "mass": 8.7073937416077,
+        "material": {
+          "color": {
+            "b": 0,
+            "r": 245
+          }
+        },
+        "position": {
+          "x": 0.02019202709198,
+          "y": 0.852618932724,
+          "z": 2.7685730457306
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 12.9358,
+          "y": 0.30597,
+          "z": 0.999985
+        },
+        "size": {
+          "x": 12.9358,
+          "y": 0.30597,
+          "z": 0.999985
+        },
+        "useAnchor": true,
+        "useCollide": false,
+        "useGravity": false,
+        "volume": 3.9579062461853
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "6a47175a-753c-475a-9e04-5b884629b35d",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511015659418648577"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511015659419680769"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511015659420712961"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511015659421728769"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511015659422777345"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511015659423809537"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511015659418157057",
+        "mass": 276.72850189209,
+        "position": {
+          "x": -0.033064961433411,
+          "y": 0.42989897727966,
+          "z": 40.384330749512
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 125.78568267822
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "25071429-2d70-4431-a59b-da3393134563",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511018166711271425"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511018166714810369"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511018166717202433"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511018166718857217"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511018166720102401"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511018166721429505"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511018166708912129",
+        "mass": 277.86279296875,
+        "position": {
+          "x": 0.035129308700562,
+          "y": 0.41989892721176,
+          "z": 61.686740875244
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 12.9413,
+          "y": 0.999992,
+          "z": 9.75963
+        },
+        "size": {
+          "x": 12.9413,
+          "y": 0.999992,
+          "z": 9.75963
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 126.30126953125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "a46859a9-f53e-45a7-a769-9ecfefb5517b",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511021857001947137"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511021857004011521"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511021857005633537"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511021857006780417"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511021857007861761"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511021857009221633"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511021857000898561",
+        "mass": 276.72850189209,
+        "position": {
+          "x": -0.033064961433411,
+          "y": 0.42989897727966,
+          "z": 82.964340209961
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 125.78568267822
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "57fd5bea-31be-4cb5-95e0-7fe4dae8d7b1",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511022100057718785"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511022100058865665"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511022100059914241"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511022100060962817"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511022100061995009"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511022100063043585"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511022100056997889",
+        "mass": 287.7420135498,
+        "position": {
+          "x": 0.54631793498993,
+          "y": 0.41989892721176,
+          "z": 111.65971374512
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 5.30402,
+          "y": 0.999984,
+          "z": 24.6594
+        },
+        "size": {
+          "x": 5.30402,
+          "y": 0.999984,
+          "z": 24.6594
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 130.79182434082
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "bceb734e-6ff7-4bee-b119-40f3cd870143",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511023072551239681"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511023072552321025"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511023072553435137"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511023072554483713"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511023072555532289"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511023072556580865"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511023072550649857",
+        "mass": 277.86279296875,
+        "position": {
+          "x": 0.035129308700562,
+          "y": 0.41989892721176,
+          "z": 140.96676635742
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 12.9413,
+          "y": 0.999992,
+          "z": 9.75963
+        },
+        "size": {
+          "x": 12.9413,
+          "y": 0.999992,
+          "z": 9.75963
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 126.30126953125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "69081be5-7268-43b3-be28-b3d0b68ef21a",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511023342916419585"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511023342917500929"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511023342918615041"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511023342920925185"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511023342922072065"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511023342923153409"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511023342915911681",
+        "mass": 276.72850189209,
+        "position": {
+          "x": -0.033064961433411,
+          "y": 2.2798986434937,
+          "z": 159.17433166504
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 125.78568267822
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "28af1092-f05b-4a91-aa4c-f2595382b003",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511024162492399617"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511024162494447617"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511024162495528961"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511024162496577537"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511024162497626113"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511024162498674689"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511024162491891713",
+        "mass": 277.86279296875,
+        "position": {
+          "x": 0.035129308700562,
+          "y": 3.899897813797,
+          "z": 178.966796875
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 12.9413,
+          "y": 0.999992,
+          "z": 9.75963
+        },
+        "size": {
+          "x": 12.9413,
+          "y": 0.999992,
+          "z": 9.75963
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 126.30126953125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "670f56e6-e029-4c73-aab8-6eaafa846e5a",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511025576760786945"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511025576761884673"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511025576762916865"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511025576763949057"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511025576765800449"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511025576766914561"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511025576760295425",
+        "mass": 276.72850189209,
+        "position": {
+          "x": -0.69724595546722,
+          "y": 9.7599029541016,
+          "z": 235.47802734375
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 125.78568267822
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "e59392b0-a262-413e-bede-a92b80d467d1",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511025874183225345"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511025874184290305"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511025874185306113"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511025874186354689"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511025874187386881"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511025874188402689"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511025874182717441",
+        "mass": 278.0929107666,
+        "position": {
+          "x": -0.021268844604492,
+          "y": 11.809899330139,
+          "z": 253.80595397949
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 13.0885,
+          "y": 0.99999,
+          "z": 9.65788
+        },
+        "size": {
+          "x": 13.0885,
+          "y": 0.99999,
+          "z": 9.65788
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 126.40586853027
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "1a2a640c-8094-4a64-9721-f55ccde9f8d7",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511027145225814017"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511027145228517377"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511027145229762561"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511027145230843905"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511027145231892481"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511027145232941057"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511027145224765441",
+        "mass": 276.72850189209,
+        "position": {
+          "x": -16.599090576172,
+          "y": 13.430957794189,
+          "z": 235.51428222656
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": -41.999992370605
+        },
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 125.78568267822
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "30eddda7-cc83-4536-8fe5-f0f504605835",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511028307563315201"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511028307564576769"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511028307566870529"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511028307567951873"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511028307569000449"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511028307570049025"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511028307562823681",
+        "mass": 276.72850189209,
+        "position": {
+          "x": 18.56304359436,
+          "y": 11.609161376953,
+          "z": 197.73434448242
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": 46.000003814697
+        },
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 125.78568267822
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "67b84f2b-189e-4b64-90c4-ba07aad0d6c1",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511028647232094209"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511028647233126401"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511028647234174977"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511028647235190785"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511028647237042177"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511028647238172673"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511028647231602689",
+        "mass": 278.0929107666,
+        "position": {
+          "x": -17.196668624878,
+          "y": 12.862413406372,
+          "z": 216.42582702637
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": -41.999996185303
+        },
+        "scale": {
+          "x": 13.0885,
+          "y": 0.99999,
+          "z": 9.65788
+        },
+        "size": {
+          "x": 13.0885,
+          "y": 0.99999,
+          "z": 9.65788
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 126.40586853027
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "2aca29fd-6a79-46c2-b117-80750601f747",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511028720667541505"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511028720668606465"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511028720669638657"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511028720670687233"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511028720671817729"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511028720672866305"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511028720667017217",
+        "mass": 278.0929107666,
+        "position": {
+          "x": 17.18049621582,
+          "y": 12.883872032166,
+          "z": 216.42582702637
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": 45.999988555908
+        },
+        "scale": {
+          "x": 13.0885,
+          "y": 0.99999,
+          "z": 9.65788
+        },
+        "size": {
+          "x": 13.0885,
+          "y": 0.99999,
+          "z": 9.65788
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 126.40586853027
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "faf0e71e-e021-46ef-9c5f-f066cc67692e",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511030021061230593"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030021062279169"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030021063294977"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030021064540161"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030021065588737"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511030021066604545"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511030021060755457",
+        "mass": 276.72850189209,
+        "position": {
+          "x": -0.064706325531006,
+          "y": 6.0598993301392,
+          "z": 197.73434448242
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 125.78568267822
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "f85100f9-38c8-45df-9c56-ceb9b7d9398e",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511030021071290369"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030021072306177"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030021073321985"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030021074337793"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030021075353601"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511030021076369409"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511030021070798849",
+        "mass": 276.72850189209,
+        "position": {
+          "x": 16.62084197998,
+          "y": 13.484715461731,
+          "z": 235.51428222656
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": 46.000003814697
+        },
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 125.78568267822
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "84215b93-ec31-4484-b657-b7c2ed4a553b",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511030021082595329"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030021083676673"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030021084692481"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030021085724673"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030021086724097"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511030021087756289"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511030021081972737",
+        "mass": 276.72850189209,
+        "position": {
+          "x": -18.422342300415,
+          "y": 11.436226844788,
+          "z": 197.73434448242
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": -41.999992370605
+        },
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 125.78568267822
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "936ce91c-715a-4295-b888-376b43e60905",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030953475620865"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030953476653057"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030953477668865"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030953478684673"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030953479733249"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030953480781825"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511030953475129345",
+        "mass": 278.0929107666,
+        "position": {
+          "x": -0.021268844604492,
+          "y": 7.9399003982544,
+          "z": 216.42582702637
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 13.0885,
+          "y": 0.99999,
+          "z": 9.65788
+        },
+        "size": {
+          "x": 13.0885,
+          "y": 0.99999,
+          "z": 9.65788
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 126.40586853027
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "6729c4ed-3d60-44f0-b387-f874641e3a23",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030953486516225"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030953487581185"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030953488596993"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030953489612801"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030953490628609"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030953491644417"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511030953485975553",
+        "mass": 278.0929107666,
+        "position": {
+          "x": 14.396657943726,
+          "y": 15.572189331055,
+          "z": 253.80595397949
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": 45.999988555908
+        },
+        "scale": {
+          "x": 13.0885,
+          "y": 0.99999,
+          "z": 9.65788
+        },
+        "size": {
+          "x": 13.0885,
+          "y": 0.99999,
+          "z": 9.65788
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 126.40586853027
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "c2764acd-fb01-4aaa-94ad-f14943c15a15",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030953496395777"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030953497411585"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030953498460161"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030953499459585"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030953500524545"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511030953501540353"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511030953495904257",
+        "mass": 278.0929107666,
+        "position": {
+          "x": -14.607137680054,
+          "y": 15.738388061523,
+          "z": 253.80595397949
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": -41.999996185303
+        },
+        "scale": {
+          "x": 13.0885,
+          "y": 0.99999,
+          "z": 9.65788
+        },
+        "size": {
+          "x": 13.0885,
+          "y": 0.99999,
+          "z": 9.65788
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 126.40586853027
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "310217b0-9f0e-4d14-8a26-6fdd9346ceb7",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203033550849"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203035222017"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203036303361"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203037302785"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203038351361"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203039367169"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511034203032649729",
+        "mass": 278.0929107666,
+        "position": {
+          "x": 0.26584720611572,
+          "y": 15.093665122986,
+          "z": 289.43591308594
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -20
+        },
+        "scale": {
+          "x": 13.0885,
+          "y": 0.99999,
+          "z": 9.65788
+        },
+        "size": {
+          "x": 13.0885,
+          "y": 0.99999,
+          "z": 9.65788
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 126.40586853027
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "e47a5f66-f1f4-4a1c-897a-83e76b52cd80",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203044249601"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203045281793"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203046297601"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203047297025"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203048329217"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203049476097"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511034203043774465",
+        "mass": 278.0929107666,
+        "position": {
+          "x": -16.909559249878,
+          "y": 20.016181945801,
+          "z": 289.43591308594
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -15.445365905762,
+          "y": 14.405303955078,
+          "z": -43.963634490967
+        },
+        "scale": {
+          "x": 13.0885,
+          "y": 0.99999,
+          "z": 9.65788
+        },
+        "size": {
+          "x": 13.0885,
+          "y": 0.99999,
+          "z": 9.65788
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 126.40586853027
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "edcb8507-5f1d-461a-8aba-b51677582b69",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511034203054882817"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203055915009"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203056947201"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203057963009"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203058978817"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511034203059978241"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511034203054374913",
+        "mass": 276.72850189209,
+        "position": {
+          "x": -18.135229110718,
+          "y": 18.589996337891,
+          "z": 270.74438476562
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -11.82004737854,
+          "y": 10.861339569092,
+          "z": -43.127655029297
+        },
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 125.78568267822
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "8cffe000-2bb3-4b83-9b56-c26b32115165",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511034203064647681"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203065696257"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203066712065"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203067727873"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203068743681"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511034203069759489"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511034203064172545",
+        "mass": 276.72850189209,
+        "position": {
+          "x": 16.907960891724,
+          "y": 20.638484954834,
+          "z": 308.52435302734
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -24.098703384399,
+          "y": -27.592945098877,
+          "z": 52.000961303711
+        },
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 125.78568267822
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "5669aa2f-fdba-4da7-b6e3-afbec0e3699f",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511034203074428929"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203075477505"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203076526081"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203077541889"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203078590465"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511034203079606273"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511034203073937409",
+        "mass": 276.72850189209,
+        "position": {
+          "x": 18.850160598755,
+          "y": 18.76293182373,
+          "z": 270.74438476562
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -11.718211174011,
+          "y": -12.403276443481,
+          "z": 47.277755737305
+        },
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 125.78568267822
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "986698dd-c614-4fef-a6e1-0d0f0eb069b5",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511034203085225985"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203086290945"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203087306753"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203088338945"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203089387521"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511034203090419713"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511034203084701697",
+        "mass": 276.72850189209,
+        "position": {
+          "x": -16.311979293823,
+          "y": 20.58472442627,
+          "z": 308.52435302734
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -17.593654632568,
+          "y": 16.589632034302,
+          "z": -44.584907531738
+        },
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 125.78568267822
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "3ad4a93c-47b0-4769-b3f2-b0963156b856",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511034203095138305"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203096170497"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203097169921"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203098234881"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203099447297"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511034203100463105"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511034203094663169",
+        "mass": 276.72850189209,
+        "position": {
+          "x": -0.41013026237488,
+          "y": 16.913669586182,
+          "z": 308.48809814453
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -20
+        },
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 125.78568267822
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "573b4617-5833-41d2-98d2-8acd649689e7",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511034203105214465"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203106246657"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203107262465"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203108261889"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203109294081"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511034203110293505"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511034203104739329",
+        "mass": 276.72850189209,
+        "position": {
+          "x": 0.22240900993347,
+          "y": 13.213665962219,
+          "z": 270.74438476562
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -20
+        },
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999992,
+          "z": 9.67471
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 125.78568267822
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "50884bcd-6d85-4551-97b8-9ba4a3046129",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203117715457"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203120517121"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203123269633"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203125940225"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203128496129"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511034203131052033"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511034203116355585",
+        "mass": 278.0929107666,
+        "position": {
+          "x": 17.467615127563,
+          "y": 20.037643432617,
+          "z": 289.43591308594
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -19.03359413147,
+          "y": -20.930824279785,
+          "z": 49.547336578369
+        },
+        "scale": {
+          "x": 13.0885,
+          "y": 0.99999,
+          "z": 9.65788
+        },
+        "size": {
+          "x": 13.0885,
+          "y": 0.99999,
+          "z": 9.65788
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 126.40586853027
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "a7029f0e-362f-4298-b6bb-219948d98575",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511038454348169217"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511038454349185025"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511038454350200833"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511038454351757313"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511038454353985537"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511038454355345409"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511038454347677697",
+        "mass": 296.37608032227,
+        "position": {
+          "x": 0.035129308700562,
+          "y": 16.249891281128,
+          "z": 327.45190429688
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 12.9413,
+          "y": 0.999991,
+          "z": 10.4099
+        },
+        "size": {
+          "x": 12.9413,
+          "y": 0.999991,
+          "z": 10.4099
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 134.71640014648
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "bdd20f6a-0113-4ea3-aa32-e88103028435",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511039525668880385"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511039525670158337"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511039525671436289"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511039525672714241"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511039525674041345"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511039525675319297"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511039525668061185",
+        "mass": 299.10711364746,
+        "position": {
+          "x": -23.894708633423,
+          "y": 16.299898147583,
+          "z": 327.45333862305
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999991,
+          "z": 10.4571
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999991,
+          "z": 10.4571
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 135.95777893066
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "205f0f45-d441-4ffe-9b9c-6875af2ee747",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511040584605237249"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511040584606285825"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511040584607318017"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511040584608333825"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511040584609366017"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511040584610381825"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511040584604696577",
+        "mass": 296.37608032227,
+        "position": {
+          "x": -46.984870910645,
+          "y": 16.249891281128,
+          "z": 327.45190429688
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 12.9413,
+          "y": 0.999991,
+          "z": 10.4099
+        },
+        "size": {
+          "x": 12.9413,
+          "y": 0.999991,
+          "z": 10.4099
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 134.71640014648
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "c0ce6945-1c5c-458d-8452-6e3727f99594",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511041109231517697"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511041109232533505"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511041109233549313"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511041109234565121"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511041109236400129"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511041109237530625"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511041109231009793",
+        "mass": 299.10711364746,
+        "position": {
+          "x": -46.374717712402,
+          "y": 16.299898147583,
+          "z": 305.89324951172
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999991,
+          "z": 10.4571
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999991,
+          "z": 10.4571
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 135.95777893066
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "130fc6e6-8958-4d65-acde-9f71c5488f2c",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511041456762896385"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511041456763977729"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511041456764993537"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511041456766009345"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511041456767025153"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511041456768040961"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511041456762322945",
+        "mass": 296.37608032227,
+        "position": {
+          "x": -70.084907531738,
+          "y": 16.249891281128,
+          "z": 306.76193237305
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 12.9413,
+          "y": 0.999991,
+          "z": 10.4099
+        },
+        "size": {
+          "x": 12.9413,
+          "y": 0.999991,
+          "z": 10.4099
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 134.71640014648
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "1bf14a3e-ff54-44df-a229-7b9a3b2a96d9",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511041955046375425"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511041955047424001"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511041955048439809"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511041955049455617"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511041955050717185"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511041955052421121"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511041955045867521",
+        "mass": 299.10711364746,
+        "position": {
+          "x": -94.314682006836,
+          "y": 16.299898147583,
+          "z": 305.89324951172
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999991,
+          "z": 10.4571
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999991,
+          "z": 10.4571
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 135.95777893066
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "1caa04cf-2a42-4f1b-9e8c-f755b23876d4",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511042224236593153"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511042224237723649"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511042224238870529"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511042224239968257"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511042224241115137"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511042224242212865"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511042224235970561",
+        "mass": 296.37608032227,
+        "position": {
+          "x": -94.284851074219,
+          "y": 16.249891281128,
+          "z": 327.45190429688
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 12.9413,
+          "y": 0.999991,
+          "z": 10.4099
+        },
+        "size": {
+          "x": 12.9413,
+          "y": 0.999991,
+          "z": 10.4099
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 134.71640014648
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "45e27ecb-1d4b-4fc3-8c86-837d4a446ed9",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511042522649952257"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511042522651279361"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511042522652557313"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511042522653835265"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511042522655129601"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511042522657308673"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511042522649165825",
+        "mass": 299.10711364746,
+        "position": {
+          "x": -118.60469055176,
+          "y": 16.299898147583,
+          "z": 327.46319580078
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999991,
+          "z": 10.4571
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999991,
+          "z": 10.4571
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 135.95777893066
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "2d5e27e8-20e9-44ab-a2a7-25a967f1e4ba",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511043417572409345"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511043417573441537"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511043417574473729"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511043417575505921"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511043417576620033"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511043417578651649"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511043417571868673",
+        "mass": 296.37608032227,
+        "position": {
+          "x": -130.37484741211,
+          "y": 16.249891281128,
+          "z": 315.98193359375
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": -34.999996185303
+        },
+        "scale": {
+          "x": 12.9413,
+          "y": 0.999991,
+          "z": 10.4099
+        },
+        "size": {
+          "x": 12.9413,
+          "y": 0.999991,
+          "z": 10.4099
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 134.71640014648
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "8e32c23a-df0e-42e7-8d4d-6c632f793a8c",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511044157712302081"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511044157713317889"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511044157714350081"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511044157715398657"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511044157716430849"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511044157717610497"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511044157711794177",
+        "mass": 299.10711364746,
+        "position": {
+          "x": -118.60469055176,
+          "y": 16.299898147583,
+          "z": 302.08343505859
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": 35
+        },
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999991,
+          "z": 10.4571
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999991,
+          "z": 10.4571
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 135.95777893066
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "98f3f174-99de-4b2f-bfb1-a68cb8077b89",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511044708043489281"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511044708044734465"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511044708045799425"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511044708046897153"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511044708047978497"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511044708048994305"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511044708042276865",
+        "mass": 296.37608032227,
+        "position": {
+          "x": -130.37484741211,
+          "y": 16.249891281128,
+          "z": 287.93194580078
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": -34.999996185303
+        },
+        "scale": {
+          "x": 12.9413,
+          "y": 0.999991,
+          "z": 10.4099
+        },
+        "size": {
+          "x": 12.9413,
+          "y": 0.999991,
+          "z": 10.4099
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 134.71640014648
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "916293d9-9a8a-4d79-a2bf-a9f5a2d250e5",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511044936685961217"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511044936689827841"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511044936692695041"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511044936694022145"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511044936695119873"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511044936696152065"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511044936684617729",
+        "mass": 299.10711364746,
+        "position": {
+          "x": -118.60469055176,
+          "y": 16.299898147583,
+          "z": 274.27352905273
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": 35
+        },
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999991,
+          "z": 10.4571
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999991,
+          "z": 10.4571
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 135.95777893066
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "9f70c013-28ba-4afe-b156-b71247f731c6",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511045543894695937"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511045543895777281"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511045543896825857"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511045543897874433"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511045543898890241"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511045543899971585"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511045543894106113",
+        "mass": 296.37608032227,
+        "position": {
+          "x": -125.05484771729,
+          "y": 16.249891281128,
+          "z": 259.26196289062
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 35
+        },
+        "scale": {
+          "x": 12.9413,
+          "y": 0.999991,
+          "z": 10.4099
+        },
+        "size": {
+          "x": 12.9413,
+          "y": 0.999991,
+          "z": 10.4099
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 134.71640014648
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "e6a20a6d-0ee1-4bf4-9ba0-6c68c736232a",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511046616651071489"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511046616652759041"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511046616655282177"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511046616657199105"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511046616658411521"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511046616659460097"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511046616650579969",
+        "mass": 126.13956604004,
+        "position": {
+          "x": -121.024269104,
+          "y": 18.929899215698,
+          "z": 244.28318786621
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 5.48312,
+          "y": 0.999986,
+          "z": 10.457
+        },
+        "size": {
+          "x": 5.48312,
+          "y": 0.999986,
+          "z": 10.457
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 57.336166381836
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "888421ce-a4e0-46a5-82e4-ea9078f886b7",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511047645108781057"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511047645111123969"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511047645114187777"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511047645118087169"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511047645121101825"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511047645124116481"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511047645106176001",
+        "mass": 126.13956604004,
+        "position": {
+          "x": -129.75430297852,
+          "y": 18.929899215698,
+          "z": 244.28318786621
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 5.48312,
+          "y": 0.999986,
+          "z": 10.457
+        },
+        "size": {
+          "x": 5.48312,
+          "y": 0.999986,
+          "z": 10.457
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 57.336166381836
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "6e26f7eb-0985-430f-a237-582a33cbf59d",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511048182426697729"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511048182427746305"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511048182428925953"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511048182431465473"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511048182432645121"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511048182433693697"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511048182426206209",
+        "mass": 126.13956604004,
+        "position": {
+          "x": -132.91424560547,
+          "y": 18.929899215698,
+          "z": 226.8031463623
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 5.48312,
+          "y": 0.999986,
+          "z": 10.457
+        },
+        "size": {
+          "x": 5.48312,
+          "y": 0.999986,
+          "z": 10.457
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 57.336166381836
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "85466710-da8f-4c76-887d-2f1ca2267352",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511048182438526977"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511048182439575553"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511048182440607745"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511048182441639937"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511048182442672129"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511048182443704321"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511048182438035457",
+        "mass": 126.13956604004,
+        "position": {
+          "x": -118.34426116943,
+          "y": 18.929899215698,
+          "z": 226.8031463623
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 5.48312,
+          "y": 0.999986,
+          "z": 10.457
+        },
+        "size": {
+          "x": 5.48312,
+          "y": 0.999986,
+          "z": 10.457
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 57.336166381836
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "b67df14c-5381-4378-a5f0-08a35ce6f452",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/aawwda.png"
+                },
+                "id": "8511049304047976449"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/denxanht.png"
+                },
+                "id": "8511049304049827841"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "1",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/denxanht.png"
+                },
+                "id": "8511049304051449857"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "2",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/denxanht.png"
+                },
+                "id": "8511049304052596737"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "3",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/denxanht.png"
+                },
+                "id": "8511049304055037953"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "5",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/aawwda.png"
+                },
+                "id": "8511049304056201217"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8511049304046583809",
+            "mass": 126.13956604004,
+            "position": {
+              "x": -127.85384368896,
+              "y": 19.326406478882,
+              "z": 193.00440979004
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 27.999996185303,
+              "y": 3.6470981967796e-07,
+              "z": -49.999828338623
+            },
+            "scale": {
+              "x": 5.48312,
+              "y": 0.999986,
+              "z": 10.457
+            },
+            "size": {
+              "x": 5.48312,
+              "y": 0.999986,
+              "z": 10.457
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 57.336166381836
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "4628e88e-abb7-4424-83a8-1933ee302cde",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/aawwda.png"
+                },
+                "id": "8511049616250355713"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/denxanht.png"
+                },
+                "id": "8511049616251404289"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "1",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/denxanht.png"
+                },
+                "id": "8511049616252420097"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "2",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/denxanht.png"
+                },
+                "id": "8511049616254189569"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "3",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/denxanht.png"
+                },
+                "id": "8511049616256319489"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "5",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/aawwda.png"
+                },
+                "id": "8511049616257662977"
+              },
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8511059838637342721",
+                "slavePartID": "8511049304046583809"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8511049616249864193",
+            "mass": 126.13956604004,
+            "position": {
+              "x": -123.49822235107,
+              "y": 19.267526626587,
+              "z": 193.01301574707
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 27.999996185303,
+              "y": -3.6470981967796e-07,
+              "z": 49.999828338623
+            },
+            "scale": {
+              "x": 5.48312,
+              "y": 0.999986,
+              "z": 10.457
+            },
+            "size": {
+              "x": 5.48312,
+              "y": 0.999986,
+              "z": 10.457
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 57.336166381836
+          }
+        ],
+        "id": "8511051061541339137",
+        "position": {
+          "x": -125.67655944824,
+          "y": 19.296892166138,
+          "z": 193.00898742676
+        },
+        "rotation": {
+          "x": 27.999994277954
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "b67df14c-5381-4378-a5f0-08a35ce6f452",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/aawwda.png"
+                },
+                "id": "8511051763838910465"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/denxanht.png"
+                },
+                "id": "8511051763839959041"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "1",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/denxanht.png"
+                },
+                "id": "8511051763840974849"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "2",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/denxanht.png"
+                },
+                "id": "8511051763842007041"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "3",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/denxanht.png"
+                },
+                "id": "8511051763843022849"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "5",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/aawwda.png"
+                },
+                "id": "8511051763844055041"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8511051763838418945",
+            "mass": 126.13956604004,
+            "position": {
+              "x": -127.86148071289,
+              "y": 16.044715881348,
+              "z": 207.33312988281
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": -50
+            },
+            "scale": {
+              "x": 5.48312,
+              "y": 0.999986,
+              "z": 10.457
+            },
+            "size": {
+              "x": 5.48312,
+              "y": 0.999986,
+              "z": 10.457
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 57.336166381836
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "4628e88e-abb7-4424-83a8-1933ee302cde",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/aawwda.png"
+                },
+                "id": "8511051763848740865"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/denxanht.png"
+                },
+                "id": "8511051763849773057"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "1",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/denxanht.png"
+                },
+                "id": "8511051763850821633"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "2",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/denxanht.png"
+                },
+                "id": "8511051763851886593"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "3",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/denxanht.png"
+                },
+                "id": "8511051763852935169"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "5",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map17/aawwda.png"
+                },
+                "id": "8511051763853950977"
+              },
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8511059870360174593",
+                "slavePartID": "8511051763838418945"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8511051763848265729",
+            "mass": 126.13956604004,
+            "position": {
+              "x": -123.505859375,
+              "y": 15.993315696716,
+              "z": 207.36315917969
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": 50
+            },
+            "scale": {
+              "x": 5.48312,
+              "y": 0.999986,
+              "z": 10.457
+            },
+            "size": {
+              "x": 5.48312,
+              "y": 0.999986,
+              "z": 10.457
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 57.336166381836
+          }
+        ],
+        "id": "8511051763836551169",
+        "position": {
+          "x": -125.68367004395,
+          "y": 16.018978118896,
+          "z": 207.34814453125
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "7c5fc1b5-a0a8-4a34-bba4-fde5a7dba481",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511052401597825025"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511052401598857217"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511052401599889409"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511052401600921601"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511052401601986561"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511052401603035137"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511052401597317121",
+        "mass": 296.37608032227,
+        "position": {
+          "x": -125.05484771729,
+          "y": 19.553653717041,
+          "z": 175.74150085449
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 12.9413,
+          "y": 0.999991,
+          "z": 10.4099
+        },
+        "size": {
+          "x": 12.9413,
+          "y": 0.999991,
+          "z": 10.4099
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 134.71640014648
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "94a23505-41d9-4b15-9fc8-b0257ef547be",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511053504125075457"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511053504126156801"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511053504127188993"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511053504128237569"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511053504129253377"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511053504130318337"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511053504124567553",
+        "mass": 299.10711364746,
+        "position": {
+          "x": -125.00469207764,
+          "y": 19.579893112183,
+          "z": 153.83331298828
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999991,
+          "z": 10.4571
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999991,
+          "z": 10.4571
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 135.95777893066
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "a457bc97-f25c-4b31-8746-37e546a74b12",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511054194326913025"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511054194327945217"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511054194328961025"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511054194329976833"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511054194331729921"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511054194333859841"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511054194326421505",
+        "mass": 66.537184906006,
+        "position": {
+          "x": -121.08689117432,
+          "y": 19.553653717041,
+          "z": 135.26515197754
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 5.00535,
+          "y": 0.999987,
+          "z": 6.04245
+        },
+        "size": {
+          "x": 5.00535,
+          "y": 0.999987,
+          "z": 6.04245
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 30.244174957275
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "4b328544-8050-415e-8940-9e3f16ececc5",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511054706518212609"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511054706519343105"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511054706520440833"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511054706521571329"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511054706523242497"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511054706524389377"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511054706517590017",
+        "mass": 66.537184906006,
+        "position": {
+          "x": -130.19683837891,
+          "y": 19.553653717041,
+          "z": 135.26515197754
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 5.00535,
+          "y": 0.999987,
+          "z": 6.04245
+        },
+        "size": {
+          "x": 5.00535,
+          "y": 0.999987,
+          "z": 6.04245
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 30.244174957275
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "1ab7bf8f-1387-4a77-b219-a87b6ea19427",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511054940993208321"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511054940994355201"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511054940995518465"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511054940996665345"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511054940997861377"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511054940999761921"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511054940992585729",
+        "mass": 299.10711364746,
+        "position": {
+          "x": -125.00469207764,
+          "y": 19.579893112183,
+          "z": 116.93329620361
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999991,
+          "z": 10.4571
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999991,
+          "z": 10.4571
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 135.95777893066
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "b732c725-c37f-4f93-a385-7d900265357a",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511055173979734017"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511055173980782593"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511055173981814785"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511055173983666177"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511055173984813057"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/aawwda.png"
+            },
+            "id": "8511055173985861633"
+          },
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8511059677452845057",
+            "slavePartID": "8511054940992585729"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511055173979226113",
+        "mass": 299.10711364746,
+        "position": {
+          "x": -125.00469207764,
+          "y": 20.582420349121,
+          "z": 113.38711547852
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 29.999992370605
+        },
+        "scale": {
+          "x": 13.0016,
+          "y": 0.999991,
+          "z": 10.4571
+        },
+        "size": {
+          "x": 13.0016,
+          "y": 0.999991,
+          "z": 10.4571
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 135.95777893066
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "b12ac2f1-c20a-4402-8d5b-fdd91aacfa71",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511056279858151425"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511056279860068353"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511056279861149697"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511056279862181889"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511056279863230465"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511056279864246273"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511056279857496065",
+        "mass": 252.62046508789,
+        "position": {
+          "x": -124.06463623047,
+          "y": 19.363656997681,
+          "z": 91.109184265137
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 7.74086,
+          "y": 0.999983,
+          "z": 14.8342
+        },
+        "size": {
+          "x": 7.74086,
+          "y": 0.999983,
+          "z": 14.8342
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 114.82748413086
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "d9be3db2-a608-48f4-9c93-074557732ef2",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511056949106671617"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511056949107720193"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511056949108785153"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511056949111046145"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/denxanht.png"
+            },
+            "id": "8511056949112143873"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map17/ccawwa.png"
+            },
+            "id": "8511056949113192449"
+          },
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8511058998968008705",
+            "slavePartID": "8511057999266201601"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511056949106180097",
+        "mass": 416.88146972656,
+        "position": {
+          "x": -141.64129638672,
+          "y": 19.363656997681,
+          "z": 91.109184265137
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 12.7742,
+          "y": 0.999982,
+          "z": 14.8342
+        },
+        "size": {
+          "x": 12.7742,
+          "y": 0.999982,
+          "z": 14.8342
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 189.49157714844
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "eb08e564-e44c-4aff-a2b0-1d576f858887",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8511057685671919617",
+        "mass": 2.2,
+        "restitution": 0.3,
+        "useAnchor": true,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d5c6757c-f9f5-4ba3-b157-9f41702d39ee",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8511059190343172097",
+                "slavePartID": "8511058416812359681"
+              }
+            ],
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8511058550947823617",
+            "mass": 1.9400578737259,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -145.5411529541,
+              "y": 23.659210205078,
+              "z": 92.050758361816
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 0.999995,
+              "y": 0.776035,
+              "z": 0.99999
+            },
+            "size": {
+              "x": 0.999995,
+              "y": 0.776035,
+              "z": 0.99999
+            },
+            "useAnchor": true,
+            "volume": 0.77602314949036
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "be334abf-18cb-4c09-ae22-8c76b637b6c4",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8511059220771848193",
+                "slavePartID": "8511057813063139329"
+              }
+            ],
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8511058416812359681",
+            "mass": 1.9400578737259,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -145.5411529541,
+              "y": 23.159206390381,
+              "z": 92.500762939453
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 0.999995,
+              "y": 0.776035,
+              "z": 0.99999
+            },
+            "size": {
+              "x": 0.999995,
+              "y": 0.776035,
+              "z": 0.99999
+            },
+            "useAnchor": true,
+            "volume": 0.77602314949036
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "23ed2020-a991-4032-a9c7-654cd73f0f8c",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8511058923806244865",
+                "slavePartID": "8511058791791591425"
+              },
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8511059162519093249",
+                "slavePartID": "8511058550947823617"
+              }
+            ],
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8511058696385921025",
+            "mass": 1.9400578737259,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -145.5411529541,
+              "y": 24.039213180542,
+              "z": 91.170776367188
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 0.999995,
+              "y": 0.776035,
+              "z": 0.99999
+            },
+            "size": {
+              "x": 0.999995,
+              "y": 0.776035,
+              "z": 0.99999
+            },
+            "useAnchor": true,
+            "volume": 0.77602314949036
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e6c4c96d-90a8-4bd4-a7d1-c8f82afdaef4",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8511059251863552001",
+                "slavePartID": "8511056949106180097"
+              }
+            ],
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8511057813063139329",
+            "mass": 7.8228759765625,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -145.5411529541,
+              "y": 21.421140670776,
+              "z": 93.060752868652
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 0.999998,
+              "y": 3.12917,
+              "z": 0.999996
+            },
+            "size": {
+              "x": 0.999998,
+              "y": 3.12917,
+              "z": 0.999996
+            },
+            "useAnchor": true,
+            "volume": 3.129150390625
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7d51bd35-4672-4b59-8959-f199232e0bb5",
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8511057999266201601",
+            "mass": 7.8228759765625,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -145.5411529541,
+              "y": 21.421140670776,
+              "z": 89.29076385498
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 0.999998,
+              "y": 3.12917,
+              "z": 0.999996
+            },
+            "size": {
+              "x": 0.999998,
+              "y": 3.12917,
+              "z": 0.999996
+            },
+            "useAnchor": true,
+            "volume": 3.129150390625
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "c65fd369-fe42-4bb4-830a-bf746052714b",
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8511058791791591425",
+            "mass": 1.9400578737259,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -145.5411529541,
+              "y": 23.659210205078,
+              "z": 90.310775756836
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 0.999995,
+              "y": 0.776035,
+              "z": 0.99999
+            },
+            "size": {
+              "x": 0.999995,
+              "y": 0.776035,
+              "z": 0.99999
+            },
+            "useAnchor": true,
+            "volume": 0.77602314949036
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "961e5e26-43dc-4432-8331-6ce1dcce83af",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8511058953780314113",
+                "slavePartID": "8511057999266201601"
+              },
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8511059041013432321",
+                "slavePartID": "8511058791791591425"
+              }
+            ],
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8511058117307891713",
+            "mass": 1.9400578737259,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -145.5411529541,
+              "y": 23.159206390381,
+              "z": 89.79076385498
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 0.999995,
+              "y": 0.776035,
+              "z": 0.99999
+            },
+            "size": {
+              "x": 0.999995,
+              "y": 0.776035,
+              "z": 0.99999
+            },
+            "useAnchor": true,
+            "volume": 0.77602314949036
+          }
+        ],
+        "id": "8511059399164264449",
+        "name": "cong",
+        "position": {
+          "x": -145.5411529541,
+          "y": 22.141893386841,
+          "z": 91.175758361816
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/6fc5f0a0-4fd6-4628-8e2d-80e4eebb38a5",
+        "id": "8540051676957556737",
+        "name": "NextMap",
+        "position": {
+          "x": -145.5037689209,
+          "y": 22.027280807495,
+          "z": 91.153694152832
+        },
+        "scale": {
+          "x": 0.999998,
+          "y": 4.34611,
+          "z": 2.79652
+        },
+        "size": {
+          "x": 0.999998,
+          "y": 4.34611,
+          "z": 2.79652
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "45347954-f4a9-43c4-98f8-c2f046f35f96",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/Skill/common/icon_开镜_act.png"
+            },
+            "id": "8540942424594448385"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8540941894326288385",
+        "mass": 69.285921859741,
+        "name": "checkpoint",
+        "position": {
+          "x": 0.16499328613281,
+          "y": 1.093079328537,
+          "z": 2.4528162479401
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 12.7267,
+          "y": 0.179628,
+          "z": 13.7763
+        },
+        "size": {
+          "x": 12.7267,
+          "y": 0.179628,
+          "z": 13.7763
+        },
+        "useAnchor": true,
+        "volume": 31.493600845337
+      }
+    ],
+    "name": {
+      "value": "map_speed17"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a82a13a782031d7e278cc2649e216995"
+    },
+    "VERSION": "0.20"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "data": {
+    "bagCap": 54,
+    "defaultView": "Back",
+    "fixed_viewPos": {
+      "pos": {
+        "__OBJ_TYPE": "Vector3i"
+      }
+    },
+    "initPos": {
+      "map": "lobby",
+      "pos": {
+        "y": 1.5
+      }
+    },
+    "needSave": true,
+    "nowTime": {
+      "h": 16,
+      "m": 40
+    },
+    "player_range": {
+      "max": 100,
+      "min": 1
+    },
+    "startPos": {
+      "map": "lobby",
+      "pos": {
+        "x": 0,
+        "y": 1.5,
+        "z": 0
+      }
+    },
+    "unlimitedPlayTime": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b1fcf048f3f20e165da26aaa5dd46759",
+      "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
+      "triggers.bts": "",
+      "triggers_client.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

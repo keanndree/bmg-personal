@@ -1,0 +1,140 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_RemoveBuffByFullName",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "b7054bae-38b0-4a9f-b918-bfa11fa25a50"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/19a4a6c1-bd2a-48bb-bbfd-ea7260a446df"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e0e1a773-e380-48db-b502-982ab1602ce6"
+              },
+              "pos": {
+                "x": 693,
+                "y": 234
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "b7054bae-38b0-4a9f-b918-bfa11fa25a50"
+              },
+              "pos": {
+                "x": 1060,
+                "y": 200
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_RemoveBuffByFullName",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "1d406af8-b849-4adc-b4ce-16943636eafc"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/SpeedRun_Buff"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "0c1a47f3-8186-46f2-8b7e-645ffb7e04dd"
+              },
+              "pos": {
+                "x": 711,
+                "y": 497
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "1d406af8-b849-4adc-b4ce-16943636eafc"
+              },
+              "pos": {
+                "x": 1069,
+                "y": 436
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "e0e1a773-e380-48db-b502-982ab1602ce6"
+                  },
+                  {
+                    "action": "0c1a47f3-8186-46f2-8b7e-645ffb7e04dd"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "8a30b988-888d-4199-8883-8e33250c6a58"
+            }
+          },
+          "type": "Trigger_RegionEnter"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
+      "triggers.bts": "5f09c782860a84bb7cb53f61f52c11f0"
+    },
+    "VERSION": "0.18"
+  }
+}

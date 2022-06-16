@@ -1,0 +1,92 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "1818dec0-97c6-4b6d-97c1-e4028ca624a1"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/SpeedRun_Buff"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "rawval": false
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "13a837d7-e493-4193-b6c7-810de9fc5f6b"
+              },
+              "pos": {
+                "x": 673,
+                "y": 336
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "1818dec0-97c6-4b6d-97c1-e4028ca624a1"
+              },
+              "pos": {
+                "x": 1132,
+                "y": 425
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "13a837d7-e493-4193-b6c7-810de9fc5f6b"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "a5f1b42f-02ee-4d1d-b9d0-71b8469ec44d"
+            }
+          },
+          "type": "Trigger_RegionEnter"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
+      "triggers.bts": "a2a30714ccea40770fc547a49531ca96"
+    },
+    "VERSION": "0.20"
+  }
+}

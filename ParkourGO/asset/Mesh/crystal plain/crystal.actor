@@ -1,0 +1,33 @@
+<ActorTemplates>
+	<ActorTemplate SoundName1="" AttackScale="1" MaxDistance="16" SelectedRingSize="1" WoundAngle="25" SoundName5="" MinDistance="1" SoundName3="" name="111.actor" Skeleton="boy_01.skel" IntervalTime="2" Alpha="1" SoundName2="" SoundName4="" IsShowShadow="true" Volume="0.8" SoundFileNum="0" Originalscale="2 2 2" TextHeight="0" WoundBone="">
+		<Anims/>
+		<BodyParts>
+			<BodyPart MasterName="mutex_name_0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" SlaveName="group0">
+				<StaticMesh type_name="crystal plain" LocalAlpha="1" DiscardAlpha="0">
+					<yaw value="0"/>
+					<SpecularCoef value="0.01"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<SocketName value="Origin197011"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<FileName value="asset/Mesh/crystal plain/crystal plain.mesh"/>
+					<UseOriginalcolor value="false"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseEdge value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseReflect value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<pitch value="0"/>
+					<LocalBrightnessScale value="1"/>
+					<UseBloom value="false"/>
+					<Position_Z value="0"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Skills/>
+	</ActorTemplate>
+</ActorTemplates>

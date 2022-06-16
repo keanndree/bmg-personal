@@ -1,0 +1,30 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/Texture/Effects/speed.effect",
+        "selector": "editor/ParkourGame/asset/Texture/Effects/speed.effect"
+      },
+      "once": false,
+      "pos": {
+        "y": 0.25
+      },
+      "yaw": 180
+    },
+    "moveSpeed": 6,
+    "name": {
+      "value": "buff_speedboots"
+    },
+    "sound": {
+      "volume": {
+        "value": 0
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6225bed1457635a17c68e37c096de0f2"
+    },
+    "VERSION": "0.20"
+  }
+}

@@ -1,0 +1,16 @@
+REGION_ENTER {
+	ExecScript(player = $obj1, script_name = "ScriptableNode_2")
+	AddEntityBuff(buffTime = 100, cfg = "myplugin/disablefighting")
+	StartTimer2(interval = 100, time = 1, timer = "") {
+		SetEntityPosition(entity = $obj1, map = "pvp3", pos = { x = 0, y = 5, z = 0 }, rp = 0, ry = 0)
+		SetEntityRebirthPosition(
+			entity = $obj1,
+			map = GetStaticMap(create = true, name = "pvp3"),
+			pos = {
+				x = 0,
+				y = 5,
+				z = 0
+			}
+		)
+	}
+}

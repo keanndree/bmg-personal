@@ -1,0 +1,1 @@
+print("script_client.upgrade_client:startup")

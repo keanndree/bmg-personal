@@ -1,0 +1,30 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/Texture/Item/AWM.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/shoot4"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/AWP/gun_69.mesh"
+    },
+    "name": {
+      "value": "8f0fec2a-1665-4523-b478-a048ccb463a5"
+    },
+    "needSave": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a47888696fac19269c76d3b8d13f8043",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

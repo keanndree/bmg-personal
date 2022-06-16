@@ -1,0 +1,2278 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "asset": "asset/Texture/SkyBox/Common/SkyBox_back.png",
+          "selector": "editor/ParkourGame/asset/Texture/SkyBox/Common/SkyBox_back.png"
+        },
+        "bottom": {
+          "asset": "asset/Texture/SkyBox/Common/SkyBox_bottom.png",
+          "selector": "editor/ParkourGame/asset/Texture/SkyBox/Common/SkyBox_bottom.png"
+        },
+        "front": {
+          "asset": "asset/Texture/SkyBox/Common/SkyBox_front.png",
+          "selector": "editor/ParkourGame/asset/Texture/SkyBox/Common/SkyBox_front.png"
+        },
+        "left": {
+          "asset": "asset/Texture/SkyBox/Common/SkyBox_left.png",
+          "selector": "editor/ParkourGame/asset/Texture/SkyBox/Common/SkyBox_left.png"
+        },
+        "right": {
+          "asset": "asset/Texture/SkyBox/Common/SkyBox_right.png",
+          "selector": "editor/ParkourGame/asset/Texture/SkyBox/Common/SkyBox_right.png"
+        },
+        "top": {
+          "asset": "asset/Texture/SkyBox/Common/SkyBox_top.png",
+          "selector": "editor/ParkourGame/asset/Texture/SkyBox/Common/SkyBox_top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8506457703980482561"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/player1",
+        "id": "8506458020619337729",
+        "name": "Player",
+        "position": {
+          "y": 0.99989891052246
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "3ccbbfbc-c472-4a5d-9f4c-aa401e677e38",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8524869710691713025"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8524870101247541249"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8524870896791404545"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8524871237496504321"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8524871746330476545"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8524868939995709441",
+        "mass": 22108.137304688,
+        "position": {
+          "y": -21.331624984741,
+          "z": 3.2699999809265
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 15,
+          "y": 44.6632,
+          "z": 14.9999
+        },
+        "size": {
+          "x": 15,
+          "y": 44.6632,
+          "z": 14.9999
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 10049.153320313
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "c0053097-007c-42d8-a79a-839ffbd95aa6",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8524874227759333377"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8524874227760103425"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8524874227760889857"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8524874227761643521"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8524874227762413569"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8524874227758940161",
+        "mass": 20267.744921875,
+        "position": {
+          "x": 2.4999761581421,
+          "y": -21.331624984741,
+          "z": 30.583694458008
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 9.99992,
+          "y": 44.6628,
+          "z": 20.6272
+        },
+        "size": {
+          "x": 9.99992,
+          "y": 44.6628,
+          "z": 20.6272
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 9212.611328125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "fe9e9b39-55e0-4c15-a71f-ba0b4f17f16f",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8524877919553896449"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8524877919554715649"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8524877919555502081"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8524877919556321281"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8524877919557124097"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8524877919553519617",
+        "mass": 2439.6729736328,
+        "position": {
+          "x": 2.4999761581421,
+          "y": -0.99662184715271,
+          "z": 32.735012054443
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -30
+        },
+        "scale": {
+          "x": 9.99989,
+          "y": 6.90692,
+          "z": 16.0557
+        },
+        "size": {
+          "x": 9.99989,
+          "y": 6.90692,
+          "z": 16.0557
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1108.9422607422
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "c4249481-a84d-452a-bf64-7d6af1ef3b85",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8524878851543515137"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8524878851544301569"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8524878851545104385"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8524878851545890817"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8524878851546660865"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8524878851543138305",
+        "mass": 9825.7790039063,
+        "position": {
+          "x": 2.4999761581421,
+          "y": -21.331624984741,
+          "z": 57.112533569336
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 9.99994,
+          "y": 44.6629,
+          "z": 10
+        },
+        "size": {
+          "x": 9.99994,
+          "y": 44.6629,
+          "z": 10
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 4466.2631835938
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "31fd6d6f-d682-4e98-8f0b-735adc74c49e",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8524884824615682049"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8524884824616517633"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8524884824617320449"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8524884824618106881"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8524884824618909697"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8524884824615288833",
+        "mass": 5784.8258789063,
+        "position": {
+          "x": 2.4999761581421,
+          "y": -21.331624984741,
+          "z": 80.925071716309
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 2.99998,
+          "y": 44.6626,
+          "z": 19.6248
+        },
+        "size": {
+          "x": 2.99998,
+          "y": 44.6626,
+          "z": 19.6248
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2629.4663085938
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "07c78148-fb76-4422-8ebf-9500a73c8dac",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8524885670456033281"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8524885670457081857"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8524885670458146817"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8524885670459195393"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8524885670460227585"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8524885670455394305",
+        "mass": 9825.7790039063,
+        "position": {
+          "x": 5.4999761581421,
+          "y": -21.331624984741,
+          "z": 104.11253356934
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 9.99994,
+          "y": 44.6629,
+          "z": 10
+        },
+        "size": {
+          "x": 9.99994,
+          "y": 44.6629,
+          "z": 10
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 4466.2631835938
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "4ee76780-20d9-45c7-a574-2176f4f5b9c3",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8524886030369800193"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8524886030370717697"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8524886030371618817"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8524886030372536321"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8524886030373470209"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8524886030369292289",
+        "mass": 4912.8685546875,
+        "position": {
+          "x": 5.4999761581421,
+          "y": -21.331624984741,
+          "z": 119.37288665771
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 9.99992,
+          "y": 44.6628,
+          "z": 5
+        },
+        "size": {
+          "x": 9.99992,
+          "y": 44.6628,
+          "z": 5
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2233.1220703125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "de08a5a3-4b6f-4cec-b314-eeb0de357cea",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8524886405829722113"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8524886405830623233"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8524886405831442433"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8524886405832228865"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8524886405833015297"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8524886405829345281",
+        "mass": 4912.8685546875,
+        "position": {
+          "x": 5.4999761581421,
+          "y": -21.331624984741,
+          "z": 132.37289428711
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 9.99992,
+          "y": 44.6628,
+          "z": 5
+        },
+        "size": {
+          "x": 9.99992,
+          "y": 44.6628,
+          "z": 5
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2233.1220703125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "a671c04f-791f-4fa2-ad00-0593da20a2a7",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8524886521376800769"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8524886521378488321"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8524886521380601857"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8524886521381634049"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8524886521382486017"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8524886521375801345",
+        "mass": 25729.30078125,
+        "position": {
+          "x": 22.577978134155,
+          "y": -25.384971618652,
+          "z": 155.77433776855
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 16.1557,
+          "y": 36.5557,
+          "z": 19.8027
+        },
+        "size": {
+          "x": 16.1557,
+          "y": 36.5557,
+          "z": 19.8027
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 11695.13671875
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "66b59f24-a9fc-48c2-b7ee-5a09617f25c6",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8524887098940801025"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8524887098941587457"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8524887098942357505"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8524887098943127553"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8524887098943913985"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8524887098940424193",
+        "mass": 9435.967578125,
+        "position": {
+          "x": 25.102655410767,
+          "y": -6.6321020126343,
+          "z": 155.77951049805
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": 40
+        },
+        "scale": {
+          "x": 16.8035,
+          "y": 12.8831,
+          "z": 19.8127
+        },
+        "size": {
+          "x": 16.8035,
+          "y": 12.8831,
+          "z": 19.8127
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 4289.076171875
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "bc97e30f-5426-4422-b4da-1e0143fca4b9",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8525276594007932929"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8525276594008752129"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8525276594009538561"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8525276594010324993"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8525276594011111425"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8525276594007556097",
+        "mass": 136298.17265625,
+        "position": {
+          "x": 24.670419692993,
+          "y": -28.537498474121,
+          "z": 227.09545898438
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -49.999996185303
+        },
+        "scale": {
+          "x": 22.2596,
+          "y": 96.9701,
+          "z": 28.702
+        },
+        "size": {
+          "x": 22.2596,
+          "y": 96.9701,
+          "z": 28.702
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 61953.71484375
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "b3813db7-ac2a-4908-a369-2935258c4c6f",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8525286566903611393"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8525286566904463361"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8525286566905233409"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8525286566906003457"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8525286566906789889"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8525286566903234561",
+        "mass": 41304.505859375,
+        "position": {
+          "x": -11.815308570862,
+          "y": -25.384971618652,
+          "z": 213.09773254395
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 26.9422,
+          "y": 36.5555,
+          "z": 19.0629
+        },
+        "size": {
+          "x": 26.9422,
+          "y": 36.5555,
+          "z": 19.0629
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 18774.775390625
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "918fc536-33b7-4712-8657-6adc9d48897d",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8525294587213447169"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8525294587214233601"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8525294587215036417"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8525294587215806465"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8525294587216592897"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8525294587213037569",
+        "mass": 17386.466796875,
+        "position": {
+          "x": -48.177093505859,
+          "y": -25.384971618652,
+          "z": 207.77786254883
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 25.6657,
+          "y": 36.5555,
+          "z": 8.42331
+        },
+        "size": {
+          "x": 25.6657,
+          "y": 36.5555,
+          "z": 8.42331
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 7902.939453125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "77fa8c50-b2b0-4873-b559-6b1ff6619d2b",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8525294977802338305"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8525294977803124737"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8525294977803894785"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8525294977804664833"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8525294977805451265"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8525294977801961473",
+        "mass": 17386.466796875,
+        "position": {
+          "x": -85.177093505859,
+          "y": -25.384971618652,
+          "z": 207.77786254883
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 25.6657,
+          "y": 36.5555,
+          "z": 8.42331
+        },
+        "size": {
+          "x": 25.6657,
+          "y": 36.5555,
+          "z": 8.42331
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 7902.939453125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "6aa8303f-0f3b-47d2-9946-fad21d6da989",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8525295204037623809"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8525295204038524929"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8525295204039376897"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8525295204040212481"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8525295204041080833"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8525295204037165057",
+        "mass": 35561.1953125,
+        "position": {
+          "x": -110.52245330811,
+          "y": -24.976551055908,
+          "z": 229.2398223877
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 22.3561,
+          "y": 37.3718,
+          "z": 19.347
+        },
+        "size": {
+          "x": 22.3561,
+          "y": 37.3718,
+          "z": 19.347
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 16164.1796875
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "f5fb9522-43ea-4cb7-9dd4-dfd99f27cf24",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8525295832998985729"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8525295833000624129"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8525295833002147841"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8525295833003671553"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8525295833005195265"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8525295832997806081",
+        "mass": 3676.1223876953,
+        "position": {
+          "x": -121.65758514404,
+          "y": -2.2386751174927,
+          "z": 229.2398223877
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": -50.000003814697
+        },
+        "scale": {
+          "x": 15.74,
+          "y": 5.48729,
+          "z": 19.3466
+        },
+        "size": {
+          "x": 15.74,
+          "y": 5.48729,
+          "z": 19.3466
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1670.9647216797
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "40ca6579-389c-4557-92ce-c8a8a5778b9e",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8525298482532564993"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8525298482533367809"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8525298482534137857"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8525298482534940673"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8525298482535727105"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8525298482532188161",
+        "mass": 3676.1223876953,
+        "position": {
+          "x": -156.06240844727,
+          "y": 9.7613248825073,
+          "z": 215.109375
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -3.8049720387789e-06,
+          "y": -30,
+          "z": -50.000003814697
+        },
+        "scale": {
+          "x": 15.74,
+          "y": 5.48729,
+          "z": 19.3466
+        },
+        "size": {
+          "x": 15.74,
+          "y": 5.48729,
+          "z": 19.3466
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1670.9647216797
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "52d8ce57-bf92-40ae-a962-19ae51a6e790",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8525298482539216897"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8525298482540019713"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8525298482540789761"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8525298482541576193"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8525298482542346241"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8525298482538856449",
+        "mass": 48919.36328125,
+        "position": {
+          "x": -146.41909790039,
+          "y": -19.995750427246,
+          "z": 220.67695617676
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -30
+        },
+        "scale": {
+          "x": 22.3561,
+          "y": 51.4101,
+          "z": 19.347
+        },
+        "size": {
+          "x": 22.3561,
+          "y": 51.4101,
+          "z": 19.347
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 22236.07421875
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "e0945c92-d95c-48de-9b2d-28762ac08c0e",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8525301990366855169"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8525301990367641601"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8525301990368428033"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8525301990369198081"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8525301990369984513"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8525301990366461953",
+        "mass": 30374.297851563,
+        "position": {
+          "x": -162.86178588867,
+          "y": -18.38158416748,
+          "z": 182.89231872559
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 9.04358,
+          "y": 50.5618,
+          "z": 30.194
+        },
+        "size": {
+          "x": 9.04358,
+          "y": 50.5618,
+          "z": 30.194
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 13806.499023438
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "bc81a87f-258e-4536-b276-5c02b2f3a66f",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8525303658424664065"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8525303658426499073"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8525303658428448769"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8525303658430365697"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8525303658432233473"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8525303658423779329",
+        "mass": 41295.7359375,
+        "position": {
+          "x": -165.68997192383,
+          "y": -21.942632675171,
+          "z": 140.85015869141
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 13.3872,
+          "y": 43.4395,
+          "z": 32.2781
+        },
+        "size": {
+          "x": 13.3872,
+          "y": 43.4395,
+          "z": 32.2781
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 18770.7890625
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "e1fefcce-b4c4-4b52-b124-bf758b26bf26",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8525304456859287553"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8525304456860188673"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8525304456861057025"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8525304456861892609"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8525304456862777345"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8525304456858828801",
+        "mass": 12076.070703125,
+        "position": {
+          "x": -168.20202636719,
+          "y": 2.7989168167114,
+          "z": 140.84219360352
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": -49.999996185303
+        },
+        "scale": {
+          "x": 16.5955,
+          "y": 10.2423,
+          "z": 32.2935
+        },
+        "size": {
+          "x": 16.5955,
+          "y": 10.2423,
+          "z": 32.2935
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5489.123046875
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "e4f15115-f46a-4fcd-a504-e17b5d35782d",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8525305959393968129"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8525305959394754561"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8525305959395540993"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8525305959396311041"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8525305959397081089"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8525305959393591297",
+        "mass": 64390.39921875,
+        "position": {
+          "x": -169.43338012695,
+          "y": -21.942632675171,
+          "z": 95.850158691406
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 20.874,
+          "y": 43.4395,
+          "z": 32.2781
+        },
+        "size": {
+          "x": 20.874,
+          "y": 43.4395,
+          "z": 32.2781
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 29268.36328125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "f2f60805-61bd-40e0-bafb-e1d49592ad93",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8525309374586437633"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8525309374587224065"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8525309374588010497"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8525309374588796929"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8525309374589599745"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8525309374586060801",
+        "mass": 21487.329101563,
+        "position": {
+          "x": -151.07383728027,
+          "y": -21.942632675171,
+          "z": 71.627532958984
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 4.61265,
+          "y": 43.4392,
+          "z": 48.7447
+        },
+        "size": {
+          "x": 4.61265,
+          "y": 43.4392,
+          "z": 48.7447
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 9766.9677734375
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "33a86fc5-3175-475b-b1ed-99676ebcea88",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8525310072593858561"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8525310072594644993"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8525310072595431425"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8525310072596201473"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8525310072597004289"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8525310072593481729",
+        "mass": 24136.335351563,
+        "position": {
+          "x": -161.07383728027,
+          "y": -22.264646530151,
+          "z": 16.627532958984
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 4.61263,
+          "y": 48.795,
+          "z": 48.7444
+        },
+        "size": {
+          "x": 4.61263,
+          "y": 48.795,
+          "z": 48.7444
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 10971.061523438
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "7aa88bb2-45ce-422c-8c88-baa5091d02d1",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8525310730084958209"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8525310730085859329"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8525310730086744065"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8525310730087596033"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8525310730088431617"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8525310730084466689",
+        "mass": 4174.8168945313,
+        "position": {
+          "x": -161.07383728027,
+          "y": 1.9163615703583,
+          "z": 7.8228540420532
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 29.999996185303
+        },
+        "scale": {
+          "x": 4.61254,
+          "y": 15.3455,
+          "z": 26.8098
+        },
+        "size": {
+          "x": 4.61254,
+          "y": 15.3455,
+          "z": 26.8098
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1897.6440429688
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "c4e2d9be-6df7-4d0a-99ed-977ce75808e7",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8525311320977817601"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8525311320978636801"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8525311320979456001"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8525311320980258817"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8525311320981078017"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8525311320977408001",
+        "mass": 22656.480859375,
+        "massCenter": {
+          "x": -158.63412475586,
+          "y": -15.774703979492,
+          "z": -29.427005767822
+        },
+        "position": {
+          "x": -158.63412475586,
+          "y": -15.774703979492,
+          "z": -29.427005767822
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -5
+        },
+        "scale": {
+          "x": 4.61262,
+          "y": 61.764,
+          "z": 36.1482
+        },
+        "size": {
+          "x": 4.61262,
+          "y": 61.764,
+          "z": 36.1482
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 10298.400390625
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "3ed74f82-69c1-4124-8c64-b794e39d9c7a",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8525312236678823937"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8525312236679626753"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8525312236680413185"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8525312236681216001"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8525312236682067969"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8525312236678430721",
+        "mass": 55643.81796875,
+        "massCenter": {
+          "x": -158.00973510742,
+          "y": -14.965355873108,
+          "z": -75.922943115234
+        },
+        "position": {
+          "x": -158.00973510742,
+          "y": -14.965355873108,
+          "z": -75.922943115234
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 9.81138,
+          "y": 63.3933,
+          "z": 40.665
+        },
+        "size": {
+          "x": 9.81138,
+          "y": 63.3933,
+          "z": 40.665
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 25292.64453125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "535b5cb7-8a62-446d-bfad-4032613da4c3",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
+            },
+            "id": "8525366156606799873"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
+            },
+            "id": "8525366156607602689"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
+            },
+            "id": "8525366156608405505"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
+            },
+            "id": "8525366156609175553"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
+            },
+            "id": "8525366156609961985"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8525366156606423041",
+        "mass": 232996.43125,
+        "massCenter": {
+          "x": -158.00973510742,
+          "y": -14.965355873108,
+          "z": -112.83843231201
+        },
+        "position": {
+          "x": -158.00973510742,
+          "y": -14.965355873108,
+          "z": -112.83843231201
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 49.9999,
+          "y": 63.3931,
+          "z": 33.413
+        },
+        "size": {
+          "x": 49.9999,
+          "y": 63.3931,
+          "z": 33.413
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 105907.46875
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "cfb99e8a-9456-407a-a762-4d9fb4ce99f9",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8539467109575507969",
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": -179.87619018555,
+              "y": 21.421268463135,
+              "z": -115.12113189697
+            },
+            "position": {
+              "x": -179.87619018555,
+              "y": 21.421268463135,
+              "z": -115.12113189697
+            },
+            "restitution": 0.3,
+            "scale": {
+              "y": 0.8
+            },
+            "size": {
+              "y": 0.8
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "977f4bdf-b100-4b7a-851e-381d69f2c7cc",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8539466963768524801",
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": -179.87619018555,
+              "y": 20.931262969971,
+              "z": -114.48113250732
+            },
+            "position": {
+              "x": -179.87619018555,
+              "y": 20.931262969971,
+              "z": -114.48113250732
+            },
+            "restitution": 0.3,
+            "scale": {
+              "y": 0.8
+            },
+            "size": {
+              "y": 0.8
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "9597e193-453a-437f-abfa-37b34ab635af",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8539466710528229377",
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": -179.87619018555,
+              "y": 20.131265640259,
+              "z": -113.95114898682
+            },
+            "position": {
+              "x": -179.87619018555,
+              "y": 20.131265640259,
+              "z": -113.95114898682
+            },
+            "restitution": 0.3,
+            "scale": {
+              "y": 0.8
+            },
+            "size": {
+              "y": 0.8
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e7e45f6a-ccf0-4916-8af2-f88ce403ac72",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8539467581273243649",
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": -179.87619018555,
+              "y": 20.131265640259,
+              "z": -116.34111785889
+            },
+            "position": {
+              "x": -179.87619018555,
+              "y": 20.131265640259,
+              "z": -116.34111785889
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -179.99998474121
+            },
+            "scale": {
+              "y": 0.8
+            },
+            "size": {
+              "y": 0.8
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "5b5064d4-509a-4251-95df-daadf22c5b38",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8539467581277995009",
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": -179.87619018555,
+              "y": 20.931262969971,
+              "z": -115.81113433838
+            },
+            "position": {
+              "x": -179.87619018555,
+              "y": 20.931262969971,
+              "z": -115.81113433838
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -179.99998474121
+            },
+            "scale": {
+              "y": 0.8
+            },
+            "size": {
+              "y": 0.8
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "45201dff-1554-45c9-a259-3e1d624e0643",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8539466459099758593",
+            "mass": 6.6,
+            "massCenter": {
+              "x": -179.87619018555,
+              "y": 18.231267929077,
+              "z": -113.40115356445
+            },
+            "position": {
+              "x": -179.87619018555,
+              "y": 18.231267929077,
+              "z": -113.40115356445
+            },
+            "restitution": 0.3,
+            "scale": {
+              "y": 3
+            },
+            "size": {
+              "y": 3
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 3
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "3054d1c5-7d0d-4dab-87cd-efc887452f5b",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8539467581275602945",
+            "mass": 6.6,
+            "massCenter": {
+              "x": -179.87619018555,
+              "y": 18.231267929077,
+              "z": -116.89112091064
+            },
+            "position": {
+              "x": -179.87619018555,
+              "y": 18.231267929077,
+              "z": -116.89112091064
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -179.99998474121
+            },
+            "scale": {
+              "y": 3
+            },
+            "size": {
+              "y": 3
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 3
+          }
+        ],
+        "id": "8539467850033528833",
+        "position": {
+          "x": -179.87619018555,
+          "y": 19.276268005371,
+          "z": -115.14613342285
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/d11c1a21-5d44-441b-9917-0691909462fb",
+        "id": "8540017986194292737",
+        "name": "NextMap",
+        "position": {
+          "x": -179.84048461914,
+          "y": 19.073303222656,
+          "z": -115.14881896973
+        },
+        "scale": {
+          "x": 0.999997,
+          "y": 4.66605,
+          "z": 2.71746
+        },
+        "size": {
+          "x": 0.999997,
+          "y": 4.66605,
+          "z": 2.71746
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "e355a138-1aa2-41d5-8a56-bcdbdde15931",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/Skill/common/icon_开镜_act.png"
+            },
+            "id": "8540932262549520385"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8540931812792336385",
+        "mass": 93.294303894043,
+        "name": "checkpoint",
+        "position": {
+          "x": 0.13586556911469,
+          "y": 1.1059551239014,
+          "z": 3.4308545589447
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 14.3286,
+          "y": 0.211952,
+          "z": 13.9634
+        },
+        "size": {
+          "x": 14.3286,
+          "y": 0.211952,
+          "z": 13.9634
+        },
+        "useAnchor": true,
+        "volume": 42.40650177002
+      }
+    ],
+    "name": {
+      "value": "map_speed9"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6e112c20185cacd15f36bef205f84024"
+    },
+    "VERSION": "0.20"
+  }
+}

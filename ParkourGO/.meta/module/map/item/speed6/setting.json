@@ -1,0 +1,4522 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8506455563157766145"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/player1",
+        "id": "8506455637538881537",
+        "name": "Player",
+        "position": {
+          "y": 0.99990081787109
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "f1d276b4-918e-488a-8da2-36148729bb1d",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518124077969293313",
+        "mass": 18572.344140625,
+        "position": {
+          "y": -17.759979248047,
+          "z": 3
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 15,
+          "y": 37.5199,
+          "z": 15
+        },
+        "size": {
+          "x": 15,
+          "y": 37.5199,
+          "z": 15
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 8441.974609375
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "9d7ef006-a091-4ff6-b2d3-6f5a891f6b3e",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518124740933156865",
+        "mass": 918.6091003418,
+        "position": {
+          "x": 5.8684730529785,
+          "y": -2.1759662628174,
+          "z": 22
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 12.1936,
+          "y": 6.3517,
+          "z": 5.39121
+        },
+        "size": {
+          "x": 12.1936,
+          "y": 6.3517,
+          "z": 5.39121
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 417.54959106445
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "b8605149-f7b4-4863-a88f-c10f61900268",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518126189562986497",
+        "mass": 845.40471801758,
+        "position": {
+          "x": 5.8684730529785,
+          "y": -1.9228916168213,
+          "z": 37
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 12.1936,
+          "y": 5.84553,
+          "z": 5.39121
+        },
+        "size": {
+          "x": 12.1936,
+          "y": 5.84553,
+          "z": 5.39121
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 384.27487182617
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "e88b7e1f-1704-48ef-b338-b75cd0a874fc",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518126373937217537",
+        "mass": 10152.646582031,
+        "position": {
+          "x": -4,
+          "y": -17.459461212158,
+          "z": 66.87370300293
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 25,
+          "y": 36.9188,
+          "z": 4.99999
+        },
+        "size": {
+          "x": 25,
+          "y": 36.9188,
+          "z": 4.99999
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 4614.8393554688
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "f1742554-70fc-4b66-b302-e1184ea57972",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518126791757250561",
+        "mass": 864.88681640625,
+        "position": {
+          "x": 5.8684730529785,
+          "y": -1.9902620315552,
+          "z": 52
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 12.1936,
+          "y": 5.98025,
+          "z": 5.3912
+        },
+        "size": {
+          "x": 12.1936,
+          "y": 5.98025,
+          "z": 5.3912
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 393.13037109375
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "567e4784-7cc4-4d84-a5a6-387add152418",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518129481468608513",
+        "mass": 740.00935668945,
+        "position": {
+          "x": -8.9999990463257,
+          "y": -0.34551191329956,
+          "z": 80.87370300293
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 24.9999,
+          "y": 2.69096,
+          "z": 4.99999
+        },
+        "size": {
+          "x": 24.9999,
+          "y": 2.69096,
+          "z": 4.99999
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 336.3678894043
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "a9d36787-7a46-4673-b5d3-aa1a97d8eb2e",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518184151467360257",
+        "mass": 740.00935668945,
+        "position": {
+          "x": -14,
+          "y": -0.34551191329956,
+          "z": 93.87370300293
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 24.9999,
+          "y": 2.69096,
+          "z": 4.99999
+        },
+        "size": {
+          "x": 24.9999,
+          "y": 2.69096,
+          "z": 4.99999
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 336.3678894043
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "b8c7c183-388f-49ce-970a-5534a0073502",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518303803488075777",
+        "mass": 10589.9234375,
+        "position": {
+          "x": -18,
+          "y": -18.254493713379,
+          "z": 107.87370300293
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 25,
+          "y": 38.5089,
+          "z": 4.99999
+        },
+        "size": {
+          "x": 25,
+          "y": 38.5089,
+          "z": 4.99999
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 4813.6015625
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "32855df9-89b5-4326-9a48-3f8a3d2bca13",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518307902484594689",
+        "mass": 1722.368371582,
+        "position": {
+          "x": -0.37429285049438,
+          "y": -23.726070404053,
+          "z": 130.89953613281
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 24.679,
+          "y": 3.45185,
+          "z": 9.19018
+        },
+        "size": {
+          "x": 24.679,
+          "y": 3.45185,
+          "z": 9.19018
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 782.89471435547
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "b00d69a9-c4f8-4778-8601-06b6d3b0d1ea",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518309207083335681",
+        "mass": 1722.368371582,
+        "position": {
+          "x": -0.37429285049438,
+          "y": -23.726070404053,
+          "z": 149.89953613281
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 24.679,
+          "y": 3.45185,
+          "z": 9.19018
+        },
+        "size": {
+          "x": 24.679,
+          "y": 3.45185,
+          "z": 9.19018
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 782.89471435547
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "6257d49d-56e1-4490-a6c9-a0fbfa44a424",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518309335031201793",
+        "mass": 112185.8890625,
+        "position": {
+          "x": 12.100715637207,
+          "y": 13.558832168579,
+          "z": 159.28775024414
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 1.20135,
+          "y": 100.156,
+          "z": 423.808
+        },
+        "size": {
+          "x": 1.20135,
+          "y": 100.156,
+          "z": 423.808
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 50993.5859375
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "e382b46a-5658-4e39-b78f-a823f00c5fc0",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518310695496155137",
+        "mass": 1582.7102661133,
+        "position": {
+          "x": -19.242698669434,
+          "y": -22.881368637085,
+          "z": 169.9
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -30
+        },
+        "scale": {
+          "x": 44.4157,
+          "y": 1.76246,
+          "z": 9.19016
+        },
+        "size": {
+          "x": 44.4157,
+          "y": 1.76246,
+          "z": 9.19016
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 719.41375732422
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "800210f8-8b5d-485c-8666-c3d23247dd78",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518311362871656449",
+        "mass": 14980.37578125,
+        "position": {
+          "x": -19.242698669434,
+          "y": -30.341070175171,
+          "z": 189.89953613281
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 2.9065297439956e-06
+        },
+        "scale": {
+          "x": 44.4156,
+          "y": 16.6818,
+          "z": 9.19013
+        },
+        "size": {
+          "x": 44.4156,
+          "y": 16.6818,
+          "z": 9.19013
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 6809.26171875
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "a6ecc16d-e244-41b9-b922-c564662fadec",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518311970726510593",
+        "mass": 1266.5949462891,
+        "position": {
+          "x": -19.242698669434,
+          "y": -20.768741607666,
+          "z": 207.55885314941
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -30
+        },
+        "scale": {
+          "x": 25,
+          "y": 1.76246,
+          "z": 13.0664
+        },
+        "size": {
+          "x": 25,
+          "y": 1.76246,
+          "z": 13.0664
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 575.72497558594
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "3614dee6-02ea-4ced-b712-3f1c75ff35b1",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518312647795277825",
+        "mass": 1266.5949462891,
+        "position": {
+          "x": -32.538467407227,
+          "y": -17.76879119873,
+          "z": 232.35014343262
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 3.7108857213752e-06,
+          "y": 40,
+          "z": 3.1138008580456e-06
+        },
+        "scale": {
+          "x": 25,
+          "y": 1.76246,
+          "z": 13.0664
+        },
+        "size": {
+          "x": 25,
+          "y": 1.76246,
+          "z": 13.0664
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 575.72497558594
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "9ddc87f6-c308-4820-905c-efc34f089dfe",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518319653488033793",
+        "mass": 2356.8552734375,
+        "position": {
+          "x": -47.242698669434,
+          "y": -8.6451034545898,
+          "z": 266.55749511719
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -30
+        },
+        "scale": {
+          "x": 9.99991,
+          "y": 1.76246,
+          "z": 60.7848
+        },
+        "size": {
+          "x": 9.99991,
+          "y": 1.76246,
+          "z": 60.7848
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1071.2978515625
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "dc700dc1-9f29-4d39-b02b-95b98726a51e",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518322234602471425",
+        "mass": 2125.7591308594,
+        "position": {
+          "x": -56.242698669434,
+          "y": 0.012555122375488,
+          "z": 307.55310058594
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -30
+        },
+        "scale": {
+          "x": 34.9999,
+          "y": 1.76246,
+          "z": 15.6641
+        },
+        "size": {
+          "x": 34.9999,
+          "y": 1.76246,
+          "z": 15.6641
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 966.25415039062
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "a29d9600-da0e-4c6d-a2d4-50db840b807b",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518323737330040833",
+        "mass": 36688.905859375,
+        "position": {
+          "x": -56.242698669434,
+          "y": -16.399641036987,
+          "z": 328.87365722656
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 3.875371930917e-06
+        },
+        "scale": {
+          "x": 24.9999,
+          "y": 42.5867,
+          "z": 15.6639
+        },
+        "size": {
+          "x": 24.9999,
+          "y": 42.5867,
+          "z": 15.6639
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 16676.775390625
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "8a382ef2-4803-4ad9-bf00-1e1e9ee50d00",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8518330935486414849",
+        "mass": 61558.788671875,
+        "position": {
+          "x": -103.71541595459,
+          "y": 13.444200515747,
+          "z": 371.24923706055
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -90
+        },
+        "scale": {
+          "x": 1.20134,
+          "y": 99.9263,
+          "z": 233.089
+        },
+        "size": {
+          "x": 1.20134,
+          "y": 99.9263,
+          "z": 233.089
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 27981.267578125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7558b1a3-73ff-4309-9bf3-cd47d57d178f",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8518327612552757249",
+            "mass": 725.15732574463,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -94.714019775391,
+              "y": -0.70760494470596,
+              "z": 355.92123413086
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 3.875371930917e-06,
+              "z": -55
+            },
+            "scale": {
+              "x": 5.07101,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 5.07101,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 131.84678649902
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a61e5982-8df6-442b-b9e5-19059365887d",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8518324956260237313",
+            "mass": 2145.0062103271,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -86.242698669434,
+              "y": 4.4603152275085,
+              "z": 355.92123413086
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 3.875371930917e-06
+            },
+            "scale": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "size": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 390.00112915039
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "994d6d05-2344-4e14-b35f-5e6f117d6345",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8518326071582572545",
+            "mass": 658.65345001221,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -94.773223876953,
+              "y": 2.8020706176758,
+              "z": 355.92123413086
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 3.875371930917e-06,
+              "z": 55
+            },
+            "scale": {
+              "x": 4.60596,
+              "y": 0.86668,
+              "z": 29.9996
+            },
+            "size": {
+              "x": 4.60596,
+              "y": 0.86668,
+              "z": 29.9996
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 119.75517272949
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "ee310c94-07b5-4c91-834b-55d34cb6117f",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalImageType": "2",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "decalTiling": {
+                  "x": 3,
+                  "y": 3
+                },
+                "id": "8519326185016639489"
+              }
+            ],
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8518331816641675265",
+            "mass": 331.81224060059,
+            "material": {
+              "color": {
+                "b": 0,
+                "r": 85
+              },
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": -86.242698669434,
+              "y": -1.7396693229675,
+              "z": 355.72827148438
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "x": 3.875371930917e-06
+            },
+            "scale": {
+              "x": 13.9999,
+              "y": 0.866677,
+              "z": 30.3856
+            },
+            "size": {
+              "x": 13.9999,
+              "y": 0.866677,
+              "z": 30.3856
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 368.68026733398
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e97ea80e-bce4-4a34-a560-1f3099b3ba5e",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalImageType": "2",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "decalTiling": {
+                  "x": 3,
+                  "y": 3
+                },
+                "id": "8519327929392726017"
+              }
+            ],
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8518333361728323585",
+            "mass": 314.18662719727,
+            "material": {
+              "alpha": 0.8,
+              "color": {
+                "b": 0,
+                "r": 85
+              },
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": -86.242698669434,
+              "y": -15.764451026917,
+              "z": 340.36016845703
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "x": -90
+            },
+            "scale": {
+              "x": 14,
+              "y": 0.866678,
+              "z": 28.7713
+            },
+            "size": {
+              "x": 14,
+              "y": 0.866678,
+              "z": 28.7713
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 349.09625244141
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d90c204e-b5cc-4a0e-aeaa-25e7e2131a90",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8518325977284214785",
+            "mass": 2145.0062103271,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -86.242698669434,
+              "y": -2.5396661758423,
+              "z": 355.92123413086
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 3.875371930917e-06
+            },
+            "scale": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "size": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 390.00112915039
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "96203a24-35e6-4ea4-82a1-dc509abb27d9",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8518329123553411073",
+            "mass": 710.17449188232,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -77.588134765625,
+              "y": -0.73840689659119,
+              "z": 355.92123413086
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 3.875371930917e-06,
+              "z": 55
+            },
+            "scale": {
+              "x": 4.96623,
+              "y": 0.86668,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 4.96623,
+              "y": 0.86668,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 129.1226348877
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "aa91d47c-ff1f-489a-baf3-add662b46a08",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8518329123551379457",
+            "mass": 693.04078674316,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -77.567306518555,
+              "y": 2.798445224762,
+              "z": 355.92123413086
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 3.875371930917e-06,
+              "z": -55
+            },
+            "scale": {
+              "x": 4.84642,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 4.84642,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 126.00741577148
+          }
+        ],
+        "id": "8519329243947843585",
+        "position": {
+          "x": -86.16609954834,
+          "y": -12.5590467453,
+          "z": 355.42398071289
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7558b1a3-73ff-4309-9bf3-cd47d57d178f",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519330429181296641",
+            "mass": 725.15732574463,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -121.714012146,
+              "y": -0.70764052867889,
+              "z": 355.92123413086
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 3.875371930917e-06,
+              "z": -55
+            },
+            "scale": {
+              "x": 5.07101,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 5.07101,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 131.84678649902
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a61e5982-8df6-442b-b9e5-19059365887d",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519330429183410177",
+            "mass": 2145.0062103271,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -113.24269866943,
+              "y": 4.4602651596069,
+              "z": 355.92123413086
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 3.875371930917e-06
+            },
+            "scale": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "size": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 390.00112915039
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "994d6d05-2344-4e14-b35f-5e6f117d6345",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519330429185507329",
+            "mass": 658.65345001221,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -121.77321624756,
+              "y": 2.8020269870758,
+              "z": 355.92123413086
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 3.875371930917e-06,
+              "z": 55
+            },
+            "scale": {
+              "x": 4.60596,
+              "y": 0.86668,
+              "z": 29.9996
+            },
+            "size": {
+              "x": 4.60596,
+              "y": 0.86668,
+              "z": 29.9996
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 119.75517272949
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "ee310c94-07b5-4c91-834b-55d34cb6117f",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalImageType": "2",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "decalTiling": {
+                  "x": 3,
+                  "y": 3
+                },
+                "id": "8519330429188112385"
+              }
+            ],
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8519330429187719169",
+            "mass": 331.81224060059,
+            "material": {
+              "color": {
+                "b": 0,
+                "r": 85
+              },
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": -113.24269866943,
+              "y": -1.7397032976151,
+              "z": 355.72827148438
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "x": 3.875371930917e-06
+            },
+            "scale": {
+              "x": 13.9999,
+              "y": 0.866677,
+              "z": 30.3856
+            },
+            "size": {
+              "x": 13.9999,
+              "y": 0.866677,
+              "z": 30.3856
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 368.68026733398
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e97ea80e-bce4-4a34-a560-1f3099b3ba5e",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalImageType": "2",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "decalTiling": {
+                  "x": 3,
+                  "y": 3
+                },
+                "id": "8519330429191225345"
+              }
+            ],
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8519330429190848513",
+            "mass": 314.18662719727,
+            "material": {
+              "alpha": 0.8,
+              "color": {
+                "b": 0,
+                "r": 85
+              },
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": -113.24269866943,
+              "y": -15.764462471008,
+              "z": 340.36016845703
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "x": -90
+            },
+            "scale": {
+              "x": 14,
+              "y": 0.866678,
+              "z": 28.7713
+            },
+            "size": {
+              "x": 14,
+              "y": 0.866678,
+              "z": 28.7713
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 349.09625244141
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d90c204e-b5cc-4a0e-aeaa-25e7e2131a90",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519330429193748481",
+            "mass": 2145.0062103271,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -113.24269866943,
+              "y": -2.539696931839,
+              "z": 355.92123413086
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 3.875371930917e-06
+            },
+            "scale": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "size": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 390.00112915039
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "96203a24-35e6-4ea4-82a1-dc509abb27d9",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519330429195845633",
+            "mass": 710.17449188232,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -104.58813476563,
+              "y": -0.73844248056412,
+              "z": 355.92123413086
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 3.875371930917e-06,
+              "z": 55
+            },
+            "scale": {
+              "x": 4.96623,
+              "y": 0.86668,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 4.96623,
+              "y": 0.86668,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 129.1226348877
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "aa91d47c-ff1f-489a-baf3-add662b46a08",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519330429197926401",
+            "mass": 693.04078674316,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -104.56730651855,
+              "y": 2.798401594162,
+              "z": 355.92123413086
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 3.875371930917e-06,
+              "z": -55
+            },
+            "scale": {
+              "x": 4.84642,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 4.84642,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 126.00741577148
+          }
+        ],
+        "id": "8519330429180690433",
+        "position": {
+          "x": -113.16609954834,
+          "y": -12.559058189392,
+          "z": 355.42398071289
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7558b1a3-73ff-4309-9bf3-cd47d57d178f",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519330509564215297",
+            "mass": 725.15732574463,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -148.71401977539,
+              "y": -0.7076855301857,
+              "z": 355.92123413086
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 3.875371930917e-06,
+              "z": -55
+            },
+            "scale": {
+              "x": 5.07101,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 5.07101,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 131.84678649902
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a61e5982-8df6-442b-b9e5-19059365887d",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519330509566574593",
+            "mass": 2145.0062103271,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -140.24270629883,
+              "y": 4.4602046012878,
+              "z": 355.92123413086
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 3.875371930917e-06
+            },
+            "scale": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "size": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 390.00112915039
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "994d6d05-2344-4e14-b35f-5e6f117d6345",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519330509568671745",
+            "mass": 658.65345001221,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -148.77322387695,
+              "y": 2.8019733428955,
+              "z": 355.92123413086
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 3.875371930917e-06,
+              "z": 55
+            },
+            "scale": {
+              "x": 4.60596,
+              "y": 0.86668,
+              "z": 29.9996
+            },
+            "size": {
+              "x": 4.60596,
+              "y": 0.86668,
+              "z": 29.9996
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 119.75517272949
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "ee310c94-07b5-4c91-834b-55d34cb6117f",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalImageType": "2",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "decalTiling": {
+                  "x": 3,
+                  "y": 3
+                },
+                "id": "8519330509571276801"
+              }
+            ],
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8519330509570883585",
+            "mass": 331.81224060059,
+            "material": {
+              "color": {
+                "b": 0,
+                "r": 85
+              },
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": -140.24270629883,
+              "y": -1.7397465705872,
+              "z": 355.72827148438
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "x": 3.875371930917e-06
+            },
+            "scale": {
+              "x": 13.9999,
+              "y": 0.866677,
+              "z": 30.3856
+            },
+            "size": {
+              "x": 13.9999,
+              "y": 0.866677,
+              "z": 30.3856
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 368.68026733398
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e97ea80e-bce4-4a34-a560-1f3099b3ba5e",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalImageType": "2",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "decalTiling": {
+                  "x": 3,
+                  "y": 3
+                },
+                "id": "8519330509574356993"
+              }
+            ],
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8519330509573980161",
+            "mass": 314.18662719727,
+            "material": {
+              "alpha": 0.8,
+              "color": {
+                "b": 0,
+                "r": 85
+              },
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": -140.24270629883,
+              "y": -15.764481544495,
+              "z": 340.36016845703
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "x": -90
+            },
+            "scale": {
+              "x": 14,
+              "y": 0.866678,
+              "z": 28.7713
+            },
+            "size": {
+              "x": 14,
+              "y": 0.866678,
+              "z": 28.7713
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 349.09625244141
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d90c204e-b5cc-4a0e-aeaa-25e7e2131a90",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519330509576896513",
+            "mass": 2145.0062103271,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -140.24270629883,
+              "y": -2.5397367477417,
+              "z": 355.92123413086
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 3.875371930917e-06
+            },
+            "scale": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "size": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 390.00112915039
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "96203a24-35e6-4ea4-82a1-dc509abb27d9",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519330509579026433",
+            "mass": 710.17449188232,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -131.5881652832,
+              "y": -0.73848748207092,
+              "z": 355.92123413086
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 3.875371930917e-06,
+              "z": 55
+            },
+            "scale": {
+              "x": 4.96623,
+              "y": 0.86668,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 4.96623,
+              "y": 0.86668,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 129.1226348877
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "aa91d47c-ff1f-489a-baf3-add662b46a08",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519330509581221889",
+            "mass": 693.04078674316,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -131.56733703613,
+              "y": 2.7983479499817,
+              "z": 355.92123413086
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 3.875371930917e-06,
+              "z": -55
+            },
+            "scale": {
+              "x": 4.84642,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 4.84642,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 126.00741577148
+          }
+        ],
+        "id": "8519330509563592705",
+        "position": {
+          "x": -140.16610717773,
+          "y": -12.559077262878,
+          "z": 355.42398071289
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "6d1858d9-20cd-4d4d-a685-db7e494dc6d0",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8519335663680471041",
+        "mass": 840.81599121094,
+        "position": {
+          "x": -162.24270629883,
+          "y": 3.2828969955444,
+          "z": 340.98788452148
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 20.000011444092
+        },
+        "scale": {
+          "x": 9.99997,
+          "y": 1.18932,
+          "z": 32.1352
+        },
+        "size": {
+          "x": 9.99997,
+          "y": 1.18932,
+          "z": 32.1352
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 382.18908691406
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "3af61bf8-218b-49a9-8dc6-2ca28782afa8",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8519336774888652801",
+        "mass": 832.19209594727,
+        "position": {
+          "x": -178.24270629883,
+          "y": 10.408961296082,
+          "z": 321.40899658203
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 20.000011444092
+        },
+        "scale": {
+          "x": 9.99994,
+          "y": 1.18932,
+          "z": 31.8057
+        },
+        "size": {
+          "x": 9.99994,
+          "y": 1.18932,
+          "z": 31.8057
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 378.26913452148
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "1d41b9d1-f3a7-4f19-8c07-a6d98804aa64",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8519337196530860033",
+        "mass": 24057.52421875,
+        "position": {
+          "x": -178.24270629883,
+          "y": -11.471436500549,
+          "z": 294.25424194336
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 1.1485874892969e-05
+        },
+        "scale": {
+          "x": 19.9998,
+          "y": 54.6773,
+          "z": 9.9999
+        },
+        "size": {
+          "x": 19.9998,
+          "y": 54.6773,
+          "z": 9.9999
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 10935.23828125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "4d321fbf-0889-43f4-adab-ee0aefca0ea6",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalAlpha": 0.5,
+            "decalImageType": "2",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map6/toxic.png"
+            },
+            "decalTiling": {
+              "x": 40,
+              "y": 20
+            },
+            "id": "8519355763932971009"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8519337989155258369",
+        "mass": 404933.546875,
+        "material": {
+          "alpha": 0.72,
+          "color": {
+            "b": 0,
+            "r": 85
+          }
+        },
+        "position": {
+          "x": -101.76532745361,
+          "y": -29.770000457764,
+          "z": 159.30325317383
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 2.9065297439956e-06
+        },
+        "scale": {
+          "x": 236.81,
+          "y": 1.81404,
+          "z": 428.464
+        },
+        "size": {
+          "x": 236.81,
+          "y": 1.81404,
+          "z": 428.464
+        },
+        "useAnchor": true,
+        "useCollide": false,
+        "useGravity": false,
+        "volume": 184060.703125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "f1372244-a93b-4993-9c46-ede29a977e94",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8519340445982998529",
+        "mass": 23633.691210938,
+        "position": {
+          "x": -197.24270629883,
+          "y": -11.952847480774,
+          "z": 255.25424194336
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 1.1485874892969e-05
+        },
+        "scale": {
+          "x": 19.9997,
+          "y": 53.7144,
+          "z": 9.99988
+        },
+        "size": {
+          "x": 19.9997,
+          "y": 53.7144,
+          "z": 9.99988
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 10742.586914062
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "c8dc85de-2e3a-421d-b291-733fee4ba1be",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8519340739693772801",
+        "mass": 803.24210205078,
+        "position": {
+          "x": -188.24270629883,
+          "y": 14.147150039673,
+          "z": 274.25424194336
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 1.1485874892969e-05
+        },
+        "scale": {
+          "x": 19.9997,
+          "y": 1.8256,
+          "z": 9.99988
+        },
+        "size": {
+          "x": 19.9997,
+          "y": 1.8256,
+          "z": 9.99988
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 365.11004638672
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "4c29c0b5-30c3-4815-8a69-1aec923a0e03",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8519342738883772417",
+        "mass": 111950.10234375,
+        "position": {
+          "x": -219.89929199219,
+          "y": 13.376071929932,
+          "z": 158.96008300781
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 1.20135,
+          "y": 99.7908,
+          "z": 424.465
+        },
+        "size": {
+          "x": 1.20135,
+          "y": 99.7908,
+          "z": 424.465
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 50886.41015625
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7558b1a3-73ff-4309-9bf3-cd47d57d178f",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519343266299346945",
+            "mass": 725.15732574463,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27444458008,
+              "y": 7.2921767234802,
+              "z": 221.27867126465
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 5.0652770369197e-06,
+              "y": -90,
+              "z": -54.99995803833
+            },
+            "scale": {
+              "x": 5.07101,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 5.07101,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 131.84678649902
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a61e5982-8df6-442b-b9e5-19059365887d",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519343266301427713",
+            "mass": 2145.0062103271,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27444458008,
+              "y": 12.460012435913,
+              "z": 229.75
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "size": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 390.00112915039
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "994d6d05-2344-4e14-b35f-5e6f117d6345",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519343266303524865",
+            "mass": 658.65345001221,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27442932129,
+              "y": 10.801803588867,
+              "z": 221.2194519043
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 2.5395718239452e-07,
+              "y": -90.000007629395,
+              "z": 55.000007629395
+            },
+            "scale": {
+              "x": 4.60596,
+              "y": 0.86668,
+              "z": 29.9996
+            },
+            "size": {
+              "x": 4.60596,
+              "y": 0.86668,
+              "z": 29.9996
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 119.75517272949
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "ee310c94-07b5-4c91-834b-55d34cb6117f",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalImageType": "2",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "decalTiling": {
+                  "x": 3,
+                  "y": 3
+                },
+                "id": "8519343266306162689"
+              }
+            ],
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8519343266305785857",
+            "mass": 331.81262512207,
+            "material": {
+              "color": {
+                "b": 0,
+                "r": 85
+              },
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": -204.07423400879,
+              "y": 6.2601203918457,
+              "z": 229.74905395508
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": -89.999992370605
+            },
+            "scale": {
+              "x": 13.9999,
+              "y": 0.866678,
+              "z": 30.3856
+            },
+            "size": {
+              "x": 13.9999,
+              "y": 0.866678,
+              "z": 30.3856
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 368.68069458008
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e97ea80e-bce4-4a34-a560-1f3099b3ba5e",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalImageType": "2",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "decalTiling": {
+                  "x": 3,
+                  "y": 3
+                },
+                "id": "8519343266309210113"
+              }
+            ],
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8519343266308849665",
+            "mass": 389.27521362305,
+            "material": {
+              "alpha": 0.8,
+              "color": {
+                "b": 0,
+                "r": 85
+              },
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": -188.71342468262,
+              "y": -11.203031539917,
+              "z": 229.74996948242
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "x": -90,
+              "y": -90
+            },
+            "scale": {
+              "x": 13.9999,
+              "y": 0.866671,
+              "z": 35.648
+            },
+            "size": {
+              "x": 13.9999,
+              "y": 0.866671,
+              "z": 35.648
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 432.52801513672
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d90c204e-b5cc-4a0e-aeaa-25e7e2131a90",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519343266311913473",
+            "mass": 2145.0062103271,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27444458008,
+              "y": 5.4601421356201,
+              "z": 229.75
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "size": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 390.00112915039
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "96203a24-35e6-4ea4-82a1-dc509abb27d9",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519343266314010625",
+            "mass": 710.17449188232,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27442932129,
+              "y": 7.2613744735718,
+              "z": 238.40447998047
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": -1.0404768602257e-08,
+              "y": -90.000007629395,
+              "z": 54.999946594238
+            },
+            "scale": {
+              "x": 4.96623,
+              "y": 0.86668,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 4.96623,
+              "y": 0.86668,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 129.1226348877
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "aa91d47c-ff1f-489a-baf3-add662b46a08",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519343266316107777",
+            "mass": 693.04078674316,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27447509766,
+              "y": 10.798177719116,
+              "z": 238.42532348633
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 2.5060933239729e-06,
+              "y": -90.000007629395,
+              "z": -55.000007629395
+            },
+            "scale": {
+              "x": 4.84642,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 4.84642,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 126.00741577148
+          }
+        ],
+        "id": "8519343266298740737",
+        "position": {
+          "x": -203.7772064209,
+          "y": -4.8480424880981,
+          "z": 229.82662963867
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7558b1a3-73ff-4309-9bf3-cd47d57d178f",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519344661879996417",
+            "mass": 725.15732574463,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27444458008,
+              "y": 7.2921814918518,
+              "z": 194.27867126465
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 5.0652770369197e-06,
+              "y": -90,
+              "z": -54.99995803833
+            },
+            "scale": {
+              "x": 5.07101,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 5.07101,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 131.84678649902
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a61e5982-8df6-442b-b9e5-19059365887d",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519344661882142721",
+            "mass": 2145.0062103271,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27444458008,
+              "y": 12.460019111633,
+              "z": 202.75
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "size": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 390.00112915039
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "994d6d05-2344-4e14-b35f-5e6f117d6345",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519344661884354561",
+            "mass": 658.65345001221,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27442932129,
+              "y": 10.801810264587,
+              "z": 194.2194519043
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 2.5395718239452e-07,
+              "y": -90.000007629395,
+              "z": 55.000007629395
+            },
+            "scale": {
+              "x": 4.60596,
+              "y": 0.86668,
+              "z": 29.9996
+            },
+            "size": {
+              "x": 4.60596,
+              "y": 0.86668,
+              "z": 29.9996
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 119.75517272949
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "ee310c94-07b5-4c91-834b-55d34cb6117f",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalImageType": "2",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "decalTiling": {
+                  "x": 3,
+                  "y": 3
+                },
+                "id": "8519344661887418369"
+              }
+            ],
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8519344661887041537",
+            "mass": 331.81262512207,
+            "material": {
+              "color": {
+                "b": 0,
+                "r": 85
+              },
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": -204.07423400879,
+              "y": 6.2601251602173,
+              "z": 202.74905395508
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": -89.999992370605
+            },
+            "scale": {
+              "x": 13.9999,
+              "y": 0.866678,
+              "z": 30.3856
+            },
+            "size": {
+              "x": 13.9999,
+              "y": 0.866678,
+              "z": 30.3856
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 368.68069458008
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e97ea80e-bce4-4a34-a560-1f3099b3ba5e",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalImageType": "2",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "decalTiling": {
+                  "x": 3,
+                  "y": 3
+                },
+                "id": "8519344661890465793"
+              }
+            ],
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8519344661890105345",
+            "mass": 389.27521362305,
+            "material": {
+              "alpha": 0.8,
+              "color": {
+                "b": 0,
+                "r": 85
+              },
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": -188.71342468262,
+              "y": -11.20303440094,
+              "z": 202.74996948242
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "x": -90,
+              "y": -90
+            },
+            "scale": {
+              "x": 13.9999,
+              "y": 0.866671,
+              "z": 35.648
+            },
+            "size": {
+              "x": 13.9999,
+              "y": 0.866671,
+              "z": 35.648
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 432.52801513672
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d90c204e-b5cc-4a0e-aeaa-25e7e2131a90",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519344661893038081",
+            "mass": 2145.0062103271,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27444458008,
+              "y": 5.4601469039917,
+              "z": 202.75
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "size": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 390.00112915039
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "96203a24-35e6-4ea4-82a1-dc509abb27d9",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519344661895118849",
+            "mass": 710.17449188232,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27442932129,
+              "y": 7.2613792419434,
+              "z": 211.40447998047
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": -1.0404768602257e-08,
+              "y": -90.000007629395,
+              "z": 54.999946594238
+            },
+            "scale": {
+              "x": 4.96623,
+              "y": 0.86668,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 4.96623,
+              "y": 0.86668,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 129.1226348877
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "aa91d47c-ff1f-489a-baf3-add662b46a08",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519344661897248769",
+            "mass": 693.04078674316,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27447509766,
+              "y": 10.798184394836,
+              "z": 211.42532348633
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 2.5060933239729e-06,
+              "y": -90.000007629395,
+              "z": -55.000007629395
+            },
+            "scale": {
+              "x": 4.84642,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 4.84642,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 126.00741577148
+          }
+        ],
+        "id": "8519344661879341057",
+        "position": {
+          "x": -203.7772064209,
+          "y": -4.5591397285461,
+          "z": 202.82662963867
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7558b1a3-73ff-4309-9bf3-cd47d57d178f",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519344772175921153",
+            "mass": 725.15732574463,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27444458008,
+              "y": 7.2921814918518,
+              "z": 167.27867126465
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 5.0652770369197e-06,
+              "y": -90,
+              "z": -54.99995803833
+            },
+            "scale": {
+              "x": 5.07101,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 5.07101,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 131.84678649902
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a61e5982-8df6-442b-b9e5-19059365887d",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519344772178001921",
+            "mass": 2145.0062103271,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27444458008,
+              "y": 12.460019111633,
+              "z": 175.75
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "size": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 390.00112915039
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "994d6d05-2344-4e14-b35f-5e6f117d6345",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519344772180213761",
+            "mass": 658.65345001221,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27442932129,
+              "y": 10.801810264587,
+              "z": 167.2194519043
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 2.5395718239452e-07,
+              "y": -90.000007629395,
+              "z": 55.000007629395
+            },
+            "scale": {
+              "x": 4.60596,
+              "y": 0.86668,
+              "z": 29.9996
+            },
+            "size": {
+              "x": 4.60596,
+              "y": 0.86668,
+              "z": 29.9996
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 119.75517272949
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "ee310c94-07b5-4c91-834b-55d34cb6117f",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalImageType": "2",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "decalTiling": {
+                  "x": 3,
+                  "y": 3
+                },
+                "id": "8519344772183261185"
+              }
+            ],
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8519344772182900737",
+            "mass": 331.81262512207,
+            "material": {
+              "color": {
+                "b": 0,
+                "r": 85
+              },
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": -204.07423400879,
+              "y": 6.2601251602173,
+              "z": 175.74905395508
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": -89.999992370605
+            },
+            "scale": {
+              "x": 13.9999,
+              "y": 0.866678,
+              "z": 30.3856
+            },
+            "size": {
+              "x": 13.9999,
+              "y": 0.866678,
+              "z": 30.3856
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 368.68069458008
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e97ea80e-bce4-4a34-a560-1f3099b3ba5e",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalImageType": "2",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "decalTiling": {
+                  "x": 3,
+                  "y": 3
+                },
+                "id": "8519344772186308609"
+              }
+            ],
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8519344772185931777",
+            "mass": 389.27521362305,
+            "material": {
+              "alpha": 0.8,
+              "color": {
+                "b": 0,
+                "r": 85
+              },
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": -188.71342468262,
+              "y": -11.20303440094,
+              "z": 175.74996948242
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "x": -90,
+              "y": -90
+            },
+            "scale": {
+              "x": 13.9999,
+              "y": 0.866671,
+              "z": 35.648
+            },
+            "size": {
+              "x": 13.9999,
+              "y": 0.866671,
+              "z": 35.648
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 432.52801513672
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d90c204e-b5cc-4a0e-aeaa-25e7e2131a90",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519344772188831745",
+            "mass": 2145.0062103271,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27444458008,
+              "y": 5.4601469039917,
+              "z": 175.75
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "size": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 390.00112915039
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "96203a24-35e6-4ea4-82a1-dc509abb27d9",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519344772190912513",
+            "mass": 710.17449188232,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27442932129,
+              "y": 7.2613792419434,
+              "z": 184.40447998047
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": -1.0404768602257e-08,
+              "y": -90.000007629395,
+              "z": 54.999946594238
+            },
+            "scale": {
+              "x": 4.96623,
+              "y": 0.86668,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 4.96623,
+              "y": 0.86668,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 129.1226348877
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "aa91d47c-ff1f-489a-baf3-add662b46a08",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519344772192976897",
+            "mass": 693.04078674316,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27447509766,
+              "y": 10.798184394836,
+              "z": 184.42532348633
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 2.5060933239729e-06,
+              "y": -90.000007629395,
+              "z": -55.000007629395
+            },
+            "scale": {
+              "x": 4.84642,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 4.84642,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 126.00741577148
+          }
+        ],
+        "id": "8519344772175331329",
+        "position": {
+          "x": -203.7772064209,
+          "y": -4.5591397285461,
+          "z": 175.82662963867
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "908c3868-4d2b-4ddf-9d95-8519a71ad67b",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8519345098372923393",
+        "mass": 874.56452026367,
+        "position": {
+          "x": -189.24,
+          "y": 15.735159873962,
+          "z": 154.5
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.000001907349
+        },
+        "scale": {
+          "x": 19.9997,
+          "y": 1.8256,
+          "z": 10.8878
+        },
+        "size": {
+          "x": 19.9997,
+          "y": 1.8256,
+          "z": 10.8878
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 397.52932739258
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "1a2237ad-5e2c-467a-959b-13daabaa36be",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8519346571293458433",
+        "mass": 7830.796875,
+        "position": {
+          "x": -188.24270629883,
+          "y": -7.5066804885864,
+          "z": 132.32116699219
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -9.3533520839628e-07
+        },
+        "scale": {
+          "x": 3.99997,
+          "y": 51.5786,
+          "z": 17.2527
+        },
+        "size": {
+          "x": 3.99997,
+          "y": 51.5786,
+          "z": 17.2527
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 3559.453125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "976c91d7-dfdc-4199-8607-27f70c1458dd",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8519347361233092609",
+        "mass": 381.28253173828,
+        "position": {
+          "x": -188.24270629883,
+          "y": 17.026906967163,
+          "z": 106.32116699219
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -9.3533520839628e-07
+        },
+        "scale": {
+          "x": 3.99996,
+          "y": 2.51139,
+          "z": 17.2526
+        },
+        "size": {
+          "x": 3.99996,
+          "y": 2.51139,
+          "z": 17.2526
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 173.31024169922
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "513dc6ad-b045-4424-a6ea-f60bf475b703",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8519347634338873345",
+        "mass": 7830.796875,
+        "position": {
+          "x": -193.24270629883,
+          "y": -7.5066804885864,
+          "z": 83.321166992188
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -9.3533520839628e-07
+        },
+        "scale": {
+          "x": 3.99997,
+          "y": 51.5786,
+          "z": 17.2527
+        },
+        "size": {
+          "x": 3.99997,
+          "y": 51.5786,
+          "z": 17.2527
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 3559.453125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7558b1a3-73ff-4309-9bf3-cd47d57d178f",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519348306513936385",
+            "mass": 725.15732574463,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27444458008,
+              "y": 12.292177200317,
+              "z": 49.278671264648
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 5.0652770369197e-06,
+              "y": -90,
+              "z": -54.99995803833
+            },
+            "scale": {
+              "x": 5.07101,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 5.07101,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 131.84678649902
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a61e5982-8df6-442b-b9e5-19059365887d",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519348306516082689",
+            "mass": 2145.0062103271,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27444458008,
+              "y": 17.46001625061,
+              "z": 57.75
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "size": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 390.00112915039
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "994d6d05-2344-4e14-b35f-5e6f117d6345",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519348306518310913",
+            "mass": 658.65345001221,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27442932129,
+              "y": 15.801807403564,
+              "z": 49.219451904297
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 2.5395718239452e-07,
+              "y": -90.000007629395,
+              "z": 55.000007629395
+            },
+            "scale": {
+              "x": 4.60596,
+              "y": 0.86668,
+              "z": 29.9996
+            },
+            "size": {
+              "x": 4.60596,
+              "y": 0.86668,
+              "z": 29.9996
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 119.75517272949
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d90c204e-b5cc-4a0e-aeaa-25e7e2131a90",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519348306527764481",
+            "mass": 2145.0062103271,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27444458008,
+              "y": 10.460144042969,
+              "z": 57.75
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "size": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 390.00112915039
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "96203a24-35e6-4ea4-82a1-dc509abb27d9",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519348306529927169",
+            "mass": 710.17449188232,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27442932129,
+              "y": 12.261375427246,
+              "z": 66.404479980469
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": -1.0404768602257e-08,
+              "y": -90.000007629395,
+              "z": 54.999946594238
+            },
+            "scale": {
+              "x": 4.96623,
+              "y": 0.86668,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 4.96623,
+              "y": 0.86668,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 129.1226348877
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "aa91d47c-ff1f-489a-baf3-add662b46a08",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519348306532073473",
+            "mass": 693.04078674316,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27447509766,
+              "y": 15.798181533813,
+              "z": 66.425323486328
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 2.5060933239729e-06,
+              "y": -90.000007629395,
+              "z": -55.000007629395
+            },
+            "scale": {
+              "x": 4.84642,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 4.84642,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 126.00741577148
+          }
+        ],
+        "id": "8519348306513297409",
+        "position": {
+          "x": -203.7772064209,
+          "y": 0.44085645675659,
+          "z": 57.826629638672
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7558b1a3-73ff-4309-9bf3-cd47d57d178f",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519349585422286849",
+            "mass": 725.15732574463,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27444458008,
+              "y": 14.292177200317,
+              "z": 24.278671264648
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 5.0652770369197e-06,
+              "y": -90,
+              "z": -54.99995803833
+            },
+            "scale": {
+              "x": 5.07101,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 5.07101,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 131.84678649902
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a61e5982-8df6-442b-b9e5-19059365887d",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519349585424384001",
+            "mass": 2145.0062103271,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27444458008,
+              "y": 19.46001625061,
+              "z": 32.75
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "size": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 390.00112915039
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "994d6d05-2344-4e14-b35f-5e6f117d6345",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519349585426464769",
+            "mass": 658.65345001221,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27442932129,
+              "y": 17.801807403564,
+              "z": 24.219451904297
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 2.5395718239452e-07,
+              "y": -90.000007629395,
+              "z": 55.000007629395
+            },
+            "scale": {
+              "x": 4.60596,
+              "y": 0.86668,
+              "z": 29.9996
+            },
+            "size": {
+              "x": 4.60596,
+              "y": 0.86668,
+              "z": 29.9996
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 119.75517272949
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d90c204e-b5cc-4a0e-aeaa-25e7e2131a90",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519349585428561921",
+            "mass": 2145.0062103271,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27444458008,
+              "y": 12.460144042969,
+              "z": 32.75
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "size": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 390.00112915039
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "96203a24-35e6-4ea4-82a1-dc509abb27d9",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519349585430659073",
+            "mass": 710.17449188232,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27442932129,
+              "y": 14.261375427246,
+              "z": 41.404479980469
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": -1.0404768602257e-08,
+              "y": -90.000007629395,
+              "z": 54.999946594238
+            },
+            "scale": {
+              "x": 4.96623,
+              "y": 0.86668,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 4.96623,
+              "y": 0.86668,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 129.1226348877
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "aa91d47c-ff1f-489a-baf3-add662b46a08",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519349585432739841",
+            "mass": 693.04078674316,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27447509766,
+              "y": 17.798181533813,
+              "z": 41.425323486328
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 2.5060933239729e-06,
+              "y": -90.000007629395,
+              "z": -55.000007629395
+            },
+            "scale": {
+              "x": 4.84642,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 4.84642,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 126.00741577148
+          }
+        ],
+        "id": "8519349585421680641",
+        "position": {
+          "x": -203.7772064209,
+          "y": 2.4408564567566,
+          "z": 32.826629638672
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7558b1a3-73ff-4309-9bf3-cd47d57d178f",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519349862746701825",
+            "mass": 725.15732574463,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27444458008,
+              "y": 16.292177200317,
+              "z": 0.2786750793457
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 5.0652770369197e-06,
+              "y": -90,
+              "z": -54.99995803833
+            },
+            "scale": {
+              "x": 5.07101,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 5.07101,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 131.84678649902
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a61e5982-8df6-442b-b9e5-19059365887d",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519349862748979201",
+            "mass": 2145.0062103271,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27444458008,
+              "y": 21.46001625061,
+              "z": 8.7500038146973
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "size": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 390.00112915039
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "994d6d05-2344-4e14-b35f-5e6f117d6345",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519349862751125505",
+            "mass": 658.65345001221,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27442932129,
+              "y": 19.801807403564,
+              "z": 0.21945571899414
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 2.5395718239452e-07,
+              "y": -90.000007629395,
+              "z": 55.000007629395
+            },
+            "scale": {
+              "x": 4.60596,
+              "y": 0.86668,
+              "z": 29.9996
+            },
+            "size": {
+              "x": 4.60596,
+              "y": 0.86668,
+              "z": 29.9996
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 119.75517272949
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d90c204e-b5cc-4a0e-aeaa-25e7e2131a90",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519349862753271809",
+            "mass": 2145.0062103271,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27444458008,
+              "y": 14.460144042969,
+              "z": 8.7500038146973
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "size": {
+              "x": 14.9999,
+              "y": 0.866681,
+              "z": 29.9998
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 390.00112915039
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "96203a24-35e6-4ea4-82a1-dc509abb27d9",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519349862755467265",
+            "mass": 710.17449188232,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27442932129,
+              "y": 16.261375427246,
+              "z": 17.404483795166
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": -1.0404768602257e-08,
+              "y": -90.000007629395,
+              "z": 54.999946594238
+            },
+            "scale": {
+              "x": 4.96623,
+              "y": 0.86668,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 4.96623,
+              "y": 0.86668,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 129.1226348877
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "aa91d47c-ff1f-489a-baf3-add662b46a08",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8519349862757597185",
+            "mass": 693.04078674316,
+            "material": {
+              "color": {
+                "b": 165,
+                "g": 165,
+                "r": 165
+              },
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -204.27447509766,
+              "y": 19.798181533813,
+              "z": 17.425327301025
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "x": 2.5060933239729e-06,
+              "y": -90.000007629395,
+              "z": -55.000007629395
+            },
+            "scale": {
+              "x": 4.84642,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "size": {
+              "x": 4.84642,
+              "y": 0.866679,
+              "z": 29.9997
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 126.00741577148
+          }
+        ],
+        "id": "8519349862745702401",
+        "position": {
+          "x": -203.7772064209,
+          "y": 4.4408564567566,
+          "z": 8.8266334533691
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "cf65e18d-1c2c-4fe7-9214-04768e844b36",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8519350373987778561",
+        "mass": 1429.8098632813,
+        "position": {
+          "x": -196.43829345703,
+          "y": 17.026906967163,
+          "z": -15.678833007813
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -9.3533520839628e-07
+        },
+        "scale": {
+          "x": 15,
+          "y": 2.51138,
+          "z": 17.2525
+        },
+        "size": {
+          "x": 15,
+          "y": 2.51138,
+          "z": 17.2525
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 649.91357421875
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "3655b470-05a4-44e1-8c8b-88ee29e13f5a",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8519351029356396545",
+        "mass": 40872.008203125,
+        "position": {
+          "x": -206.11967468262,
+          "y": -8.1590957641602,
+          "z": -39.678833007813
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -9.3533520839628e-07
+        },
+        "scale": {
+          "x": 20.3627,
+          "y": 52.8833,
+          "z": 17.2524
+        },
+        "size": {
+          "x": 20.3627,
+          "y": 52.8833,
+          "z": 17.2524
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 18578.185546875
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "a7df3e5a-bc11-44d3-8dfd-4c3d9f03cf1b",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8519354922827759617",
+        "mass": 61786.0203125,
+        "position": {
+          "x": -103.71543884277,
+          "y": 13.629179000854,
+          "z": -52.750671386719
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -90
+        },
+        "scale": {
+          "x": 1.20133,
+          "y": 100.296,
+          "z": 233.089
+        },
+        "size": {
+          "x": 1.20133,
+          "y": 100.296,
+          "z": 233.089
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 28084.5546875
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "1205e190-3a13-4c0c-beaa-c1ae26fa5513",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8519357195616436225",
+        "mass": 404933.546875,
+        "position": {
+          "x": -101.76532745361,
+          "y": 63.229995727539,
+          "z": 159.30325317383
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 2.9065297439956e-06
+        },
+        "scale": {
+          "x": 236.81,
+          "y": 1.81404,
+          "z": 428.464
+        },
+        "size": {
+          "x": 236.81,
+          "y": 1.81404,
+          "z": 428.464
+        },
+        "useAnchor": true,
+        "useCollide": false,
+        "useGravity": false,
+        "volume": 184060.703125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "125a1617-5a6a-4500-9e89-ce17fc91a711",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8519358759117029377",
+            "mass": 5155.8127929688,
+            "material": {
+              "color": {
+                "b": 83,
+                "g": 83,
+                "r": 83
+              }
+            },
+            "position": {
+              "x": -166.5871887207,
+              "y": 53.708129882813,
+              "z": 217.70022583008
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 12.5106,
+              "y": 19.0743,
+              "z": 12.5106
+            },
+            "shape": "3",
+            "size": {
+              "x": 12.5106,
+              "y": 19.0743,
+              "z": 12.5106
+            },
+            "useAnchor": true,
+            "volume": 2343.5512695312
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "21c6cc5a-2938-4093-a3ca-724d1eebd5be",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "id": "8519360222264950785"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalSurface": "1",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "id": "8519360635340619777"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalSurface": "2",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "id": "8519360684265340929"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalSurface": "3",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "id": "8519360707362177025"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8519359605851242497",
+            "mass": 13535.074609375,
+            "material": {
+              "color": {
+                "b": 0,
+                "r": 85
+              }
+            },
+            "position": {
+              "x": -166.5871887207,
+              "y": 6.0577263832092,
+              "z": 217.70022583008
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 9.99992,
+              "y": 78.3746,
+              "z": 9.99992
+            },
+            "shape": "3",
+            "size": {
+              "x": 9.99992,
+              "y": 78.3746,
+              "z": 9.99992
+            },
+            "useAnchor": true,
+            "volume": 6152.306640625
+          }
+        ],
+        "id": "8519361551846342657",
+        "position": {
+          "x": -166.5871887207,
+          "y": 15.057842254639,
+          "z": 217.70022583008
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "125a1617-5a6a-4500-9e89-ce17fc91a711",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8519361580491472897",
+            "mass": 5155.8127929688,
+            "material": {
+              "color": {
+                "b": 83,
+                "g": 83,
+                "r": 83
+              }
+            },
+            "position": {
+              "x": -22.587188720703,
+              "y": 53.707698822021,
+              "z": 327.70022583008
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 12.5106,
+              "y": 19.0743,
+              "z": 12.5106
+            },
+            "shape": "3",
+            "size": {
+              "x": 12.5106,
+              "y": 19.0743,
+              "z": 12.5106
+            },
+            "useAnchor": true,
+            "volume": 2343.5512695312
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "21c6cc5a-2938-4093-a3ca-724d1eebd5be",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "id": "8519361580494684161"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalSurface": "1",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "id": "8519361580495536129"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalSurface": "2",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "id": "8519361580496371713"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalSurface": "3",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "id": "8519361580497190913"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8519361580494274561",
+            "mass": 13535.074609375,
+            "material": {
+              "color": {
+                "b": 0,
+                "r": 85
+              }
+            },
+            "position": {
+              "x": -22.587188720703,
+              "y": 6.05779504776,
+              "z": 327.70022583008
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 9.99992,
+              "y": 78.3746,
+              "z": 9.99992
+            },
+            "shape": "3",
+            "size": {
+              "x": 9.99992,
+              "y": 78.3746,
+              "z": 9.99992
+            },
+            "useAnchor": true,
+            "volume": 6152.306640625
+          }
+        ],
+        "id": "8519361580490817537",
+        "position": {
+          "x": -22.587188720703,
+          "y": 15.057848930359,
+          "z": 327.70022583008
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "125a1617-5a6a-4500-9e89-ce17fc91a711",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8519362142606622721",
+            "mass": 5155.8127929688,
+            "material": {
+              "color": {
+                "b": 83,
+                "g": 83,
+                "r": 83
+              }
+            },
+            "position": {
+              "x": -125.5871887207,
+              "y": 53.707927703857,
+              "z": -20.299770355225
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 12.5106,
+              "y": 19.0743,
+              "z": 12.5106
+            },
+            "shape": "3",
+            "size": {
+              "x": 12.5106,
+              "y": 19.0743,
+              "z": 12.5106
+            },
+            "useAnchor": true,
+            "volume": 2343.5512695312
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "21c6cc5a-2938-4093-a3ca-724d1eebd5be",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "id": "8519362142609588225"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalSurface": "1",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "id": "8519362142610407425"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalSurface": "2",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "id": "8519362142611210241"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 0.5,
+                "decalSurface": "3",
+                "decalTexture": {
+                  "asset": "asset/speedrung/map6/toxic.png"
+                },
+                "id": "8519362142612013057"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8519362142609211393",
+            "mass": 13535.074609375,
+            "material": {
+              "color": {
+                "b": 0,
+                "r": 85
+              }
+            },
+            "position": {
+              "x": -125.5871887207,
+              "y": 6.0577549934387,
+              "z": -20.299770355225
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 9.99992,
+              "y": 78.3746,
+              "z": 9.99992
+            },
+            "shape": "3",
+            "size": {
+              "x": 9.99992,
+              "y": 78.3746,
+              "z": 9.99992
+            },
+            "useAnchor": true,
+            "volume": 6152.306640625
+          }
+        ],
+        "id": "8519362142606016513",
+        "position": {
+          "x": -125.5871887207,
+          "y": 15.057842254639,
+          "z": -20.299770355225
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "c31e2d1f-80a8-4772-88b2-50e593860789",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8539457586262130689",
+            "mass": 16.499996066093,
+            "material": {
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -214.65475463867,
+              "y": 19.782566070557,
+              "z": -37.087753295898
+            },
+            "restitution": 0.07,
+            "scale": {
+              "y": 3
+            },
+            "size": {
+              "y": 3
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 2.9999992847443
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7740b551-2420-458e-a16a-694bae65de4b",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8539457929065365505",
+            "mass": 4.3999987542629,
+            "material": {
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -214.65475463867,
+              "y": 21.682565689087,
+              "z": -37.577747344971
+            },
+            "restitution": 0.07,
+            "scale": {
+              "y": 0.8
+            },
+            "size": {
+              "y": 0.8
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.79999977350235
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "47b26bfc-c64b-48c3-97fc-695292b021fa",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8539458207253053441",
+            "mass": 4.3999987542629,
+            "material": {
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -214.65475463867,
+              "y": 22.472566604614,
+              "z": -38.117755889893
+            },
+            "restitution": 0.07,
+            "scale": {
+              "y": 0.8
+            },
+            "size": {
+              "y": 0.8
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.79999977350235
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "02c811bc-a246-4f7b-8746-5471efcac39a",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8539458355829309441",
+            "mass": 4.3999987542629,
+            "material": {
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -214.65475463867,
+              "y": 22.922567367554,
+              "z": -38.817760467529
+            },
+            "restitution": 0.07,
+            "scale": {
+              "y": 0.8
+            },
+            "size": {
+              "y": 0.8
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.79999977350235
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "ce90d34a-c5d0-4220-bfc4-78ca083254a9",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8539458509924532225",
+            "mass": 4.3999987542629,
+            "material": {
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -214.65475463867,
+              "y": 22.472566604614,
+              "z": -39.467761993408
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "y": 0.8
+            },
+            "size": {
+              "y": 0.8
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.79999977350235
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "020141d7-4e21-48a5-b65a-0f8169dc93ba",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8539458509922222081",
+            "mass": 4.3999987542629,
+            "material": {
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -214.65475463867,
+              "y": 21.682565689087,
+              "z": -40.00777053833
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "y": 0.8
+            },
+            "size": {
+              "y": 0.8
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.79999977350235
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a2c808b6-462c-4159-b938-3228fdcff83d",
+            "density": 5.5,
+            "friction": 0.56,
+            "id": "8539458509926907905",
+            "mass": 16.499996066093,
+            "material": {
+              "texture": "part_huawenban.tga"
+            },
+            "position": {
+              "x": -214.65475463867,
+              "y": 19.782566070557,
+              "z": -40.497760772705
+            },
+            "restitution": 0.07,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "y": 3
+            },
+            "size": {
+              "y": 3
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 2.9999992847443
+          }
+        ],
+        "id": "8539458759542194177",
+        "position": {
+          "x": -214.65475463867,
+          "y": 20.80256652832,
+          "z": -38.792757034302
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/2aa88b43-e6c2-4361-aa62-de94080f634d",
+        "id": "8540012311612276737",
+        "name": "NextMap",
+        "position": {
+          "x": -214.64933776855,
+          "y": 20.589950561523,
+          "z": -38.763572692871
+        },
+        "scale": {
+          "x": 0.999997,
+          "y": 4.61455,
+          "z": 3.15593
+        },
+        "size": {
+          "x": 0.999997,
+          "y": 4.61455,
+          "z": 3.15593
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "2044610d-27f0-449a-8b57-0b01b2c099bf",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/Skill/common/icon_开镜_act.png"
+            },
+            "id": "8540928866490384385"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8540928438130704385",
+        "mass": 131.91794815063,
+        "name": "checkpoint",
+        "position": {
+          "x": 0.017587065696716,
+          "y": 1.1452633142471,
+          "z": 3.0329575538635
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 14.3555,
+          "y": 0.290577,
+          "z": 14.3748
+        },
+        "size": {
+          "x": 14.3555,
+          "y": 0.290577,
+          "z": 14.3748
+        },
+        "useAnchor": true,
+        "volume": 59.962703704834
+      }
+    ],
+    "name": {
+      "value": "map_speed6"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bb1156323180a5a4ae95d1c01ef1bda5"
+    },
+    "VERSION": "0.20"
+  }
+}

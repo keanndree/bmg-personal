@@ -1,0 +1,31 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/Texture/Effects/invincible.effect",
+        "selector": "editor/ParkourGame/asset/Texture/Effects/invincible.effect"
+      },
+      "once": false
+    },
+    "deadRemove": true,
+    "fixTime": "max",
+    "name": {
+      "value": "buff_invincible"
+    },
+    "needSave": true,
+    "sound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "sync": "self",
+    "unassailable": true,
+    "undamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0b044e62eb38067a20bcbbd8747564fc"
+    },
+    "VERSION": "0.20"
+  }
+}

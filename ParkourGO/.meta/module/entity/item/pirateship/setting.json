@@ -1,0 +1,31 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Domineering Brown Ship/ship_merry.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "girlactor": {
+      "asset": "empty.actor"
+    },
+    "name": {
+      "value": "entity_pirateship"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1605eacf7e319c3749f09ff6e24609c9",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

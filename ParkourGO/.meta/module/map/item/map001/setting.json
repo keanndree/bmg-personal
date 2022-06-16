@@ -1,0 +1,2065 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "26644713697705985",
+        "uniqueKey": "map001"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/player1",
+        "id": "8504222558422384641",
+        "isVisibleInEditor": false,
+        "name": "Player",
+        "position": {
+          "y": 1.5
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "bcaa6f1d-fe24-4680-8db5-c47b1a2ade87",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalImageType": "2",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/Skill/common/icon_游戏内_上_act.png"
+            },
+            "decalTiling": {
+              "x": 1,
+              "y": 1
+            },
+            "id": "8504226925494714369"
+          }
+        ],
+        "density": 7.9,
+        "friction": 0.2,
+        "id": "8504224747724455937",
+        "mass": 55.365681648254,
+        "material": {
+          "texture": "part_gangban.tga"
+        },
+        "name": "start",
+        "position": {
+          "x": -0.079819679260254,
+          "y": 1,
+          "z": -2.8545741770358e-08
+        },
+        "restitution": 0.06,
+        "rotation": {
+          "y": 90
+        },
+        "scale": {
+          "x": 5.99998,
+          "y": 0.199999,
+          "z": 5.84031
+        },
+        "size": {
+          "x": 5.99998,
+          "y": 0.199999,
+          "z": 5.84031
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 7.0083141326904
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "bcffda1b-1c56-4e17-8019-34636a4fd800",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8504229736959426561",
+        "mass": 3.5200000524521,
+        "material": {
+          "color": {
+            "b": 84,
+            "g": 124
+          }
+        },
+        "position": {
+          "x": -1.8039378346657e-06,
+          "y": 1,
+          "z": 4.9999995231628
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 90
+        },
+        "scale": {
+          "y": 0.4,
+          "z": 4
+        },
+        "size": {
+          "y": 0.4,
+          "z": 4
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1.6000000238419
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "31e5a534-5562-48a3-8ac6-ae2d44f95b44",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8504231956499103745",
+        "mass": 8.8,
+        "material": {
+          "color": {
+            "b": 19,
+            "g": 158
+          }
+        },
+        "position": {
+          "x": -1.1368683772162e-12,
+          "y": 1.2999999523163,
+          "z": 7
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 90
+        },
+        "scale": {
+          "z": 4
+        },
+        "size": {
+          "z": 4
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 4
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "d4097465-a502-4b07-881e-6196c5927c7d",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8504235634811584513",
+        "mass": 17.6,
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 247
+          }
+        },
+        "position": {
+          "y": 1.743567109108,
+          "z": 9
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 90
+        },
+        "scale": {
+          "y": 2,
+          "z": 4
+        },
+        "size": {
+          "y": 2,
+          "z": 4
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 8
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "829f29e3-76e8-4c1b-92de-f464c1dd6445",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8504239893844934657",
+        "mass": 26.4,
+        "material": {
+          "color": {
+            "b": 0,
+            "r": 136
+          }
+        },
+        "position": {
+          "y": 2.2,
+          "z": 11
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 90
+        },
+        "scale": {
+          "y": 3,
+          "z": 4
+        },
+        "size": {
+          "y": 3,
+          "z": 4
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 12
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "0ada739a-f0ab-4374-bcfe-90229dbfe4e6",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8504245221362368513",
+        "mass": 3.5200000524521,
+        "material": {
+          "color": {
+            "g": 73,
+            "r": 185
+          }
+        },
+        "position": {
+          "x": -5.5534510465804e-06,
+          "y": 1,
+          "z": 17.073289871216
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 90
+        },
+        "scale": {
+          "y": 0.4,
+          "z": 4
+        },
+        "size": {
+          "y": 0.4,
+          "z": 4
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1.6000000238419
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "3149525c-d07d-4b15-9b0c-1257a3d73fdd",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8504245221364645889",
+        "mass": 8.8,
+        "material": {
+          "color": {
+            "g": 187,
+            "r": 0
+          }
+        },
+        "position": {
+          "x": -4.0830655052559e-06,
+          "y": 1.3,
+          "z": 15.073295593262
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 90
+        },
+        "scale": {
+          "z": 4
+        },
+        "size": {
+          "z": 4
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 4
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "b1d14a69-cb2a-430d-aef2-aac8a65a71e4",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8504245221366874113",
+        "mass": 17.6,
+        "material": {
+          "color": {
+            "b": 174,
+            "r": 0
+          }
+        },
+        "position": {
+          "x": -2.6861193873629e-06,
+          "y": 1.75,
+          "z": 13.073293685913
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 90
+        },
+        "scale": {
+          "y": 2,
+          "z": 4
+        },
+        "size": {
+          "y": 2,
+          "z": 4
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 8
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "8d535727-675a-4c2d-adf9-69b62d5f9cb5",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalImageType": "2",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/Skill/common/icon_游戏内_上_act.png"
+            },
+            "decalTiling": {
+              "x": 1,
+              "y": 1
+            },
+            "id": "8504248186263977985"
+          }
+        ],
+        "density": 7.9,
+        "friction": 0.2,
+        "id": "8504248186263535617",
+        "mass": 56.880002260208,
+        "material": {
+          "texture": "part_gangban.tga"
+        },
+        "name": "checkpoint",
+        "position": {
+          "x": -7.8678112913622e-06,
+          "y": 1,
+          "z": 21.999996185303
+        },
+        "restitution": 0.06,
+        "rotation": {
+          "y": 90
+        },
+        "scale": {
+          "x": 6,
+          "y": 0.2,
+          "z": 6
+        },
+        "size": {
+          "x": 6,
+          "y": 0.2,
+          "z": 6
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 7.2000002861023
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "f8f11292-7095-4f07-bf74-ccbc76c7a8db",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/square-dot.png"
+                },
+                "decalTiling": {
+                  "x": 1,
+                  "y": 1
+                },
+                "id": "8506789540902633473"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8506789540902256641",
+            "mass": 2.6400001049042,
+            "position": {
+              "x": -2.0000083446503,
+              "y": 1,
+              "z": 27.999994277954
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -30.000009536743
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.4
+            },
+            "size": {
+              "x": 3,
+              "y": 0.4
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 1.2000000476837
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e3c87e81-0ee7-407a-aa47-c8e888ff7932",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/square-dot.png"
+                },
+                "decalTiling": {
+                  "x": 1,
+                  "y": 1
+                },
+                "id": "8506788838794788865"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8506389922238922753",
+            "mass": 2.6400001049042,
+            "position": {
+              "x": -2.0000083446503,
+              "y": 1,
+              "z": 27.999994277954
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 60
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.4
+            },
+            "size": {
+              "x": 3,
+              "y": 0.4
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 1.2000000476837
+          }
+        ],
+        "id": "8506789781230682113",
+        "position": {
+          "x": -1.9999992847443,
+          "y": 1,
+          "z": 28
+        },
+        "rotation": {
+          "y": -29.999996185303
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "f8f11292-7095-4f07-bf74-ccbc76c7a8db",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/square-dot.png"
+                },
+                "decalTiling": {
+                  "x": 1,
+                  "y": 1
+                },
+                "id": "8506790377843671041"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8506790377843294209",
+            "mass": 2.6400001049042,
+            "position": {
+              "x": 1.4640946388245,
+              "y": 1,
+              "z": 31.999990463257
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -59.999984741211
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.4
+            },
+            "size": {
+              "x": 3,
+              "y": 0.4
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 1.2000000476837
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e3c87e81-0ee7-407a-aa47-c8e888ff7932",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/square-dot.png"
+                },
+                "decalTiling": {
+                  "x": 1,
+                  "y": 1
+                },
+                "id": "8506790377846751233"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8506790377846374401",
+            "mass": 2.6400001049042,
+            "position": {
+              "x": 1.4640946388245,
+              "y": 1,
+              "z": 31.999990463257
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 29.999996185303
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.4
+            },
+            "size": {
+              "x": 3,
+              "y": 0.4
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 1.2000000476837
+          }
+        ],
+        "id": "8506790377842573313",
+        "position": {
+          "x": 1.4641048908234,
+          "y": 1,
+          "z": 32
+        },
+        "rotation": {
+          "y": -59.999992370605
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "f8f11292-7095-4f07-bf74-ccbc76c7a8db",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/square-dot.png"
+                },
+                "decalTiling": {
+                  "x": 1,
+                  "y": 1
+                },
+                "id": "8506790790495666177"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8506790790495289345",
+            "mass": 2.6400001049042,
+            "position": {
+              "x": -2.8660223484039,
+              "y": 1,
+              "z": 35.499988555908
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -9.9999580383301
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.4
+            },
+            "size": {
+              "x": 3,
+              "y": 0.4
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 1.2000000476837
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e3c87e81-0ee7-407a-aa47-c8e888ff7932",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/square-dot.png"
+                },
+                "decalTiling": {
+                  "x": 1,
+                  "y": 1
+                },
+                "id": "8506790790498664449"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8506790790498287617",
+            "mass": 2.6400001049042,
+            "position": {
+              "x": -2.8660223484039,
+              "y": 1,
+              "z": 35.499988555908
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 80.000053405762
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.4
+            },
+            "size": {
+              "x": 3,
+              "y": 0.4
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 1.2000000476837
+          }
+        ],
+        "id": "8506790790494584833",
+        "position": {
+          "x": -2.8660130500793,
+          "y": 1,
+          "z": 35.5
+        },
+        "rotation": {
+          "y": -9.9999904632568
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "f8f11292-7095-4f07-bf74-ccbc76c7a8db",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/square-dot.png"
+                },
+                "decalTiling": {
+                  "x": 1,
+                  "y": 1
+                },
+                "id": "8506791142428901377"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8506791142428524545",
+            "mass": 2.6400001049042,
+            "position": {
+              "x": 1.8324463367462,
+              "y": 1,
+              "z": 37.999927520752
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -50.000003814697
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.4
+            },
+            "size": {
+              "x": 3,
+              "y": 0.4
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 1.2000000476837
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e3c87e81-0ee7-407a-aa47-c8e888ff7932",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/square-dot.png"
+                },
+                "decalTiling": {
+                  "x": 1,
+                  "y": 1
+                },
+                "id": "8506791142431948801"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8506791142431571969",
+            "mass": 2.6400001049042,
+            "position": {
+              "x": 1.8324463367462,
+              "y": 1,
+              "z": 37.999927520752
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 40.000030517578
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.4
+            },
+            "size": {
+              "x": 3,
+              "y": 0.4
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 1.2000000476837
+          }
+        ],
+        "id": "8506791142427820033",
+        "position": {
+          "x": 1.8324499130249,
+          "y": 1,
+          "z": 38
+        },
+        "rotation": {
+          "y": -49.999988555908
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "0c93a1e5-986a-403e-bbef-95650e2002d7",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalImageType": "2",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/Skill/common/icon_游戏内_上_act.png"
+            },
+            "decalTiling": {
+              "x": 1,
+              "y": 1
+            },
+            "id": "8506792096516800513"
+          }
+        ],
+        "density": 7.9,
+        "friction": 0.2,
+        "id": "8506792096516390913",
+        "mass": 56.880002260208,
+        "material": {
+          "texture": "part_gangban.tga"
+        },
+        "name": "checkpoint",
+        "position": {
+          "x": -1.5735626220703e-05,
+          "y": 1,
+          "z": 44
+        },
+        "restitution": 0.06,
+        "scale": {
+          "x": 6,
+          "y": 0.2,
+          "z": 6
+        },
+        "size": {
+          "x": 6,
+          "y": 0.2,
+          "z": 6
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 7.2000002861023
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "33cecff6-e05f-41f1-8e18-8da97e2c3760",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8506792613223940097",
+        "mass": 2.4639690637589,
+        "material": {
+          "color": {
+            "b": 84,
+            "g": 124
+          }
+        },
+        "position": {
+          "x": -5,
+          "y": 1,
+          "z": 44
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 2.5613219349907e-06
+        },
+        "scale": {
+          "x": 0.7,
+          "y": 0.399998,
+          "z": 3.99997
+        },
+        "size": {
+          "x": 0.7,
+          "y": 0.399998,
+          "z": 3.99997
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1.1199859380722
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "60460dab-3beb-4fd2-9fd8-295efca1788f",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8506793424040902657",
+        "mass": 2.4639690637589,
+        "material": {
+          "color": {
+            "b": 76,
+            "g": 174
+          }
+        },
+        "position": {
+          "x": -7,
+          "y": 1,
+          "z": 44
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 2.5613219349907e-06
+        },
+        "scale": {
+          "x": 0.7,
+          "y": 0.399998,
+          "z": 3.99997
+        },
+        "size": {
+          "x": 0.7,
+          "y": 0.399998,
+          "z": 3.99997
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1.1199859380722
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "8ce37659-0f5e-462e-96ef-8b68e533e843",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8506793602964815873",
+        "mass": 2.4639690637589,
+        "material": {
+          "color": {
+            "b": 76
+          }
+        },
+        "position": {
+          "x": -9,
+          "y": 1,
+          "z": 44
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 2.5613219349907e-06
+        },
+        "scale": {
+          "x": 0.7,
+          "y": 0.399998,
+          "z": 3.99997
+        },
+        "size": {
+          "x": 0.7,
+          "y": 0.399998,
+          "z": 3.99997
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1.1199859380722
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "6e9d52cf-640c-4559-af31-e8495f325c09",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8506793724701884417",
+        "mass": 2.4639690637589,
+        "material": {
+          "color": {
+            "b": 82,
+            "r": 174
+          }
+        },
+        "position": {
+          "x": -11,
+          "y": 1,
+          "z": 44
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 2.5613219349907e-06
+        },
+        "scale": {
+          "x": 0.7,
+          "y": 0.399998,
+          "z": 3.99997
+        },
+        "size": {
+          "x": 0.7,
+          "y": 0.399998,
+          "z": 3.99997
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1.1199859380722
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "6c8c53fd-6eae-4c47-b53b-519278a6cb65",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8506793822331650049",
+        "mass": 2.4639690637589,
+        "material": {
+          "color": {
+            "b": 115,
+            "r": 82
+          }
+        },
+        "position": {
+          "x": -13,
+          "y": 1,
+          "z": 44
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 2.5613219349907e-06
+        },
+        "scale": {
+          "x": 0.7,
+          "y": 0.399998,
+          "z": 3.99997
+        },
+        "size": {
+          "x": 0.7,
+          "y": 0.399998,
+          "z": 3.99997
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1.1199859380722
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "85ba1d76-f639-4a06-9dc4-591e2b6f14f8",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8506794219056349185",
+        "mass": 2.4639690637589,
+        "material": {
+          "color": {
+            "g": 176,
+            "r": 73
+          }
+        },
+        "position": {
+          "x": -15,
+          "y": 1,
+          "z": 44
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 2.5613219349907e-06
+        },
+        "scale": {
+          "x": 0.7,
+          "y": 0.399998,
+          "z": 3.99997
+        },
+        "size": {
+          "x": 0.7,
+          "y": 0.399998,
+          "z": 3.99997
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1.1199859380722
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "21e8cac2-cfbf-4e6b-86d8-03ff56679e8e",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8506794474583752705",
+        "mass": 2.4639690637589,
+        "material": {
+          "color": {
+            "g": 84,
+            "r": 164
+          }
+        },
+        "position": {
+          "x": -17,
+          "y": 1,
+          "z": 44
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 2.5613219349907e-06
+        },
+        "scale": {
+          "x": 0.7,
+          "y": 0.399998,
+          "z": 3.99997
+        },
+        "size": {
+          "x": 0.7,
+          "y": 0.399998,
+          "z": 3.99997
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1.1199859380722
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "de145fe4-1346-47ac-abcb-a717f83f10ae",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalImageType": "2",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/Skill/common/icon_游戏内_上_act.png"
+            },
+            "decalTiling": {
+              "x": 1,
+              "y": 1
+            },
+            "id": "8506796073003696129"
+          }
+        ],
+        "density": 7.9,
+        "friction": 0.2,
+        "id": "8506796073003319297",
+        "mass": 56.880002260208,
+        "material": {
+          "texture": "part_gangban.tga"
+        },
+        "name": "checkpoint",
+        "position": {
+          "x": -22.00001335144,
+          "y": 1,
+          "z": 44
+        },
+        "restitution": 0.06,
+        "rotation": {
+          "y": -90
+        },
+        "scale": {
+          "x": 6,
+          "y": 0.2,
+          "z": 6
+        },
+        "size": {
+          "x": 6,
+          "y": 0.2,
+          "z": 6
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 7.2000002861023
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "71fdbad8-b44f-450a-bd95-8aa33421fd88",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8506796843031101441",
+        "mass": 5.2800002098083,
+        "material": {
+          "color": {
+            "b": 127,
+            "g": 215
+          }
+        },
+        "position": {
+          "x": -20.5,
+          "y": 0.99641919136047,
+          "z": 17.502593994141
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": 40
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 3,
+          "z": 4
+        },
+        "size": {
+          "x": 0.2,
+          "y": 3,
+          "z": 4
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2.4000000953674
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "1fa24df1-82c6-45e5-8bc6-52f81da14e98",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8506798559013617665",
+        "mass": 5.2800002098083,
+        "material": {
+          "color": {
+            "b": 51,
+            "g": 123,
+            "r": 215
+          }
+        },
+        "position": {
+          "x": -23.5,
+          "y": 0.99641919136047,
+          "z": 12.5
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": -40
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 3,
+          "z": 4
+        },
+        "size": {
+          "x": 0.2,
+          "y": 3,
+          "z": 4
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2.4000000953674
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "621b9e84-6d65-415e-80ec-c658233eb3a0",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8506800488902950913",
+        "mass": 5.2800002098083,
+        "material": {
+          "color": {
+            "b": 127,
+            "g": 215
+          }
+        },
+        "position": {
+          "x": -20.5,
+          "y": 0.99641919136047,
+          "z": 7.5025930404663
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": 40
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 3,
+          "z": 4
+        },
+        "size": {
+          "x": 0.2,
+          "y": 3,
+          "z": 4
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2.4000000953674
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "16545d18-80a4-4c52-9583-79249645eace",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8506800602206568449",
+        "mass": 5.2800002098083,
+        "material": {
+          "color": {
+            "b": 51,
+            "g": 123,
+            "r": 215
+          }
+        },
+        "position": {
+          "x": -23.5,
+          "y": 0.99641919136047,
+          "z": 2.5
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": -40
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 3,
+          "z": 4
+        },
+        "size": {
+          "x": 0.2,
+          "y": 3,
+          "z": 4
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2.4000000953674
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "319a5b69-c60c-416b-9326-a04660b43442",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8506800729545146369",
+        "mass": 5.2800002098083,
+        "material": {
+          "color": {
+            "b": 127,
+            "g": 215
+          }
+        },
+        "position": {
+          "x": -20.5,
+          "y": 0.99641919136047,
+          "z": -2.4974060058594
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": 40
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 3,
+          "z": 4
+        },
+        "size": {
+          "x": 0.2,
+          "y": 3,
+          "z": 4
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2.4000000953674
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "3e6ef61d-2de6-4701-a5c7-2570b5a37103",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8506800729547292673",
+        "mass": 5.2800002098083,
+        "material": {
+          "color": {
+            "b": 51,
+            "g": 123,
+            "r": 215
+          }
+        },
+        "position": {
+          "x": -23.5,
+          "y": 0.99641919136047,
+          "z": -7.5
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": -40
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 3,
+          "z": 4
+        },
+        "size": {
+          "x": 0.2,
+          "y": 3,
+          "z": 4
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2.4000000953674
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "08d3263a-eec4-4989-a8f3-7bf29a5bf0b6",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalImageType": "2",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/start.png"
+            },
+            "decalTiling": {
+              "x": 1,
+              "y": 1
+            },
+            "id": "8506800884445446145"
+          }
+        ],
+        "density": 7.9,
+        "friction": 0.2,
+        "id": "8506800884444872705",
+        "mass": 44.650803375244,
+        "material": {
+          "color": {
+            "g": 173,
+            "r": 0
+          },
+          "texture": "part_gangban.tga"
+        },
+        "name": "endmap",
+        "position": {
+          "x": -22.000015258789,
+          "y": 1,
+          "z": -14
+        },
+        "restitution": 0.06,
+        "rotation": {
+          "y": -90
+        },
+        "scale": {
+          "x": 6,
+          "y": 0.2,
+          "z": 6
+        },
+        "shape": "3",
+        "size": {
+          "x": 6,
+          "y": 0.2,
+          "z": 6
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5.6520004272461
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "180b6df7-d3c3-4602-b582-ccb643be6de9",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8507772430895202305",
+            "mass": 1.1657250881195,
+            "position": {
+              "x": -23,
+              "y": 1,
+              "z": 37
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "shape": "3",
+            "size": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.52987504005432
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "3ae070fd-865b-4ec1-942f-9421202a5999",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8507772430893154305",
+            "mass": 1.1657250881195,
+            "material": {
+              "color": {
+                "b": 11,
+                "g": 74
+              }
+            },
+            "position": {
+              "x": -21,
+              "y": 1,
+              "z": 37
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "shape": "3",
+            "size": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false,
+            "volume": 0.52987504005432
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "2dd20b95-15b6-430b-ab31-af0aa7694ad3",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8507772261722980353",
+            "mass": 1.1657250881195,
+            "material": {
+              "color": {
+                "b": 14,
+                "g": 74
+              }
+            },
+            "position": {
+              "x": -23,
+              "y": 1,
+              "z": 39
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "shape": "3",
+            "size": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false,
+            "volume": 0.52987504005432
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "5f8eb1f8-a61a-4a07-a4c9-07c200255b83",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8507771048258158593",
+            "mass": 1.1657250881195,
+            "position": {
+              "x": -21,
+              "y": 1,
+              "z": 39
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "shape": "3",
+            "size": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.52987504005432
+          }
+        ],
+        "id": "8507773027710238721",
+        "position": {
+          "x": -22,
+          "y": 1,
+          "z": 38
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "180b6df7-d3c3-4602-b582-ccb643be6de9",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8507773117641752577",
+            "mass": 1.1657250881195,
+            "position": {
+              "x": -23,
+              "y": 1,
+              "z": 33
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "shape": "3",
+            "size": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.52987504005432
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "3ae070fd-865b-4ec1-942f-9421202a5999",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8507773117643915265",
+            "mass": 1.1657250881195,
+            "material": {
+              "color": {
+                "b": 14,
+                "g": 74
+              }
+            },
+            "position": {
+              "x": -21,
+              "y": 1,
+              "z": 33
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "shape": "3",
+            "size": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false,
+            "volume": 0.52987504005432
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "2dd20b95-15b6-430b-ab31-af0aa7694ad3",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8507773117646045185",
+            "mass": 1.1657250881195,
+            "material": {
+              "color": {
+                "b": 14,
+                "g": 74
+              }
+            },
+            "position": {
+              "x": -23,
+              "y": 1,
+              "z": 35
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "shape": "3",
+            "size": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false,
+            "volume": 0.52987504005432
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "5f8eb1f8-a61a-4a07-a4c9-07c200255b83",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8507773117648240641",
+            "mass": 1.1657250881195,
+            "position": {
+              "x": -21,
+              "y": 1,
+              "z": 35
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "shape": "3",
+            "size": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.52987504005432
+          }
+        ],
+        "id": "8507773117641113601",
+        "position": {
+          "x": -22,
+          "y": 1,
+          "z": 34
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "180b6df7-d3c3-4602-b582-ccb643be6de9",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8507773263945809921",
+            "mass": 1.1657250881195,
+            "position": {
+              "x": -23,
+              "y": 1,
+              "z": 29
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "shape": "3",
+            "size": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.52987504005432
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "3ae070fd-865b-4ec1-942f-9421202a5999",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8507773263947874305",
+            "mass": 1.1657250881195,
+            "material": {
+              "color": {
+                "b": 14,
+                "g": 74
+              }
+            },
+            "position": {
+              "x": -21,
+              "y": 1,
+              "z": 29
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "shape": "3",
+            "size": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false,
+            "volume": 0.52987504005432
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "2dd20b95-15b6-430b-ab31-af0aa7694ad3",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8507773263949955073",
+            "mass": 1.1657250881195,
+            "material": {
+              "color": {
+                "b": 11,
+                "g": 74
+              }
+            },
+            "position": {
+              "x": -23,
+              "y": 1,
+              "z": 31
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "shape": "3",
+            "size": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false,
+            "volume": 0.52987504005432
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "5f8eb1f8-a61a-4a07-a4c9-07c200255b83",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8507773263952035841",
+            "mass": 1.1657250881195,
+            "position": {
+              "x": -21,
+              "y": 1,
+              "z": 31
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "shape": "3",
+            "size": {
+              "x": 1.5,
+              "y": 0.3,
+              "z": 1.5
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.52987504005432
+          }
+        ],
+        "id": "8507773263945236481",
+        "position": {
+          "x": -22,
+          "y": 1,
+          "z": 30
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "59ac52ba-8374-4a37-8999-f81f1cfe5fb3",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalImageType": "2",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/Skill/common/icon_游戏内_上_act.png"
+            },
+            "decalTiling": {
+              "x": 1,
+              "y": 1
+            },
+            "id": "8507773437443145729"
+          }
+        ],
+        "density": 7.9,
+        "friction": 0.2,
+        "id": "8507773437442768897",
+        "mass": 56.880002260208,
+        "material": {
+          "texture": "part_gangban.tga"
+        },
+        "name": "checkpoint",
+        "position": {
+          "x": -22.000068664551,
+          "y": 1,
+          "z": 24
+        },
+        "rotation": {
+          "y": -90
+        },
+        "scale": {
+          "x": 6,
+          "y": 0.2,
+          "z": 6
+        },
+        "size": {
+          "x": 6,
+          "y": 0.2,
+          "z": 6
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 7.2000002861023
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "f7ab5d15-662e-4be9-a705-0c1265f0d7c8",
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8539590337588658177",
+            "mass": 2.0000000298023,
+            "material": {
+              "alpha": 0,
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -22.794998168945,
+              "y": 5.2999963760376,
+              "z": -16.108283996582
+            },
+            "restitution": 0.15,
+            "scale": {
+              "y": 0.8
+            },
+            "size": {
+              "y": 0.8
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e7baa4c3-5783-4526-a232-1b7cf6ba1ce8",
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8539590686994202625",
+            "mass": 2.0000000298023,
+            "material": {
+              "alpha": 0,
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -21.325008392334,
+              "y": 5.2999963760376,
+              "z": -16.108283996582
+            },
+            "restitution": 0.15,
+            "rotation": {
+              "y": -179.99998474121
+            },
+            "scale": {
+              "y": 0.8
+            },
+            "size": {
+              "y": 0.8
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a41b7d0c-560f-43cc-9ba1-4a518a51e032",
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8539590494973509633",
+            "mass": 2.0000000298023,
+            "material": {
+              "alpha": 0,
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -22.084995269775,
+              "y": 5.8299970626831,
+              "z": -16.108283996582
+            },
+            "restitution": 0.15,
+            "scale": {
+              "y": 0.8
+            },
+            "size": {
+              "y": 0.8
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "ca53f384-2be6-4969-bd38-89ebd5f9e858",
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8539589756461105153",
+            "mass": 7.5,
+            "material": {
+              "alpha": 0,
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -23.815002441406,
+              "y": 2.6000001430511,
+              "z": -16.108283996582
+            },
+            "restitution": 0.15,
+            "scale": {
+              "y": 3
+            },
+            "size": {
+              "y": 3
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false,
+            "volume": 3
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "c71e5fcc-b67d-4c46-aee7-40e4bcbd7f5a",
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8539590686996217857",
+            "mass": 2.0000000298023,
+            "material": {
+              "alpha": 0,
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -20.815006256104,
+              "y": 4.4999980926514,
+              "z": -16.108283996582
+            },
+            "restitution": 0.15,
+            "rotation": {
+              "y": -179.99998474121
+            },
+            "scale": {
+              "y": 0.8
+            },
+            "size": {
+              "y": 0.8
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "781407d3-dfa4-4bd3-9add-a51e9d34a062",
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8539590686992187393",
+            "mass": 7.5,
+            "material": {
+              "alpha": 0,
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -20.305004119873,
+              "y": 2.6000001430511,
+              "z": -16.108283996582
+            },
+            "restitution": 0.15,
+            "rotation": {
+              "y": -179.99998474121
+            },
+            "scale": {
+              "y": 3
+            },
+            "size": {
+              "y": 3
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false,
+            "volume": 3
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "90def43e-00d0-4083-b4cb-7fc962e332ec",
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8539590031492759553",
+            "mass": 2.0000000298023,
+            "material": {
+              "alpha": 0,
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -23.305000305176,
+              "y": 4.4999980926514,
+              "z": -16.108283996582
+            },
+            "restitution": 0.15,
+            "scale": {
+              "y": 0.8
+            },
+            "size": {
+              "y": 0.8
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false,
+            "volume": 0.80000001192093
+          }
+        ],
+        "id": "8539590971298103297",
+        "position": {
+          "x": -22.06000328064,
+          "y": 3.6649990081787,
+          "z": -16.108283996582
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/player1",
+        "id": "8564344190582292481",
+        "name": "Player",
+        "position": {
+          "x": 1.6236610412598,
+          "y": 1.0999984741211,
+          "z": 46.289916992188
+        }
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3caae5b9bb8d724b44d4fad308e96b8a"
+    },
+    "VERSION": "0.20"
+  }
+}

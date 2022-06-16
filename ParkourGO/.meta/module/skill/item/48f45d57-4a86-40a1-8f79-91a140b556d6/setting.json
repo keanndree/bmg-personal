@@ -1,0 +1,200 @@
+{
+  "data": {
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "name": {
+      "value": "skill_48f45d57-4a86-40a1-8f79-91a140b556d6"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack"
+      },
+      "type": "Base"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/maxHp.png"
+      },
+      "iconPos": {
+        "area_number": 6
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetEntityPosition",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "76983e5a-a9b0-4a7f-b425-205884cc3eb8"
+                      }
+                    },
+                    {
+                      "must": false,
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "action": "34c7a974-566e-48d2-bdbc-3102e7eaa7dd"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "action": "f8638ad6-b274-46ed-8583-0a7e3bc1c658"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c76c9e37-6cda-436c-adc4-8ca3893de843"
+              },
+              "pos": {
+                "x": 648,
+                "y": 327
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "76983e5a-a9b0-4a7f-b425-205884cc3eb8"
+              },
+              "pos": {
+                "x": 1192,
+                "y": 216
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetPlayerMap",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "eaeb5d25-16d8-4885-a4ea-9eac69699838"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "34c7a974-566e-48d2-bdbc-3102e7eaa7dd"
+              },
+              "pos": {
+                "x": 1274,
+                "y": 312
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "eaeb5d25-16d8-4885-a4ea-9eac69699838"
+              },
+              "pos": {
+                "x": 1662,
+                "y": 394
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetRebirthPos",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "536689fc-3c64-4d18-98d3-b46340d53cb3"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "f8638ad6-b274-46ed-8583-0a7e3bc1c658"
+              },
+              "pos": {
+                "x": 1245,
+                "y": 505
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "536689fc-3c64-4d18-98d3-b46340d53cb3"
+              },
+              "pos": {
+                "x": 1595,
+                "y": 602
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "c76c9e37-6cda-436c-adc4-8ca3893de843"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "4cf01584-8eb6-43bc-9205-dcab580a8bfd"
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "57130c9fdf135690b48f1f24f62207a9",
+      "triggers.bts": "7a72072bcf5d4e9329e1f5e9288f9dcc"
+    },
+    "VERSION": "0.20"
+  }
+}

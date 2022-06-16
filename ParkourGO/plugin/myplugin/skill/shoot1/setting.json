@@ -1,0 +1,56 @@
+{
+  "area": [
+    [
+      0,
+      -228
+    ],
+    [
+      0,
+      -68
+    ],
+    [
+      0,
+      88
+    ],
+    [
+      0,
+      88
+    ]
+  ],
+  "area_number": 7,
+  "backSwingTime": 0,
+  "castAction": "smg_shoot",
+  "castActionTime": -1,
+  "cdTime": 140,
+  "consumeVp": 0,
+  "customizeSkill": true,
+  "draggingEnabled": false,
+  "enable_pre": false,
+  "enable_rear": false,
+  "enableMoveBrkBackS": false,
+  "enableMoveBrkPreS": false,
+  "frontSight": "myplugin/frontsight1",
+  "hitEffect": "",
+  "hitEntityHeadSkill": "myplugin/hit",
+  "hitEntitySkill": "myplugin/hit",
+  "horizontalAlignment": 2,
+  "icon": "@asset/Texture/Skill/common/icon_开枪_act.png",
+  "ignoreCastSkillBackS": false,
+  "ignoreCastSkillPreS": true,
+  "ignoreJumpBackS": false,
+  "ignoreJumpPreS": false,
+  "ignoreMoveBackS": false,
+  "ignoreMovePreS": false,
+  "isClick": false,
+  "isTouch": false,
+  "preSwingTime": 0,
+  "rayLenth": 1000,
+  "recoil": 10,
+  "sensitivityFactor": 1,
+  "startAction": "smg_shoot",
+  "startActionTime": 0,
+  "sustainAction": "",
+  "trajectoryEffect": "",
+  "type": "Ray",
+  "verticalAlignment": 2
+}

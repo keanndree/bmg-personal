@@ -1,0 +1,51 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8539954023041908737"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/player1",
+        "id": "8539954200234868737",
+        "name": "Người chơi",
+        "position": {
+          "y": 1.5
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/5eac2233-8ed9-432a-be13-ae810328aa45",
+        "id": "8539956077628276737",
+        "position": {
+          "y": 3.5699005126953
+        },
+        "scale": {
+          "x": 5,
+          "y": 5,
+          "z": 5
+        },
+        "size": {
+          "x": 5,
+          "y": 5,
+          "z": 5
+        }
+      }
+    ],
+    "name": {
+      "value": "map_lobby"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8cbcf32384793423fb631f1b5328a72f"
+    },
+    "VERSION": "0.20"
+  }
+}

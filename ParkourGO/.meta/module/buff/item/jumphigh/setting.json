@@ -1,0 +1,26 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/Texture/Effects/jumphigh.effect",
+        "selector": "editor/ParkourGame/asset/Texture/Effects/jumphigh.effect"
+      },
+      "once": false
+    },
+    "jumpSpeed": 6,
+    "name": {
+      "value": "buff_jumphigh"
+    },
+    "sound": {
+      "volume": {
+        "value": 0
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "9d3846dd1e2bc71e6a0c7bdfc707f9b9"
+    },
+    "VERSION": "0.20"
+  }
+}

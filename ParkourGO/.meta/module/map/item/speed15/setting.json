@@ -1,0 +1,6151 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "asset": "asset/speedrung/map5/sky.png",
+          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+        },
+        "bottom": {
+          "asset": "asset/speedrung/map5/sky.png",
+          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+        },
+        "front": {
+          "asset": "asset/speedrung/map5/sky.png",
+          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+        },
+        "left": {
+          "asset": "asset/speedrung/map5/sky.png",
+          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+        },
+        "right": {
+          "asset": "asset/speedrung/map5/sky.png",
+          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+        },
+        "top": {
+          "asset": "asset/speedrung/map5/sky.png",
+          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8506582266151731201"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/player1",
+        "id": "8506582315661492225",
+        "name": "Player",
+        "position": {
+          "y": 0.99990081787109
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "310edf53-1b13-41cc-9894-ed1bc57273b5",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510537270650667009"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510543237844795393"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510543271542784001"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510543307574034433"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510543332339089409"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon5.png"
+            },
+            "id": "8510543370303881217"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510513924514971649",
+        "mass": 626.8037109375,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": 0.38276880979538,
+          "y": -0.94993019104004,
+          "z": 7.4512305259705
+        },
+        "restitution": 0.03,
+        "scale": {
+          "x": 11.499,
+          "y": 3.98737,
+          "z": 22.7842
+        },
+        "size": {
+          "x": 11.499,
+          "y": 3.98737,
+          "z": 22.7842
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1044.6728515625
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "0d7cdb3e-81d9-4916-8a65-9610c0b56a29",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510549279139004417"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510549279142658049"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510549279144017921"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510549279145394177"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon5.png"
+            },
+            "id": "8510549279146524673"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon5.png"
+            },
+            "id": "8510549279147638785"
+          },
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8510558816292667393",
+            "slavePartID": "8510513924514971649"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510549279137513473",
+        "mass": 338.8470703125,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": 0.38276880979538,
+          "y": 0.38447827100754,
+          "z": 24.146738052368
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "x": -12
+        },
+        "scale": {
+          "x": 11.4989,
+          "y": 3.98735,
+          "z": 12.3172
+        },
+        "size": {
+          "x": 11.4989,
+          "y": 3.98735,
+          "z": 12.3172
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 564.7451171875
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "980454ea-66d0-4fb6-a6e3-8b9ce1ae2f07",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510550295541465089"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510550295542874113"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510550295544250369"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510550295546413057"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon5.png"
+            },
+            "id": "8510550295548329985"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon5.png"
+            },
+            "id": "8510550295550492673"
+          },
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8510558777822117889",
+            "slavePartID": "8510549279137513473"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510550295540596737",
+        "mass": 338.8470703125,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": 0.38276880979538,
+          "y": 3.1916728019714,
+          "z": 33.462879180908
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "x": -22.000003814697
+        },
+        "scale": {
+          "x": 11.4989,
+          "y": 3.98735,
+          "z": 12.3172
+        },
+        "size": {
+          "x": 11.4989,
+          "y": 3.98735,
+          "z": 12.3172
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 564.7451171875
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "a69ae9d6-3ba7-4424-bb36-8091afd6de5d",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8510552841714614273",
+            "slavePartID": "8510513924514971649"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510552223270649857",
+        "mass": 3.3753943681717,
+        "material": {
+          "color": {
+            "b": 0
+          }
+        },
+        "position": {
+          "x": 0.38585251569748,
+          "y": 0.98455458879471,
+          "z": 5.6478791236877
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 11.4706,
+          "y": 0.133758,
+          "z": 0.999991
+        },
+        "size": {
+          "x": 11.4706,
+          "y": 0.133758,
+          "z": 0.999991
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1.5342701673508
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "65f2aabc-442c-4d2a-94b3-c5c9f176562e",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510557752861868033"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510557752862883841"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510557752863916033"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510557752864915457"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510557752865931265"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalImageType": "",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510557752866947073"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510557752861376513",
+        "mass": 1415.2294921875,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": 0.38276880979538,
+          "y": 2.2912583351135,
+          "z": 61.196327209473
+        },
+        "restitution": 0.03,
+        "scale": {
+          "x": 11.4989,
+          "y": 8.79472,
+          "z": 23.3237
+        },
+        "size": {
+          "x": 11.4989,
+          "y": 8.79472,
+          "z": 23.3237
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2358.7158203125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "83c7ec48-db0c-48c2-b016-16be6fa2f8a1",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510561275599011841"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510561275600191489"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510561275601321985"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510561275602649089"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510561275604041729"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510561275605139457"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510561275598405633",
+        "mass": 592.76147460938,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": 0.38276880979538,
+          "y": 0.12125873565674,
+          "z": 90.259086608887
+        },
+        "restitution": 0.03,
+        "scale": {
+          "x": 11.4988,
+          "y": 8.79467,
+          "z": 9.76915
+        },
+        "size": {
+          "x": 11.4988,
+          "y": 8.79467,
+          "z": 9.76915
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 987.93579101562
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "41cd4e90-f4f6-45d6-8acc-b86fefd58aef",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510561656698421249"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510561656701992961"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510561656703762433"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510561656705466369"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510561656707891201"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510561656709808129"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510561656697028609",
+        "mass": 592.76147460938,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": 0.38276880979538,
+          "y": 2.2912583351135,
+          "z": 109.9490814209
+        },
+        "restitution": 0.03,
+        "scale": {
+          "x": 11.4988,
+          "y": 8.79467,
+          "z": 9.76915
+        },
+        "size": {
+          "x": 11.4988,
+          "y": 8.79467,
+          "z": 9.76915
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 987.93579101562
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "3ff8ad73-d990-4c17-a90f-1007e02a3684",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510562364787703809"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510562364788768769"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510562364789800961"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510562364790833153"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510562364791865345"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510562364792913921"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510562364787163137",
+        "mass": 592.76147460938,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": 0.38276880979538,
+          "y": -1.358741402626,
+          "z": 129.87910461426
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "x": -15
+        },
+        "scale": {
+          "x": 11.4988,
+          "y": 8.79467,
+          "z": 9.76915
+        },
+        "size": {
+          "x": 11.4988,
+          "y": 8.79467,
+          "z": 9.76915
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 987.93579101562
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "3beb740e-84bf-408e-bf49-356f7ec15683",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510562930420023297"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510562930421055489"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510562930422087681"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510562930423103489"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510562930424119297"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510562930425118721"
+          },
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8510653318374522881",
+            "slavePartID": "8510562364787163137"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510562930419531777",
+        "mass": 592.76147460938,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": 0.38276880979538,
+          "y": 1.3947914838791,
+          "z": 136.12469482422
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "x": -40
+        },
+        "scale": {
+          "x": 11.4988,
+          "y": 8.79467,
+          "z": 9.76915
+        },
+        "size": {
+          "x": 11.4988,
+          "y": 8.79467,
+          "z": 9.76915
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 987.93579101562
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "2b7c5e8d-7209-4e8b-a505-696299d28dcc",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510564086067625985"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510564086068674561"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510564086069706753"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510564086070722561"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510564086071754753"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510564086072786945"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510564086067118081",
+        "mass": 536.11384277344,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -2.0414991378784,
+          "y": -1.7987413406372,
+          "z": 156.31352233887
+        },
+        "restitution": 0.03,
+        "scale": {
+          "x": 7.64449,
+          "y": 8.7946,
+          "z": 13.2905
+        },
+        "size": {
+          "x": 7.64449,
+          "y": 8.7946,
+          "z": 13.2905
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 893.52307128906
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "01e45bae-816c-4fcd-a5c9-1491dbc19f31",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510564835919921153"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510564835921002497"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510564835922739201"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510564835924557825"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510564835925835777"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510564835927130113"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510564835919364097",
+        "mass": 509.75346679687,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": 4.3985004425049,
+          "y": -0.44874131679535,
+          "z": 177.57513427734
+        },
+        "restitution": 0.03,
+        "scale": {
+          "x": 7.64449,
+          "y": 8.79461,
+          "z": 12.637
+        },
+        "size": {
+          "x": 7.64449,
+          "y": 8.79461,
+          "z": 12.637
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 849.58911132812
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "5fecc661-a4a5-4d58-b98e-33ac4db0341e",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510565643763793921"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510565643764924417"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510565643766956033"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510565643768332289"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510565643769413633"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510565643770527745"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510565643763220481",
+        "mass": 504.11041259766,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": 5.0259790420532,
+          "y": 1.277644276619,
+          "z": 198.46516418457
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "z": 28.999994277954
+        },
+        "scale": {
+          "x": 10.416,
+          "y": 6.38312,
+          "z": 12.6369
+        },
+        "size": {
+          "x": 10.416,
+          "y": 6.38312,
+          "z": 12.6369
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 840.18402099609
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "e7059d0f-e755-4437-ba13-fec014aba94a",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510598425882198017"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510598425883344897"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510598425884524545"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510598425885655041"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510598425886785537"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510598425887932417"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510598425881575425",
+        "mass": 504.11041259766,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": 2.0688056945801,
+          "y": 1.3737082481384,
+          "z": 217.43522644043
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "z": -33.000007629395
+        },
+        "scale": {
+          "x": 10.416,
+          "y": 6.38312,
+          "z": 12.6369
+        },
+        "size": {
+          "x": 10.416,
+          "y": 6.38312,
+          "z": 12.6369
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 840.18402099609
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "cbbd39b3-bd8c-4f69-97d0-d456b5403635",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510599198442668033"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510599198443732993"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510599198444814337"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510599198445993985"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510599198447075329"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510599198448156673"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510599198442160129",
+        "mass": 504.30399169922,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -1.4711940288544,
+          "y": 1.3737082481384,
+          "z": 236.58522033691
+        },
+        "restitution": 0.03,
+        "scale": {
+          "x": 10.42,
+          "y": 6.38312,
+          "z": 12.6369
+        },
+        "size": {
+          "x": 10.42,
+          "y": 6.38312,
+          "z": 12.6369
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 840.50665283203
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "3f571478-5d69-4308-bdc2-655dc81c2fbe",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510604992534560769"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510604992535625729"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510604992536657921"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510604992537706497"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510604992538738689"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510604992539770881"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510604992534036481",
+        "mass": 275.04107666016,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -5.1131725311279,
+          "y": 2.5933434963226,
+          "z": 255.40992736816
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "x": -10.999999046326
+        },
+        "scale": {
+          "x": 5.683,
+          "y": 6.3831,
+          "z": 12.6368
+        },
+        "size": {
+          "x": 5.683,
+          "y": 6.3831,
+          "z": 12.6368
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 458.40179443359
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "58b2ad18-1d1e-4eea-8d8e-18829033f8fa",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510605794184462337"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510605794185527297"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510605794186575873"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510605794187624449"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510605794188656641"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510605794189705217"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510605794183938049",
+        "mass": 788.48913574219,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -7.1872043609619,
+          "y": 3.6209673881531,
+          "z": 274.99914550781
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "x": -31
+        },
+        "scale": {
+          "x": 16.2919,
+          "y": 6.38311,
+          "z": 12.6369
+        },
+        "size": {
+          "x": 16.2919,
+          "y": 6.38311,
+          "z": 12.6369
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1314.1485595703
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "3aa47bfa-285e-483d-9650-52475b86ade3",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510606829873233921"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510606829874413569"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510606829875593217"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510606829876920321"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510606829878099969"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510606829879263233"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510606829872627713",
+        "mass": 1978.6832519531,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -11.304438591003,
+          "y": 4.9907932281494,
+          "z": 289.93215942383
+        },
+        "restitution": 0.03,
+        "scale": {
+          "x": 24.485,
+          "y": 10.6583,
+          "z": 12.6368
+        },
+        "size": {
+          "x": 24.485,
+          "y": 10.6583,
+          "z": 12.6368
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 3297.8054199219
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "e2bb4052-3d34-4fc2-9ee9-98346f73f75c",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510608150692511745"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510608150693576705"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510608150694625281"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510608150695657473"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510608150696722433"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510608150697803777"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510608150692003841",
+        "mass": 1178.2895507812,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -42.490558624268,
+          "y": 4.5926842689514,
+          "z": 290.19076538086
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "x": -37.99987411499
+        },
+        "scale": {
+          "x": 22.4972,
+          "y": 6.90773,
+          "z": 12.6368
+        },
+        "size": {
+          "x": 22.4972,
+          "y": 6.90773,
+          "z": 12.6368
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1963.8159179688
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "5ad3cdbe-80f7-485f-b632-ff01f2b0d4cf",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510608825455820801"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510608825456885761"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510608825457950721"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510608825459015681"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510608825460064257"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510608825461112833"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510608825455296513",
+        "mass": 627.36987304688,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -66.43489074707,
+          "y": -0.85653078556061,
+          "z": 286.48281860352
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "y": -42
+        },
+        "scale": {
+          "x": 12.1996,
+          "y": 7.4529,
+          "z": 11.5001
+        },
+        "size": {
+          "x": 12.1996,
+          "y": 7.4529,
+          "z": 11.5001
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1045.6164550781
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "9b92d8f4-d517-4ac6-833c-beaadfae3691",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510609952449249281"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510609952450297857"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510609952451330049"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510609952452362241"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510609952453427201"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510609952454475777"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510609952448757761",
+        "mass": 779.02104492187,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -78.083786010742,
+          "y": -3.0285067558289,
+          "z": 271.89401245117
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "y": -62.999938964844
+        },
+        "scale": {
+          "x": 6.2566,
+          "y": 11.7968,
+          "z": 17.5912
+        },
+        "size": {
+          "x": 6.2566,
+          "y": 11.7968,
+          "z": 17.5912
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1298.3684082031
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "fc438dda-c65b-401d-88db-f25cc3aab510",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510610886523387905"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510610886524633089"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510610886526091265"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510610886527287297"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510610886528581633"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510610886529761281"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510610886522683393",
+        "mass": 2931.284765625,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -82.509475708008,
+          "y": -3.0285067558289,
+          "z": 250.30252075195
+        },
+        "restitution": 0.03,
+        "scale": {
+          "x": 19.1459,
+          "y": 11.7967,
+          "z": 21.6307
+        },
+        "size": {
+          "x": 19.1459,
+          "y": 11.7967,
+          "z": 21.6307
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 4885.474609375
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "0606be40-9ce0-454e-9347-501e806a5fac",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510611610040123393"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510611610041188353"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510611610042236929"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510611610043301889"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510611610044334081"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510611610045382657"
+          },
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8510620694767042561",
+            "slavePartID": "8510610886522683393"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510611610039599105",
+        "mass": 1741.5183105469,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -88.75749206543,
+          "y": 1.1256923675537,
+          "z": 232.38938903809
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "x": 27.999996185303
+        },
+        "scale": {
+          "x": 14.5698,
+          "y": 11.7967,
+          "z": 16.8874
+        },
+        "size": {
+          "x": 14.5698,
+          "y": 11.7967,
+          "z": 16.8874
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2902.5305175781
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "a24894d0-ebfe-48b6-8306-4d51499be559",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510612753882234881"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510612753886937089"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510612753890541569"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510612753892818945"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510612753893998593"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510612753895096321"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510612753879793665",
+        "mass": 3170.2579101563,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -85.401123046875,
+          "y": 4.7314929962158,
+          "z": 205.12727355957
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "y": -27.999996185303
+        },
+        "scale": {
+          "x": 15.7827,
+          "y": 11.7967,
+          "z": 28.3793
+        },
+        "size": {
+          "x": 15.7827,
+          "y": 11.7967,
+          "z": 28.3793
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5283.7631835938
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "693ec5b0-fed7-40e8-bf41-1e5fe3e22851",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510613984207585281"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510613984208748545"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510613984209928193"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510613984211107841"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510613984212287489"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510613984213450753"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510613984206929921",
+        "mass": 3483.5510742187,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -79.64794921875,
+          "y": 4.7314929962158,
+          "z": 170.61671447754
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "y": 26.000005722046
+        },
+        "scale": {
+          "x": 12.9497,
+          "y": 11.7966,
+          "z": 38.0062
+        },
+        "size": {
+          "x": 12.9497,
+          "y": 11.7966,
+          "z": 38.0062
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5805.9184570312
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "6d09273d-97f5-4623-8a00-0b9c1d4a5afd",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510615363394682881"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510615363395731457"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510615363396763649"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510615363397795841"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510615363398844417"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510615363399876609"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510615363394191361",
+        "mass": 3483.5510742187,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -101.37379455566,
+          "y": 4.7314929962158,
+          "z": 126.07260131836
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "y": 31.999980926514
+        },
+        "scale": {
+          "x": 12.9497,
+          "y": 11.7966,
+          "z": 38.0062
+        },
+        "size": {
+          "x": 12.9497,
+          "y": 11.7966,
+          "z": 38.0062
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 5805.9184570312
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "6ece1131-b138-4728-906a-25053d82e6a5",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510615737136332801"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510615737137397761"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510615737138429953"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510615737139478529"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510615737140527105"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510615737141559297"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510615737135808513",
+        "mass": 2337.1618652344,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -127.07817077637,
+          "y": 4.7314929962158,
+          "z": 90.531631469727
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "y": 46.999965667725
+        },
+        "scale": {
+          "x": 10.758,
+          "y": 11.7966,
+          "z": 30.6937
+        },
+        "size": {
+          "x": 10.758,
+          "y": 11.7966,
+          "z": 30.6937
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 3895.2697753906
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "20ac4800-06c4-4db5-bea9-d408b399605f",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510617290020749313"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510617290021814273"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510617290022846465"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510617290023960577"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510617290025041921"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510617290026106881"
+          },
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8510622403027582977",
+            "slavePartID": "8510619972737040385"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510617290020257793",
+        "mass": 5441.8552734375,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -163.79672241211,
+          "y": 10.610114097595,
+          "z": 68.91032409668
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "x": 27.999980926514,
+          "y": 46.999992370605,
+          "z": 1.7457869034843e-05
+        },
+        "scale": {
+          "x": 20.7151,
+          "y": 14.2646,
+          "z": 30.6937
+        },
+        "size": {
+          "x": 20.7151,
+          "y": 14.2646,
+          "z": 30.6937
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 9069.7587890625
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "91efc1c6-f34b-49a5-8774-ee368049a135",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510619972741955585"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510619972746248193"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510619972751097857"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510619972756242433"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510619972761157633"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510619972766105601"
+          },
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8510622432796786689",
+            "slavePartID": "8510621889844445185"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510619972737040385",
+        "mass": 1670.6143066406,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -185.76008605957,
+          "y": 18.581493377686,
+          "z": 46.006813049316
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "y": 20.999967575073
+        },
+        "scale": {
+          "x": 10.758,
+          "y": 11.7966,
+          "z": 21.94
+        },
+        "size": {
+          "x": 10.758,
+          "y": 11.7966,
+          "z": 21.94
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2784.3571777344
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "7082a06a-cfa4-4af4-9081-676f940e2d88",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510621889844953089"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510621889846050817"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510621889847115777"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510621889848164353"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510621889849196545"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510621889850261505"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510621889844445185",
+        "mass": 1670.6143066406,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -189.58573913574,
+          "y": 20.301927566528,
+          "z": 36.040344238281
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "x": 24.999990463257,
+          "y": 20.999959945679,
+          "z": 5.1226093091827e-06
+        },
+        "scale": {
+          "x": 10.758,
+          "y": 11.7966,
+          "z": 21.94
+        },
+        "size": {
+          "x": 10.758,
+          "y": 11.7966,
+          "z": 21.94
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2784.3571777344
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "e24ce412-17df-406a-a367-6be8b88b580a",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510624000258883585"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510624000260096001"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510624000261308417"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510624000262471681"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510624000263733249"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510624000265158657"
+          },
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8510624000266682369",
+            "slavePartID": "8510624000266354689"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510624000258195457",
+        "mass": 1216.1317382812,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -193.77394104004,
+          "y": 23.311492919922,
+          "z": 9.620792388916
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "y": 20.999967575073
+        },
+        "scale": {
+          "x": 14.6946,
+          "y": 11.7965,
+          "z": 11.6928
+        },
+        "size": {
+          "x": 14.6946,
+          "y": 11.7965,
+          "z": 11.6928
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2026.8862304688
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "9b657520-a526-4e12-8510-e651329346f0",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510625422709047297"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510625422710145025"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510625422711177217"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510625422712225793"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510625422713257985"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510625422714290177"
+          },
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8510625422715617281",
+            "slavePartID": "8510625422715387905"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510625422708539393",
+        "mass": 1216.1317382812,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -201.85862731934,
+          "y": 23.311492919922,
+          "z": -11.440811157227
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "y": 20.999967575073
+        },
+        "scale": {
+          "x": 14.6946,
+          "y": 11.7965,
+          "z": 11.6928
+        },
+        "size": {
+          "x": 14.6946,
+          "y": 11.7965,
+          "z": 11.6928
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2026.8862304688
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "d29b8d03-4e04-4f0f-bdb7-7b6c4ee71b95",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510625791358009345"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510625791359074305"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510625791360106497"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510625791361220609"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510625791362269185"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510625791363301377"
+          },
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8510625791364628481",
+            "slavePartID": "8510625791364399105"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510625791357517825",
+        "mass": 1216.1317382812,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -210.24800109863,
+          "y": 23.311492919922,
+          "z": -33.295925140381
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "x": 1.8018317859969e-05,
+          "y": 20.999984741211,
+          "z": -36.000003814697
+        },
+        "scale": {
+          "x": 14.6946,
+          "y": 11.7965,
+          "z": 11.6928
+        },
+        "size": {
+          "x": 14.6946,
+          "y": 11.7965,
+          "z": 11.6928
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2026.8862304688
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "663a057a-2bda-4497-b9e2-216e42e1ec37",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510626252764200961"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510626252765347841"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510626252766478337"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510626252767576065"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510626252768755713"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510626252769869825"
+          },
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8510626252771246081",
+            "slavePartID": "8510626252771000321"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510626252763594753",
+        "mass": 1216.1317382812,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -218.53677368164,
+          "y": 23.311492919922,
+          "z": -54.889755249023
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "x": 1.5156277186179e-05,
+          "y": 20.99998664856,
+          "z": -36.000003814697
+        },
+        "scale": {
+          "x": 14.6946,
+          "y": 11.7965,
+          "z": 11.6928
+        },
+        "size": {
+          "x": 14.6946,
+          "y": 11.7965,
+          "z": 11.6928
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 2026.8862304688
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "8361a264-20cf-4123-a70d-e2673f0fedd4",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510627376760291329"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510627376761356289"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510627376762421249"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510627376763486209"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510627376764600321"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510627376765648897"
+          },
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8510627376766959617",
+            "slavePartID": "8510627376766730241"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510627376759799809",
+        "mass": 587.08381347656,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -220.60083007812,
+          "y": 20.291925430298,
+          "z": -75.260795593262
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "y": 20.999967575073
+        },
+        "scale": {
+          "x": 7.05046,
+          "y": 10.6573,
+          "z": 13.0222
+        },
+        "size": {
+          "x": 7.05046,
+          "y": 10.6573,
+          "z": 13.0222
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 978.47302246094
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "1391b44a-2555-4d9c-905e-ae59c9c38fb2",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510627840312770561"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon4.png"
+            },
+            "id": "8510627840313835521"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510627840314884097"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510627840315932673"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510627840316964865"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/222.png"
+            },
+            "id": "8510627840317997057"
+          },
+          {
+            "__OBJ_TYPE": "Instance_FixedConstraint",
+            "id": "8510627840319356929",
+            "slavePartID": "8510627840319127553"
+          }
+        ],
+        "density": 0.6,
+        "friction": 0.46,
+        "id": "8510627840312279041",
+        "mass": 14179.313671875,
+        "material": {
+          "texture": "part_buliao.tga"
+        },
+        "position": {
+          "x": -243.12190246582,
+          "y": 16.368970870972,
+          "z": -96.57942199707
+        },
+        "restitution": 0.03,
+        "rotation": {
+          "y": 20.999967575073
+        },
+        "scale": {
+          "x": 41.2048,
+          "y": 19.318,
+          "z": 29.6889
+        },
+        "size": {
+          "x": 41.2048,
+          "y": 19.318,
+          "z": 29.6889
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 23632.189453125
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "5e1c071a-9df6-4861-96d7-f46b4e8cb3c6",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8510632257154875393",
+                "slavePartID": "8510631499870093313"
+              },
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8510632454236389377",
+                "slavePartID": "8510627840312279041"
+              }
+            ],
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8510631089493032961",
+            "mass": 8.6070531606674,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -258.37197875977,
+              "y": 27.739068984985,
+              "z": -93.768371582031
+            },
+            "restitution": 0.15,
+            "rotation": {
+              "y": 19
+            },
+            "scale": {
+              "x": 0.999996,
+              "y": 3.44286,
+              "z": 0.999993
+            },
+            "size": {
+              "x": 0.999996,
+              "y": 3.44286,
+              "z": 0.999993
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 3.442821264267
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d42c6e05-fba8-4a23-a363-e68944e34d0b",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8510632289086783489",
+                "slavePartID": "8510631966268440577"
+              }
+            ],
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8510631499870093313",
+            "mass": 2.2283659875393,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -258.17984008789,
+              "y": 29.763414382935,
+              "z": -93.21053314209
+            },
+            "restitution": 0.15,
+            "rotation": {
+              "y": 19.000005722046
+            },
+            "scale": {
+              "x": 0.999992,
+              "y": 0.891368,
+              "z": 0.999984
+            },
+            "size": {
+              "x": 0.999992,
+              "y": 0.891368,
+              "z": 0.999984
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.89134639501572
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d164cb6f-2336-4f20-9637-7259f5643db4",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8510632318573821953",
+                "slavePartID": "8510632097528283137"
+              }
+            ],
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8510631966268440577",
+            "mass": 2.2283659875393,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -258.01693725586,
+              "y": 30.413417816162,
+              "z": -92.737800598145
+            },
+            "restitution": 0.15,
+            "rotation": {
+              "y": 19.000005722046
+            },
+            "scale": {
+              "x": 0.999992,
+              "y": 0.891368,
+              "z": 0.999984
+            },
+            "size": {
+              "x": 0.999992,
+              "y": 0.891368,
+              "z": 0.999984
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.89134639501572
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "b0ffbcda-f02f-4658-80ac-71bff70a93a8",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8510632352417792001",
+                "slavePartID": "8510631691475501057"
+              }
+            ],
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8510632097528283137",
+            "mass": 2.2283659875393,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -257.75082397461,
+              "y": 30.693429946899,
+              "z": -91.972808837891
+            },
+            "restitution": 0.15,
+            "rotation": {
+              "y": 19.000005722046
+            },
+            "scale": {
+              "x": 0.999992,
+              "y": 0.891368,
+              "z": 0.999984
+            },
+            "size": {
+              "x": 0.999992,
+              "y": 0.891368,
+              "z": 0.999984
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.89134639501572
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "0b844c2e-acdf-4baa-810d-f03fb9bb84e3",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8510632388641521665",
+                "slavePartID": "8510631186067423233"
+              }
+            ],
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8510631691475501057",
+            "mass": 2.2283659875393,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -257.48321533203,
+              "y": 30.413417816162,
+              "z": -91.187118530273
+            },
+            "restitution": 0.15,
+            "rotation": {
+              "y": 19.000005722046
+            },
+            "scale": {
+              "x": 0.999992,
+              "y": 0.891368,
+              "z": 0.999984
+            },
+            "size": {
+              "x": 0.999992,
+              "y": 0.891368,
+              "z": 0.999984
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.89134639501572
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "6b8b588d-755d-4ba9-83b8-ac7c3cf0e4d4",
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8510631186067423233",
+            "mass": 2.2283659875393,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -257.31060791016,
+              "y": 29.763414382935,
+              "z": -90.685958862305
+            },
+            "restitution": 0.15,
+            "rotation": {
+              "y": 19.000005722046
+            },
+            "scale": {
+              "x": 0.999992,
+              "y": 0.891368,
+              "z": 0.999984
+            },
+            "size": {
+              "x": 0.999992,
+              "y": 0.891368,
+              "z": 0.999984
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 0.89134639501572
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a77794d2-a663-45e7-a0f3-ee3e501e694b",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8510632416574177281",
+                "slavePartID": "8510631186067423233"
+              },
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8510632479240306689",
+                "slavePartID": "8510627840312279041"
+              }
+            ],
+            "density": 2.5,
+            "friction": 0.6,
+            "id": "8510630863625043969",
+            "mass": 8.6070531606674,
+            "material": {
+              "texture": "part_zhuankuai.tga"
+            },
+            "position": {
+              "x": -257.10876464844,
+              "y": 27.739068984985,
+              "z": -90.099746704102
+            },
+            "restitution": 0.15,
+            "rotation": {
+              "y": 19
+            },
+            "scale": {
+              "x": 0.999996,
+              "y": 3.44286,
+              "z": 0.999993
+            },
+            "size": {
+              "x": 0.999996,
+              "y": 3.44286,
+              "z": 0.999993
+            },
+            "useAnchor": true,
+            "useGravity": false,
+            "volume": 3.442821264267
+          }
+        ],
+        "id": "8510632595425443841",
+        "position": {
+          "x": -257.74096679688,
+          "y": 28.578451156616,
+          "z": -91.934234619141
+        },
+        "rotation": {
+          "y": 18.999998092651
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "52fd56a2-0482-4c61-9a55-c0f7689a6af3",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510642077192339457"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510642536835137537"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510642569646456833"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510642600752971777"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510642625456619521"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510642650953252865"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510641762937880577",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -42.645286560059,
+          "y": 1.5735785961151,
+          "z": 8.3130216598511
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 24.90389251709,
+          "y": 31.038969039917,
+          "z": -124.98225402832
+        },
+        "scale": {
+          "x": 2.05616,
+          "y": 1.20736,
+          "z": 1.91187
+        },
+        "size": {
+          "x": 2.05616,
+          "y": 1.20736,
+          "z": 1.91187
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "6fb73a76-dbfa-4ffd-80ac-42d70061b8bd",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510644275980681217"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510644275981713409"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510644275982761985"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510644275983761409"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510644275984777217"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510644275985793025"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510644275964133377",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -30.704996109009,
+          "y": 5.2745923995972,
+          "z": 16.230447769165
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 36.970970153809,
+          "y": 123.27722930908,
+          "z": -68.460350036621
+        },
+        "scale": {
+          "x": 2.05616,
+          "y": 1.20736,
+          "z": 1.91187
+        },
+        "size": {
+          "x": 2.05616,
+          "y": 1.20736,
+          "z": 1.91187
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "562b0d68-133b-46ca-a0d3-ef3eb823977a",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510644838611058689"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510644838612320257"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510644838613385217"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510644838614417409"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510644838615449601"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510644838616481793"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510644838592659457",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -16.33264541626,
+          "y": 36.779808044434,
+          "z": 32.998233795166
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 28.772466659546,
+          "y": 37.580009460449,
+          "z": -122.02486419678
+        },
+        "scale": {
+          "x": 2.05616,
+          "y": 1.20736,
+          "z": 1.91187
+        },
+        "size": {
+          "x": 2.05616,
+          "y": 1.20736,
+          "z": 1.91187
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "85dece2d-78e2-407d-a066-2ec577b5fe0c",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645059737862145"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645059739009025"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645059740073985"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645059741122561"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645059742154753"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645059743186945"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510645059711401985",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -37.222423553467,
+          "y": 55.588790893555,
+          "z": 47.696811676025
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 28.77247428894,
+          "y": 37.579990386963,
+          "z": -122.02490234375
+        },
+        "scale": {
+          "x": 3.73809,
+          "y": 2.20312,
+          "z": 3.54594
+        },
+        "size": {
+          "x": 3.73809,
+          "y": 2.20312,
+          "z": 3.54594
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "2923559a-109f-4926-adf2-305c1efcc9b8",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645580112953345"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645580114313217"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645580115378177"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645580116410369"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645580117442561"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645580118491137"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510645580080070657",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": 51.68009185791,
+          "y": -24.459596633911,
+          "z": 159.62693786621
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 17.6685,
+          "y": 6.09815,
+          "z": 21.2283
+        },
+        "size": {
+          "x": 17.6685,
+          "y": 6.09815,
+          "z": 21.2283
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "26bb59bb-0c1b-45ad-9c13-1ba8a01c1892",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645646946893825"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645646947926017"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645646948974593"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645646950006785"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645646951055361"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645646952103937"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510645646930345985",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -138.74893188477,
+          "y": -53.616539001465,
+          "z": 86.613990783691
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 15.6641,
+          "y": 9.89989,
+          "z": 11.8003
+        },
+        "size": {
+          "x": 15.6641,
+          "y": 9.89989,
+          "z": 11.8003
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "ba69ed4c-3336-48e5-98e1-325d3ed851b4",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645871308554241"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645871309570049"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645871310602241"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645871311634433"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645871312650241"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645871313649665"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510645871292055553",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -30.824569702148,
+          "y": 49.82836151123,
+          "z": 88.411979675293
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 3.73809,
+          "y": 2.20312,
+          "z": 3.54594
+        },
+        "size": {
+          "x": 3.73809,
+          "y": 2.20312,
+          "z": 3.54594
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "43a26352-f1cb-4f60-9932-19982be278d2",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645965109919745"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645965110968321"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645965112000513"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645965113016321"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645965114032129"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510645965115047937"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510645965093453825",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": 34.99235534668,
+          "y": -9.433690071106,
+          "z": 97.189636230469
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 7.30429,
+          "y": 4.30078,
+          "z": 6.59993
+        },
+        "size": {
+          "x": 7.30429,
+          "y": 4.30078,
+          "z": 6.59993
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "f84af782-8222-4058-8f13-5db25079088d",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646170616266753"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646170618462209"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646170620477441"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646170623442945"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646170624573441"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646170625769473"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510646170591543297",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -1.4225578308105,
+          "y": 23.354381561279,
+          "z": 153.5588684082
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 3.73809,
+          "y": 2.20312,
+          "z": 3.54594
+        },
+        "size": {
+          "x": 3.73809,
+          "y": 2.20312,
+          "z": 3.54594
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "985aaa54-e3cb-4abf-a457-a2f306883c41",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646318247673857"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646318248706049"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646318249721857"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646318250737665"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646318251753473"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646318252752897"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510646318231257089",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -63.502964019775,
+          "y": 34.361968994141,
+          "z": 36.918571472168
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 2.05616,
+          "y": 1.20736,
+          "z": 1.91187
+        },
+        "size": {
+          "x": 2.05616,
+          "y": 1.20736,
+          "z": 1.91187
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "3a7b68cd-1ed3-4199-bddb-9f331494b716",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646523700494337"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646523701641217"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646523702738945"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646523703853057"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646523705032705"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646523706130433"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510646523682406401",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -109.67819213867,
+          "y": 43.05110168457,
+          "z": 20.814903259277
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 24.90389251709,
+          "y": 31.038969039917,
+          "z": -124.98225402832
+        },
+        "scale": {
+          "x": 7.36849,
+          "y": 4.03644,
+          "z": 7.01589
+        },
+        "size": {
+          "x": 7.36849,
+          "y": 4.03644,
+          "z": 7.01589
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "33349b00-8044-4813-8d8a-406173377fb3",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646671126380545"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646671127494657"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646671128543233"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646671129559041"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646671130574849"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646671131607041"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510646671109718017",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -170.15173339844,
+          "y": 76.825332641602,
+          "z": 74.960762023926
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 24.90389251709,
+          "y": 31.038969039917,
+          "z": -124.98225402832
+        },
+        "scale": {
+          "x": 2.05616,
+          "y": 1.20736,
+          "z": 1.91187
+        },
+        "size": {
+          "x": 2.05616,
+          "y": 1.20736,
+          "z": 1.91187
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "609d4629-332f-458b-abe9-5fde81558af7",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646882937749505"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646882938781697"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646882939797505"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646882940813313"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646882942074881"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510646882944270337"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510646882921201665",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -157.55010986328,
+          "y": 49.936546325684,
+          "z": 118.0717086792
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 24.90389251709,
+          "y": 31.038969039917,
+          "z": -124.98225402832
+        },
+        "scale": {
+          "x": 2.05616,
+          "y": 1.20736,
+          "z": 1.91187
+        },
+        "size": {
+          "x": 2.05616,
+          "y": 1.20736,
+          "z": 1.91187
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "2ad9250b-dc11-4a44-b5f9-72d418fae547",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647012948049921"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647012949164033"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647012950212609"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647012951244801"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647012952276993"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647012953538561"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510647012925456385",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -130.8690032959,
+          "y": 25.912790298462,
+          "z": 162.40765380859
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 24.90389251709,
+          "y": 31.038969039917,
+          "z": -124.98225402832
+        },
+        "scale": {
+          "x": 6.25655,
+          "y": 3.49777,
+          "z": 6.29731
+        },
+        "size": {
+          "x": 6.25655,
+          "y": 3.49777,
+          "z": 6.29731
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "87cd5d98-a3cb-442b-8f14-307a1b6c10dd",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647092786905089"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647092787920897"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647092788953089"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647092789968897"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647092790984705"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647092792066049"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510647092770242561",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -112.13359069824,
+          "y": 9.0437049865723,
+          "z": 141.99264526367
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 24.90389251709,
+          "y": 31.038969039917,
+          "z": -124.98225402832
+        },
+        "scale": {
+          "x": 2.05616,
+          "y": 1.20736,
+          "z": 1.91187
+        },
+        "size": {
+          "x": 2.05616,
+          "y": 1.20736,
+          "z": 1.91187
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "fd38a230-1593-47dd-90dc-c4fc05129f20",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647188757561345"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647188759330817"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647188760723457"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647188761919489"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647188763475969"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647188766212097"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510647188721664001",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -76.317916870117,
+          "y": 10.772499084473,
+          "z": 121.37608337402
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 24.90389251709,
+          "y": 31.038969039917,
+          "z": -124.98225402832
+        },
+        "scale": {
+          "x": 2.05616,
+          "y": 1.20736,
+          "z": 1.91187
+        },
+        "size": {
+          "x": 2.05616,
+          "y": 1.20736,
+          "z": 1.91187
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "f6d3aecc-9674-4f18-9ebd-753c79e85323",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647511327981569"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647511329046529"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647511330078721"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647511331143681"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647511332159489"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647511333191681"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510647511311171585",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -21.921943664551,
+          "y": -2.6337537765503,
+          "z": 76.710342407227
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 36.970970153809,
+          "y": 123.27722930908,
+          "z": -68.460350036621
+        },
+        "scale": {
+          "x": 2.05616,
+          "y": 1.20736,
+          "z": 1.91187
+        },
+        "size": {
+          "x": 2.05616,
+          "y": 1.20736,
+          "z": 1.91187
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "573474d3-bd89-44ff-8506-a3101b2075b1",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647684922425345"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647684923473921"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647684924506113"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647684925538305"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647684926586881"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510647684927635457"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510647684905648129",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -43.690616607666,
+          "y": 61.412696838379,
+          "z": 89.381507873535
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 3.73809,
+          "y": 2.20312,
+          "z": 3.54594
+        },
+        "size": {
+          "x": 3.73809,
+          "y": 2.20312,
+          "z": 3.54594
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "8ca0084a-817a-4fc7-87f4-6bcc33595a31",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510648291006365697"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510648291007479809"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510648291008675841"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510648291009724417"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510648291010756609"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510648291011788801"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510648290989080577",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -26.471273422241,
+          "y": 45.908279418945,
+          "z": 238.99069213867
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 7.40154,
+          "y": 3.55849,
+          "z": 6.21486
+        },
+        "size": {
+          "x": 7.40154,
+          "y": 3.55849,
+          "z": 6.21486
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "1e23bc0d-79ef-43e8-93c6-8def4a269882",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510648567176380417"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510648567177428993"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510648567178444801"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510648567179460609"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510648567180558337"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510648567181574145"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510648567159865345",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": 15.600478172302,
+          "y": 8.0265769958496,
+          "z": 316.01599121094
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "size": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "dedbedce-71a1-4b65-bbe6-25382c46dd11",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510648994102951937"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510648994104573953"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510648994107080705"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510648994111504385"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510648994115452929"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510648994118877185"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510648994080014337",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": 54.144214630127,
+          "y": -26.678226470947,
+          "z": 252.96217346191
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 28.772478103638,
+          "y": 37.57999420166,
+          "z": -122.02488708496
+        },
+        "scale": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "size": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "610ff7a6-210a-49b6-805e-6708e58611de",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649102528806913"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649102529855489"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649102530871297"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649102531919873"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649102532935681"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649102533951489"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510649102512226305",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -49.853401184082,
+          "y": 26.740474700928,
+          "z": 302.16152954102
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "size": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "68ba24b9-1b18-4df2-93e5-456b13d92a72",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649258703683585"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649258704732161"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649258705764353"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649258706780161"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649258707812353"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649258708828161"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510649258686119937",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": 0.8138313293457,
+          "y": -62.949897766113,
+          "z": 276.17205810547
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "size": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "f32a14d2-8337-4284-9dab-99d69a8b41f9",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649423904014337"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649423905144833"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649423906258945"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649423907373057"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649423908470785"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649423909552129"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510649423885795329",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -134.47996520996,
+          "y": -44.838653564453,
+          "z": 261.47320556641
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 11.4814,
+          "y": 7.77882,
+          "z": 13.848
+        },
+        "size": {
+          "x": 11.4814,
+          "y": 7.77882,
+          "z": 13.848
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "aca3a50a-f599-4c42-bcf5-f05c44571621",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649623466426369"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649623467442177"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649623468490753"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649623469522945"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649623470571521"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649623471652865"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510649623449927681",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": 19.460033416748,
+          "y": -35.671161651611,
+          "z": 104.82960510254
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "size": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "1acbdd6d-ed9e-4a13-b543-8c2dc94327b0",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649885270753281"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649885271785473"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649885272817665"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649885273849857"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649885274865665"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510649885275881473"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510649885254270977",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -130.9688873291,
+          "y": 10.748634338379,
+          "z": -19.349262237549
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "size": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "1050e74b-b38b-4020-aec6-64355ba2858c",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650136748097537"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650136749146113"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650136750194689"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650136751210497"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650136752226305"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650136753242113"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510650136731729921",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -211.0158996582,
+          "y": -5.7865715026855,
+          "z": -61.442050933838
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "size": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "23662096-89f0-49dd-accb-9d137f013160",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650214611664897"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650214612729857"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650214613745665"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650214614761473"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650214615826433"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650214616858625"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510650214595198977",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -177.24530029297,
+          "y": 52.416130065918,
+          "z": -73.480712890625
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "size": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "e601f2a7-d59e-4621-ba2e-3350700de8e0",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650313048571905"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650313049669633"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650313050718209"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650313051734017"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650313052766209"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650313053782017"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510650313022341121",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -312.51184082031,
+          "y": -7.0733699798584,
+          "z": -126.26055145264
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "size": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "4525b965-b8a0-4273-80c2-07f006a1ad9f",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650637953925121"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650637955055617"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650637956120577"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650637957169153"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650637958250497"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650637959282689"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510650637937410049",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -283.93890380859,
+          "y": 35.624416351318,
+          "z": -132.63748168945
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "size": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "d8cb65c9-0421-493b-95cc-53d4d9d655d2",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650828539625473"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650828540674049"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650828541722625"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650828542771201"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650828543836161"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650828544884737"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510650828523077633",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -236.68399047852,
+          "y": 29.905920028687,
+          "z": -177.43698120117
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "size": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "0c96a5c0-a06e-45b1-9591-d541983b1ac2",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650989606027265"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650989607124993"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650989608189953"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650989609238529"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650989610270721"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510650989611352065"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510650989588430849",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -173.28260803223,
+          "y": 24.518821716309,
+          "z": -108.14403533936
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "size": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "121db39a-cd2a-48c6-8d18-0543f05d3f4b",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510651174462636033"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510651174463700993"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510651174464749569"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510651174465781761"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510651174466830337"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510651174467862529"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510651174446022657",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -244.82206726074,
+          "y": 24.653015136719,
+          "z": -9.1103420257568
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "size": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "b5bf0501-8869-450f-a35a-2e1b321bb742",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510651309120208897"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510651309122109441"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510651309123977217"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510651309125812225"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510651309127630849"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510651309129515009"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510651309090390017",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": -217.64436340332,
+          "y": 31.737438201904,
+          "z": 4.3256840705872
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 30.331325531006,
+          "y": 40.526767730713,
+          "z": -120.57113647461
+        },
+        "scale": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "size": {
+          "x": 7.10195,
+          "y": 4.19464,
+          "z": 6.81409
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "38ddc023-0084-47e1-8392-0e61f1b7edfd",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510651528989720577"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "1",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510651528990785537"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "2",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510651528991834113"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "3",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510651528992899073"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510651528993931265"
+          },
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "5",
+            "decalTexture": {
+              "asset": "asset/speedrung/map15/moon22.png"
+            },
+            "id": "8510651528995192833"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8510651528973238273",
+        "mass": 2.2,
+        "mergeShapesDataKey": "8510641762916368385",
+        "position": {
+          "x": 11.16999912262,
+          "y": 30.195980072021,
+          "z": 9.1858291625977
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 36.970970153809,
+          "y": 123.27722930908,
+          "z": -68.460350036621
+        },
+        "scale": {
+          "x": 2.05616,
+          "y": 1.20736,
+          "z": 1.91187
+        },
+        "size": {
+          "x": 2.05616,
+          "y": 1.20736,
+          "z": 1.91187
+        },
+        "useAnchor": true,
+        "useGravity": false,
+        "volume": 1
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/93098907-672e-4b4c-bbd4-15defc03b54b",
+        "id": "8540048237890420737",
+        "name": "NextMap",
+        "position": {
+          "x": -257.43984985352,
+          "y": 28.223983764648,
+          "z": -91.961669921875
+        },
+        "scale": {
+          "x": 0.999997,
+          "y": 4.32155,
+          "z": 3.06859
+        },
+        "size": {
+          "x": 0.999997,
+          "y": 4.32155,
+          "z": 3.06859
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "4fb2c42f-854f-4c81-a77f-3ef4d72a7b55",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/Skill/common/icon_开镜_act.png"
+            },
+            "id": "8540940525000720385"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8540940077766672385",
+        "mass": 49.370036315918,
+        "name": "checkpoint",
+        "position": {
+          "x": 0.39568400382996,
+          "y": 1.1550698280334,
+          "z": 0.6333247423172
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 11.2388,
+          "y": 0.222632,
+          "z": 8.96878
+        },
+        "size": {
+          "x": 11.2388,
+          "y": 0.222632,
+          "z": 8.96878
+        },
+        "useAnchor": true,
+        "volume": 22.440925598145
+      }
+    ],
+    "name": {
+      "value": "map_speed15"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "9bde6f78e2bbe0ededace50db74d7fd0"
+    },
+    "VERSION": "0.20"
+  }
+}
