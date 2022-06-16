@@ -34,15 +34,12 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8671685468155248641",
-        "mass": 117.84924926758,
-        "massCenter": {
-          "y": 0.023999989032745
-        },
+        "mass": 117.84936676025,
         "material": {
           "alpha": 0.997,
           "color": {
             "b": 127,
-            "g": 171
+            "g": 172
           }
         },
         "name": "SpawnPlatform",
@@ -57,12 +54,12 @@
         },
         "size": {
           "x": 12,
-          "y": 0.49599862098694,
+          "y": 0.495999,
           "z": 9
         },
         "useAnchor": true,
         "useGravity": false,
-        "volume": 53.567840576172
+        "volume": 53.567893981934
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
@@ -70,10 +67,10 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8673405309001728001",
-        "mass": 68.462436676025,
+        "mass": 68.462038040161,
         "massCenter": {
           "y": -0.066571414470673,
-          "z": 5.5149974822998
+          "z": 5.7209982872009
         },
         "mesh": "asset/Mesh/Environment/roundedTriangle/roundedTriangle.mesh",
         "mesh_selector": {
@@ -83,7 +80,7 @@
         "name": "roundedTriangle.mesh",
         "position": {
           "y": -0.066571414470673,
-          "z": 5.5149974822998
+          "z": 5.7209982872009
         },
         "restitution": 0.3,
         "scale": {
@@ -92,13 +89,13 @@
           "z": 1.5224
         },
         "size": {
-          "x": 9.6450023651123,
-          "y": 0.68564623594284,
-          "z": 4.7057347297668
+          "x": 9.6449737548828,
+          "y": 0.68564492464066,
+          "z": 4.7057290077209
         },
         "useAnchor": true,
         "useGravity": false,
-        "volume": 31.119289398193
+        "volume": 31.119108200073
       }
     ],
     "name": {
@@ -107,7 +104,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "70e490e0bbab4c55a14940826dd9f812"
+      "setting.json": "acc53e0bd29f8f720596ec22aeb3aff6"
     },
     "VERSION": "0.20"
   }
