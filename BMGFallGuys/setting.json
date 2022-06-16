@@ -1,5 +1,5 @@
 {
-  "automatch": false,
+  "automatch": true,
   "bagCap": 9,
   "cameraCfg": {
     "canSwitchView": true,
@@ -125,7 +125,7 @@
     "useGroup": "_imagesets_"
   },
   "maxPlayers": 12,
-  "minPlayers": 2,
+  "minPlayers": 1,
   "moveStateConfig": {
     "isShow": false
   },
@@ -234,8 +234,55 @@
       "z": 0
     }
   ],
-  "team": [],
-  "teammateHurt": false,
+  "team": [
+    {
+      "id": 1,
+      "ignorePlayerSkin": true,
+      "image": "asset/Texture/Team/flag/flag_1.png",
+      "initPos": {
+        "map": "JumpKingLvl",
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "mainTeamImageBg": "",
+      "mainTeamImageFrame": "flag_textures/flag_frame",
+      "memberLimit": 5,
+      "name": "team1",
+      "startPos": [
+        {
+          "map": "JumpKingLvl",
+          "x": 0,
+          "y": 1,
+          "z": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "ignorePlayerSkin": true,
+      "image": "asset/Texture/Team/flag/flag_2.png",
+      "initPos": {
+        "map": "JumpKingLvl",
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "mainTeamImageBg": "",
+      "mainTeamImageFrame": "flag_textures/flag_frame",
+      "memberLimit": 5,
+      "name": "team2",
+      "startPos": [
+        {
+          "map": "JumpKingLvl",
+          "x": 0,
+          "y": 1,
+          "z": 0
+        }
+      ]
+    }
+  ],
+  "teammateHurt": true,
   "topTeamInfo": {
     "teamDieIcon": "flag_textures/flag_die",
     "teamDieIconArea": [
@@ -318,6 +365,6 @@
   },
   "waitAtInitPos": true,
   "waitGoTime": 0,
-  "waitPlayerTime": 300,
+  "waitPlayerTime": 0,
   "waitStartTime": 0
 }
