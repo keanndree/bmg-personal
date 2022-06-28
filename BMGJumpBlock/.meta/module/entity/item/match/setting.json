@@ -3,9 +3,15 @@
     "actorName": {
       "asset": "asset/effects/match.actor"
     },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
     "checkPartTouchEvent": false,
     "girlactor": {
-      "asset": ""
+      "asset": "empty.actor"
     },
     "hideName": true,
     "name": {
@@ -16,7 +22,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "bb505c6227814228d9d0a5447ec8f535",
+      "setting.json": "c1a63650467a08754aef83c3e0f87456",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

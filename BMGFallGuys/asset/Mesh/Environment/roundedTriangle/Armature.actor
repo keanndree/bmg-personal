@@ -1,0 +1,33 @@
+<ActorTemplates>
+	<ActorTemplate SoundFileNum="0" MaxDistance="16" Originalscale="1 1 1" Skeleton="asset/Mesh/Environment/roundedTriangle/Armature.skel" IsShowShadow="true" WoundAngle="25" SoundName2="" MinDistance="1" SoundName5="" Volume="0.8" WoundBone="" name="111.actor" SoundName4="" SoundName3="" SoundName1="" AttackScale="1" IntervalTime="2" TextHeight="0" Alpha="1" SelectedRingSize="1">
+		<BodyParts>
+			<BodyPart DefaultUse="true" SlaveName="group0" EdgeColor="1 1 1 1" MasterName="mutex_name0" ColorParams="1 1 1 1">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="RoundedTriangle">
+					<yaw value="0"/>
+					<UseEdge value="false"/>
+					<pitch value="0"/>
+					<SocketName value="Origin197011"/>
+					<UseTransparentNearestSlice value="false"/>
+					<SpecularCoef value="0.15"/>
+					<LocalBrightnessScale value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<roll value="0"/>
+					<SpecularStrength value="1.0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseOriginalcolor value="false"/>
+					<Position_Z value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<FileName value="asset/Mesh/Environment/roundedTriangle/RoundedTriangle.mesh"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Skills/>
+		<Anims/>
+	</ActorTemplate>
+</ActorTemplates>

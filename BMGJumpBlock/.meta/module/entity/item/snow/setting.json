@@ -1,12 +1,18 @@
 {
   "data": {
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
     "name": {
       "value": "entity_snow"
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "ad73e7adec4ecf0f0ddc84307e334879",
+      "setting.json": "b71db6d0b19c6f07a304d531a326ed46",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

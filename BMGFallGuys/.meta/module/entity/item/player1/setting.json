@@ -7,7 +7,7 @@
       "enable": true
     },
     "AI_home": {
-      "homeSize": 5
+      "homeSize": 5.0
     },
     "AI_patrol": {
       "patrolMode": "randomPath"
@@ -30,9 +30,9 @@
     ],
     "hideHp": false,
     "isPlayer": true,
-    "jumpSpeed": 16,
+    "jumpSpeed": 16.0,
     "maxHp": 1,
-    "moveSpeed": 6,
+    "moveSpeed": 6.0,
     "name": {
       "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
     },
@@ -67,7 +67,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "358bedb6b9627ea7913738f0f83ec1cd",
+      "setting.json": "cf04510dd7ba1773d59d4735dfd998f4",
       "triggers.bts": "ca5f03ede72d677a31f8157851c34c26"
     },
     "VERSION": "0.21"

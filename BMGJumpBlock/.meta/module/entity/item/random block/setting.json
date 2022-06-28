@@ -3,6 +3,12 @@
     "actorName": {
       "asset": "asset/random block/Golden Square Container.actor"
     },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
     "canMove": false,
     "canRevive": true,
     "girlactor": {
@@ -10,8 +16,8 @@
     },
     "hideName": true,
     "hpBarColor": {
-      "b": 59,
-      "g": 53,
+      "b": 59.0,
+      "g": 53.0,
       "r": 53
     },
     "name": {
@@ -1267,7 +1273,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "69d99b1b5dc904ec43a0e33b6017dd71",
+      "setting.json": "5ff7f9b366b4176b82e188b38dc2a4dc",
       "triggers.bts": "61bf9fef81f1f47d5ef8801efd4d969b"
     },
     "VERSION": "0.21"
