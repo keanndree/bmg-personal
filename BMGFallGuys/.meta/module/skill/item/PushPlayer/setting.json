@@ -1,0 +1,24 @@
+{
+  "data": {
+    "name": {
+      "value": "skill_PushPlayer"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "hurtDistance": 2,
+        "range": 3
+      }
+    },
+    "skillReleaseWay": {
+      "isClickIcon": false
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "368ed4d480fb527c56920c4912e665cc",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

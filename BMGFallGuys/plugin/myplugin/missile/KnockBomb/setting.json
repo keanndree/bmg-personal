@@ -27,6 +27,8 @@
     "z": 0
   },
   "gravity": 0.0,
+  "hitEntityCount": 1,
+  "hitEntitySkill": "myplugin/PushPlayer",
   "hitEntitysRoles": [
     "hitAllTeam",
     "hitAllEntitys",

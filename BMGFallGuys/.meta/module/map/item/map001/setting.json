@@ -6052,36 +6052,6 @@
         ],
         "id": "8674835124784611329",
         "name": "Colosseum"
-      },
-      {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "79631833-5482-42d3-8b5e-38eb8cc85b0d",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8691467891035717633",
-        "massCenter": {
-          "x": -17.732997894287,
-          "y": 0.012192696332932,
-          "z": -11.640000343323
-        },
-        "mesh": "asset/Mesh/Environment/roundedTriangle/RoundedTriangle.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/Environment/roundedTriangle/RoundedTriangle.mesh",
-          "selector": "asset/Mesh/Environment/roundedTriangle/RoundedTriangle.mesh"
-        },
-        "name": "RoundedTriangle.mesh",
-        "position": {
-          "x": -17.732997894287,
-          "y": 0.012192696332932,
-          "z": -11.640000343323
-        },
-        "restitution": 0.3,
-        "size": {
-          "x": 6.3353743553162,
-          "y": 0.45037215948105,
-          "z": 3.0909938812256
-        },
-        "useGravity": false
       }
     ],
     "name": {
@@ -6095,7 +6065,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "5924370a27097ab8d9ff43fe1fe68ace"
+      "setting.json": "aeb9b140a7afea9e8569016e70c596f1"
     },
     "VERSION": "0.21"
   }

@@ -120,7 +120,9 @@
   "reachDistance": 6.5,
   "reviveTime": 40,
   "setFollowWhenCreate": true,
-  "skillInfos": [],
+  "skillInfos": [
+    "myplugin/KnockbackBomb"
+  ],
   "stepHeight": 0.6,
   "textHeight": 2.3,
   "touchdownTimeToDie": true,

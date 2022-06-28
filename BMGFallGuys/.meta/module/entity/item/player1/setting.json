@@ -7,7 +7,7 @@
       "enable": true
     },
     "AI_home": {
-      "homeSize": 5.0
+      "homeSize": 5
     },
     "AI_patrol": {
       "patrolMode": "randomPath"
@@ -30,22 +30,26 @@
     ],
     "hideHp": false,
     "isPlayer": true,
-    "jumpSpeed": 16.0,
+    "jumpSpeed": 16,
     "maxHp": 1,
-    "moveSpeed": 6.0,
+    "moveSpeed": 6,
     "name": {
       "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
     },
     "reviveTime": {
       "value": 40
     },
+    "skill": [
+      "myplugin/KnockbackBomb"
+    ],
     "triggers": {
       "list": [
         {
           "custom_trigger_data": {
             "name": {
-              "value": "da4ebf71-fd1f-49f6-95de-999f75a375d3"
-            }
+              "value": "ff0a50a3-c5c5-4515-8116-153ade0e9562"
+            },
+            "type": "Trigger_EntityEnter"
           },
           "root": {
             "components": [
@@ -57,18 +61,18 @@
               }
             ],
             "id": {
-              "value": "ac8dd693-9ac7-4f6d-8fe8-053eda5e8b31"
+              "value": "a468124c-b15a-469a-ab88-f79197023244"
             }
           },
-          "type": "Trigger_EntityHitted"
+          "type": "Trigger_EntityEnter"
         }
       ]
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "cf04510dd7ba1773d59d4735dfd998f4",
-      "triggers.bts": "ca5f03ede72d677a31f8157851c34c26"
+      "setting.json": "28038a765416c654d86bd9d5742b1f08",
+      "triggers.bts": "b6bc7ed29d33f0b4ea3afe435c1494f4"
     },
     "VERSION": "0.21"
   }

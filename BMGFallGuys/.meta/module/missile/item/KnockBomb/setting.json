@@ -1,0 +1,24 @@
+{
+  "data": {
+    "hitCount": {
+      "hitEntityCount": 1,
+      "isValid": true
+    },
+    "hitEntitySkill": "myplugin/PushPlayer",
+    "missileModel": {
+      "modelMesh": {
+        "asset": "asset/Mesh/Environment/roundedTriangle/RoundedTriangle.mesh"
+      }
+    },
+    "name": {
+      "value": "missile_KnockBomb"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2ce1c9b72981967aadaac9b92ed57f0b",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

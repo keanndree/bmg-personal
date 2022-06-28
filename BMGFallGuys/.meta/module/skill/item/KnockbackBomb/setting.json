@@ -1,0 +1,40 @@
+{
+  "data": {
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 100
+    },
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_KnockbackBomb"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/KnockBomb"
+          }
+        ]
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/UI/BombIcon.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0a25bdca582a35204632cc3e01c11056",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}
