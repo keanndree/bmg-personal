@@ -3,6 +3,11 @@
     "triggers": {
       "list": [
         {
+          "custom_trigger_data": {
+            "name": {
+              "value": "b4e37ac7-8f24-4232-acd0-c6fc4617f097"
+            }
+          },
           "root": {
             "components": [
               {
@@ -29,6 +34,6 @@
     "EXPORT": {
       "triggers.bts": "887d3d7754f54b06fa5d838fd884be28"
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

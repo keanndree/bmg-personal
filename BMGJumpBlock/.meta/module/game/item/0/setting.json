@@ -1,0 +1,70 @@
+{
+  "data": {
+    "back_enable": {
+      "enable": false
+    },
+    "canJoinMidway": false,
+    "canSwitchView": false,
+    "defaultView": "Follow",
+    "enableNewLighting": true,
+    "firstPerson_enable": {
+      "enable": false
+    },
+    "fixed_viewPos": {
+      "pos": {
+        "__OBJ_TYPE": "Vector3i"
+      }
+    },
+    "follow_enable": {
+      "enable": true
+    },
+    "initPos": {
+      "map": "MAP_2",
+      "pos": {
+        "x": 0.5241003036499,
+        "y": 0.64078966617584,
+        "z": 0.17584908008575
+      }
+    },
+    "nowTime": {
+      "h": 16,
+      "m": 40
+    },
+    "player_range": {
+      "max": 6,
+      "min": 1
+    },
+    "startPos": {
+      "map": "MAP_2",
+      "pos": {
+        "x": 0.38116753101349,
+        "y": 0.6405871295929,
+        "z": -0.039955854415894
+      }
+    },
+    "ui_enable": {
+      "appMainRole": false,
+      "playerinfo": false
+    },
+    "unlimitedPlayTime": true,
+    "vars": {
+      "entity": [
+        {
+          "key": "result",
+          "value": {
+            "rawval": 1
+          }
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0f545e620c121c6c9d53569fc95d38b8",
+      "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
+      "triggers.bts": "",
+      "triggers_client.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

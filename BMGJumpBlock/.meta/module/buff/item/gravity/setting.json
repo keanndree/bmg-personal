@@ -1,0 +1,25 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effects/gravity/sots208_superheavy_black_3d.effect"
+      }
+    },
+    "gravity": 0.5,
+    "name": {
+      "value": "buff_gravity"
+    },
+    "sound": {
+      "selfOnly": true,
+      "sound": {
+        "asset": "asset/music/gravity.mp3"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e744080d6220ba4f511fbb842f46bd30"
+    },
+    "VERSION": "0.21"
+  }
+}

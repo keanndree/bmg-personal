@@ -1,0 +1,31 @@
+{
+  "data": {
+    "canAbandon": true,
+    "candrop": true,
+    "canUse": true,
+    "icon": {
+      "asset": "asset/props/modeld_lollipop_01_green.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemUse",
+        "time": {
+          "value": 200
+        },
+        "useBuff": "myplugin/accelerate"
+      },
+      "type": "Use"
+    },
+    "name": {
+      "value": "item_accelerate"
+    },
+    "stack_count_max": 5
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "75113cc7eb2ae62e200f643545c4a078",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

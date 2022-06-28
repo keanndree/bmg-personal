@@ -1,0 +1,24 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/effects/blue.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_blue"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c832edf86754ed9f24b834440c34ea07",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

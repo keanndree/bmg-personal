@@ -1,0 +1,17 @@
+<ActorTemplates>
+	<ActorTemplate MaxDistance="16" SoundName5="" WoundAngle="25" SelectedRingSize="1" name="111.actor" Volume="0.8" TextHeight="0" MinDistance="1" SoundName1="" IsShowShadow="true" Skeleton="rongqifangkuai_jingtai.skel" WoundBone="" Alpha="1" SoundName2="" SoundName3="" SoundFileNum="0" SoundName4="" Originalscale="1 1 1" IntervalTime="2" AttackScale="1">
+		<Anims>
+			<Anim Name="asset/random block/rongqifangkuai_chang_huitan.anim"/>
+		</Anims>
+		<Skills>
+			<Skill UserDefineTime="-2" TextMode="0" Name="idle" EnableWound="false">
+				<Animation Channel="" Name="asset/random block/rongqifangkuai_chang_huitan.anim" TimeScale="0.25" BeginTime="0" Times="-1" FadeTime="0.25" Length="0.466"/>
+			</Skill>
+		</Skills>
+		<BodyParts>
+			<BodyPart SlaveName="01" MasterName="body" DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1">
+				<Skin UseOverlayColorReplaceMode="false" OverlayColor="1.0 1.0 1.0 1.0" SpecularColor="1.0 1.0 1.0 1.0" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UVSpeed="0 0" UseEdge="false" SpecularCoef="0.15" DiscardAlpha="0" EdgeColor="1.0 0 0 1.0" UseOriginalcolor="false" SpecularStrength="1.0" LocalAlpha="1" LocalBrightnessScale="1.0" UseReflect="false" UseBloom="false" MeshName="asset/random block/rongqifangkuai.skin" type_name="rongqifangkuai" UseTransparentNearestSlice="false"/>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

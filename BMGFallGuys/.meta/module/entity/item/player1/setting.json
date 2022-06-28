@@ -38,13 +38,38 @@
     },
     "reviveTime": {
       "value": 40
+    },
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "da4ebf71-fd1f-49f6-95de-999f75a375d3"
+            }
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "ac8dd693-9ac7-4f6d-8fe8-053eda5e8b31"
+            }
+          },
+          "type": "Trigger_EntityHitted"
+        }
+      ]
     }
   },
   "meta": {
     "EXPORT": {
       "setting.json": "358bedb6b9627ea7913738f0f83ec1cd",
-      "triggers.bts": ""
+      "triggers.bts": "ca5f03ede72d677a31f8157851c34c26"
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

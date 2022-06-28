@@ -135,7 +135,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8523915522037219329",
-            "isLockedInEditor": true,
             "mass": 541040.603125,
             "material": {
               "alpha": 0.7,
@@ -170,7 +169,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8523921628220358657",
-            "isLockedInEditor": true,
             "mass": 135478.715625,
             "material": {
               "color": {
@@ -2446,6 +2444,7 @@
         "__OBJ_TYPE": "Instance_Entity",
         "config": "myplugin/pirateship",
         "id": "8548996618899439617",
+        "isVisibleInEditor": false,
         "name": "pirateship",
         "position": {
           "x": -40.216411590576,
@@ -2497,7 +2496,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "9c4e7606976766084760cab08e284564"
+      "setting.json": "943e171df70780b63784686871a9eda9"
     },
     "VERSION": "0.20"
   }

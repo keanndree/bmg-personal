@@ -1,0 +1,71 @@
+{
+  "data": {
+    "md5": "675bb3ad1a586179f09581597c91b941",
+    "path": "asset/UI Backup/secondjump.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Bottom"
+          },
+          "DisabledImage": {
+            "asset": "asset/Texture/Skill/common/icon_跳_nor.png"
+          },
+          "HoverImage": {
+            "asset": "asset/Texture/Skill/common/icon_跳_act.png"
+          },
+          "id": {
+            "value": "8e193d3e-792d-4831-a814-df4d9ff00c13"
+          },
+          "name": "SecondJumpBtn",
+          "NormalImage": {
+            "asset": "asset/Texture/Skill/common/icon_跳_act.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.0177
+            },
+            "UDim_Y": {
+              "Scale": -0.1023
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/Skill/common/icon_跳_act.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 150.0
+            },
+            "UDim_Y": {
+              "Offect": 150.0
+            }
+          },
+          "Text": ""
+        }
+      ],
+      "id": {
+        "value": "8ec243bd-b9c1-437c-8442-1538f8fe3e65"
+      },
+      "MousePassThroughEnabled": true,
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 9,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "675bb3ad1a586179f09581597c91b941",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

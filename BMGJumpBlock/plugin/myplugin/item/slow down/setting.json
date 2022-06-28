@@ -1,0 +1,30 @@
+{
+  "canAbandon": true,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": true,
+  "icon": "@asset/props/modeld_lollipop_01_blue.png",
+  "itemname": "item_slow down",
+  "matItem_third": {
+    "rotateX": 90,
+    "rotateY": 0,
+    "rotateZ": -30,
+    "scale": 0.8,
+    "translate": {
+      "x": -0.25,
+      "y": 0,
+      "z": -0.08
+    }
+  },
+  "needSave": false,
+  "stack_count_max": 5,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false,
+  "useBuff": {
+    "cfg": "myplugin/anti-gravity",
+    "time": 60
+  }
+}

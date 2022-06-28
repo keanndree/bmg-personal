@@ -1,0 +1,26 @@
+{
+  "data": {
+    "antiGravity": 1,
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effects/anti-gravity/sots208_weightiessness_white_3d.effect"
+      },
+      "once": false
+    },
+    "name": {
+      "value": "buff_anti-gravity"
+    },
+    "sound": {
+      "selfOnly": true,
+      "sound": {
+        "asset": "asset/music/anti-gravity.mp3"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f3b0fcccad3bb149347e14f6fa35afb3"
+    },
+    "VERSION": "0.21"
+  }
+}

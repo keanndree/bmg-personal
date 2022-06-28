@@ -1,157 +1,157 @@
     <GUILayout version="4">
-        <Window name="Root" type="DefaultWindow">
-            <Property name="Area" value="{{0,0},{0,0},{1,0},{1,9}}">
+        <Window type="DefaultWindow" name="Root">
+            <Property value="{{0,0},{0,0},{1,0},{1,9}}" name="Area">
 
             </Property>
-            <Property name="MaxSize" value="{{999,0},{999,0}}">
+            <Property value="{{999,0},{999,0}}" name="MaxSize">
 
             </Property>
-            <Property name="PivotX" value="0.5">
+            <Property value="Left" name="HorizontalAlignment">
 
             </Property>
-            <Property name="VerticalAlignment" value="Top">
+            <Property value="Top" name="VerticalAlignment">
 
             </Property>
-            <Property name="PivotY" value="0.5">
+            <Property value="0.5" name="PivotX">
 
             </Property>
-            <Property name="HorizontalAlignment" value="Left">
+            <Property value="false" name="Disabled">
 
             </Property>
-            <Property name="Rotation" value="w:1.0 x:0.0 y:0.0 z:0.0">
+            <Property value="0.5" name="PivotY">
 
             </Property>
-            <Property name="MousePassThroughEnabled" value="true">
+            <Property value="true" name="Visible">
 
             </Property>
-            <Property name="Disabled" value="false">
+            <Property value="true" name="MousePassThroughEnabled">
 
             </Property>
-            <Property name="ClippedByParent" value="false">
+            <Property value="w:1.0 x:0.0 y:0.0 z:0.0" name="Rotation">
 
             </Property>
-            <Property name="Alpha" value="1">
+            <Property value="1" name="Alpha">
 
             </Property>
-            <Property name="Visible" value="true">
+            <Property value="false" name="ClippedByParent">
 
             </Property>
-              <Window name="SecondJumpBtn" type="WindowsLook/Button">
-                  <Property name="Area" value="{{-0.0177,0},{-0.1023,0},{-0.0177,150.0},{-0.1023,150.0}}">
+              <Window type="WindowsLook/Button" name="SecondJumpBtn">
+                  <Property value="{{-0.0177,0},{-0.1023,0},{-0.0177,150.0},{-0.1023,150.0}}" name="Area">
 
                   </Property>
-                  <Property name="MaxSize" value="{{999,0},{999,0}}">
+                  <Property value="{{999,0},{999,0}}" name="MaxSize">
 
                   </Property>
-                  <Property name="PivotX" value="0.5">
+                  <Property value="Right" name="HorizontalAlignment">
 
                   </Property>
-                  <Property name="Text" value="">
+                  <Property value="Bottom" name="VerticalAlignment">
 
                   </Property>
-                  <Property name="TextXOffset" value="0">
+                  <Property value="ff000000" name="HoverTextColour">
 
                   </Property>
-                  <Property name="PivotY" value="0.5">
+                  <Property value="0" name="TextBoldWeight">
 
                   </Property>
-                  <Property name="HoverTextColour" value="ff000000">
+                  <Property value="0" name="BorderWidth">
 
                   </Property>
-                  <Property name="Rotation" value="w:1.0 x:0.0 y:0.0 z:0.0">
+                  <Property value="false" name="Disabled">
 
                   </Property>
-                  <Property name="DisabledImage" value="gameres|asset/Texture/Skill/common/icon_跳_nor.png">
+                  <Property value="true" name="Visible">
 
                   </Property>
-                  <Property name="HoverStretch" value="0 0 0 0">
+                  <Property value="false" name="MousePassThroughEnabled">
 
                   </Property>
-                  <Property name="DisabledStretch" value="0 0 0 0">
+                  <Property value="12" name="Font_size">
 
                   </Property>
-                  <Property name="btn_word_warpped" value="false">
+                  <Property value="false" name="btn_word_warpped">
 
                   </Property>
-                  <Property name="TextWordBreak" value="false">
+                  <Property value="gameres|asset/Texture/Skill/common/icon_跳_act.png" name="PushedImage">
 
                   </Property>
-                  <Property name="BorderColor" value="ffffffff">
+                  <Property value="0" name="TextYOffset">
 
                   </Property>
-                  <Property name="BorderEnable" value="false">
+                  <Property value="" name="Text">
 
                   </Property>
-                  <Property name="enable_text_offset" value="false">
+                  <Property value="0 0 0 0" name="PushedStretch">
 
                   </Property>
-                  <Property name="VerticalAlignment" value="Bottom">
+                  <Property value="false" name="enable_text_offset">
 
                   </Property>
-                  <Property name="PushedImage" value="gameres|asset/Texture/Skill/common/icon_跳_act.png">
+                  <Property value="0.5" name="PivotX">
 
                   </Property>
-                  <Property name="Font" value="DroidSans-12">
+                  <Property value="DroidSans-12" name="Font">
 
                   </Property>
-                  <Property name="NormalTextColour" value="ff000000">
+                  <Property value="Stretched" name="HorzImageFormatting">
 
                   </Property>
-                  <Property name="Visible" value="true">
+                  <Property value="0 0 0 0" name="DisabledStretch">
 
                   </Property>
-                  <Property name="VertImageFormatting" value="Stretched">
+                  <Property value="0 0 0 0" name="NormalStretch">
 
                   </Property>
-                  <Property name="ClippedByParent" value="false">
+                  <Property value="0 0 0 0" name="HoverStretch">
 
                   </Property>
-                  <Property name="BorderWidth" value="0">
+                  <Property value="gameres|asset/Texture/Skill/common/icon_跳_act.png" name="HoverImage">
 
                   </Property>
-                  <Property name="HorzImageFormatting" value="Stretched">
+                  <Property value="ff000000" name="NormalTextColour">
 
                   </Property>
-                  <Property name="MousePassThroughEnabled" value="false">
+                  <Property value="ff888888" name="DisabledTextColour">
 
                   </Property>
-                  <Property name="NormalStretch" value="0 0 0 0">
+                  <Property value="Stretched" name="VertImageFormatting">
 
                   </Property>
-                  <Property name="PushedStretch" value="0 0 0 0">
+                  <Property value="gameres|asset/Texture/Skill/common/icon_跳_act.png" name="NormalImage">
 
                   </Property>
-                  <Property name="TextYOffset" value="0">
+                  <Property value="false" name="BorderEnable">
 
                   </Property>
-                  <Property name="DisabledTextColour" value="ff888888">
+                  <Property value="ffffffff" name="BorderColor">
 
                   </Property>
-                  <Property name="Font_size" value="12">
+                  <Property value="w:1.0 x:0.0 y:0.0 z:0.0" name="Rotation">
 
                   </Property>
-                  <Property name="HoverImage" value="gameres|asset/Texture/Skill/common/icon_跳_act.png">
+                  <Property value="0" name="TextXOffset">
 
                   </Property>
-                  <Property name="HorizontalAlignment" value="Right">
+                  <Property value="false" name="AutoTextScale">
 
                   </Property>
-                  <Property name="PushedTextColour" value="ffffffff">
+                  <Property value="0.5" name="PivotY">
 
                   </Property>
-                  <Property name="AutoTextScale" value="false">
+                  <Property value="1" name="Alpha">
 
                   </Property>
-                  <Property name="NormalImage" value="gameres|asset/Texture/Skill/common/icon_跳_act.png">
+                  <Property value="false" name="TextWordBreak">
 
                   </Property>
-                  <Property name="Alpha" value="1">
+                  <Property value="gameres|asset/Texture/Skill/common/icon_跳_nor.png" name="DisabledImage">
 
                   </Property>
-                  <Property name="Disabled" value="false">
+                  <Property value="ffffffff" name="PushedTextColour">
 
                   </Property>
-                  <Property name="TextBoldWeight" value="0">
+                  <Property value="false" name="ClippedByParent">
 
                   </Property>
               </Window>

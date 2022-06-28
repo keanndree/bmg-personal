@@ -1,427 +1,408 @@
-<?xml version = "1.0" encoding = "GB2312"?>
 <ActorTemplates>
-	<ActorTemplate name="ship_merry.actor" Originalscale="1 1 1" Skeleton="ship01.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1">
+	<ActorTemplate MaxDistance="16" IsShowShadow="true" WoundAngle="25" MinDistance="1" Originalscale="1 1 1" SelectedRingSize="1" SoundName4="" TextHeight="0" SoundName5="" WoundBone="" SoundName1="" IntervalTime="2" SoundName2="" Alpha="1" SoundFileNum="0" name="111.actor" Volume="0.8" Skeleton="ship01.skel" AttackScale="1" SoundName3="">
+		<Anims>
+			<Anim Name="ship01_stand01.anim"/>
+			<Anim Name="ship01_attack01.anim"/>
+			<Anim Name="ship01_walk01.anim"/>
+			<Anim Name="ship01_stand02.anim"/>
+		</Anims>
 		<BodyParts>
-			<BodyPart MasterName="body" SlaveName="1" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "merry.skin" ChangeColor = "2.10195e-44 1.12398e-41 4.25542e+27 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="true" EdgeColor="1 1 1 1" MasterName="body" SlaveName="1" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="merry" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="merry.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 			</BodyPart>
-			<BodyPart MasterName="pusher" SlaveName="1" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "slark.skin" ChangeColor = "2.10195e-44 4.01052e-42 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="pusher" SlaveName="pusher_1" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="slark" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="slark.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 			</BodyPart>
-			<BodyPart MasterName="pusher" SlaveName="2" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "propeller.skin" ChangeColor = "2.10195e-44 4.34543e-42 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="pusher" SlaveName="2" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="propeller" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="propeller.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 			</BodyPart>
-			<BodyPart MasterName="pusher" SlaveName="3" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "injector.skin" ChangeColor = "2.10195e-44 1.10717e-41 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="pusher" SlaveName="3" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="injector" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="injector.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 			</BodyPart>
-			<BodyPart MasterName="pusher" SlaveName="4" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "tnt_driver.skin" ChangeColor = "2.10195e-44 1.1237e-41 1.80275e+28 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="pusher" SlaveName="4" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="tnt_driver" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="tnt_driver.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 			</BodyPart>
-			<BodyPart MasterName="shipflag" SlaveName="1" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "pirate_flag.skin" ChangeColor = "2.10195e-44 1.05406e-41 2.93403e-35 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="shipflag" SlaveName="shipflag_1" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="pirate_flag" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="pirate_flag.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 			</BodyPart>
-			<BodyPart MasterName="shipflag" SlaveName="2" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "fishermen_flag.skin" ChangeColor = "2.10195e-44 1.08881e-41 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="shipflag" SlaveName="shipflag_2" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="fishermen_flag" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="fishermen_flag.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 			</BodyPart>
-			<BodyPart MasterName="shipflag" SlaveName="3" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "navy_flag.skin" ChangeColor = "2.10195e-44 1.12398e-41 2.93403e-35 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="shipflag" SlaveName="shipflag_3" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="navy_flag" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="navy_flag.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 			</BodyPart>
-			<BodyPart MasterName="shipflag" SlaveName="4" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "strawhat_flag.skin" ChangeColor = "2.10195e-44 2.31116e-41 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="shipflag" SlaveName="shipflag_4" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="strawhat_flag" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="strawhat_flag.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 			</BodyPart>
-			<BodyPart MasterName="shipflag" SlaveName="5" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "baki_flag.skin" ChangeColor = "2.10195e-44 2.32854e-41 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="shipflag" SlaveName="5" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="baki_flag" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="baki_flag.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 			</BodyPart>
-			<BodyPart MasterName="shipflag" SlaveName="6" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "whitebeard_flag.skin" ChangeColor = "2.10195e-44 2.34535e-41 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="shipflag" SlaveName="6" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="whitebeard_flag" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="whitebeard_flag.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 			</BodyPart>
-			<BodyPart MasterName="shipflag" SlaveName="7" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "marine_flag.skin" ChangeColor = "2.10195e-44 2.36301e-41 4.41697e+30 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="shipflag" SlaveName="7" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="marine_flag" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="marine_flag.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 			</BodyPart>
-			<BodyPart MasterName="shipflag" SlaveName="8" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "worldgovt_flag.skin" ChangeColor = "2.10195e-44 2.38025e-41 4.25542e+27 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="shipflag" SlaveName="8" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="worldgovt_flag" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="worldgovt_flag.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 			</BodyPart>
-			<BodyPart MasterName="shipwing" SlaveName="1" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "y_butterfly_wings.skin" ChangeColor = "2.10195e-44 5.37538e-42 4.41697e+30 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="shipwing" SlaveName="shipwing_1" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="y_butterfly_wings" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="y_butterfly_wings.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 				<Effect>
+					<roll value="0"/>
 					<FileName value="chibangtexiao03huang.effect"/>
-					<SocketName value="s_l_wings_e"/>
-					<Position_X value="0"/>
-					<Position_Y value="0"/>
+					<type_name value="chibangtexiao03huang"/>
 					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<pitch value="0"/>
-					<roll value="0"/>
-					<scale value="1"/>
-					<TimeScale value="1"/>
+					<SocketName value="s_l_wings_e"/>
 					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
 				</Effect>
 				<Effect>
+					<roll value="0"/>
 					<FileName value="chibangtexiao03huang.effect"/>
-					<SocketName value="s_r_wings_e"/>
-					<Position_X value="0"/>
-					<Position_Y value="0"/>
+					<type_name value="chibangtexiao03huang"/>
 					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<pitch value="0"/>
-					<roll value="0"/>
-					<scale value="1"/>
-					<TimeScale value="1"/>
+					<SocketName value="s_r_wings_e"/>
 					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
 				</Effect>
 			</BodyPart>
-			<BodyPart MasterName="shipwing" SlaveName="10" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "demon_wings.skin" ChangeColor = "2.10195e-44 8.53391e-42 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="shipwing" SlaveName="10" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="demon_wings" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="demon_wings.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 				<Effect>
+					<roll value="0"/>
 					<FileName value="chibangtexiao11emo.effect"/>
-					<SocketName value="s_l_wings_e"/>
-					<Position_X value="0"/>
-					<Position_Y value="0"/>
+					<type_name value="chibangtexiao11emo"/>
 					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<pitch value="0"/>
-					<roll value="0"/>
-					<scale value="1"/>
-					<TimeScale value="1"/>
+					<SocketName value="s_l_wings_e"/>
 					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
 				</Effect>
 				<Effect>
+					<roll value="0"/>
 					<FileName value="chibangtexiao11emo.effect"/>
-					<SocketName value="s_r_wings_e"/>
-					<Position_X value="0"/>
-					<Position_Y value="0"/>
+					<type_name value="chibangtexiao11emo"/>
 					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<pitch value="0"/>
-					<roll value="0"/>
-					<scale value="1"/>
-					<TimeScale value="1"/>
+					<SocketName value="s_r_wings_e"/>
 					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
 				</Effect>
 			</BodyPart>
-			<BodyPart MasterName="shipwing" SlaveName="2" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "b_butterfly_wings.skin" ChangeColor = "2.10195e-44 5.73131e-42 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="shipwing" SlaveName="shipwing_2" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="b_butterfly_wings" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="b_butterfly_wings.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 				<Effect>
+					<roll value="0"/>
 					<FileName value="chibangtexiao05shenlan.effect"/>
-					<SocketName value="s_l_wings_e"/>
-					<Position_X value="0"/>
-					<Position_Y value="0"/>
+					<type_name value="chibangtexiao05shenlan"/>
 					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<pitch value="0"/>
-					<roll value="0"/>
-					<scale value="1"/>
-					<TimeScale value="1"/>
+					<SocketName value="s_l_wings_e"/>
 					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
 				</Effect>
 				<Effect>
+					<roll value="0"/>
 					<FileName value="chibangtexiao05shenlan.effect"/>
-					<SocketName value="s_r_wings_e"/>
-					<Position_X value="0"/>
-					<Position_Y value="0"/>
+					<type_name value="chibangtexiao05shenlan"/>
 					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<pitch value="0"/>
-					<roll value="0"/>
-					<scale value="1"/>
-					<TimeScale value="1"/>
+					<SocketName value="s_r_wings_e"/>
 					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
 				</Effect>
 			</BodyPart>
-			<BodyPart MasterName="shipwing" SlaveName="3" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "yd_butterfly_wings.skin" ChangeColor = "2.10195e-44 6.08724e-42 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="shipwing" SlaveName="shipwing_3" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="yd_butterfly_wings" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="yd_butterfly_wings.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 				<Effect>
+					<roll value="0"/>
 					<FileName value="chibangtexiao04shenhuang.effect"/>
-					<SocketName value="s_l_wings_e"/>
-					<Position_X value="0"/>
-					<Position_Y value="0"/>
+					<type_name value="chibangtexiao04shenhuang"/>
 					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<pitch value="0"/>
-					<roll value="0"/>
-					<scale value="1"/>
-					<TimeScale value="1"/>
+					<SocketName value="s_l_wings_e"/>
 					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
 				</Effect>
 				<Effect>
+					<roll value="0"/>
 					<FileName value="chibangtexiao04shenhuang.effect"/>
-					<SocketName value="s_r_wings_e"/>
-					<Position_X value="0"/>
-					<Position_Y value="0"/>
+					<type_name value="chibangtexiao04shenhuang"/>
 					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<pitch value="0"/>
-					<roll value="0"/>
-					<scale value="1"/>
-					<TimeScale value="1"/>
+					<SocketName value="s_r_wings_e"/>
 					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
 				</Effect>
 			</BodyPart>
-			<BodyPart MasterName="shipwing" SlaveName="4" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "fairy_wings.skin" ChangeColor = "2.10195e-44 6.44457e-42 1.86628e+25 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="shipwing" SlaveName="shipwing_4" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="fairy_wings" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="fairy_wings.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 				<Effect>
+					<roll value="0"/>
 					<FileName value="chibangtexiao02zi.effect"/>
-					<SocketName value="s_l_wings_e"/>
-					<Position_X value="0"/>
-					<Position_Y value="0"/>
+					<type_name value="chibangtexiao02zi"/>
 					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<pitch value="0"/>
-					<roll value="0"/>
-					<scale value="1"/>
-					<TimeScale value="1"/>
+					<SocketName value="s_l_wings_e"/>
 					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
 				</Effect>
 				<Effect>
+					<roll value="0"/>
 					<FileName value="chibangtexiao02zi.effect"/>
-					<SocketName value="s_r_wings_e"/>
-					<Position_X value="0"/>
-					<Position_Y value="0"/>
+					<type_name value="chibangtexiao02zi"/>
 					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<pitch value="0"/>
-					<roll value="0"/>
-					<scale value="1"/>
-					<TimeScale value="1"/>
+					<SocketName value="s_r_wings_e"/>
 					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
 				</Effect>
 			</BodyPart>
-			<BodyPart MasterName="shipwing" SlaveName="5" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "clouds_wings.skin" ChangeColor = "2.10195e-44 6.79349e-42 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="shipwing" SlaveName="shipwing_5" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="clouds_wings" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="clouds_wings.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 				<Effect>
+					<roll value="0"/>
 					<FileName value="chibangtexiao06yunbai.effect"/>
-					<SocketName value="s_l_wings_e"/>
-					<Position_X value="0"/>
-					<Position_Y value="0"/>
+					<type_name value="chibangtexiao06yunbai"/>
 					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<pitch value="0"/>
-					<roll value="0"/>
-					<scale value="1"/>
-					<TimeScale value="1"/>
+					<SocketName value="s_l_wings_e"/>
 					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
 				</Effect>
 				<Effect>
+					<roll value="0"/>
 					<FileName value="chibangtexiao06yunbai.effect"/>
-					<SocketName value="s_r_wings_e"/>
-					<Position_X value="0"/>
-					<Position_Y value="0"/>
+					<type_name value="chibangtexiao06yunbai"/>
 					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<pitch value="0"/>
-					<roll value="0"/>
-					<scale value="1"/>
-					<TimeScale value="1"/>
+					<SocketName value="s_r_wings_e"/>
 					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
 				</Effect>
 			</BodyPart>
-			<BodyPart MasterName="shipwing" SlaveName="6" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "steel_wings.skin" ChangeColor = "2.10195e-44 7.14242e-42 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="shipwing" SlaveName="shipwing_6" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="steel_wings" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="steel_wings.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 				<Effect>
+					<roll value="0"/>
 					<FileName value="chibangtexiao07hui.effect"/>
-					<SocketName value="s_l_wings_e"/>
-					<Position_X value="0"/>
-					<Position_Y value="0"/>
+					<type_name value="chibangtexiao07hui"/>
 					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<pitch value="0"/>
-					<roll value="0"/>
-					<scale value="1"/>
-					<TimeScale value="1"/>
+					<SocketName value="s_l_wings_e"/>
 					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
 				</Effect>
 				<Effect>
+					<roll value="0"/>
 					<FileName value="chibangtexiao07hui.effect"/>
-					<SocketName value="s_r_wings_e"/>
-					<Position_X value="0"/>
-					<Position_Y value="0"/>
+					<type_name value="chibangtexiao07hui"/>
 					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<pitch value="0"/>
-					<roll value="0"/>
-					<scale value="1"/>
-					<TimeScale value="1"/>
+					<SocketName value="s_r_wings_e"/>
 					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
 				</Effect>
 			</BodyPart>
-			<BodyPart MasterName="shipwing" SlaveName="7" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "frost_wings.skin" ChangeColor = "2.10195e-44 7.48994e-42 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="shipwing" SlaveName="shipwing_7" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="frost_wings" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="frost_wings.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 				<Effect>
+					<roll value="0"/>
 					<FileName value="chibangtexiao08qianlan.effect"/>
-					<SocketName value="s_l_wings_e"/>
-					<Position_X value="0"/>
-					<Position_Y value="0"/>
+					<type_name value="chibangtexiao08qianlan"/>
 					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<pitch value="0"/>
-					<roll value="0"/>
-					<scale value="1"/>
-					<TimeScale value="1"/>
+					<SocketName value="s_l_wings_e"/>
 					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
 				</Effect>
 				<Effect>
+					<roll value="0"/>
 					<FileName value="chibangtexiao08qianlan.effect"/>
-					<SocketName value="s_r_wings_e"/>
-					<Position_X value="0"/>
-					<Position_Y value="0"/>
+					<type_name value="chibangtexiao08qianlan"/>
 					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<pitch value="0"/>
-					<roll value="0"/>
-					<scale value="1"/>
-					<TimeScale value="1"/>
+					<SocketName value="s_r_wings_e"/>
 					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
 				</Effect>
 			</BodyPart>
-			<BodyPart MasterName="shipwing" SlaveName="8" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "flame_wings.skin" ChangeColor = "2.10195e-44 7.83746e-42 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="shipwing" SlaveName="shipwing_8" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="flame_wings" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="flame_wings.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 				<Effect>
+					<roll value="0"/>
 					<FileName value="chibangtexiao09huohong.effect"/>
-					<SocketName value="s_l_wings_e"/>
-					<Position_X value="0"/>
-					<Position_Y value="0"/>
+					<type_name value="chibangtexiao09huohong"/>
 					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<pitch value="0"/>
-					<roll value="0"/>
-					<scale value="1"/>
-					<TimeScale value="1"/>
+					<SocketName value="s_l_wings_e"/>
 					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
 				</Effect>
 				<Effect>
+					<roll value="0"/>
 					<FileName value="chibangtexiao09huohong.effect"/>
-					<SocketName value="s_r_wings_e"/>
-					<Position_X value="0"/>
-					<Position_Y value="0"/>
+					<type_name value="chibangtexiao09huohong"/>
 					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<pitch value="0"/>
-					<roll value="0"/>
-					<scale value="1"/>
-					<TimeScale value="1"/>
+					<SocketName value="s_r_wings_e"/>
 					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
 				</Effect>
 			</BodyPart>
-			<BodyPart MasterName="shipwing" SlaveName="9" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "angel_wings.skin" ChangeColor = "2.10195e-44 8.18498e-42 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="shipwing" SlaveName="9" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="angel_wings" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="angel_wings.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 				<Effect>
+					<roll value="0"/>
 					<FileName value="chibangtexiao10tianshi.effect"/>
+					<type_name value="chibangtexiao10tianshi"/>
+					<Position_Z value="0"/>
 					<SocketName value="s_l_wings_e"/>
-					<Position_X value="0"/>
-					<Position_Y value="0"/>
-					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<pitch value="0"/>
-					<roll value="0"/>
-					<scale value="1"/>
-					<TimeScale value="1"/>
 					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
 				</Effect>
 				<Effect>
-					<FileName value="chibangtexiao10tianshi.effect"/>
-					<SocketName value="s_r_wings_e"/>
-					<Position_X value="0"/>
-					<Position_Y value="0"/>
-					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<pitch value="0"/>
 					<roll value="0"/>
-					<scale value="1"/>
-					<TimeScale value="1"/>
+					<FileName value="chibangtexiao10tianshi.effect"/>
+					<type_name value="chibangtexiao10tianshi"/>
+					<Position_Z value="0"/>
+					<SocketName value="s_r_wings_e"/>
 					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<TimeScale value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
 				</Effect>
 			</BodyPart>
-			<BodyPart MasterName="weapon" SlaveName="1" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "triangular_spike.skin" ChangeColor = "2.10195e-44 1.23034e-42 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="weapon" SlaveName="weapon_1" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="triangular_spike" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="triangular_spike.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 			</BodyPart>
-			<BodyPart MasterName="weapon" SlaveName="2" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "pliers_spike.skin" ChangeColor = "2.10195e-44 1.58066e-42 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="weapon" SlaveName="weapon_2" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="pliers_spike" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="pliers_spike.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 			</BodyPart>
-			<BodyPart MasterName="weapon" SlaveName="3" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "gear_saws.skin" ChangeColor = "2.10195e-44 1.92679e-42 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="weapon" SlaveName="weapon_3" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="gear_saws" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="gear_saws.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 			</BodyPart>
-			<BodyPart MasterName="weapon" SlaveName="4" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "trident.skin" ChangeColor = "2.10195e-44 2.2687e-42 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="weapon" SlaveName="weapon_4" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="trident" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="trident.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 			</BodyPart>
-			<BodyPart MasterName="weapon" SlaveName="5" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "guardian_spike.skin" ChangeColor = "2.10195e-44 2.60642e-42 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="weapon" SlaveName="weapon_5" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="guardian_spike" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="guardian_spike.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 			</BodyPart>
-			<BodyPart MasterName="weapon" SlaveName="6" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "crazy_artillery.skin" ChangeColor = "2.10195e-44 2.95534e-42 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="weapon" SlaveName="weapon_6" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="crazy_artillery" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="crazy_artillery.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 			</BodyPart>
-			<BodyPart MasterName="weapon" SlaveName="7" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "torpedo_launcher.skin" ChangeColor = "2.10195e-44 3.30566e-42 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="weapon" SlaveName="weapon_7" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="torpedo_launcher" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="torpedo_launcher.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 			</BodyPart>
-			<BodyPart MasterName="weapon" SlaveName="8" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
-				<Skin MeshName = "missile_launcher.skin" ChangeColor = "2.10195e-44 3.65739e-42 1.4013e-45 0" UVSpeed = "0 0">
-				</Skin>
+			<BodyPart DefaultUse="false" EdgeColor="1 1 1 1" MasterName="weapon" SlaveName="weapon_8" ColorParams="1 1 1 1">
+				<Skin SpecularStrength="1.0" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" type_name="missile_launcher" EdgeColor="1.0 0 0 1.0" UVSpeed="0 0" LocalBrightnessScale="1.0" MeshName="missile_launcher.skin" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseBloom="false" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" DiscardAlpha="0" UseEdge="false"/>
 			</BodyPart>
 		</BodyParts>
 		<Skills>
-			<Skill Name="attack2" EnableWound="false" UserDefineTime="-2" TextMode="0">
-				<Animation Name = "ship01_attack01.anim" BeginTime = "0" Times = "1" Length = "0.633" FadeTime = "0.25" Channel = "" TimeScale = "1">
-				</Animation>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="attack2">
+				<Animation FadeTime="0.25" BeginTime="0" Name="ship01_attack01.anim" Times="1" Channel="" TimeScale="1" Length="0.633"/>
 			</Skill>
-			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
-				<Animation Name = "ship01_stand01.anim" BeginTime = "0" Times = "-1" Length = "2.166" FadeTime = "0.25" Channel = "" TimeScale = "1">
-				</Animation>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="idle">
+				<Animation FadeTime="0.25" BeginTime="0" Name="ship01_stand01.anim" Times="-1" Channel="" TimeScale="1" Length="2.166"/>
 			</Skill>
-			<Skill Name="jump2" EnableWound="false" UserDefineTime="-2" TextMode="0">
-				<Animation Name = "ship01_stand02.anim" BeginTime = "0" Times = "-1" Length = "1.1" FadeTime = "1.04858e+06" Channel = "" TimeScale = "1">
-				</Animation>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="jump2">
+				<Animation FadeTime="1048580.0" BeginTime="0" Name="ship01_stand02.anim" Times="-1" Channel="" TimeScale="1" Length="1.1"/>
 			</Skill>
-			<Skill Name="push" EnableWound="false" UserDefineTime="-2" TextMode="0">
-				<Animation Name = "ship01_stand02.anim" BeginTime = "0" Times = "-1" Length = "1.1" FadeTime = "0.25" Channel = "" TimeScale = "1">
-				</Animation>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="push">
+				<Animation FadeTime="0.25" BeginTime="0" Name="ship01_stand02.anim" Times="-1" Channel="" TimeScale="1" Length="1.1"/>
 			</Skill>
-			<Skill Name="run" EnableWound="false" UserDefineTime="-2" TextMode="0">
-				<Animation Name = "ship01_walk01.anim" BeginTime = "0" Times = "-1" Length = "1.1" FadeTime = "0.25" Channel = "" TimeScale = "1">
-				</Animation>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="run">
+				<Animation FadeTime="0.25" BeginTime="0" Name="ship01_walk01.anim" Times="-1" Channel="" TimeScale="1" Length="1.1"/>
 			</Skill>
-			<Skill Name="swim" EnableWound="false" UserDefineTime="-2" TextMode="0">
-				<Animation Name = "ship01_walk01.anim" BeginTime = "0" Times = "-1" Length = "1.1" FadeTime = "1.04858e+06" Channel = "" TimeScale = "1">
-				</Animation>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="swim">
+				<Animation FadeTime="1048580.0" BeginTime="0" Name="ship01_walk01.anim" Times="-1" Channel="" TimeScale="1" Length="1.1"/>
 			</Skill>
-			<Skill Name="swim_idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
-				<Animation Name = "ship01_stand01.anim" BeginTime = "0" Times = "-1" Length = "2.166" FadeTime = "1.04858e+06" Channel = "" TimeScale = "1">
-				</Animation>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="swim_idle">
+				<Animation FadeTime="1048580.0" BeginTime="0" Name="ship01_stand01.anim" Times="-1" Channel="" TimeScale="1" Length="2.166"/>
 			</Skill>
 		</Skills>
-		<Anims>
-				<Anim Name="ship01_stand01.anim"/>
-				<Anim Name="ship01_stand02.anim"/>
-				<Anim Name="ship01_walk01.anim"/>
-				<Anim Name="ship01_attack01.anim"/>
-		</Anims>
 	</ActorTemplate>
 </ActorTemplates>

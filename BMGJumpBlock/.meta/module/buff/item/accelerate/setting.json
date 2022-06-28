@@ -1,0 +1,26 @@
+{
+  "data": {
+    "moveFactor": 0.5,
+    "name": {
+      "value": "buff_accelerate"
+    },
+    "skin": [
+      {
+        "masterName": "shoes",
+        "slaveName": "shoes2"
+      }
+    ],
+    "sound": {
+      "selfOnly": true,
+      "sound": {
+        "asset": "asset/music/accelerate.mp3"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1afb687f4680ecf53f6975f7e85495da"
+    },
+    "VERSION": "0.21"
+  }
+}

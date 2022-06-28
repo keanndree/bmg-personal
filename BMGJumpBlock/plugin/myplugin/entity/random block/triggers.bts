@@ -1,0 +1,17 @@
+ENTITY_TOUCH_ALL {
+	KillEntity(entity = $obj1, from = $obj2)
+	$obj2.result = Random(max = 6, min = 1)
+						If ($obj2.result == 1) {
+		AddEntityBuff(buffTime = 60, cfg = "myplugin/accelerate", entity = $obj2)
+	} ElseIf ($obj2.result == 2) {
+		AddEntityBuff(buffTime = 60, cfg = "myplugin/slow down", entity = $obj2)
+	} ElseIf ($obj2.result == 3) {
+		AddEntityBuff(buffTime = 60, cfg = "myplugin/gravity", entity = $obj2)
+	} ElseIf ($obj2.result == 4) {
+		AddEntityBuff(buffTime = 60, cfg = "myplugin/anti-gravity", entity = $obj2)
+	} ElseIf ($obj2.result == 5) {
+		AddItem(cfg = "myplugin/accelerate", count = 1, entity = $obj2, reason = "")
+	} ElseIf ($obj2.result == 6) {
+		AddItem(cfg = "myplugin/slow down", count = 1, entity = $obj2, reason = "")
+	}
+}

@@ -1,9 +1,0 @@
-PART_TOUCH_ENTITY_BEGIN {
-		If (ArrayGet(array = @platformList, index = 22) == 1) {
-		SetPartColor(color = [0.66666666666667, 1.0, 0.0, 1.0], part = $part1)
-	} ElseIf (ArrayGet(array = @platformList, index = 22) == 2) {
-		SetPartAlpha(alpha = 0.5, part = $part1)
-		SetPartUseCollide(part = $part1, useCollide = false)
-		AddEntityBuff(cfg = "myplugin/JumpDebuff", entity = $obj2)
-	}
-}

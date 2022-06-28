@@ -1,0 +1,31 @@
+{
+  "data": {
+    "canAbandon": true,
+    "candrop": true,
+    "canUse": true,
+    "icon": {
+      "asset": "asset/props/modeld_lollipop_01_blue.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemUse",
+        "time": {
+          "value": 60
+        },
+        "useBuff": "myplugin/anti-gravity"
+      },
+      "type": "Use"
+    },
+    "name": {
+      "value": "item_slow down"
+    },
+    "stack_count_max": 5
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "44c55e747d45b8d2c8c244d1cd53eaad",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

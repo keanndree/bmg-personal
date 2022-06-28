@@ -1,0 +1,26 @@
+{
+  "data": {
+    "moveFactor": -0.5,
+    "name": {
+      "value": "buff_slow down"
+    },
+    "replaceAction": [
+      {
+        "beReplacedAction": "run",
+        "replaceAction": "run2"
+      }
+    ],
+    "sound": {
+      "selfOnly": true,
+      "sound": {
+        "asset": "asset/music/slow down.mp3"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "814931ec96d33fbf6aa4ed21af8a35eb"
+    },
+    "VERSION": "0.21"
+  }
+}

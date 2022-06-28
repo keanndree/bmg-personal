@@ -1,0 +1,5 @@
+PART_TOUCH_ENTITY_BEGIN {
+	StartTimer2(interval = 20, time = 1, timer = "") {
+		DestoryPart(part = $part1)
+	}
+}

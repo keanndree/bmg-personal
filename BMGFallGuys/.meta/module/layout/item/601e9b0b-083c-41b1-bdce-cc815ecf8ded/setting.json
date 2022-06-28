@@ -1,115 +1,11 @@
 {
   "data": {
-    "md5": "a846fa51914352efa7a9addb9b81adac",
+    "md5": "b06670023690c89c2ea497f5a2f16bcb",
     "path": "asset/UI/CurrentGameInfo.layout",
     "root": {
-      "children": [
-        {
-          "__OBJ_TYPE": "StaticImage",
-          "anchor": {
-            "HorizontalAlignment": "Right"
-          },
-          "children": [
-            {
-              "__OBJ_TYPE": "StaticText",
-              "children": [
-                {
-                  "__OBJ_TYPE": "StaticText",
-                  "anchor": {
-                    "HorizontalAlignment": "Centre"
-                  },
-                  "Font": "HarmonyOS_Sans_SC_Black",
-                  "Font_size": 24,
-                  "HorzFormatting": "CentreAligned",
-                  "id": {
-                    "value": "ab24a9b5-874e-476c-9bf6-38ef0329aa35"
-                  },
-                  "name": "QualifiedText",
-                  "pos": {
-                    "UDim_Y": {
-                      "Scale": 1
-                    }
-                  },
-                  "size": {
-                    "UDim_X": {
-                      "Offect": 0,
-                      "Scale": 1
-                    },
-                    "UDim_Y": {
-                      "Offect": 0,
-                      "Scale": 1.5
-                    }
-                  },
-                  "Text": "0 / 2",
-                  "TextColours": {
-                    "b": 255,
-                    "g": 255,
-                    "r": 255
-                  },
-                  "VertFormatting": "CentreAligned"
-                }
-              ],
-              "Font": "HarmonyOS_Sans_SC_Black",
-              "Font_size": 16,
-              "HorzFormatting": "CentreAligned",
-              "id": {
-                "value": "80ee8fa1-5327-44e3-9a65-c11b78365205"
-              },
-              "name": "QualifiedTitleText",
-              "pos": {
-                "UDim_Y": {
-                  "Scale": 0.1
-                }
-              },
-              "size": {
-                "UDim_X": {
-                  "Offect": 0,
-                  "Scale": 1
-                },
-                "UDim_Y": {
-                  "Offect": 0,
-                  "Scale": 0.32
-                }
-              },
-              "Text": "QUALIFIED",
-              "TextColours": {
-                "b": 255,
-                "g": 255,
-                "r": 255
-              }
-            }
-          ],
-          "id": {
-            "value": "a81191b6-ffbc-4861-be20-b51c2514812c"
-          },
-          "Image": {
-            "asset": "asset/Sprite/QualifiedUI.png"
-          },
-          "name": "QualifiedBG",
-          "pos": {
-            "UDim_X": {
-              "Scale": 0.03
-            },
-            "UDim_Y": {
-              "Scale": 0.25
-            }
-          },
-          "size": {
-            "UDim_X": {
-              "Offect": 0,
-              "Scale": 0.21
-            },
-            "UDim_Y": {
-              "Offect": 0,
-              "Scale": 0.12
-            }
-          }
-        }
-      ],
       "id": {
         "value": "bbf02491-34db-4642-81b9-d15dfba8219d"
       },
-      "MousePassThroughEnabled": true,
       "pos": {
         "UDim_X": {
           "Offect": -1.1246707439423
@@ -117,21 +13,22 @@
       },
       "size": {
         "UDim_X": {
-          "Offect": 0.0,
+          "Offect": 0,
           "Scale": 1
         },
         "UDim_Y": {
           "Offect": 0,
           "Scale": 1
         }
-      }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
     }
   },
   "meta": {
     "EXPORT": {
-      "layout": "a846fa51914352efa7a9addb9b81adac",
+      "layout": "b06670023690c89c2ea497f5a2f16bcb",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }
