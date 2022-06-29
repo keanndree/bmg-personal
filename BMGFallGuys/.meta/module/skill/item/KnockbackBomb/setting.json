@@ -2,11 +2,12 @@
   "data": {
     "cdAnimation": "Clockwise",
     "cdTime": {
-      "value": 100
+      "value": 60
     },
     "enableCdMask": true,
     "FillPosition": "Top_With360Degree",
     "FillType": "With360Degree",
+    "frontSight": "myplugin/frontsight1",
     "name": {
       "value": "skill_KnockbackBomb"
     },
@@ -17,7 +18,10 @@
           {
             "missileCfg": "myplugin/KnockBomb"
           }
-        ]
+        ],
+        "target": {
+          "type": "Camera"
+        }
       },
       "type": "Missile"
     },
@@ -32,7 +36,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "0a25bdca582a35204632cc3e01c11056",
+      "setting.json": "ae02eb55388d3979f4685a5d6746b5a7",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

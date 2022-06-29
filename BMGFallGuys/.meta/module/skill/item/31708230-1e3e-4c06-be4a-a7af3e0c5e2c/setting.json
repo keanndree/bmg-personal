@@ -1,0 +1,43 @@
+{
+  "data": {
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 40
+    },
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_31708230-1e3e-4c06-be4a-a7af3e0c5e2c"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/PullHook"
+          }
+        ],
+        "target": {
+          "type": "Camera"
+        }
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/UI/HookIcon.png"
+      },
+      "iconPos": {
+        "area_number": 9
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "425b9c107848edecce7bd6d743a11f79",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

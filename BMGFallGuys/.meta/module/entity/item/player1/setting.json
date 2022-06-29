@@ -28,7 +28,6 @@
       "1",
       "2"
     ],
-    "hideHp": false,
     "isPlayer": true,
     "jumpSpeed": 16,
     "maxHp": 1,
@@ -40,7 +39,8 @@
       "value": 40
     },
     "skill": [
-      "myplugin/KnockbackBomb"
+      "myplugin/KnockbackBomb",
+      "myplugin/31708230-1e3e-4c06-be4a-a7af3e0c5e2c"
     ],
     "triggers": {
       "list": [
@@ -71,7 +71,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "28038a765416c654d86bd9d5742b1f08",
+      "setting.json": "9de653285290620f4daca30e761c2724",
       "triggers.bts": "b6bc7ed29d33f0b4ea3afe435c1494f4"
     },
     "VERSION": "0.21"

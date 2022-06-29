@@ -34,7 +34,7 @@
     "horizontalAlignment": 1,
     "verticalAlignment": 1
   },
-  "cdTime": 100,
+  "cdTime": 60,
   "consumeVp": 0,
   "customizeSkill": true,
   "draggingEnabled": false,
@@ -44,7 +44,7 @@
   "enableCdTip": false,
   "enableMoveBrkBackS": false,
   "enableMoveBrkPreS": false,
-  "frontSight": "",
+  "frontSight": "myplugin/frontsight1",
   "horizontalAlignment": 2,
   "icon": "@asset/UI/BombIcon.png",
   "ignoreCastSkillBackS": false,
@@ -82,7 +82,7 @@
     0
   ],
   "sustainAction": "",
-  "targetType": "Any",
+  "targetType": "Camera",
   "type": "Missile",
   "verticalAlignment": 2
 }

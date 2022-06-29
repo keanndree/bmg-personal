@@ -1,6 +1,6 @@
 {
-  "automatch": false,
-  "bagCap": 9,
+  "automatch": true,
+  "bagCap": 0,
   "cameraCfg": {
     "canSwitchView": false,
     "defaultPitch": 0,
@@ -74,7 +74,7 @@
     "useDragControl": true
   },
   "editorFovAngle": 65,
-  "enableNewLighting": false,
+  "enableNewLighting": true,
   "engineDefUIEnable": {
     "actionControl": true,
     "actionControlMode": "flexibleDragControl",
@@ -124,7 +124,7 @@
     },
     "useGroup": "_imagesets_"
   },
-  "maxPlayers": 12,
+  "maxPlayers": 8,
   "minPlayers": 1,
   "moveStateConfig": {
     "isShow": false
@@ -234,8 +234,57 @@
       "z": -16
     }
   ],
-  "team": [],
-  "teammateHurt": true,
+  "team": [
+    {
+      "actorName": "asset/Actor/charactor/charactor_boy/character_boy.actor",
+      "id": 1,
+      "ignorePlayerSkin": true,
+      "image": "asset/Texture/Team/flag/flag_8.png",
+      "initPos": {
+        "map": "map001",
+        "x": 0.042635839432478,
+        "y": 0.29000858306885,
+        "z": -15.96834564209
+      },
+      "mainTeamImageBg": "",
+      "mainTeamImageFrame": "flag_textures/flag_frame",
+      "memberLimit": 4,
+      "name": "blue",
+      "startPos": [
+        {
+          "map": "map001",
+          "x": -0.056006900966167,
+          "y": 0.29010108947754,
+          "z": -16.410406112671
+        }
+      ]
+    },
+    {
+      "actorName": "asset/Actor/charactor/charactor_boy/character_boy.actor",
+      "id": 2,
+      "ignorePlayerSkin": true,
+      "image": "asset/Texture/Team/flag/flag_1.png",
+      "initPos": {
+        "map": "map001",
+        "x": -1.0575616359711,
+        "y": 0.29003337860107,
+        "z": 49.136127471924
+      },
+      "mainTeamImageBg": "",
+      "mainTeamImageFrame": "flag_textures/flag_frame",
+      "memberLimit": 4,
+      "name": "red",
+      "startPos": [
+        {
+          "map": "map001",
+          "x": -0.78290063142776,
+          "y": 0.29028514862061,
+          "z": 49.479843139648
+        }
+      ]
+    }
+  ],
+  "teammateHurt": false,
   "topTeamInfo": {
     "teamDieIcon": "flag_textures/flag_die",
     "teamDieIconArea": [

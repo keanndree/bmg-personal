@@ -1,8 +1,10 @@
 {
   "data": {
+    "bagCap": 0,
     "canJoinMidway": false,
     "canSwitchView": false,
     "defaultView": "Back",
+    "enableNewLighting": true,
     "fixed_viewPos": {
       "pos": {
         "__OBJ_TYPE": "Vector3i"
@@ -20,7 +22,7 @@
       "m": 40
     },
     "player_range": {
-      "max": 12,
+      "max": 8,
       "min": 1
     },
     "startPos": {
@@ -32,7 +34,57 @@
       }
     },
     "team": {
-      "teammateHurt": true
+      "automatch": true,
+      "team": [
+        {
+          "image": {
+            "asset": "asset/Texture/Team/flag/flag_8.png",
+            "selector": "editor/BMGFallGuys/asset/Texture/Team/flag/flag_8.png"
+          },
+          "initPos": {
+            "map": "map001",
+            "pos": {
+              "x": 0.042635839432478,
+              "y": 0.29000858306885,
+              "z": -15.96834564209
+            }
+          },
+          "memberLimit": 4,
+          "name": "blue",
+          "startPos": {
+            "map": "map001",
+            "pos": {
+              "x": -0.056006900966167,
+              "y": 0.29010108947754,
+              "z": -16.410406112671
+            }
+          }
+        },
+        {
+          "id": 2,
+          "image": {
+            "selector": "editor/BMGFallGuys/asset/Texture/Team/flag/flag_1.png"
+          },
+          "initPos": {
+            "map": "map001",
+            "pos": {
+              "x": -1.0575616359711,
+              "y": 0.29003337860107,
+              "z": 49.136127471924
+            }
+          },
+          "memberLimit": 4,
+          "name": "red",
+          "startPos": {
+            "map": "map001",
+            "pos": {
+              "x": -0.78290063142776,
+              "y": 0.29028514862061,
+              "z": 49.479843139648
+            }
+          }
+        }
+      ]
     },
     "triggers": {
       "list": [
@@ -446,7 +498,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "e00bbe0e6c64a08d222785fee9b3ef60",
+      "setting.json": "639830ae15981efaa4d3161483d8d95b",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "110e96b264c71f8d2d9fa5b082fd7007",
       "triggers_client.bts": ""

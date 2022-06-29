@@ -1,14 +1,29 @@
 {
   "data": {
+    "boundingVolume": {
+      "memory": {
+        "Sphere": "1.800000-0.450000"
+      }
+    },
     "hitCount": {
       "hitEntityCount": 1,
       "isValid": true
     },
+    "hitEntityEffect": {
+      "effect": {
+        "asset": "asset/custom_effect/Explode.effect"
+      },
+      "once": true
+    },
     "hitEntitySkill": "myplugin/PushPlayer",
+    "lifeTime": {
+      "value": 60
+    },
     "missileModel": {
       "modelMesh": {
-        "asset": "asset/Mesh/Environment/roundedTriangle/RoundedTriangle.mesh"
-      }
+        "asset": "asset/Mesh/Environment/bomb/bomb.mesh"
+      },
+      "type": "mesh"
     },
     "name": {
       "value": "missile_KnockBomb"
@@ -16,7 +31,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "2ce1c9b72981967aadaac9b92ed57f0b",
+      "setting.json": "a5ff2ebb204e7d8b2e26124d5a6df37c",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

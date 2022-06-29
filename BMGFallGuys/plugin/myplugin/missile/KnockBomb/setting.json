@@ -28,6 +28,21 @@
   },
   "gravity": 0.0,
   "hitEntityCount": 1,
+  "hitEntityEffect": {
+    "effect": "@asset/custom_effect/Explode.effect",
+    "once": true,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "yaw": 0
+  },
   "hitEntitySkill": "myplugin/PushPlayer",
   "hitEntitysRoles": [
     "hitAllTeam",
@@ -36,10 +51,11 @@
   ],
   "hitInterval": 10,
   "isPitch": true,
-  "lifeTime": 100,
+  "lifeTime": 60,
   "lockRotateBodyPitch": 0,
   "lockRotateBodyRoll": 0,
   "lockRotateBodyYaw": 0,
+  "modelMesh": "asset/Mesh/Environment/bomb/bomb.mesh",
   "moveAcc": 0.0,
   "moveSpeed": 2.0,
   "rotateFree": true,
