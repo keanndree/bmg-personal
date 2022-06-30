@@ -17,7 +17,7 @@
     },
     "hitEntitySkill": "myplugin/PushPlayer",
     "lifeTime": {
-      "value": 60
+      "value": 40
     },
     "missileModel": {
       "modelMesh": {
@@ -27,11 +27,12 @@
     },
     "name": {
       "value": "missile_KnockBomb"
-    }
+    },
+    "target_team": "hitOtherTeam"
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a5ff2ebb204e7d8b2e26124d5a6df37c",
+      "setting.json": "9760df1d251900ef7204dd5e220f9d22",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

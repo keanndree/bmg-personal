@@ -4,28 +4,22 @@
       "base": {
         "__OBJ_TYPE": "SkyBoxStatic",
         "back": {
-          "asset": "asset/sky_box/Sky_back.png",
-          "selector": "editor/Parkour/asset/sky_box/Sky_back.png"
+          "asset": "asset/sky_box/Sky_back.png"
         },
         "bottom": {
-          "asset": "asset/sky_box/Sky_bottom.png",
-          "selector": "editor/Parkour/asset/sky_box/Sky_bottom.png"
+          "asset": "asset/sky_box/Sky_bottom.png"
         },
         "front": {
-          "asset": "asset/sky_box/Sky_front.png",
-          "selector": "editor/Parkour/asset/sky_box/Sky_front.png"
+          "asset": "asset/sky_box/Sky_front.png"
         },
         "left": {
-          "asset": "asset/sky_box/Sky_left.png",
-          "selector": "editor/Parkour/asset/sky_box/Sky_left.png"
+          "asset": "asset/sky_box/Sky_left.png"
         },
         "right": {
-          "asset": "asset/sky_box/Sky_right.png",
-          "selector": "editor/Parkour/asset/sky_box/Sky_right.png"
+          "asset": "asset/sky_box/Sky_right.png"
         },
         "top": {
-          "asset": "asset/sky_box/Sky_top.png",
-          "selector": "editor/Parkour/asset/sky_box/Sky_top.png"
+          "asset": "asset/sky_box/Sky_top.png"
         }
       }
     },
@@ -34,6 +28,13 @@
         "__OBJ_TYPE": "Instance_VoxelTerrain",
         "id": "26644713697705985",
         "uniqueKey": "map001"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8694296944904388609",
+        "ID": 1,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -51,11 +52,11 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8320554852331683841",
-        "mass": 10.560000419617,
         "material": {
           "color": {
-            "g": 171
-          }
+            "g": 172
+          },
+          "discardAlpha": 1
         },
         "name": "Respawn Point",
         "position": {
@@ -74,8 +75,7 @@
           "y": 0.3,
           "z": 4
         },
-        "useAnchor": true,
-        "volume": 4.8000001907349
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -93,11 +93,11 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8320562855976173569",
-        "mass": 10.560000419617,
         "material": {
           "color": {
-            "g": 171
-          }
+            "g": 172
+          },
+          "discardAlpha": 1
         },
         "name": "Respawn Point",
         "position": {
@@ -116,8 +116,7 @@
           "y": 0.3,
           "z": 4
         },
-        "useAnchor": true,
-        "volume": 4.8000001907349
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -135,11 +134,11 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8320628695808589825",
-        "mass": 10.560000419617,
         "material": {
           "color": {
-            "g": 171
-          }
+            "g": 172
+          },
+          "discardAlpha": 1
         },
         "name": "Respawn Point",
         "position": {
@@ -158,8 +157,7 @@
           "y": 0.3,
           "z": 4
         },
-        "useAnchor": true,
-        "volume": 4.8000001907349
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -177,11 +175,11 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8320932092523347969",
-        "mass": 10.560000419617,
         "material": {
           "color": {
-            "g": 171
-          }
+            "g": 172
+          },
+          "discardAlpha": 1
         },
         "name": "Respawn Point",
         "position": {
@@ -203,8 +201,7 @@
           "y": 0.3,
           "z": 4
         },
-        "useAnchor": true,
-        "volume": 4.8000001907349
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -222,11 +219,11 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8320963623960444929",
-        "mass": 10.560000419617,
         "material": {
           "color": {
-            "g": 171
-          }
+            "g": 172
+          },
+          "discardAlpha": 1
         },
         "name": "Respawn Point",
         "position": {
@@ -248,8 +245,7 @@
           "y": 0.3,
           "z": 4
         },
-        "useAnchor": true,
-        "volume": 4.8000001907349
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -267,7 +263,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8326337725282172929",
-        "mass": 207.77889862061,
+        "material": {
+          "discardAlpha": 1
+        },
         "name": "prepare",
         "position": {
           "x": 13.027819633484,
@@ -288,8 +286,7 @@
           "y": 0.3,
           "z": 17.5041
         },
-        "useAnchor": true,
-        "volume": 94.444953918457
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Entity",
@@ -326,11 +323,11 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8333244967944536065",
-        "mass": 10.560000419617,
         "material": {
           "color": {
-            "g": 171
-          }
+            "g": 172
+          },
+          "discardAlpha": 1
         },
         "name": "Respawn Point",
         "position": {
@@ -352,8 +349,7 @@
           "y": 0.3,
           "z": 4
         },
-        "useAnchor": true,
-        "volume": 4.8000001907349
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -371,11 +367,11 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8333719907733979137",
-        "mass": 10.560000419617,
         "material": {
           "color": {
-            "g": 171
-          }
+            "g": 172
+          },
+          "discardAlpha": 1
         },
         "name": "Respawn Point",
         "position": {
@@ -397,8 +393,7 @@
           "y": 0.3,
           "z": 4
         },
-        "useAnchor": true,
-        "volume": 4.8000001907349
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Entity",
@@ -463,7 +458,7 @@
           {
             "__OBJ_TYPE": "Instance_Decal",
             "decalColor": {
-              "g": 171
+              "g": 172
             },
             "decalSurface": "4",
             "decalTexture": {
@@ -475,11 +470,11 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8336145454109048833",
-        "mass": 10.560000419617,
         "material": {
           "color": {
-            "g": 171
-          }
+            "g": 172
+          },
+          "discardAlpha": 1
         },
         "name": "destination",
         "position": {
@@ -501,8 +496,7 @@
           "y": 0.3,
           "z": 4
         },
-        "useAnchor": true,
-        "volume": 4.8000001907349
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -532,11 +526,11 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8337913991990804481",
-        "mass": 10.560000419617,
         "material": {
           "color": {
-            "g": 171
-          }
+            "g": 172
+          },
+          "discardAlpha": 1
         },
         "name": "Respawn Point",
         "position": {
@@ -558,8 +552,7 @@
           "y": 0.3,
           "z": 4
         },
-        "useAnchor": true,
-        "volume": 4.8000001907349
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Entity",
@@ -694,13 +687,13 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8373178249365618689",
-        "mass": 26.599290657043,
         "material": {
           "color": {
             "b": 0,
             "g": 0,
             "r": 0
-          }
+          },
+          "discardAlpha": 1
         },
         "name": "starttime",
         "position": {
@@ -722,8 +715,7 @@
           "y": 0.3,
           "z": 14.2134
         },
-        "useAnchor": true,
-        "volume": 12.090586662292
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Model",
@@ -752,12 +744,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8320596276307902465",
-            "mass": 2.6400001049042,
             "material": {
               "color": {
                 "b": 0,
                 "r": 174
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "platform",
             "position": {
@@ -776,8 +768,7 @@
               "y": 0.3,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 1.2000000476837
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -795,12 +786,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8383245909840723969",
-            "mass": 2.6400001049042,
             "material": {
               "color": {
                 "b": 0,
                 "r": 174
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "platform",
             "position": {
@@ -819,8 +810,7 @@
               "y": 0.3,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 1.2000000476837
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -838,12 +828,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8383246009669124097",
-            "mass": 2.6400001049042,
             "material": {
               "color": {
                 "b": 0,
                 "r": 174
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "platform",
             "position": {
@@ -862,8 +852,7 @@
               "y": 0.3,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 1.2000000476837
+            "useAnchor": true
           }
         ],
         "id": "8412654413701218305",
@@ -883,7 +872,9 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8329476592690200577",
-            "mass": 0.275,
+            "material": {
+              "discardAlpha": 1
+            },
             "position": {
               "x": 13.609125137329,
               "y": 31.840002059937,
@@ -900,8 +891,7 @@
               "y": 0.5,
               "z": 0.5
             },
-            "useAnchor": true,
-            "volume": 0.125
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -919,12 +909,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8320512185189007361",
-            "mass": 17.954244613647,
             "material": {
               "color": {
-                "g": 171,
-                "r": 171
-              }
+                "g": 172,
+                "r": 172
+              },
+              "discardAlpha": 1
             },
             "name": "platform",
             "position": {
@@ -943,8 +933,7 @@
               "y": 0.3,
               "z": 13.6017
             },
-            "useAnchor": true,
-            "volume": 8.1610202789307
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -952,7 +941,9 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8329476592687104001",
-            "mass": 0.275,
+            "material": {
+              "discardAlpha": 1
+            },
             "position": {
               "x": 18.029140472412,
               "y": 31.840002059937,
@@ -970,8 +961,7 @@
               "z": 0.5
             },
             "useAnchor": true,
-            "useCollide": false,
-            "volume": 0.125
+            "useCollide": false
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -979,14 +969,14 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8320515476837875713",
-            "mass": 0.67192094326019,
             "material": {
               "alpha": 0,
               "color": {
                 "b": 0,
                 "g": 0,
                 "r": 174
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "kill",
             "position": {
@@ -1005,8 +995,7 @@
               "y": 0.3,
               "z": 0.509031
             },
-            "useAnchor": true,
-            "volume": 0.30541861057281
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1014,7 +1003,9 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8329482883266363393",
-            "mass": 0.275,
+            "material": {
+              "discardAlpha": 1
+            },
             "position": {
               "x": 18.092769622803,
               "y": 31.840002059937,
@@ -1037,8 +1028,7 @@
               "z": 0.5
             },
             "useAnchor": true,
-            "useCollide": false,
-            "volume": 0.125
+            "useCollide": false
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1046,14 +1036,14 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8320515719770030081",
-            "mass": 0.30015084147453,
             "material": {
               "alpha": 0,
               "color": {
                 "b": 0,
                 "g": 0,
                 "r": 174
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "kill",
             "position": {
@@ -1073,8 +1063,7 @@
               "y": 0.3,
               "z": 0.454774
             },
-            "useAnchor": true,
-            "volume": 0.13643220067024
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1082,14 +1071,14 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8320514620712386561",
-            "mass": 0.28744983077049,
             "material": {
               "alpha": 0,
               "color": {
                 "b": 0,
                 "g": 0,
                 "r": 174
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "kill",
             "position": {
@@ -1109,8 +1098,7 @@
               "y": 0.3,
               "z": 0.43553
             },
-            "useAnchor": true,
-            "volume": 0.13065901398659
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1118,7 +1106,9 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8329482883263479809",
-            "mass": 0.275,
+            "material": {
+              "discardAlpha": 1
+            },
             "position": {
               "x": 13.647343635559,
               "y": 31.840007781982,
@@ -1140,8 +1130,7 @@
               "y": 0.5,
               "z": 0.5
             },
-            "useAnchor": true,
-            "volume": 0.125
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1149,7 +1138,9 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8329475915763793921",
-            "mass": 0.275,
+            "material": {
+              "discardAlpha": 1
+            },
             "position": {
               "x": 13.609125137329,
               "y": 31.840002059937,
@@ -1166,8 +1157,7 @@
               "y": 0.5,
               "z": 0.5
             },
-            "useAnchor": true,
-            "volume": 0.125
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1175,7 +1165,9 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8329475915760861185",
-            "mass": 0.275,
+            "material": {
+              "discardAlpha": 1
+            },
             "position": {
               "x": 18.029140472412,
               "y": 31.840002059937,
@@ -1193,8 +1185,7 @@
               "z": 0.5
             },
             "useAnchor": true,
-            "useCollide": false,
-            "volume": 0.125
+            "useCollide": false
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1202,14 +1193,14 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8337946120580415489",
-            "mass": 0.67192094326019,
             "material": {
               "alpha": 0,
               "color": {
                 "b": 0,
                 "g": 0,
                 "r": 174
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "kill",
             "position": {
@@ -1228,8 +1219,7 @@
               "y": 0.3,
               "z": 0.509031
             },
-            "useAnchor": true,
-            "volume": 0.30541861057281
+            "useAnchor": true
           }
         ],
         "id": "8412654843867185153",
@@ -1249,12 +1239,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8320584303153119233",
-            "mass": 2.6400001049042,
             "material": {
               "color": {
                 "b": 0,
-                "g": 171
-              }
+                "g": 172
+              },
+              "discardAlpha": 1
             },
             "name": "jump",
             "position": {
@@ -1273,8 +1263,7 @@
               "y": 0.3,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 1.2000000476837
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1282,12 +1271,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8321166242828812289",
-            "mass": 2.6400001049042,
             "material": {
               "color": {
                 "b": 0,
-                "g": 171
-              }
+                "g": 172
+              },
+              "discardAlpha": 1
             },
             "name": "jump",
             "position": {
@@ -1306,8 +1295,7 @@
               "y": 0.3,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 1.2000000476837
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1315,12 +1303,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8321166474550427649",
-            "mass": 2.6400001049042,
             "material": {
               "color": {
                 "b": 0,
-                "g": 171
-              }
+                "g": 172
+              },
+              "discardAlpha": 1
             },
             "name": "jump",
             "position": {
@@ -1339,8 +1327,7 @@
               "y": 0.3,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 1.2000000476837
+            "useAnchor": true
           }
         ],
         "id": "8412655232709722113",
@@ -1373,12 +1360,12 @@
             "lineVelocity": {
               "x": 3
             },
-            "mass": 15.055563926697,
             "material": {
               "color": {
-                "g": 171,
+                "g": 172,
                 "r": 0
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "after",
             "position": {
@@ -1400,8 +1387,7 @@
               "y": 0.3,
               "z": 3.54765
             },
-            "useAnchor": true,
-            "volume": 6.8434381484985
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1422,13 +1408,13 @@
             "lineVelocity": {
               "x": -4
             },
-            "mass": 20.521577072144,
             "material": {
               "alpha": 0.9,
               "color": {
-                "g": 171,
+                "g": 172,
                 "r": 0
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "before",
             "position": {
@@ -1447,8 +1433,7 @@
               "y": 0.3,
               "z": 3.10933
             },
-            "useAnchor": true,
-            "volume": 9.3279895782471
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1470,12 +1455,12 @@
             "lineVelocity": {
               "z": 4
             },
-            "mass": 12.474573993683,
             "material": {
               "color": {
-                "g": 171,
+                "g": 172,
                 "r": 0
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "left",
             "position": {
@@ -1497,8 +1482,7 @@
               "y": 0.3,
               "z": 3.15015
             },
-            "useAnchor": true,
-            "volume": 5.6702609062195
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1519,12 +1503,12 @@
             "lineVelocity": {
               "z": -4
             },
-            "mass": 11.852063179016,
             "material": {
               "color": {
-                "g": 171,
+                "g": 172,
                 "r": 0
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "right",
             "position": {
@@ -1546,8 +1530,7 @@
               "y": 0.3,
               "z": 2.99295
             },
-            "useAnchor": true,
-            "volume": 5.3873014450073
+            "useAnchor": true
           }
         ],
         "id": "8412655359098044417",
@@ -1580,11 +1563,11 @@
               "y": 20,
               "z": 60
             },
-            "mass": 2.6400001049042,
             "material": {
               "color": {
-                "r": 171
-              }
+                "r": 172
+              },
+              "discardAlpha": 1
             },
             "name": "Trampoline",
             "position": {
@@ -1606,8 +1589,7 @@
               "y": 0.3,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 1.2000000476837
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1628,11 +1610,11 @@
               "y": 20,
               "z": -60
             },
-            "mass": 2.6400001049042,
             "material": {
               "color": {
-                "r": 171
-              }
+                "r": 172
+              },
+              "discardAlpha": 1
             },
             "name": "Trampoline",
             "position": {
@@ -1654,8 +1636,7 @@
               "y": 0.3,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 1.2000000476837
+            "useAnchor": true
           }
         ],
         "id": "8412655795455852545",
@@ -1675,11 +1656,11 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8320958761840738305",
-            "mass": 18.651601409912,
             "material": {
               "color": {
                 "r": 0
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "whirl",
             "position": {
@@ -1698,8 +1679,7 @@
               "x": 6,
               "y": 0.3,
               "z": 6
-            },
-            "volume": 8.4780006408691
+            }
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1717,9 +1697,9 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8320958761840066561",
-            "mass": 10.560000419617,
             "material": {
-              "alpha": 0
+              "alpha": 0,
+              "discardAlpha": 1
             },
             "position": {
               "x": -43.550743103027,
@@ -1739,8 +1719,7 @@
             },
             "useAnchor": true,
             "useCollide": false,
-            "useGravity": false,
-            "volume": 4.8000001907349
+            "useGravity": false
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1748,11 +1727,11 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8320887785898082305",
-            "mass": 18.651601409912,
             "material": {
               "color": {
-                "g": 171
+                "g": 172
               },
+              "discardAlpha": 1,
               "offset": {
                 "x": 2
               }
@@ -1774,8 +1753,7 @@
               "x": 6,
               "y": 0.3,
               "z": 6
-            },
-            "volume": 8.4780006408691
+            }
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1793,9 +1771,9 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8320947108698144769",
-            "mass": 10.560000419617,
             "material": {
-              "alpha": 0
+              "alpha": 0,
+              "discardAlpha": 1
             },
             "position": {
               "x": -43.550743103027,
@@ -1815,8 +1793,7 @@
             },
             "useAnchor": true,
             "useCollide": false,
-            "useGravity": false,
-            "volume": 4.8000001907349
+            "useGravity": false
           }
         ],
         "id": "8412656066324791297",
@@ -1836,7 +1813,9 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8333269533922918401",
-            "mass": 11.884778594971,
+            "material": {
+              "discardAlpha": 1
+            },
             "position": {
               "x": -41.852630615234,
               "y": 34.729991912842,
@@ -1857,8 +1836,7 @@
               "z": 2
             },
             "useAnchor": true,
-            "useCollide": false,
-            "volume": 5.402172088623
+            "useCollide": false
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1876,13 +1854,13 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8333262870487547905",
-            "mass": 8.9567278862,
             "material": {
               "color": {
                 "b": 204,
                 "g": 197,
-                "r": 80
-              }
+                "r": 81
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": -43.352630615234,
@@ -1903,8 +1881,7 @@
               "y": 0.3,
               "z": 5
             },
-            "useAnchor": true,
-            "volume": 4.0712399482727
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1912,12 +1889,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8333271579520040961",
-            "mass": 11.884778594971,
             "material": {
               "color": {
-                "b": 231,
-                "r": 190
-              }
+                "b": 232,
+                "r": 191
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": -44.852630615234,
@@ -1938,8 +1915,7 @@
               "y": 0.3,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 5.402172088623
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1947,7 +1923,9 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8333257983889031169",
-            "mass": 5.2800002098083,
+            "material": {
+              "discardAlpha": 1
+            },
             "position": {
               "x": -41.846843719482,
               "y": 36.879993438721,
@@ -1968,8 +1946,7 @@
               "z": 2
             },
             "useAnchor": true,
-            "useCollide": false,
-            "volume": 2.4000000953674
+            "useCollide": false
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1977,13 +1954,13 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8333259438811447297",
-            "mass": 2.6400001049042,
             "material": {
               "color": {
                 "b": 204,
                 "g": 195,
-                "r": 80
-              }
+                "r": 81
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": -43.346839904785,
@@ -2002,8 +1979,7 @@
               "x": 0.3,
               "y": 4
             },
-            "useAnchor": true,
-            "volume": 1.2000000476837
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -2011,12 +1987,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8333260454540443649",
-            "mass": 5.2800002098083,
             "material": {
               "color": {
-                "b": 231,
-                "r": 190
-              }
+                "b": 232,
+                "r": 191
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": -44.846839904785,
@@ -2038,8 +2014,7 @@
               "z": 2
             },
             "useAnchor": true,
-            "useCollide": false,
-            "volume": 2.4000000953674
+            "useCollide": false
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -2065,13 +2040,13 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8333256221085384705",
-            "mass": 9.9,
             "material": {
               "color": {
                 "b": 204,
                 "g": 197,
-                "r": 80
-              }
+                "r": 81
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": -43.352630615234,
@@ -2092,8 +2067,7 @@
               "y": 0.3,
               "z": 5
             },
-            "useAnchor": true,
-            "volume": 4.5
+            "useAnchor": true
           }
         ],
         "id": "8412656393346596865",
@@ -2125,11 +2099,11 @@
             "lineVelocity": {
               "z": -2.5
             },
-            "mass": 30.929594421387,
             "material": {
               "color": {
                 "r": 0
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "after",
             "position": {
@@ -2151,8 +2125,7 @@
               "y": 0.2,
               "z": 3.90226
             },
-            "useAnchor": true,
-            "volume": 14.058906555176
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -2170,11 +2143,11 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8383274251504517121",
-            "mass": 5.9400001049042,
             "material": {
               "color": {
-                "g": 171
-              }
+                "g": 172
+              },
+              "discardAlpha": 1
             },
             "name": "brick",
             "position": {
@@ -2196,8 +2169,7 @@
               "y": 0.3,
               "z": 3
             },
-            "useAnchor": true,
-            "volume": 2.7000000476837
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -2215,11 +2187,11 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8383274441580052481",
-            "mass": 5.9400001049042,
             "material": {
               "color": {
-                "g": 171
-              }
+                "g": 172
+              },
+              "discardAlpha": 1
             },
             "name": "brick",
             "position": {
@@ -2241,8 +2213,7 @@
               "y": 0.3,
               "z": 3
             },
-            "useAnchor": true,
-            "volume": 2.7000000476837
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -2260,11 +2231,11 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8383274100884832257",
-            "mass": 5.9400001049042,
             "material": {
               "color": {
-                "g": 171
-              }
+                "g": 172
+              },
+              "discardAlpha": 1
             },
             "name": "brick",
             "position": {
@@ -2286,8 +2257,7 @@
               "y": 0.3,
               "z": 3
             },
-            "useAnchor": true,
-            "volume": 2.7000000476837
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -2305,11 +2275,11 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8383274441566633985",
-            "mass": 5.9400001049042,
             "material": {
               "color": {
-                "g": 171
-              }
+                "g": 172
+              },
+              "discardAlpha": 1
             },
             "name": "brick",
             "position": {
@@ -2331,8 +2301,7 @@
               "y": 0.3,
               "z": 3
             },
-            "useAnchor": true,
-            "volume": 2.7000000476837
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -2352,11 +2321,11 @@
             "lineVelocity": {
               "z": -2.5
             },
-            "mass": 28.014896965027,
             "material": {
               "color": {
                 "r": 0
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "after",
             "position": {
@@ -2378,8 +2347,7 @@
               "y": 0.2,
               "z": 3.90227
             },
-            "useAnchor": true,
-            "volume": 12.734044075012
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -2401,11 +2369,11 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8333670195985006593",
-            "mass": 5.9400001049042,
             "material": {
               "color": {
-                "g": 171
-              }
+                "g": 172
+              },
+              "discardAlpha": 1
             },
             "name": "brick",
             "position": {
@@ -2427,8 +2395,7 @@
               "y": 0.3,
               "z": 3
             },
-            "useAnchor": true,
-            "volume": 2.7000000476837
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -2436,8 +2403,8 @@
             "density": 0.9,
             "friction": 0.022,
             "id": "8333717069248397313",
-            "mass": 0.94841666221619,
             "material": {
+              "discardAlpha": 1,
               "texture": "part_bingkuai.tga"
             },
             "position": {
@@ -2456,8 +2423,7 @@
               "y": 0.887868,
               "z": 0.3
             },
-            "useAnchor": true,
-            "volume": 1.0537962913513
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -2475,11 +2441,11 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8383274441573220353",
-            "mass": 5.9400001049042,
             "material": {
               "color": {
-                "g": 171
-              }
+                "g": 172
+              },
+              "discardAlpha": 1
             },
             "name": "brick",
             "position": {
@@ -2501,8 +2467,7 @@
               "y": 0.3,
               "z": 3
             },
-            "useAnchor": true,
-            "volume": 2.7000000476837
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -2510,8 +2475,8 @@
             "density": 0.9,
             "friction": 0.022,
             "id": "8333719611470823425",
-            "mass": 0.94841666221619,
             "material": {
+              "discardAlpha": 1,
               "texture": "part_bingkuai.tga"
             },
             "position": {
@@ -2530,8 +2495,7 @@
               "y": 0.887868,
               "z": 0.3
             },
-            "useAnchor": true,
-            "volume": 1.0537962913513
+            "useAnchor": true
           }
         ],
         "id": "8412656605064151041",
@@ -2551,8 +2515,8 @@
             "density": 0.9,
             "friction": 0.022,
             "id": "8329310509256687617",
-            "mass": 1.2914777398109,
             "material": {
+              "discardAlpha": 1,
               "texture": "part_bingkuai.tga"
             },
             "name": "wall",
@@ -2577,8 +2541,7 @@
               "z": 1.40705
             },
             "useAnchor": true,
-            "useCollide": false,
-            "volume": 1.4349752664566
+            "useCollide": false
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -2600,12 +2563,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8329309534326112257",
-            "mass": 10.124625015259,
             "material": {
               "color": {
                 "g": 0,
                 "r": 0
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "platform",
             "position": {
@@ -2624,8 +2587,7 @@
               "y": 0.2,
               "z": 3
             },
-            "useAnchor": true,
-            "volume": 4.6021022796631
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -2633,12 +2595,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8383282751448645633",
-            "mass": 2.3581669092178,
             "material": {
               "alpha": 0,
               "color": {
                 "b": 0
-              }
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": -33.03536605835,
@@ -2656,8 +2618,7 @@
               "y": 0.501904,
               "z": 2.81835
             },
-            "useAnchor": true,
-            "volume": 1.0718940496445
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -2672,13 +2633,13 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8329356374717890561",
-            "mass": 0.012548473477364,
             "material": {
               "color": {
                 "b": 0,
                 "g": 0,
                 "r": 0
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "fire3",
             "position": {
@@ -2701,8 +2662,7 @@
               "x": 0.190605,
               "y": 0.2,
               "z": 0.190605
-            },
-            "volume": 0.0057038515806198
+            }
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -2710,12 +2670,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8336481085128966145",
-            "mass": 1.818130838871,
             "material": {
               "alpha": 0,
               "color": {
                 "b": 0
-              }
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": -37.079483032227,
@@ -2733,8 +2693,7 @@
               "y": 0.501904,
               "z": 2.81835
             },
-            "useAnchor": true,
-            "volume": 0.82642310857773
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -2749,13 +2708,13 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8329353825547124737",
-            "mass": 0.010073397774249,
             "material": {
               "color": {
                 "b": 0,
                 "g": 0,
                 "r": 0
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "fire",
             "position": {
@@ -2778,8 +2737,7 @@
               "x": 0.170776,
               "y": 0.2,
               "z": 0.170776
-            },
-            "volume": 0.0045788171701133
+            }
           }
         ],
         "id": "8412656843224612865",
@@ -2801,8 +2759,9 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "f0a54863d328279e1f2024598a0550e0"
+      "DataSet": [],
+      "setting.json": "a5455ffb85151a8bfd434ad7e8f9a959"
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

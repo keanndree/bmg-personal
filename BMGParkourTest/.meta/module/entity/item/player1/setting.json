@@ -42,7 +42,7 @@
     "hideHp": false,
     "isPlayer": true,
     "maxHp": 5,
-    "moveSpeed": 6.0,
+    "moveSpeed": 6,
     "name": {
       "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
     },
@@ -103,6 +103,11 @@
               "type": "T_Entity"
             }
           ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "9e22963a-b1e1-4715-a4cb-c675702b3cca"
+            }
+          },
           "root": {
             "components": [
               {
@@ -125,9 +130,9 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "1fbeb0ce319d8e03f7d6386058c80f06",
+      "setting.json": "c88d81e871a005e62d952d2ada5c6e5b",
       "triggers.bts": "c6aa4cc27f8372513af2258cb5ed7979"
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

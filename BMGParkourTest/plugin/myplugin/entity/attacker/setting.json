@@ -62,6 +62,11 @@
   "hpBarHeight": 0.2,
   "hpBarWidth": 1,
   "hurtResistantTime": 0,
+  "idleProb": 0,
+  "idleTime": [
+    10,
+    30
+  ],
   "isAIGoHomePos": true,
   "isPlayer": false,
   "jumpHeight": 0.6,
@@ -75,6 +80,7 @@
   "name": "entity_attacker",
   "needCheckTouch": true,
   "nextChaseInterval": 2,
+  "patrolDistance": 5,
   "randomPlayDeadActions": [
     ""
   ],

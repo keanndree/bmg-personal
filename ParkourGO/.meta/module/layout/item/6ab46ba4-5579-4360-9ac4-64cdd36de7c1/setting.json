@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "675bb3ad1a586179f09581597c91b941",
+    "md5": "67babc974511d647ddba0e3496f25238",
     "path": "asset/UI Backup/secondjump.layout",
     "root": {
       "children": [
@@ -17,7 +17,7 @@
             "asset": "asset/Texture/Skill/common/icon_跳_act.png"
           },
           "id": {
-            "value": "8e193d3e-792d-4831-a814-df4d9ff00c13"
+            "value": "e8d92eaf-f436-4071-ac99-cf1ee7027f54"
           },
           "name": "SecondJumpBtn",
           "NormalImage": {
@@ -46,9 +46,8 @@
         }
       ],
       "id": {
-        "value": "8ec243bd-b9c1-437c-8442-1538f8fe3e65"
+        "value": "06e239a0-3fbe-4fb2-a3a4-8bc6797119c4"
       },
-      "MousePassThroughEnabled": true,
       "size": {
         "UDim_X": {
           "Offect": 0,
@@ -58,14 +57,15 @@
           "Offect": 9,
           "Scale": 1
         }
-      }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
     }
   },
   "meta": {
     "EXPORT": {
-      "layout": "675bb3ad1a586179f09581597c91b941",
+      "layout": "67babc974511d647ddba0e3496f25238",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

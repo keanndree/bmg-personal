@@ -1,10 +1,13 @@
 {
+  "blinn": 0,
   "canBreak": true,
+  "hdr": 0,
   "hideCloud": true,
   "moveDownGravity": 0.15,
   "scene": [
     {
       "class": "VoxelTerrain",
+      "customProperties": [],
       "properties": {
         "id": "8539954023041908737",
         "name": "VoxelTerrain",
@@ -12,9 +15,41 @@
       }
     },
     {
+      "class": "Light",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8693003758276575233",
+        "ID": "2",
+        "lightActived": "true",
+        "lightAngle": "30.0",
+        "lightBrightness": "1.0",
+        "lightColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "lightLength": "1.0",
+        "lightRange": "8.0",
+        "lightType": "GlobalLight",
+        "lightWidth": "1.0",
+        "name": "EnvironmentLight",
+        "needSync": "true",
+        "position": "x:0 y:0 z:0",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "shadowsDistance": "20.0",
+        "shadowsIntensity": "1.0",
+        "shadowsOffset": "0.02",
+        "shadowsPresicion": "1024",
+        "shadowsType": "null",
+        "skyColor": "r:0.49803921568627 g:0.51372549019608 b:0.54509803921569 a:1.0",
+        "skyLineColor": "r:0.23921568627451 g:0.22745098039216 b:0.2078431372549 a:1.0"
+      }
+    },
+    {
       "class": "Entity",
       "config": "myplugin/player1",
+      "customProperties": [],
       "properties": {
+        "batchType": "Static",
         "id": "8539954200234868737",
         "name": "Người chơi",
         "needSync": "true",
@@ -26,7 +61,9 @@
     },
     {
       "class": "RegionPart",
+      "customProperties": [],
       "properties": {
+        "batchType": "Static",
         "cfgName": "myplugin/5eac2233-8ed9-432a-be13-ae810328aa45",
         "id": "8539956077628276737",
         "name": "Region",
@@ -50,6 +87,7 @@
       ]
     }
   ],
+  "skyBoxMode": "static_display",
   "skyBoxRotate": {
     "x": 0,
     "y": 0,

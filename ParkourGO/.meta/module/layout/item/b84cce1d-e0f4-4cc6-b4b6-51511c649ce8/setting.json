@@ -1,0 +1,245 @@
+{
+  "data": {
+    "md5": "74bca0e4783d35fa4658c5787a800a11",
+    "path": "asset/mainmenu.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "id": {
+            "value": "f84de6cd-b255-4c92-ae51-36cf203d7c5c"
+          },
+          "Image": {
+            "asset": "asset/Texture/UI/Background.png"
+          },
+          "name": "Background",
+          "pos": {
+            "UDim_X": {
+              "Offect": 2.3842400054264e-07
+            },
+            "UDim_Y": {
+              "Offect": 1.45
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0.0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0.0,
+              "Scale": 1
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "DisabledImage": {
+                "asset": "asset/Texture/UI/runbutton.png"
+              },
+              "HoverImage": {
+                "asset": "asset/Texture/UI/runbutton.png"
+              },
+              "id": {
+                "value": "967d1b85-0c99-4b40-81f3-b7f2213901de"
+              },
+              "name": "RunBtn",
+              "NormalImage": {
+                "asset": "asset/Texture/UI/runbutton.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": 69.03
+                },
+                "UDim_Y": {
+                  "Offect": -92.2
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/UI/runbutton.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 320.8
+                },
+                "UDim_Y": {
+                  "Offect": 102.6
+                }
+              },
+              "Text": ""
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "DisabledImage": {
+                "asset": "asset/Texture/UI/shopbutton.png"
+              },
+              "HoverImage": {
+                "asset": "asset/Texture/UI/shopbutton.png"
+              },
+              "id": {
+                "value": "3db8d1e2-cca1-4cc4-b0af-dc9c9053f0c3"
+              },
+              "name": "ShopBtn",
+              "NormalImage": {
+                "asset": "asset/Texture/UI/shopbutton.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": 41.91
+                },
+                "UDim_Y": {
+                  "Offect": 44.49
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/UI/shopbutton.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 320.8
+                },
+                "UDim_Y": {
+                  "Offect": 102.6
+                }
+              },
+              "Text": ""
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "DisabledImage": {
+                "asset": "asset/Texture/UI/loadout.png"
+              },
+              "HoverImage": {
+                "asset": "asset/Texture/UI/loadout.png"
+              },
+              "id": {
+                "value": "06270dbb-3789-414b-ac6d-8916a6d5a59e"
+              },
+              "name": "LoadOutBtn",
+              "NormalImage": {
+                "asset": "asset/Texture/UI/loadout.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": 0.01
+                },
+                "UDim_Y": {
+                  "Offect": 310.56
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/UI/loadout.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 320.8
+                },
+                "UDim_Y": {
+                  "Offect": 102.6
+                }
+              },
+              "Text": ""
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "DisabledImage": {
+                "asset": "asset/Texture/UI/upgradebutton.png"
+              },
+              "HoverImage": {
+                "asset": "asset/Texture/UI/upgradebutton.png"
+              },
+              "id": {
+                "value": "a7d3d5af-85dd-4d16-83b4-c1d203a9bbde"
+              },
+              "name": "UpgradeBtn",
+              "NormalImage": {
+                "asset": "asset/Texture/UI/upgradebutton.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": 22.968814525605
+                },
+                "UDim_Y": {
+                  "Offect": 179.68263066119
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/UI/upgradebutton.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 320.80000000001
+                },
+                "UDim_Y": {
+                  "Offect": 102.6
+                }
+              },
+              "Text": ""
+            }
+          ],
+          "id": {
+            "value": "aa19beed-b25f-4936-a0ad-7ca29efdbbcf"
+          },
+          "Image": {
+            "asset": "asset/Texture/UI/mainmenubar.png"
+          },
+          "name": "MenuBar",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.35
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "d04fe31d-3d2f-431e-be62-2f13a6d4bedb"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "74bca0e4783d35fa4658c5787a800a11",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

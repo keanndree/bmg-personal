@@ -1,0 +1,1694 @@
+{
+  "data": {
+    "md5": "c47e817f32090d770b28a7e83cae8f64",
+    "path": "asset/handbag.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "id": {
+                "value": "1def830f-a948-4321-ba4a-721cf12bca62"
+              },
+              "Image": {
+                "asset": "asset/Texture/UI/ParkourGo_HandBag.png"
+              },
+              "name": "Name",
+              "pos": {
+                "UDim_Y": {
+                  "Offect": 35
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 481.79
+                },
+                "UDim_Y": {
+                  "Offect": 53.94
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "ScrollableView",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "BackGroundImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "BgImageStretch": {
+                "bottom_left": 106,
+                "bottom_right": 112,
+                "top_left": 102,
+                "top_right": 103
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "GridView",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre"
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "children": [
+                            {
+                              "__OBJ_TYPE": "StaticImage",
+                              "anchor": {
+                                "HorizontalAlignment": "Centre",
+                                "VerticalAlignment": "Centre"
+                              },
+                              "ClippedByParent": true,
+                              "id": {
+                                "value": "732e2c7f-e4e5-4e9f-ae8a-a9bfcc1292ba"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 100.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 100.0
+                                }
+                              },
+                              "Visible": false
+                            },
+                            {
+                              "__OBJ_TYPE": "StaticText",
+                              "anchor": {
+                                "HorizontalAlignment": "Right"
+                              },
+                              "AutoScale": "3",
+                              "BorderColor": {
+                                "b": 0,
+                                "g": 0,
+                                "r": 0
+                              },
+                              "BorderWidth": 1,
+                              "ClippedByParent": true,
+                              "Font_size": 32,
+                              "HorzFormatting": "RightAligned",
+                              "id": {
+                                "value": "8a0b570b-8531-4e4a-b533-3261331e2ddc"
+                              },
+                              "name": "ItemNumTxt",
+                              "pos": {
+                                "UDim_X": {
+                                  "Offect": -14.03
+                                },
+                                "UDim_Y": {
+                                  "Offect": 60.89
+                                }
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 24.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 55.84
+                                }
+                              },
+                              "Text": "0",
+                              "TextColours": {
+                                "b": 255,
+                                "g": 255,
+                                "r": 255
+                              },
+                              "Visible": false,
+                              "word_warpped": false
+                            }
+                          ],
+                          "ClippedByParent": true,
+                          "id": {
+                            "value": "636563cb-1f23-49b2-acc2-f5527febb5b7"
+                          },
+                          "Image": {
+                            "asset": "asset/Texture/UI/backpackframe.png"
+                          },
+                          "name": "Frame"
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "id": {
+                            "value": "dd37ac2c-f1a6-4f38-9fab-976f9a50c5df"
+                          },
+                          "name": "SelectBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/SelectButton_act.png"
+                          },
+                          "Text": ""
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "id": {
+                            "value": "ad7491e5-1208-4863-9363-b6eb06b72e6a"
+                          },
+                          "name": "RemoveBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_act.png"
+                          },
+                          "Text": "",
+                          "Visible": false
+                        }
+                      ],
+                      "ClippedByParent": true,
+                      "id": {
+                        "value": "b7ca32a1-4e0c-4f3c-8efc-db252c60cb00"
+                      },
+                      "Image": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "name": "Slot1",
+                      "size": {
+                        "UDim_Y": {
+                          "Offect": 198.04
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "children": [
+                            {
+                              "__OBJ_TYPE": "StaticImage",
+                              "anchor": {
+                                "HorizontalAlignment": "Centre",
+                                "VerticalAlignment": "Centre"
+                              },
+                              "ClippedByParent": true,
+                              "id": {
+                                "value": "40eba83d-c89e-427e-b172-5ca31a1f5c4e"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 100.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 100.0
+                                }
+                              },
+                              "Visible": false
+                            },
+                            {
+                              "__OBJ_TYPE": "StaticText",
+                              "anchor": {
+                                "HorizontalAlignment": "Right"
+                              },
+                              "AutoScale": "3",
+                              "BorderColor": {
+                                "b": 0,
+                                "g": 0,
+                                "r": 0
+                              },
+                              "BorderWidth": 1,
+                              "ClippedByParent": true,
+                              "Font_size": 32,
+                              "HorzFormatting": "RightAligned",
+                              "id": {
+                                "value": "ca69ddba-8711-4a7c-8d21-87b7f06ca38a"
+                              },
+                              "name": "ItemNumTxt",
+                              "pos": {
+                                "UDim_X": {
+                                  "Offect": -14.03
+                                },
+                                "UDim_Y": {
+                                  "Offect": 60.89
+                                }
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 26.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 57.84014892578
+                                }
+                              },
+                              "Text": "0",
+                              "TextColours": {
+                                "b": 255,
+                                "g": 255,
+                                "r": 255
+                              },
+                              "Visible": false,
+                              "word_warpped": false
+                            }
+                          ],
+                          "ClippedByParent": true,
+                          "id": {
+                            "value": "73367701-6015-4749-9603-67af9bd0376b"
+                          },
+                          "Image": {
+                            "asset": "asset/Texture/UI/backpackframe.png"
+                          },
+                          "name": "Frame"
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "id": {
+                            "value": "263d9173-adca-4576-b1d1-e84c689b7395"
+                          },
+                          "name": "SelectBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/SelectButton_act.png"
+                          },
+                          "Text": ""
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "id": {
+                            "value": "790ab104-6c80-4590-8dc9-5d544e83056a"
+                          },
+                          "name": "RemoveBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_act.png"
+                          },
+                          "Text": "",
+                          "Visible": false
+                        }
+                      ],
+                      "ClippedByParent": true,
+                      "id": {
+                        "value": "33f97fa7-98c3-4876-8cb3-444551bd0878"
+                      },
+                      "Image": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "name": "Slot2",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 163.0
+                        }
+                      },
+                      "size": {
+                        "UDim_Y": {
+                          "Offect": 198.04
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "children": [
+                            {
+                              "__OBJ_TYPE": "StaticImage",
+                              "anchor": {
+                                "HorizontalAlignment": "Centre",
+                                "VerticalAlignment": "Centre"
+                              },
+                              "ClippedByParent": true,
+                              "id": {
+                                "value": "65d41ed5-7d8b-411d-97a1-a88f5690cc75"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 100.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 100.0
+                                }
+                              },
+                              "Visible": false
+                            },
+                            {
+                              "__OBJ_TYPE": "StaticText",
+                              "anchor": {
+                                "HorizontalAlignment": "Right"
+                              },
+                              "AutoScale": "3",
+                              "BorderColor": {
+                                "b": 0,
+                                "g": 0,
+                                "r": 0
+                              },
+                              "BorderWidth": 1,
+                              "ClippedByParent": true,
+                              "Font_size": 32,
+                              "HorzFormatting": "RightAligned",
+                              "id": {
+                                "value": "102ed178-126e-421e-a57f-76ca1e6bd7ca"
+                              },
+                              "name": "ItemNumTxt",
+                              "pos": {
+                                "UDim_X": {
+                                  "Offect": -14.03
+                                },
+                                "UDim_Y": {
+                                  "Offect": 60.89
+                                }
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 26.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 57.84014892578
+                                }
+                              },
+                              "Text": "0",
+                              "TextColours": {
+                                "b": 255,
+                                "g": 255,
+                                "r": 255
+                              },
+                              "Visible": false,
+                              "word_warpped": false
+                            }
+                          ],
+                          "ClippedByParent": true,
+                          "id": {
+                            "value": "89e0335d-f419-4064-924b-c990c3765200"
+                          },
+                          "Image": {
+                            "asset": "asset/Texture/UI/backpackframe.png"
+                          },
+                          "name": "Frame"
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "id": {
+                            "value": "bac7832d-3e06-41e6-80b6-84c742555782"
+                          },
+                          "name": "SelectBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/SelectButton_act.png"
+                          },
+                          "Text": ""
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "id": {
+                            "value": "9703a2a8-0e31-42bd-8374-f61ff4fad1c8"
+                          },
+                          "name": "RemoveBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_act.png"
+                          },
+                          "Text": "",
+                          "Visible": false
+                        }
+                      ],
+                      "ClippedByParent": true,
+                      "id": {
+                        "value": "6d1c9ec8-bb50-4249-994e-e105cc32e25c"
+                      },
+                      "Image": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "name": "Slot3",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 326.0
+                        }
+                      },
+                      "size": {
+                        "UDim_Y": {
+                          "Offect": 198.04
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "children": [
+                            {
+                              "__OBJ_TYPE": "StaticImage",
+                              "anchor": {
+                                "HorizontalAlignment": "Centre",
+                                "VerticalAlignment": "Centre"
+                              },
+                              "ClippedByParent": true,
+                              "id": {
+                                "value": "9b560086-0a63-4141-8120-510dccf4aa7e"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 100.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 100.0
+                                }
+                              },
+                              "Visible": false
+                            },
+                            {
+                              "__OBJ_TYPE": "StaticText",
+                              "anchor": {
+                                "HorizontalAlignment": "Right"
+                              },
+                              "AutoScale": "3",
+                              "BorderColor": {
+                                "b": 0,
+                                "g": 0,
+                                "r": 0
+                              },
+                              "BorderWidth": 1,
+                              "ClippedByParent": true,
+                              "Font_size": 32,
+                              "HorzFormatting": "RightAligned",
+                              "id": {
+                                "value": "e789a0db-b483-49c2-9990-44c031b211a7"
+                              },
+                              "name": "ItemNumTxt",
+                              "pos": {
+                                "UDim_X": {
+                                  "Offect": -14.03
+                                },
+                                "UDim_Y": {
+                                  "Offect": 60.89
+                                }
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 26.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 57.84014892578
+                                }
+                              },
+                              "Text": "0",
+                              "TextColours": {
+                                "b": 255,
+                                "g": 255,
+                                "r": 255
+                              },
+                              "Visible": false,
+                              "word_warpped": false
+                            }
+                          ],
+                          "ClippedByParent": true,
+                          "id": {
+                            "value": "2f81a0f2-ccb1-4487-b149-853f8db655ad"
+                          },
+                          "Image": {
+                            "asset": "asset/Texture/UI/backpackframe.png"
+                          },
+                          "name": "Frame"
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "id": {
+                            "value": "a8d00a2f-b49c-4544-be1a-e8ce8122ea1e"
+                          },
+                          "name": "SelectBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/SelectButton_act.png"
+                          },
+                          "Text": ""
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "id": {
+                            "value": "ed7ac88d-9238-41c0-a151-924735bb16b8"
+                          },
+                          "name": "RemoveBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_act.png"
+                          },
+                          "Text": "",
+                          "Visible": false
+                        }
+                      ],
+                      "ClippedByParent": true,
+                      "id": {
+                        "value": "95d69e21-54e0-4acc-8011-b0aa4db2c7aa"
+                      },
+                      "Image": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "name": "Slot4",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 489.0
+                        }
+                      },
+                      "size": {
+                        "UDim_Y": {
+                          "Offect": 198.04
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "children": [
+                            {
+                              "__OBJ_TYPE": "StaticImage",
+                              "anchor": {
+                                "HorizontalAlignment": "Centre",
+                                "VerticalAlignment": "Centre"
+                              },
+                              "ClippedByParent": true,
+                              "id": {
+                                "value": "b04d80b3-29cc-43aa-a69c-97a875423085"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 100.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 100.0
+                                }
+                              },
+                              "Visible": false
+                            },
+                            {
+                              "__OBJ_TYPE": "StaticText",
+                              "anchor": {
+                                "HorizontalAlignment": "Right"
+                              },
+                              "AutoScale": "3",
+                              "BorderColor": {
+                                "b": 0,
+                                "g": 0,
+                                "r": 0
+                              },
+                              "BorderWidth": 1,
+                              "ClippedByParent": true,
+                              "Font_size": 32,
+                              "HorzFormatting": "RightAligned",
+                              "id": {
+                                "value": "819fd11d-7c56-45d9-93a4-adbf65e8d4c7"
+                              },
+                              "name": "ItemNumTxt",
+                              "pos": {
+                                "UDim_X": {
+                                  "Offect": -14.03
+                                },
+                                "UDim_Y": {
+                                  "Offect": 60.89
+                                }
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 26.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 57.84014892578
+                                }
+                              },
+                              "Text": "0",
+                              "TextColours": {
+                                "b": 255,
+                                "g": 255,
+                                "r": 255
+                              },
+                              "Visible": false,
+                              "word_warpped": false
+                            }
+                          ],
+                          "ClippedByParent": true,
+                          "id": {
+                            "value": "caa12bad-2cab-4e3f-b56c-b7245d2999ba"
+                          },
+                          "Image": {
+                            "asset": "asset/Texture/UI/backpackframe.png"
+                          },
+                          "name": "Frame"
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "id": {
+                            "value": "3afabc83-ed79-43d2-9295-a765a62df61e"
+                          },
+                          "name": "SelectBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/SelectButton_act.png"
+                          },
+                          "Text": ""
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "id": {
+                            "value": "d1f85714-3f38-4fc6-b08e-040fbeffdf5c"
+                          },
+                          "name": "RemoveBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_act.png"
+                          },
+                          "Text": "",
+                          "Visible": false
+                        }
+                      ],
+                      "ClippedByParent": true,
+                      "id": {
+                        "value": "00018ff2-9afa-4c34-a7d9-78c9b267fc7e"
+                      },
+                      "Image": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "name": "Slot5",
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": 198.0
+                        }
+                      },
+                      "size": {
+                        "UDim_Y": {
+                          "Offect": 198.04
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "children": [
+                            {
+                              "__OBJ_TYPE": "StaticImage",
+                              "anchor": {
+                                "HorizontalAlignment": "Centre",
+                                "VerticalAlignment": "Centre"
+                              },
+                              "ClippedByParent": true,
+                              "id": {
+                                "value": "aa9f8bb9-9d73-4bfc-853a-e664cabbc886"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 100.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 100.0
+                                }
+                              },
+                              "Visible": false
+                            },
+                            {
+                              "__OBJ_TYPE": "StaticText",
+                              "anchor": {
+                                "HorizontalAlignment": "Right"
+                              },
+                              "AutoScale": "3",
+                              "BorderColor": {
+                                "b": 0,
+                                "g": 0,
+                                "r": 0
+                              },
+                              "BorderWidth": 1,
+                              "ClippedByParent": true,
+                              "Font_size": 32,
+                              "HorzFormatting": "RightAligned",
+                              "id": {
+                                "value": "ddc61a99-d549-40da-8c0f-d45e0c9ede74"
+                              },
+                              "name": "ItemNumTxt",
+                              "pos": {
+                                "UDim_X": {
+                                  "Offect": -14.03
+                                },
+                                "UDim_Y": {
+                                  "Offect": 60.89
+                                }
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 26.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 57.84014892578
+                                }
+                              },
+                              "Text": "0",
+                              "TextColours": {
+                                "b": 255,
+                                "g": 255,
+                                "r": 255
+                              },
+                              "Visible": false,
+                              "word_warpped": false
+                            }
+                          ],
+                          "ClippedByParent": true,
+                          "id": {
+                            "value": "0e80579a-e228-4f22-8bbc-e7d274d6e682"
+                          },
+                          "Image": {
+                            "asset": "asset/Texture/UI/backpackframe.png"
+                          },
+                          "name": "Frame"
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "id": {
+                            "value": "f2cfd128-41fc-48d4-971f-3cc9e2d2cd61"
+                          },
+                          "name": "SelectBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/SelectButton_act.png"
+                          },
+                          "Text": ""
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "id": {
+                            "value": "8c0a0ccf-57df-4083-8c7a-60344fee8f56"
+                          },
+                          "name": "RemoveBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_act.png"
+                          },
+                          "Text": "",
+                          "Visible": false
+                        }
+                      ],
+                      "ClippedByParent": true,
+                      "id": {
+                        "value": "bd796068-2542-4e14-8137-8627aa763669"
+                      },
+                      "Image": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "name": "Slot6",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 163.0
+                        },
+                        "UDim_Y": {
+                          "Offect": 198.0
+                        }
+                      },
+                      "size": {
+                        "UDim_Y": {
+                          "Offect": 198.04
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "children": [
+                            {
+                              "__OBJ_TYPE": "StaticImage",
+                              "anchor": {
+                                "HorizontalAlignment": "Centre",
+                                "VerticalAlignment": "Centre"
+                              },
+                              "ClippedByParent": true,
+                              "id": {
+                                "value": "9bc8c1b0-255f-4854-9862-d1dc3c7fbde9"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 100.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 100.0
+                                }
+                              },
+                              "Visible": false
+                            },
+                            {
+                              "__OBJ_TYPE": "StaticText",
+                              "anchor": {
+                                "HorizontalAlignment": "Right"
+                              },
+                              "AutoScale": "3",
+                              "BorderColor": {
+                                "b": 0,
+                                "g": 0,
+                                "r": 0
+                              },
+                              "BorderWidth": 1,
+                              "ClippedByParent": true,
+                              "Font_size": 32,
+                              "HorzFormatting": "RightAligned",
+                              "id": {
+                                "value": "474894b8-b655-4869-ba49-7b9c6764ef8b"
+                              },
+                              "name": "ItemNumTxt",
+                              "pos": {
+                                "UDim_X": {
+                                  "Offect": -14.03
+                                },
+                                "UDim_Y": {
+                                  "Offect": 60.89
+                                }
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 26.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 57.84014892578
+                                }
+                              },
+                              "Text": "0",
+                              "TextColours": {
+                                "b": 255,
+                                "g": 255,
+                                "r": 255
+                              },
+                              "Visible": false,
+                              "word_warpped": false
+                            }
+                          ],
+                          "ClippedByParent": true,
+                          "id": {
+                            "value": "38c5fa0c-c6c5-4273-a77f-b08230674416"
+                          },
+                          "Image": {
+                            "asset": "asset/Texture/UI/backpackframe.png"
+                          },
+                          "name": "Frame"
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "id": {
+                            "value": "0d0060e7-463b-45b7-9751-83bbca530fde"
+                          },
+                          "name": "SelectBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/SelectButton_act.png"
+                          },
+                          "Text": ""
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "id": {
+                            "value": "36e205ea-a4a3-49e3-8b49-8429a3406693"
+                          },
+                          "name": "RemoveBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_act.png"
+                          },
+                          "Text": "",
+                          "Visible": false
+                        }
+                      ],
+                      "ClippedByParent": true,
+                      "id": {
+                        "value": "bbc738cf-5de5-47e0-8834-e85b6c2cbb6b"
+                      },
+                      "Image": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "name": "Slot7",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 326.0
+                        },
+                        "UDim_Y": {
+                          "Offect": 198.0
+                        }
+                      },
+                      "size": {
+                        "UDim_Y": {
+                          "Offect": 198.04
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "children": [
+                            {
+                              "__OBJ_TYPE": "StaticImage",
+                              "anchor": {
+                                "HorizontalAlignment": "Centre",
+                                "VerticalAlignment": "Centre"
+                              },
+                              "ClippedByParent": true,
+                              "id": {
+                                "value": "4a49fd8c-f689-49ac-a6ba-7bf82b6ed872"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 100.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 100.0
+                                }
+                              },
+                              "Visible": false
+                            },
+                            {
+                              "__OBJ_TYPE": "StaticText",
+                              "anchor": {
+                                "HorizontalAlignment": "Right"
+                              },
+                              "AutoScale": "3",
+                              "BorderColor": {
+                                "b": 0,
+                                "g": 0,
+                                "r": 0
+                              },
+                              "BorderWidth": 1,
+                              "ClippedByParent": true,
+                              "Font_size": 32,
+                              "HorzFormatting": "RightAligned",
+                              "id": {
+                                "value": "a40016a5-8515-4284-94b0-39397ca9b8ea"
+                              },
+                              "name": "ItemNumTxt",
+                              "pos": {
+                                "UDim_X": {
+                                  "Offect": -14.03
+                                },
+                                "UDim_Y": {
+                                  "Offect": 60.89
+                                }
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 26.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 57.84014892578
+                                }
+                              },
+                              "Text": "0",
+                              "TextColours": {
+                                "b": 255,
+                                "g": 255,
+                                "r": 255
+                              },
+                              "Visible": false,
+                              "word_warpped": false
+                            }
+                          ],
+                          "ClippedByParent": true,
+                          "id": {
+                            "value": "2bdd888f-cc68-4c7b-94b2-92d84d979dcc"
+                          },
+                          "Image": {
+                            "asset": "asset/Texture/UI/backpackframe.png"
+                          },
+                          "name": "Frame"
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "id": {
+                            "value": "1c855a14-83cb-4e9d-949f-019152a9e645"
+                          },
+                          "name": "SelectBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/SelectButton_act.png"
+                          },
+                          "Text": ""
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "id": {
+                            "value": "fa57318b-b194-4281-a18e-7f1aec2ba556"
+                          },
+                          "name": "RemoveBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_act.png"
+                          },
+                          "Text": "",
+                          "Visible": false
+                        }
+                      ],
+                      "ClippedByParent": true,
+                      "id": {
+                        "value": "903853ba-f03d-4437-a6af-821ad20b0869"
+                      },
+                      "Image": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "name": "Slot8",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 489.0
+                        },
+                        "UDim_Y": {
+                          "Offect": 198.0
+                        }
+                      },
+                      "size": {
+                        "UDim_Y": {
+                          "Offect": 198.04
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "children": [
+                            {
+                              "__OBJ_TYPE": "StaticImage",
+                              "anchor": {
+                                "HorizontalAlignment": "Centre",
+                                "VerticalAlignment": "Centre"
+                              },
+                              "ClippedByParent": true,
+                              "id": {
+                                "value": "fa9f59e9-1ba7-4006-8aa3-51c3a9fa8461"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 100.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 100.0
+                                }
+                              },
+                              "Visible": false
+                            },
+                            {
+                              "__OBJ_TYPE": "StaticText",
+                              "anchor": {
+                                "HorizontalAlignment": "Right"
+                              },
+                              "AutoScale": "3",
+                              "BorderColor": {
+                                "b": 0,
+                                "g": 0,
+                                "r": 0
+                              },
+                              "BorderWidth": 1,
+                              "ClippedByParent": true,
+                              "Font_size": 32,
+                              "HorzFormatting": "RightAligned",
+                              "id": {
+                                "value": "4b5efde3-5864-49b2-9cc6-43f5aef6eb24"
+                              },
+                              "name": "ItemNumTxt",
+                              "pos": {
+                                "UDim_X": {
+                                  "Offect": -14.03
+                                },
+                                "UDim_Y": {
+                                  "Offect": 60.89
+                                }
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 26.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 57.84014892578
+                                }
+                              },
+                              "Text": "0",
+                              "TextColours": {
+                                "b": 255,
+                                "g": 255,
+                                "r": 255
+                              },
+                              "Visible": false,
+                              "word_warpped": false
+                            }
+                          ],
+                          "ClippedByParent": true,
+                          "id": {
+                            "value": "21f27da1-1b65-4768-a8eb-de19d575a25a"
+                          },
+                          "Image": {
+                            "asset": "asset/Texture/UI/backpackframe.png"
+                          },
+                          "name": "Frame"
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "id": {
+                            "value": "cf09e6f9-9312-4184-9b24-cedd406eca1b"
+                          },
+                          "name": "SelectBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/SelectButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/SelectButton_act.png"
+                          },
+                          "Text": ""
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "id": {
+                            "value": "96088802-5e3d-4cfd-ab68-886826445647"
+                          },
+                          "name": "RemoveBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/RemoveButton_act.png"
+                          },
+                          "Text": "",
+                          "Visible": false
+                        }
+                      ],
+                      "ClippedByParent": true,
+                      "id": {
+                        "value": "7b3931a8-9a5a-47e3-bcf7-d9115b7fa5e1"
+                      },
+                      "Image": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "name": "Slot9",
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": 396.0
+                        }
+                      },
+                      "size": {
+                        "UDim_Y": {
+                          "Offect": 198.04
+                        }
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "f180a94c-f3b5-437f-9789-6f0f7977285a"
+                  },
+                  "rowSize": 4,
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 617.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 594.0
+                    }
+                  },
+                  "Space": {
+                    "x": 35
+                  }
+                }
+              ],
+              "id": {
+                "value": "05b351b1-38c0-4201-a0af-b553cff53510"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Offect": 35
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 348.17
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "DisabledImage": {
+                "asset": "asset/Texture/UI/DeathCross_PlayerTab_CloseBtn.png"
+              },
+              "HoverImage": {
+                "asset": "asset/Texture/UI/DeathCross_PlayerTab_CloseBtn.png"
+              },
+              "id": {
+                "value": "8520833c-0aab-40e9-93ee-fe869593dd6f"
+              },
+              "name": "CloseBtn",
+              "NormalImage": {
+                "asset": "asset/Texture/UI/DeathCross_PlayerTab_CloseBtn.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": -5
+                },
+                "UDim_Y": {
+                  "Offect": 5
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/UI/DeathCross_PlayerTab_CloseBtn.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 75
+                },
+                "UDim_Y": {
+                  "Offect": 75
+                }
+              },
+              "Text": ""
+            }
+          ],
+          "id": {
+            "value": "3f9845c4-0cf9-4d6a-b6a5-eefd2b7f1884"
+          },
+          "Image": {
+            "asset": "asset/Texture/UI/MenuBackground.png"
+          },
+          "name": "Background",
+          "size": {
+            "UDim_X": {
+              "Offect": 900
+            },
+            "UDim_Y": {
+              "Offect": 537
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "49a6fef6-e4d7-4a8c-abfe-29d519cf678f"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "c47e817f32090d770b28a7e83cae8f64",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

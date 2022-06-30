@@ -40,39 +40,14 @@
     },
     "skill": [
       "myplugin/KnockbackBomb",
-      "myplugin/31708230-1e3e-4c06-be4a-a7af3e0c5e2c"
-    ],
-    "triggers": {
-      "list": [
-        {
-          "custom_trigger_data": {
-            "name": {
-              "value": "ff0a50a3-c5c5-4515-8116-153ade0e9562"
-            },
-            "type": "Trigger_EntityEnter"
-          },
-          "root": {
-            "components": [
-              {
-                "__OBJ_TYPE": "Component_Sequence",
-                "children": [
-                  []
-                ]
-              }
-            ],
-            "id": {
-              "value": "a468124c-b15a-469a-ab88-f79197023244"
-            }
-          },
-          "type": "Trigger_EntityEnter"
-        }
-      ]
-    }
+      "myplugin/31708230-1e3e-4c06-be4a-a7af3e0c5e2c",
+      "myplugin/Invishield"
+    ]
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "9de653285290620f4daca30e761c2724",
-      "triggers.bts": "b6bc7ed29d33f0b4ea3afe435c1494f4"
+      "setting.json": "4c9b6900594fc630bbe1d296e57a4d4b",
+      "triggers.bts": ""
     },
     "VERSION": "0.21"
   }

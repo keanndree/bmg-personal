@@ -45,13 +45,13 @@
   },
   "hitEntitySkill": "myplugin/PushPlayer",
   "hitEntitysRoles": [
-    "hitAllTeam",
+    "hitOtherTeam",
     "hitAllEntitys",
     "hitAllConfigEntity"
   ],
   "hitInterval": 10,
   "isPitch": true,
-  "lifeTime": 60,
+  "lifeTime": 40,
   "lockRotateBodyPitch": 0,
   "lockRotateBodyRoll": 0,
   "lockRotateBodyYaw": 0,

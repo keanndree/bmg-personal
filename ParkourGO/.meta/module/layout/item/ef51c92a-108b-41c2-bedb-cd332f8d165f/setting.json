@@ -1,0 +1,276 @@
+{
+  "data": {
+    "md5": "c54449e1c66282be5ea3b85744b2c12c",
+    "path": "asset/outroombtn.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "675d63dd-a93d-4233-a0ef-aa7eabde7215"
+              },
+              "Image": {
+                "asset": "asset/Texture/UI/exitbutton.png"
+              },
+              "name": "Icon",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                }
+              },
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "HoverImage": {
+            "asset": "asset/Texture/Gui/slider_thumb.png"
+          },
+          "id": {
+            "value": "ac757869-565a-4027-acd1-54ea93b92213"
+          },
+          "name": "OutRoomBtn",
+          "NormalImage": {
+            "asset": "asset/Texture/Gui/slider_thumb.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": -5
+            },
+            "UDim_Y": {
+              "Offect": 5
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/Gui/button_yellow_act.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 75
+            },
+            "UDim_Y": {
+              "Offect": 75
+            }
+          },
+          "Text": ""
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "AutoScale": "3",
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 20,
+              "id": {
+                "value": "9f3b3c13-f634-4d62-a435-066e16a4224a"
+              },
+              "name": "Title",
+              "pos": {
+                "UDim_Y": {
+                  "Offect": 20
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 498.0
+                },
+                "UDim_Y": {
+                  "Offect": 31.26
+                }
+              },
+              "Text": "ARE YOU SURE YOU WANT TO EXIT ?",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "word_warpped": false
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "AutoScale": "3",
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 20,
+              "id": {
+                "value": "4ef9d1a6-68f0-4202-b4e0-d3e5aa35fa6e"
+              },
+              "name": "Content",
+              "pos": {
+                "UDim_Y": {
+                  "Offect": -45
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 759.0
+                },
+                "UDim_Y": {
+                  "Offect": 31.26
+                }
+              },
+              "Text": "IF YOU LEAVE NOW, YOU WILL NOT GET ANY REWARDS!",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "word_warpped": false
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "DisabledImage": {
+                "asset": "asset/Texture/UI/YesButton_nor.png"
+              },
+              "Font_size": 20,
+              "HoverImage": {
+                "asset": "asset/Texture/UI/YesButton_nor.png"
+              },
+              "id": {
+                "value": "3ab31cef-2388-4b36-a9b5-dfd9d1b886ae"
+              },
+              "name": "YesBtn",
+              "NormalImage": {
+                "asset": "asset/Texture/UI/YesButton_nor.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": 100
+                },
+                "UDim_Y": {
+                  "Offect": -50
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/UI/YesButton_act.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 150
+                },
+                "UDim_Y": {
+                  "Offect": 50
+                }
+              },
+              "Text": ""
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "DisabledImage": {
+                "asset": "asset/Texture/UI/NoButton_nor.png"
+              },
+              "Font_size": 20,
+              "HoverImage": {
+                "asset": "asset/Texture/UI/NoButton_nor.png"
+              },
+              "id": {
+                "value": "c1bc4335-e368-4444-9898-ad30f248354d"
+              },
+              "name": "NoBtn",
+              "NormalImage": {
+                "asset": "asset/Texture/UI/NoButton_nor.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": -100
+                },
+                "UDim_Y": {
+                  "Offect": -50
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/UI/NoButton_act.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 150
+                },
+                "UDim_Y": {
+                  "Offect": 50
+                }
+              },
+              "Text": ""
+            }
+          ],
+          "id": {
+            "value": "ff83be9d-de65-4d23-ae6d-268c060d453e"
+          },
+          "Image": {
+            "asset": "asset/Texture/UI/UIBackground.png"
+          },
+          "name": "Notification",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.75
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.75
+            }
+          },
+          "StaticImageStretch": {
+            "bottom_left": 88,
+            "bottom_right": 84,
+            "top_left": 79,
+            "top_right": 82
+          },
+          "Visible": false
+        }
+      ],
+      "id": {
+        "value": "201fa187-1163-4961-bcf7-abc802a17f65"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "c54449e1c66282be5ea3b85744b2c12c",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

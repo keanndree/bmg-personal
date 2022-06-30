@@ -9,9 +9,6 @@
       "value": "skill_48f45d57-4a86-40a1-8f79-91a140b556d6"
     },
     "skill": {
-      "base": {
-        "__OBJ_TYPE": "Skill_MeleeAttack"
-      },
       "type": "Base"
     },
     "skillReleaseWay": {
@@ -170,6 +167,11 @@
               "type": "T_Entity"
             }
           ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "75a3abbe-ca4c-4ad6-ba60-7ed52dc7e8ba"
+            }
+          },
           "root": {
             "components": [
               {
@@ -192,9 +194,9 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "57130c9fdf135690b48f1f24f62207a9",
+      "setting.json": "6c09de46ab3ba489ad0a9bea70099d41",
       "triggers.bts": "7a72072bcf5d4e9329e1f5e9288f9dcc"
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

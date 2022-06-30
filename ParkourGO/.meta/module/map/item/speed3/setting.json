@@ -4,28 +4,22 @@
       "base": {
         "__OBJ_TYPE": "SkyBoxStatic",
         "back": {
-          "asset": "asset/speedrung/map5/sky.png",
-          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+          "asset": "asset/speedrung/map5/sky.png"
         },
         "bottom": {
-          "asset": "asset/speedrung/map5/sky.png",
-          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+          "asset": "asset/speedrung/map5/sky.png"
         },
         "front": {
-          "asset": "asset/speedrung/map5/sky.png",
-          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+          "asset": "asset/speedrung/map5/sky.png"
         },
         "left": {
-          "asset": "asset/speedrung/map5/sky.png",
-          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+          "asset": "asset/speedrung/map5/sky.png"
         },
         "right": {
-          "asset": "asset/speedrung/map5/sky.png",
-          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+          "asset": "asset/speedrung/map5/sky.png"
         },
         "top": {
-          "asset": "asset/speedrung/map5/sky.png",
-          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+          "asset": "asset/speedrung/map5/sky.png"
         }
       }
     },
@@ -49,13 +43,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514032665652936705",
-        "mass": 39938.161376953,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -75,8 +69,7 @@
           "z": 14.9999
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 7261.4838867188
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -84,13 +77,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514033776561274881",
-        "mass": 21300.635253906,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -110,8 +103,7 @@
           "z": 15
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 3872.8427734375
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -119,13 +111,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514034338907045889",
-        "mass": 21300.635253906,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -145,8 +137,7 @@
           "z": 15
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 3872.8427734375
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -154,13 +145,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514034587610726401",
-        "mass": 21300.635253906,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -180,8 +171,7 @@
           "z": 15
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 3872.8427734375
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -189,13 +179,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514035176575926273",
-        "mass": 14922.611816406,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -218,8 +208,7 @@
           "z": 9.99995
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 2713.2021484375
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -227,13 +216,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514035891671891969",
-        "mass": 21247.823974609,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -256,8 +245,7 @@
           "z": 9.99992
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 3863.2407226562
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -265,13 +253,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514036938907959297",
-        "mass": 21807.741699219,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -294,8 +282,7 @@
           "z": 9.99993
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 3965.0439453125
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -303,13 +290,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514037425337450497",
-        "mass": 49164.440917969,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -332,8 +319,7 @@
           "z": 11.6351
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 8938.9892578125
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -341,13 +327,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514038423396892673",
-        "mass": 42065.291748047,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -367,8 +353,7 @@
           "z": 10.1708
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 7648.2348632812
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -376,13 +361,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514039719522746369",
-        "mass": 13889.413452148,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -405,8 +390,7 @@
           "z": 15.3134
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 2525.3479003906
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -414,13 +398,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514041538485026817",
-        "mass": 42065.291748047,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -440,8 +424,7 @@
           "z": 10.1708
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 7648.2348632812
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -449,13 +432,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514041538487222273",
-        "mass": 13879.255371094,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -478,8 +461,7 @@
           "z": 15.3022
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 2523.5009765625
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -487,13 +469,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514041647988490241",
-        "mass": 42065.291748047,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -513,8 +495,7 @@
           "z": 10.1708
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 7648.2348632812
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -522,13 +503,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514041647990620161",
-        "mass": 13786.287109375,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -551,8 +532,7 @@
           "z": 15.1997
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 2506.59765625
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -560,13 +540,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514042460459581441",
-        "mass": 26944.924316406,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -590,8 +570,7 @@
           "z": 15.1997
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 4899.0771484375
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -599,13 +578,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514042460462727169",
-        "mass": 81913.712890625,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -628,8 +607,7 @@
           "z": 19.8058
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 14893.40234375
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -637,13 +615,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514043368418803713",
-        "mass": 37873.561279297,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -668,8 +646,7 @@
           "z": 11.9409
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 6886.1020507812
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -677,13 +654,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514047376581689345",
-        "mass": 9320.7543945312,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -708,8 +685,7 @@
           "z": 2.93869
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 1694.6826171875
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -717,13 +693,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514047805165387777",
-        "mass": 13612.49597168,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -746,8 +722,7 @@
           "z": 10
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 2474.9992675781
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -755,13 +730,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514048993410809857",
-        "mass": 2040.0263366699,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -784,8 +759,7 @@
           "z": 9.94003
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 370.91387939453
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -793,13 +767,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514050900757020673",
-        "mass": 1979.7205352783,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -822,8 +796,7 @@
           "z": 9.64619
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 359.94918823242
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -831,13 +804,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514051283979567105",
-        "mass": 344.45013046265,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -860,8 +833,7 @@
           "z": 8.30439
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 62.627296447754
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -869,13 +841,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514051995147321345",
-        "mass": 768.18180084229,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -898,8 +870,7 @@
           "z": 7.05405
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 139.66941833496
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -907,13 +878,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514052779359649793",
-        "mass": 15988.932373047,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -936,8 +907,7 @@
           "z": 18.2692
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 2907.0786132812
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -945,13 +915,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514053256459829249",
-        "mass": 1510.7169647217,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -974,8 +944,7 @@
           "z": 8.79041
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 274.67581176758
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -983,13 +952,13 @@
         "density": 5.5,
         "friction": 0.26,
         "id": "8514053959529037825",
-        "mass": 24786.418701172,
         "material": {
           "color": {
             "b": 143,
             "g": 114,
             "r": 105
           },
+          "discardAlpha": 1,
           "texture": "part_xibo.tga"
         },
         "position": {
@@ -1012,8 +981,7 @@
           "z": 10.1356
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 4506.6215820312
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Model",
@@ -1024,8 +992,8 @@
             "density": 2.5,
             "friction": 0.6,
             "id": "8539450189542719489",
-            "mass": 1.9999994337559,
             "material": {
+              "discardAlpha": 1,
               "texture": "part_zhuankuai.tga"
             },
             "position": {
@@ -1041,8 +1009,7 @@
               "y": 0.8
             },
             "useAnchor": true,
-            "useGravity": false,
-            "volume": 0.79999977350235
+            "useGravity": false
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1050,8 +1017,8 @@
             "density": 2.5,
             "friction": 0.6,
             "id": "8539449888978616321",
-            "mass": 1.9999994337559,
             "material": {
+              "discardAlpha": 1,
               "texture": "part_zhuankuai.tga"
             },
             "position": {
@@ -1067,8 +1034,7 @@
               "y": 0.8
             },
             "useAnchor": true,
-            "useGravity": false,
-            "volume": 0.79999977350235
+            "useGravity": false
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1076,8 +1042,8 @@
             "density": 2.5,
             "friction": 0.6,
             "id": "8539450427606958081",
-            "mass": 1.9999994337559,
             "material": {
+              "discardAlpha": 1,
               "texture": "part_zhuankuai.tga"
             },
             "position": {
@@ -1093,8 +1059,7 @@
               "y": 0.8
             },
             "useAnchor": true,
-            "useGravity": false,
-            "volume": 0.79999977350235
+            "useGravity": false
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1102,8 +1067,8 @@
             "density": 2.5,
             "friction": 0.6,
             "id": "8539450712552701953",
-            "mass": 7.4999982118607,
             "material": {
+              "discardAlpha": 1,
               "texture": "part_zhuankuai.tga"
             },
             "position": {
@@ -1122,8 +1087,7 @@
               "y": 3
             },
             "useAnchor": true,
-            "useGravity": false,
-            "volume": 2.9999992847443
+            "useGravity": false
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1131,8 +1095,8 @@
             "density": 2.5,
             "friction": 0.6,
             "id": "8539450712554831873",
-            "mass": 1.9999994337559,
             "material": {
+              "discardAlpha": 1,
               "texture": "part_zhuankuai.tga"
             },
             "position": {
@@ -1151,8 +1115,7 @@
               "y": 0.8
             },
             "useAnchor": true,
-            "useGravity": false,
-            "volume": 0.79999977350235
+            "useGravity": false
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1160,8 +1123,8 @@
             "density": 2.5,
             "friction": 0.6,
             "id": "8539449452572327937",
-            "mass": 7.4999982118607,
             "material": {
+              "discardAlpha": 1,
               "texture": "part_zhuankuai.tga"
             },
             "position": {
@@ -1177,8 +1140,7 @@
               "y": 3
             },
             "useAnchor": true,
-            "useGravity": false,
-            "volume": 2.9999992847443
+            "useGravity": false
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1186,8 +1148,8 @@
             "density": 2.5,
             "friction": 0.6,
             "id": "8539450712556912641",
-            "mass": 1.9999994337559,
             "material": {
+              "discardAlpha": 1,
               "texture": "part_zhuankuai.tga"
             },
             "position": {
@@ -1206,8 +1168,7 @@
               "y": 0.8
             },
             "useAnchor": true,
-            "useGravity": false,
-            "volume": 0.79999977350235
+            "useGravity": false
           }
         ],
         "id": "8539451148329861121",
@@ -1254,7 +1215,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8540924990281744385",
-        "mass": 106.89794158936,
+        "material": {
+          "discardAlpha": 1
+        },
         "name": "checkpoint",
         "position": {
           "x": 0.039004325866699,
@@ -1272,8 +1235,7 @@
           "y": 0.262386,
           "z": 13.522
         },
-        "useAnchor": true,
-        "volume": 48.589973449707
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Entity",
@@ -1568,8 +1530,9 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "608855dc3b5e6336050a95cfe28780eb"
+      "DataSet": [],
+      "setting.json": "15861401c6a9bd06d57f483382ba979f"
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

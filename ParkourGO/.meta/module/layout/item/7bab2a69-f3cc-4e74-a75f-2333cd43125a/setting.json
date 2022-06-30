@@ -1,0 +1,51 @@
+{
+  "data": {
+    "md5": "30fdaf3684be592c22e58585c47ae67b",
+    "path": "asset/checkpoint.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "id": {
+            "value": "da6a2105-0713-4b4e-ac40-f495e28e06b0"
+          },
+          "Image": {
+            "asset": "asset/Texture/UI/checkpointsaved.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 613
+            },
+            "UDim_Y": {
+              "Offect": 259.0
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "33298a1e-232d-4c05-8d9d-106f7f4492a9"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "30fdaf3684be592c22e58585c47ae67b",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

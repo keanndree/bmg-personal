@@ -4,6 +4,62 @@
   "hdr": 0,
   "hideCloud": true,
   "moveDownGravity": 0.15,
+  "scene": [
+    {
+      "class": "VoxelTerrain",
+      "customProperties": [],
+      "properties": {
+        "id": "8692999755726782465",
+        "name": "VoxelTerrain",
+        "uniqueKey": ""
+      }
+    },
+    {
+      "class": "Light",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8692999755857199105",
+        "ID": "2",
+        "lightActived": "true",
+        "lightAngle": "30.0",
+        "lightBrightness": "1.0",
+        "lightColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "lightLength": "1.0",
+        "lightRange": "8.0",
+        "lightType": "GlobalLight",
+        "lightWidth": "1.0",
+        "name": "EnvironmentLight",
+        "needSync": "true",
+        "position": "x:0 y:0 z:0",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "shadowsDistance": "20.0",
+        "shadowsIntensity": "1.0",
+        "shadowsOffset": "0.02",
+        "shadowsPresicion": "1024",
+        "shadowsType": "null",
+        "skyColor": "r:0.49803921568627 g:0.51372549019608 b:0.54509803921569 a:1.0",
+        "skyLineColor": "r:0.23921568627451 g:0.22745098039216 b:0.2078431372549 a:1.0"
+      }
+    },
+    {
+      "class": "RegionPart",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "cfgName": "myplugin/c12c6022-bda5-4425-956e-c5894665536b",
+        "id": "8693000069785583617",
+        "name": "Spawn",
+        "needSync": "true",
+        "position": "x:0 y:3.9595003128052 z:0",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:5 y:5 z:5",
+        "selectable": "true"
+      }
+    }
+  ],
   "skyBox": [
     {
       "texture": [

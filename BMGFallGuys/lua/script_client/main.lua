@@ -1,7 +1,3 @@
-print('script_client:hello world')
+print('INITIALIZING CLIENT MAIN SCRIPT!')
 
-local GameWindow = UI:openWindow('UI/CurrentGameInfo')
-
-PackageHandlers.registerClientHandler("RefreshQualifiedPlayers", function(player, packet)
-    GameWindow:RefreshQualifiedText(packet)
-end)
+UI:openWindow("UI/MainMenu")

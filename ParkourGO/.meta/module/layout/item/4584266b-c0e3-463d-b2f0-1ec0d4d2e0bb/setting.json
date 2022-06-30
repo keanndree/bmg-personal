@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "ec18c25d0d79299a5cdbabc9480f4de2",
+    "md5": "e3fed12ac91ea452648b68230a173fa8",
     "path": "asset/loadingscreen.layout",
     "root": {
       "children": [
@@ -22,7 +22,7 @@
               },
               "FrameEnabled": true,
               "id": {
-                "value": "55ad7fbe-f159-4f9a-9daf-0a884bc160f0"
+                "value": "4ab28548-60c3-4d1d-aeb7-30274250f254"
               },
               "Image": {
                 "asset": "asset/Texture/Banner.png"
@@ -54,7 +54,7 @@
               "Font": "HarmonyOS_Sans_SC_Black",
               "Font_size": 32,
               "id": {
-                "value": "658c8e18-6892-4744-aa5f-ea37194cb66b"
+                "value": "4a50fe6f-c8ed-4af9-89b6-3a4f4696a75a"
               },
               "name": "LoadingTxt",
               "pos": {
@@ -85,7 +85,7 @@
                 "VerticalAlignment": "Bottom"
               },
               "id": {
-                "value": "9f19cf22-7a89-4404-87e2-15a242adb63a"
+                "value": "0cb621ec-c310-47ce-8629-44729d6a7e4b"
               },
               "name": "LoadingProgress",
               "pos": {
@@ -102,7 +102,7 @@
             }
           ],
           "id": {
-            "value": "115e2588-832b-4f09-adbb-ddb92fee8d96"
+            "value": "c054107a-a866-44de-94f6-b88e597e07d2"
           },
           "Image": {
             "asset": "asset/Texture/UI/MenuBackground.png"
@@ -121,7 +121,7 @@
         }
       ],
       "id": {
-        "value": "fd954059-7ede-4ec9-9838-1966d570f1e2"
+        "value": "01f66a16-4973-46b6-b9c0-6a207f986940"
       },
       "size": {
         "UDim_X": {
@@ -137,9 +137,9 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "ec18c25d0d79299a5cdbabc9480f4de2",
+      "layout": "e3fed12ac91ea452648b68230a173fa8",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

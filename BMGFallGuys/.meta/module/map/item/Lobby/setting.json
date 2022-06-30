@@ -5,13 +5,46 @@
         "__OBJ_TYPE": "SkyBoxStatic"
       }
     },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8692999755726782465"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8692999755857199105",
+        "ID": 2,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/c12c6022-bda5-4425-956e-c5894665536b",
+        "id": "8693000069785583617",
+        "name": "Spawn",
+        "position": {
+          "y": 3.9595003128052
+        },
+        "scale": {
+          "x": 5,
+          "y": 5,
+          "z": 5
+        },
+        "size": {
+          "x": 5,
+          "y": 5,
+          "z": 5
+        }
+      }
+    ],
     "name": {
       "value": "map_Lobby"
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a804aa34a7ca93dcadd1aa7f0d742738"
+      "DataSet": [],
+      "setting.json": "025f8fc003d840982e034f9e3d46c2aa"
     },
     "VERSION": "0.21"
   }

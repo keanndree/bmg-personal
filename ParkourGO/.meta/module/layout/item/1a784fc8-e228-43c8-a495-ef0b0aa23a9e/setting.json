@@ -1,0 +1,133 @@
+{
+  "data": {
+    "md5": "508f9f936388e9cec6a73b5d4c89f1ea",
+    "path": "asset/level.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "ProgressBar",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "AutoScale": "3",
+              "BorderColor": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "BorderWidth": 1,
+              "ClippedByParent": true,
+              "Font_size": 15,
+              "id": {
+                "value": "61acac9b-7f52-4501-b0c9-064d44d82d0a"
+              },
+              "name": "ExpTxt",
+              "size": {
+                "UDim_X": {
+                  "Offect": 139.0
+                },
+                "UDim_Y": {
+                  "Offect": 36.9
+                }
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "word_warpped": false
+            }
+          ],
+          "id": {
+            "value": "37224a30-1c40-4ad4-b950-ce666c5c599a"
+          },
+          "name": "Progress",
+          "pos": {
+            "UDim_X": {
+              "Offect": 37.639811248777
+            },
+            "UDim_Y": {
+              "Offect": 29.585755874171
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 169.96
+            },
+            "UDim_Y": {
+              "Offect": 27.380136470794
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "AutoScale": "3",
+          "BorderColor": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "BorderWidth": 1,
+          "ClippedByParent": true,
+          "Font_size": 15,
+          "id": {
+            "value": "0009566b-b44e-4f04-a128-59094413b0cf"
+          },
+          "name": "LevelTxt",
+          "pos": {
+            "UDim_X": {
+              "Offect": 5.6380621528599
+            },
+            "UDim_Y": {
+              "Offect": -346.03425830683
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 106.0
+            },
+            "UDim_Y": {
+              "Offect": 28.17
+            }
+          },
+          "TextColours": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "word_warpped": false
+        }
+      ],
+      "id": {
+        "value": "7887897e-35f0-47d2-aadd-39dc7015cb01"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 1289.81
+        },
+        "UDim_Y": {
+          "Offect": 725.06
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "508f9f936388e9cec6a73b5d4c89f1ea",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

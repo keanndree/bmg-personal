@@ -68,7 +68,7 @@
     ]
   },
   "canJoinMidway": false,
-  "defaultMap": "map001",
+  "defaultMap": "Lobby",
   "defaultQualityLevel": 2,
   "dragControlConfig": {
     "useDragControl": true
@@ -91,10 +91,10 @@
   "hideTeamStatusBar": false,
   "ignoreEmptyStartPos": false,
   "initPos": {
-    "map": "map001",
+    "map": "Lobby",
     "x": 0,
-    "y": 0.29004005432129,
-    "z": -16
+    "y": 2,
+    "z": 0
   },
   "isTimeStopped": true,
   "jumpControlConfig": {
@@ -125,7 +125,7 @@
     "useGroup": "_imagesets_"
   },
   "maxPlayers": 8,
-  "minPlayers": 1,
+  "minPlayers": 4,
   "moveStateConfig": {
     "isShow": false
   },
@@ -228,10 +228,10 @@
   },
   "startPos": [
     {
-      "map": "map001",
+      "map": "Lobby",
       "x": 0,
-      "y": 0.29002479553223,
-      "z": -16
+      "y": 2,
+      "z": 0
     }
   ],
   "team": [
@@ -242,9 +242,9 @@
       "image": "asset/Texture/Team/flag/flag_8.png",
       "initPos": {
         "map": "map001",
-        "x": 0.042635839432478,
-        "y": 0.29000858306885,
-        "z": -15.96834564209
+        "x": -0.67314851284027,
+        "y": 0.29003385543823,
+        "z": -16.517881393433
       },
       "mainTeamImageBg": "",
       "mainTeamImageFrame": "flag_textures/flag_frame",
@@ -367,6 +367,6 @@
   },
   "waitAtInitPos": true,
   "waitGoTime": 0,
-  "waitPlayerTime": 0,
-  "waitStartTime": 0
+  "waitPlayerTime": 480,
+  "waitStartTime": 1200
 }

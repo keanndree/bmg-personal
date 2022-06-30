@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "64830d117258205ae0d9ed9c1f181778",
+    "md5": "609ac85e6982db31bfc72ff6e908a6d1",
     "path": "asset/roommenu.layout",
     "root": {
       "children": [
@@ -23,7 +23,7 @@
                 "asset": "asset/Texture/UI/DeathCross_PlayerTab_CloseBtn.png"
               },
               "id": {
-                "value": "bb4bc8da-0a82-42e2-ae96-d1fce882e7a0"
+                "value": "02f7990f-3414-439a-a0d2-a80e48cb76a9"
               },
               "name": "CloseBtn",
               "NormalImage": {
@@ -56,7 +56,7 @@
                 "HorizontalAlignment": "Centre"
               },
               "id": {
-                "value": "3408c01a-c8f9-47e2-a1c7-58a2d394a81e"
+                "value": "07d31376-8f8a-4359-b87b-3e8867fd9827"
               },
               "Image": {
                 "asset": "asset/Texture/UI/ParkourGo_ChooseARoom.png"
@@ -103,7 +103,7 @@
                           },
                           "ClippedByParent": true,
                           "id": {
-                            "value": "485a0276-f878-497a-b0a2-553ad4c5306e"
+                            "value": "e160b0ef-6752-47a4-929a-e3859ef13158"
                           },
                           "Image": {
                             "asset": "asset/Texture/Skill/common/icon_潜行_act.png"
@@ -119,7 +119,7 @@
                               "Offect": 100
                             },
                             "UDim_Y": {
-                              "Offect": 100.0
+                              "Offect": 100
                             }
                           }
                         },
@@ -133,7 +133,7 @@
                           "Font": "HarmonyOS_Sans_SC_Black",
                           "Font_size": 35,
                           "id": {
-                            "value": "2d26a859-37a9-4068-a623-e31da4a37273"
+                            "value": "dc49e5b4-34f2-4c57-9e85-ad35260c9fbf"
                           },
                           "name": "NameTxt",
                           "pos": {
@@ -143,7 +143,7 @@
                           },
                           "size": {
                             "UDim_X": {
-                              "Offect": 389.0
+                              "Offect": 389
                             },
                             "UDim_Y": {
                               "Offect": 54.7
@@ -167,7 +167,7 @@
                           "Font": "HarmonyOS_Sans_SC_Black",
                           "Font_size": 35,
                           "id": {
-                            "value": "f371cba2-6432-439a-af37-dc49427c3fb4"
+                            "value": "d7a368a0-1a14-4878-87db-d49c1c87bcd7"
                           },
                           "name": "PlayerNumTxt",
                           "pos": {
@@ -177,7 +177,7 @@
                           },
                           "size": {
                             "UDim_X": {
-                              "Offect": 160.0
+                              "Offect": 160
                             },
                             "UDim_Y": {
                               "Offect": 54.7
@@ -206,7 +206,7 @@
                             "asset": "asset/Texture/UI/JoinButton_nor.png"
                           },
                           "id": {
-                            "value": "9e39cccb-a575-48d8-bb1b-bc2cd5ce2262"
+                            "value": "eda5e833-a396-46c2-ab7f-25051b2ae16f"
                           },
                           "name": "JoinBtn",
                           "NormalImage": {
@@ -225,7 +225,7 @@
                               "Offect": 200
                             },
                             "UDim_Y": {
-                              "Offect": 75.0
+                              "Offect": 75
                             }
                           },
                           "Text": ""
@@ -233,7 +233,7 @@
                       ],
                       "ClippedByParent": true,
                       "id": {
-                        "value": "78c1e860-fcc8-413e-a0fb-234406a48807"
+                        "value": "4447df36-1564-4ccd-92d3-35d3f7c7cb76"
                       },
                       "Image": {
                         "asset": "asset/Texture/UI/RoomFrame.png"
@@ -241,7 +241,7 @@
                       "name": "Room1",
                       "size": {
                         "UDim_X": {
-                          "Offect": 0.0,
+                          "Offect": 0,
                           "Scale": 1
                         }
                       }
@@ -256,7 +256,7 @@
                           },
                           "ClippedByParent": true,
                           "id": {
-                            "value": "d5d84539-6535-426d-893a-0a0611d88bc6"
+                            "value": "1fababac-dd85-4957-b006-4b1ceee67758"
                           },
                           "Image": {
                             "asset": "asset/Texture/Skill/common/icon_跑_act.png"
@@ -272,7 +272,7 @@
                               "Offect": 100
                             },
                             "UDim_Y": {
-                              "Offect": 100.0
+                              "Offect": 100
                             }
                           }
                         },
@@ -286,7 +286,7 @@
                           "Font": "HarmonyOS_Sans_SC_Black",
                           "Font_size": 35,
                           "id": {
-                            "value": "6a874335-91d8-4dca-8ce4-71177fa5d21b"
+                            "value": "6942b437-b157-47e6-afdf-e7cb96b9691f"
                           },
                           "name": "NameTxt",
                           "pos": {
@@ -296,7 +296,7 @@
                           },
                           "size": {
                             "UDim_X": {
-                              "Offect": 244.0
+                              "Offect": 244
                             },
                             "UDim_Y": {
                               "Offect": 54.7
@@ -320,7 +320,7 @@
                           "Font": "HarmonyOS_Sans_SC_Black",
                           "Font_size": 35,
                           "id": {
-                            "value": "7493035a-df49-4b48-8e60-3158fa79acf9"
+                            "value": "160621b4-d1d9-4837-8264-9431f67bf299"
                           },
                           "name": "PlayerNumTxt",
                           "pos": {
@@ -330,7 +330,7 @@
                           },
                           "size": {
                             "UDim_X": {
-                              "Offect": 160.0
+                              "Offect": 160
                             },
                             "UDim_Y": {
                               "Offect": 54.7
@@ -359,7 +359,7 @@
                             "asset": "asset/Texture/UI/JoinButton_nor.png"
                           },
                           "id": {
-                            "value": "04a9e627-8210-45d7-a531-8957c97b5bfb"
+                            "value": "1ac4ef2c-e6af-4133-bcfd-5f61d26c02dc"
                           },
                           "name": "JoinBtn",
                           "NormalImage": {
@@ -378,7 +378,7 @@
                               "Offect": 200
                             },
                             "UDim_Y": {
-                              "Offect": 75.0
+                              "Offect": 75
                             }
                           },
                           "Text": ""
@@ -386,7 +386,7 @@
                       ],
                       "ClippedByParent": true,
                       "id": {
-                        "value": "f8ecc199-71e0-45b0-9fd0-938fbcae4f55"
+                        "value": "ed8a747b-76f6-4524-a207-aba0e48cf81e"
                       },
                       "Image": {
                         "asset": "asset/Texture/UI/RoomFrame.png"
@@ -394,12 +394,12 @@
                       "name": "Room2",
                       "pos": {
                         "UDim_Y": {
-                          "Offect": 128.0
+                          "Offect": 128
                         }
                       },
                       "size": {
                         "UDim_X": {
-                          "Offect": 0.0,
+                          "Offect": 0,
                           "Scale": 1
                         }
                       }
@@ -414,7 +414,7 @@
                           },
                           "ClippedByParent": true,
                           "id": {
-                            "value": "22c12940-38a6-45fc-9694-d58daf0ce057"
+                            "value": "e84fa78a-de58-4c6b-a2b1-48222f6b9bc9"
                           },
                           "Image": {
                             "asset": "asset/Texture/Skill/common/icon_近战攻击_act.png"
@@ -430,7 +430,7 @@
                               "Offect": 100
                             },
                             "UDim_Y": {
-                              "Offect": 100.0
+                              "Offect": 100
                             }
                           }
                         },
@@ -444,7 +444,7 @@
                           "Font": "HarmonyOS_Sans_SC_Black",
                           "Font_size": 35,
                           "id": {
-                            "value": "f1513e9c-b78c-4cc4-9029-c8eda7799cad"
+                            "value": "e17b27fe-a3c3-481a-8627-88a66cbb3434"
                           },
                           "name": "NameTxt",
                           "pos": {
@@ -454,7 +454,7 @@
                           },
                           "size": {
                             "UDim_X": {
-                              "Offect": 221.0
+                              "Offect": 221
                             },
                             "UDim_Y": {
                               "Offect": 54.7
@@ -478,7 +478,7 @@
                           "Font": "HarmonyOS_Sans_SC_Black",
                           "Font_size": 35,
                           "id": {
-                            "value": "b1b1c177-ce0e-4d47-8a17-08adfd60ea6c"
+                            "value": "54830dd2-2aae-4a54-ac6a-73587768fc1d"
                           },
                           "name": "PlayerNumTxt",
                           "pos": {
@@ -488,7 +488,7 @@
                           },
                           "size": {
                             "UDim_X": {
-                              "Offect": 160.0
+                              "Offect": 160
                             },
                             "UDim_Y": {
                               "Offect": 54.7
@@ -512,7 +512,7 @@
                           "Font": "HarmonyOS_Sans_SC_Black",
                           "Font_size": 35,
                           "id": {
-                            "value": "dab7cf36-b0ee-4cc4-aa1b-0a0586d582e4"
+                            "value": "a918ecb1-17b3-46d9-9693-89c871c4da95"
                           },
                           "name": "StatusTxt",
                           "pos": {
@@ -522,7 +522,7 @@
                           },
                           "size": {
                             "UDim_X": {
-                              "Offect": 164.0
+                              "Offect": 164
                             },
                             "UDim_Y": {
                               "Offect": 54.7
@@ -550,7 +550,7 @@
                             "asset": "asset/Texture/UI/JoinButton_nor.png"
                           },
                           "id": {
-                            "value": "3f4fc1af-d1a5-4a19-99c1-c34a43a79834"
+                            "value": "ece48441-055f-4b09-b8e8-de33aa6ade4a"
                           },
                           "name": "JoinBtn",
                           "NormalImage": {
@@ -569,7 +569,7 @@
                               "Offect": 200
                             },
                             "UDim_Y": {
-                              "Offect": 75.0
+                              "Offect": 75
                             }
                           },
                           "Text": ""
@@ -577,7 +577,7 @@
                       ],
                       "ClippedByParent": true,
                       "id": {
-                        "value": "18044b12-e2ca-4ee9-9f8c-32ca89c5f1f4"
+                        "value": "52fa406e-a79c-4ffc-84b5-7005843d1e72"
                       },
                       "Image": {
                         "asset": "asset/Texture/UI/RoomFrame.png"
@@ -585,12 +585,12 @@
                       "name": "Room3",
                       "pos": {
                         "UDim_Y": {
-                          "Offect": 256.0
+                          "Offect": 256
                         }
                       },
                       "size": {
                         "UDim_X": {
-                          "Offect": 0.0,
+                          "Offect": 0,
                           "Scale": 1
                         }
                       }
@@ -605,7 +605,7 @@
                           },
                           "ClippedByParent": true,
                           "id": {
-                            "value": "cc7ea088-3d17-4190-97c9-277428379616"
+                            "value": "6d73bad2-9632-4650-b57b-0efcda1c22d6"
                           },
                           "Image": {
                             "asset": "asset/Texture/Skill/common/icon_飞.png"
@@ -621,7 +621,7 @@
                               "Offect": 100
                             },
                             "UDim_Y": {
-                              "Offect": 100.0
+                              "Offect": 100
                             }
                           }
                         },
@@ -635,7 +635,7 @@
                           "Font": "HarmonyOS_Sans_SC_Black",
                           "Font_size": 35,
                           "id": {
-                            "value": "86654088-fcbc-44a9-a1a2-124a9b4520cb"
+                            "value": "5957f987-b5b2-404b-8f10-efd276c2aa53"
                           },
                           "name": "NameTxt",
                           "pos": {
@@ -645,7 +645,7 @@
                           },
                           "size": {
                             "UDim_X": {
-                              "Offect": 249.0
+                              "Offect": 249
                             },
                             "UDim_Y": {
                               "Offect": 54.7
@@ -669,7 +669,7 @@
                           "Font": "HarmonyOS_Sans_SC_Black",
                           "Font_size": 35,
                           "id": {
-                            "value": "f66b1fd3-eae0-4796-93d6-14dca0f16c9b"
+                            "value": "92d2fc78-d5b9-4747-a477-68a91e6be012"
                           },
                           "name": "PlayerNumTxt",
                           "pos": {
@@ -679,7 +679,7 @@
                           },
                           "size": {
                             "UDim_X": {
-                              "Offect": 160.0
+                              "Offect": 160
                             },
                             "UDim_Y": {
                               "Offect": 54.7
@@ -708,7 +708,7 @@
                             "asset": "asset/Texture/UI/JoinButton_nor.png"
                           },
                           "id": {
-                            "value": "8b6fa949-30b7-4556-ac0d-dff67cdecb9d"
+                            "value": "6f44141d-4ab7-4624-a662-be870926318c"
                           },
                           "name": "JoinBtn",
                           "NormalImage": {
@@ -727,7 +727,7 @@
                               "Offect": 200
                             },
                             "UDim_Y": {
-                              "Offect": 75.0
+                              "Offect": 75
                             }
                           },
                           "Text": ""
@@ -735,7 +735,7 @@
                       ],
                       "ClippedByParent": true,
                       "id": {
-                        "value": "a4644ea5-4e9c-48e2-ba89-4350e01a034c"
+                        "value": "51b86b19-03fe-4add-be05-758d1a4c9d17"
                       },
                       "Image": {
                         "asset": "asset/Texture/UI/RoomFrame.png"
@@ -743,35 +743,36 @@
                       "name": "Room4",
                       "pos": {
                         "UDim_Y": {
-                          "Offect": 384.0
+                          "Offect": 384
                         }
                       },
                       "size": {
                         "UDim_X": {
-                          "Offect": 0.0,
+                          "Offect": 0,
                           "Scale": 1
                         }
                       }
                     }
                   ],
                   "id": {
-                    "value": "99638ad9-406a-43aa-b04b-62c953cf3ade"
+                    "value": "e373b6f3-2457-4a89-9be2-bc2f10d11394"
                   },
                   "name": "VerticalLayout",
                   "size": {
                     "UDim_X": {
-                      "Offect": 1281.0
+                      "Offect": 1284
                     },
                     "UDim_Y": {
-                      "Offect": 512.0
+                      "Offect": 512
                     }
                   }
                 }
               ],
               "ForceHorzScrollbar": false,
               "ForceVertScrollbar": false,
+              "HorzScrollPosition": 0.5,
               "id": {
-                "value": "d860b195-518a-4ffa-93f9-01aa1888c4c1"
+                "value": "e07af0f2-0bfc-4c13-9f9d-99627511377c"
               },
               "pos": {
                 "UDim_Y": {
@@ -791,7 +792,7 @@
             }
           ],
           "id": {
-            "value": "5bc66da5-c06b-4e4f-8bec-f4768475f84a"
+            "value": "f58074b7-1c3c-4bd1-a108-6accc76e546b"
           },
           "Image": {
             "asset": "asset/Texture/UI/UIBackground.png"
@@ -816,7 +817,7 @@
         }
       ],
       "id": {
-        "value": "99282d29-5512-4bb5-9f9a-c1623f87e51b"
+        "value": "27d3056d-4432-4a81-b908-276b469b7bc7"
       },
       "size": {
         "UDim_X": {
@@ -832,9 +833,9 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "64830d117258205ae0d9ed9c1f181778",
+      "layout": "609ac85e6982db31bfc72ff6e908a6d1",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

@@ -4,28 +4,22 @@
       "base": {
         "__OBJ_TYPE": "SkyBoxStatic",
         "back": {
-          "asset": "asset/speedrung/map5/sky.png",
-          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+          "asset": "asset/speedrung/map5/sky.png"
         },
         "bottom": {
-          "asset": "asset/speedrung/map5/sky.png",
-          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+          "asset": "asset/speedrung/map5/sky.png"
         },
         "front": {
-          "asset": "asset/speedrung/map5/sky.png",
-          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+          "asset": "asset/speedrung/map5/sky.png"
         },
         "left": {
-          "asset": "asset/speedrung/map5/sky.png",
-          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+          "asset": "asset/speedrung/map5/sky.png"
         },
         "right": {
-          "asset": "asset/speedrung/map5/sky.png",
-          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+          "asset": "asset/speedrung/map5/sky.png"
         },
         "top": {
-          "asset": "asset/speedrung/map5/sky.png",
-          "selector": "editor/ParkourGame/asset/speedrung/map5/sky.png"
+          "asset": "asset/speedrung/map5/sky.png"
         }
       }
     },
@@ -98,7 +92,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511010335323275265",
-        "mass": 1059.0891174316,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": 0.047579824924469,
           "y": 0.34900277853012,
@@ -116,8 +112,7 @@
           "z": 28.3113
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 481.40414428711
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -132,12 +127,12 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511014027910430721",
-        "mass": 8.7073937416077,
         "material": {
           "color": {
             "b": 0,
             "r": 245
-          }
+          },
+          "discardAlpha": 1
         },
         "position": {
           "x": 0.02019202709198,
@@ -157,8 +152,7 @@
         },
         "useAnchor": true,
         "useCollide": false,
-        "useGravity": false,
-        "volume": 3.9579062461853
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -215,7 +209,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511015659418157057",
-        "mass": 276.72850189209,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -0.033064961433411,
           "y": 0.42989897727966,
@@ -233,8 +229,7 @@
           "z": 9.67471
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 125.78568267822
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -291,7 +286,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511018166708912129",
-        "mass": 277.86279296875,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": 0.035129308700562,
           "y": 0.41989892721176,
@@ -309,8 +306,7 @@
           "z": 9.75963
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 126.30126953125
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -367,7 +363,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511021857000898561",
-        "mass": 276.72850189209,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -0.033064961433411,
           "y": 0.42989897727966,
@@ -385,8 +383,7 @@
           "z": 9.67471
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 125.78568267822
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -443,7 +440,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511022100056997889",
-        "mass": 287.7420135498,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": 0.54631793498993,
           "y": 0.41989892721176,
@@ -461,8 +460,7 @@
           "z": 24.6594
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 130.79182434082
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -519,7 +517,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511023072550649857",
-        "mass": 277.86279296875,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": 0.035129308700562,
           "y": 0.41989892721176,
@@ -537,8 +537,7 @@
           "z": 9.75963
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 126.30126953125
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -595,7 +594,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511023342915911681",
-        "mass": 276.72850189209,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -0.033064961433411,
           "y": 2.2798986434937,
@@ -613,8 +614,7 @@
           "z": 9.67471
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 125.78568267822
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -671,7 +671,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511024162491891713",
-        "mass": 277.86279296875,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": 0.035129308700562,
           "y": 3.899897813797,
@@ -689,8 +691,7 @@
           "z": 9.75963
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 126.30126953125
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -747,7 +748,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511025576760295425",
-        "mass": 276.72850189209,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -0.69724595546722,
           "y": 9.7599029541016,
@@ -765,8 +768,7 @@
           "z": 9.67471
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 125.78568267822
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -823,7 +825,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511025874182717441",
-        "mass": 278.0929107666,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -0.021268844604492,
           "y": 11.809899330139,
@@ -841,8 +845,7 @@
           "z": 9.65788
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 126.40586853027
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -899,7 +902,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511027145224765441",
-        "mass": 276.72850189209,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -16.599090576172,
           "y": 13.430957794189,
@@ -920,8 +925,7 @@
           "z": 9.67471
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 125.78568267822
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -978,7 +982,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511028307562823681",
-        "mass": 276.72850189209,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": 18.56304359436,
           "y": 11.609161376953,
@@ -999,8 +1005,7 @@
           "z": 9.67471
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 125.78568267822
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -1057,7 +1062,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511028647231602689",
-        "mass": 278.0929107666,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -17.196668624878,
           "y": 12.862413406372,
@@ -1078,8 +1085,7 @@
           "z": 9.65788
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 126.40586853027
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -1136,7 +1142,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511028720667017217",
-        "mass": 278.0929107666,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": 17.18049621582,
           "y": 12.883872032166,
@@ -1157,8 +1165,7 @@
           "z": 9.65788
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 126.40586853027
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -1215,7 +1222,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511030021060755457",
-        "mass": 276.72850189209,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -0.064706325531006,
           "y": 6.0598993301392,
@@ -1233,8 +1242,7 @@
           "z": 9.67471
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 125.78568267822
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -1291,7 +1299,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511030021070798849",
-        "mass": 276.72850189209,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": 16.62084197998,
           "y": 13.484715461731,
@@ -1312,8 +1322,7 @@
           "z": 9.67471
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 125.78568267822
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -1370,7 +1379,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511030021081972737",
-        "mass": 276.72850189209,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -18.422342300415,
           "y": 11.436226844788,
@@ -1391,8 +1402,7 @@
           "z": 9.67471
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 125.78568267822
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -1449,7 +1459,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511030953475129345",
-        "mass": 278.0929107666,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -0.021268844604492,
           "y": 7.9399003982544,
@@ -1467,8 +1479,7 @@
           "z": 9.65788
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 126.40586853027
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -1525,7 +1536,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511030953485975553",
-        "mass": 278.0929107666,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": 14.396657943726,
           "y": 15.572189331055,
@@ -1546,8 +1559,7 @@
           "z": 9.65788
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 126.40586853027
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -1604,7 +1616,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511030953495904257",
-        "mass": 278.0929107666,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -14.607137680054,
           "y": 15.738388061523,
@@ -1625,8 +1639,7 @@
           "z": 9.65788
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 126.40586853027
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -1683,7 +1696,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511034203032649729",
-        "mass": 278.0929107666,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": 0.26584720611572,
           "y": 15.093665122986,
@@ -1704,8 +1719,7 @@
           "z": 9.65788
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 126.40586853027
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -1762,7 +1776,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511034203043774465",
-        "mass": 278.0929107666,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -16.909559249878,
           "y": 20.016181945801,
@@ -1785,8 +1801,7 @@
           "z": 9.65788
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 126.40586853027
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -1843,7 +1858,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511034203054374913",
-        "mass": 276.72850189209,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -18.135229110718,
           "y": 18.589996337891,
@@ -1866,8 +1883,7 @@
           "z": 9.67471
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 125.78568267822
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -1924,7 +1940,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511034203064172545",
-        "mass": 276.72850189209,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": 16.907960891724,
           "y": 20.638484954834,
@@ -1947,8 +1965,7 @@
           "z": 9.67471
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 125.78568267822
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -2005,7 +2022,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511034203073937409",
-        "mass": 276.72850189209,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": 18.850160598755,
           "y": 18.76293182373,
@@ -2028,8 +2047,7 @@
           "z": 9.67471
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 125.78568267822
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -2086,7 +2104,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511034203084701697",
-        "mass": 276.72850189209,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -16.311979293823,
           "y": 20.58472442627,
@@ -2109,8 +2129,7 @@
           "z": 9.67471
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 125.78568267822
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -2167,7 +2186,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511034203094663169",
-        "mass": 276.72850189209,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -0.41013026237488,
           "y": 16.913669586182,
@@ -2188,8 +2209,7 @@
           "z": 9.67471
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 125.78568267822
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -2246,7 +2266,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511034203104739329",
-        "mass": 276.72850189209,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": 0.22240900993347,
           "y": 13.213665962219,
@@ -2267,8 +2289,7 @@
           "z": 9.67471
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 125.78568267822
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -2325,7 +2346,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511034203116355585",
-        "mass": 278.0929107666,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": 17.467615127563,
           "y": 20.037643432617,
@@ -2348,8 +2371,7 @@
           "z": 9.65788
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 126.40586853027
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -2406,7 +2428,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511038454347677697",
-        "mass": 296.37608032227,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": 0.035129308700562,
           "y": 16.249891281128,
@@ -2424,8 +2448,7 @@
           "z": 10.4099
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 134.71640014648
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -2482,7 +2505,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511039525668061185",
-        "mass": 299.10711364746,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -23.894708633423,
           "y": 16.299898147583,
@@ -2500,8 +2525,7 @@
           "z": 10.4571
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 135.95777893066
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -2558,7 +2582,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511040584604696577",
-        "mass": 296.37608032227,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -46.984870910645,
           "y": 16.249891281128,
@@ -2576,8 +2602,7 @@
           "z": 10.4099
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 134.71640014648
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -2634,7 +2659,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511041109231009793",
-        "mass": 299.10711364746,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -46.374717712402,
           "y": 16.299898147583,
@@ -2652,8 +2679,7 @@
           "z": 10.4571
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 135.95777893066
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -2710,7 +2736,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511041456762322945",
-        "mass": 296.37608032227,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -70.084907531738,
           "y": 16.249891281128,
@@ -2728,8 +2756,7 @@
           "z": 10.4099
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 134.71640014648
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -2786,7 +2813,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511041955045867521",
-        "mass": 299.10711364746,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -94.314682006836,
           "y": 16.299898147583,
@@ -2804,8 +2833,7 @@
           "z": 10.4571
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 135.95777893066
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -2862,7 +2890,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511042224235970561",
-        "mass": 296.37608032227,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -94.284851074219,
           "y": 16.249891281128,
@@ -2880,8 +2910,7 @@
           "z": 10.4099
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 134.71640014648
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -2938,7 +2967,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511042522649165825",
-        "mass": 299.10711364746,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -118.60469055176,
           "y": 16.299898147583,
@@ -2956,8 +2987,7 @@
           "z": 10.4571
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 135.95777893066
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -3014,7 +3044,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511043417571868673",
-        "mass": 296.37608032227,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -130.37484741211,
           "y": 16.249891281128,
@@ -3035,8 +3067,7 @@
           "z": 10.4099
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 134.71640014648
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -3093,7 +3124,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511044157711794177",
-        "mass": 299.10711364746,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -118.60469055176,
           "y": 16.299898147583,
@@ -3114,8 +3147,7 @@
           "z": 10.4571
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 135.95777893066
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -3172,7 +3204,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511044708042276865",
-        "mass": 296.37608032227,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -130.37484741211,
           "y": 16.249891281128,
@@ -3193,8 +3227,7 @@
           "z": 10.4099
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 134.71640014648
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -3251,7 +3284,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511044936684617729",
-        "mass": 299.10711364746,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -118.60469055176,
           "y": 16.299898147583,
@@ -3272,8 +3307,7 @@
           "z": 10.4571
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 135.95777893066
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -3330,7 +3364,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511045543894106113",
-        "mass": 296.37608032227,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -125.05484771729,
           "y": 16.249891281128,
@@ -3351,8 +3387,7 @@
           "z": 10.4099
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 134.71640014648
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -3409,7 +3444,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511046616650579969",
-        "mass": 126.13956604004,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -121.024269104,
           "y": 18.929899215698,
@@ -3427,8 +3464,7 @@
           "z": 10.457
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 57.336166381836
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -3485,7 +3521,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511047645106176001",
-        "mass": 126.13956604004,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -129.75430297852,
           "y": 18.929899215698,
@@ -3503,8 +3541,7 @@
           "z": 10.457
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 57.336166381836
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -3561,7 +3598,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511048182426206209",
-        "mass": 126.13956604004,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -132.91424560547,
           "y": 18.929899215698,
@@ -3579,8 +3618,7 @@
           "z": 10.457
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 57.336166381836
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -3637,7 +3675,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511048182438035457",
-        "mass": 126.13956604004,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -118.34426116943,
           "y": 18.929899215698,
@@ -3655,8 +3695,7 @@
           "z": 10.457
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 57.336166381836
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Model",
@@ -3716,7 +3755,9 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8511049304046583809",
-            "mass": 126.13956604004,
+            "material": {
+              "discardAlpha": 1
+            },
             "position": {
               "x": -127.85384368896,
               "y": 19.326406478882,
@@ -3739,8 +3780,7 @@
               "z": 10.457
             },
             "useAnchor": true,
-            "useGravity": false,
-            "volume": 57.336166381836
+            "useGravity": false
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -3802,7 +3842,9 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8511049616249864193",
-            "mass": 126.13956604004,
+            "material": {
+              "discardAlpha": 1
+            },
             "position": {
               "x": -123.49822235107,
               "y": 19.267526626587,
@@ -3825,8 +3867,7 @@
               "z": 10.457
             },
             "useAnchor": true,
-            "useGravity": false,
-            "volume": 57.336166381836
+            "useGravity": false
           }
         ],
         "id": "8511051061541339137",
@@ -3897,7 +3938,9 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8511051763838418945",
-            "mass": 126.13956604004,
+            "material": {
+              "discardAlpha": 1
+            },
             "position": {
               "x": -127.86148071289,
               "y": 16.044715881348,
@@ -3918,8 +3961,7 @@
               "z": 10.457
             },
             "useAnchor": true,
-            "useGravity": false,
-            "volume": 57.336166381836
+            "useGravity": false
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -3981,7 +4023,9 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8511051763848265729",
-            "mass": 126.13956604004,
+            "material": {
+              "discardAlpha": 1
+            },
             "position": {
               "x": -123.505859375,
               "y": 15.993315696716,
@@ -4002,8 +4046,7 @@
               "z": 10.457
             },
             "useAnchor": true,
-            "useGravity": false,
-            "volume": 57.336166381836
+            "useGravity": false
           }
         ],
         "id": "8511051763836551169",
@@ -4068,7 +4111,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511052401597317121",
-        "mass": 296.37608032227,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -125.05484771729,
           "y": 19.553653717041,
@@ -4086,8 +4131,7 @@
           "z": 10.4099
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 134.71640014648
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -4144,7 +4188,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511053504124567553",
-        "mass": 299.10711364746,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -125.00469207764,
           "y": 19.579893112183,
@@ -4162,8 +4208,7 @@
           "z": 10.4571
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 135.95777893066
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -4220,7 +4265,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511054194326421505",
-        "mass": 66.537184906006,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -121.08689117432,
           "y": 19.553653717041,
@@ -4238,8 +4285,7 @@
           "z": 6.04245
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 30.244174957275
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -4296,7 +4342,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511054706517590017",
-        "mass": 66.537184906006,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -130.19683837891,
           "y": 19.553653717041,
@@ -4314,8 +4362,7 @@
           "z": 6.04245
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 30.244174957275
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -4372,7 +4419,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511054940992585729",
-        "mass": 299.10711364746,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -125.00469207764,
           "y": 19.579893112183,
@@ -4390,8 +4439,7 @@
           "z": 10.4571
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 135.95777893066
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -4453,7 +4501,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511055173979226113",
-        "mass": 299.10711364746,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -125.00469207764,
           "y": 20.582420349121,
@@ -4474,8 +4524,7 @@
           "z": 10.4571
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 135.95777893066
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -4532,7 +4581,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511056279857496065",
-        "mass": 252.62046508789,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -124.06463623047,
           "y": 19.363656997681,
@@ -4550,8 +4601,7 @@
           "z": 14.8342
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 114.82748413086
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -4613,7 +4663,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511056949106180097",
-        "mass": 416.88146972656,
+        "material": {
+          "discardAlpha": 1
+        },
         "position": {
           "x": -141.64129638672,
           "y": 19.363656997681,
@@ -4631,8 +4683,7 @@
           "z": 14.8342
         },
         "useAnchor": true,
-        "useGravity": false,
-        "volume": 189.49157714844
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -4640,10 +4691,11 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8511057685671919617",
-        "mass": 2.2,
+        "material": {
+          "discardAlpha": 1
+        },
         "restitution": 0.3,
-        "useAnchor": true,
-        "volume": 1
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Model",
@@ -4661,8 +4713,8 @@
             "density": 2.5,
             "friction": 0.6,
             "id": "8511058550947823617",
-            "mass": 1.9400578737259,
             "material": {
+              "discardAlpha": 1,
               "texture": "part_zhuankuai.tga"
             },
             "position": {
@@ -4681,8 +4733,7 @@
               "y": 0.776035,
               "z": 0.99999
             },
-            "useAnchor": true,
-            "volume": 0.77602314949036
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -4697,8 +4748,8 @@
             "density": 2.5,
             "friction": 0.6,
             "id": "8511058416812359681",
-            "mass": 1.9400578737259,
             "material": {
+              "discardAlpha": 1,
               "texture": "part_zhuankuai.tga"
             },
             "position": {
@@ -4717,8 +4768,7 @@
               "y": 0.776035,
               "z": 0.99999
             },
-            "useAnchor": true,
-            "volume": 0.77602314949036
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -4738,8 +4788,8 @@
             "density": 2.5,
             "friction": 0.6,
             "id": "8511058696385921025",
-            "mass": 1.9400578737259,
             "material": {
+              "discardAlpha": 1,
               "texture": "part_zhuankuai.tga"
             },
             "position": {
@@ -4758,8 +4808,7 @@
               "y": 0.776035,
               "z": 0.99999
             },
-            "useAnchor": true,
-            "volume": 0.77602314949036
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -4774,8 +4823,8 @@
             "density": 2.5,
             "friction": 0.6,
             "id": "8511057813063139329",
-            "mass": 7.8228759765625,
             "material": {
+              "discardAlpha": 1,
               "texture": "part_zhuankuai.tga"
             },
             "position": {
@@ -4794,8 +4843,7 @@
               "y": 3.12917,
               "z": 0.999996
             },
-            "useAnchor": true,
-            "volume": 3.129150390625
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -4803,8 +4851,8 @@
             "density": 2.5,
             "friction": 0.6,
             "id": "8511057999266201601",
-            "mass": 7.8228759765625,
             "material": {
+              "discardAlpha": 1,
               "texture": "part_zhuankuai.tga"
             },
             "position": {
@@ -4823,8 +4871,7 @@
               "y": 3.12917,
               "z": 0.999996
             },
-            "useAnchor": true,
-            "volume": 3.129150390625
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -4832,8 +4879,8 @@
             "density": 2.5,
             "friction": 0.6,
             "id": "8511058791791591425",
-            "mass": 1.9400578737259,
             "material": {
+              "discardAlpha": 1,
               "texture": "part_zhuankuai.tga"
             },
             "position": {
@@ -4852,8 +4899,7 @@
               "y": 0.776035,
               "z": 0.99999
             },
-            "useAnchor": true,
-            "volume": 0.77602314949036
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -4873,8 +4919,8 @@
             "density": 2.5,
             "friction": 0.6,
             "id": "8511058117307891713",
-            "mass": 1.9400578737259,
             "material": {
+              "discardAlpha": 1,
               "texture": "part_zhuankuai.tga"
             },
             "position": {
@@ -4893,8 +4939,7 @@
               "y": 0.776035,
               "z": 0.99999
             },
-            "useAnchor": true,
-            "volume": 0.77602314949036
+            "useAnchor": true
           }
         ],
         "id": "8511059399164264449",
@@ -4942,7 +4987,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8540941894326288385",
-        "mass": 69.285921859741,
+        "material": {
+          "discardAlpha": 1
+        },
         "name": "checkpoint",
         "position": {
           "x": 0.16499328613281,
@@ -4960,8 +5007,7 @@
           "y": 0.179628,
           "z": 13.7763
         },
-        "useAnchor": true,
-        "volume": 31.493600845337
+        "useAnchor": true
       }
     ],
     "name": {
@@ -4970,8 +5016,9 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a82a13a782031d7e278cc2649e216995"
+      "DataSet": [],
+      "setting.json": "ea583d3dd5ea50ace3e23298e58b0860"
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

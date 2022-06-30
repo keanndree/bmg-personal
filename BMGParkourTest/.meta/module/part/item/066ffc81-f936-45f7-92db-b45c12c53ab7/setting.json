@@ -370,6 +370,11 @@
               "type": "T_Entity"
             }
           ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "f9e37f41-7c37-415a-ae1a-c80e1afedc0b"
+            }
+          },
           "root": {
             "components": [
               {
@@ -404,6 +409,6 @@
     "EXPORT": {
       "triggers.bts": "c24837c37c39733e8561c0e407699c36"
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

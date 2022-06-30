@@ -1,0 +1,215 @@
+{
+  "data": {
+    "md5": "020464ccb28bd2677e6d9c6b78f8fbc0",
+    "path": "asset/buttonlist.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "Font_size": 25,
+          "HoverTextColour": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "id": {
+            "value": "b9d765e5-5fcc-441d-8705-88131b1a9bd8"
+          },
+          "name": "CraftBtn",
+          "NormalTextColour": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": -157
+            },
+            "UDim_Y": {
+              "Offect": 2.04
+            }
+          },
+          "PushedTextColour": {
+            "b": 117,
+            "r": 138
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 152.27
+            },
+            "UDim_Y": {
+              "Offect": 50.0
+            }
+          },
+          "Text": "Craft Gun"
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "Font_size": 25,
+          "HoverImage": {
+            "asset": "asset/Texture/Gui/button_yellow_nor.png"
+          },
+          "HoverTextColour": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "id": {
+            "value": "02e3b0e0-cdb1-4a26-b178-b0ef580aa567"
+          },
+          "name": "ShopBtn",
+          "NormalImage": {
+            "asset": "asset/Texture/Gui/button_yellow_nor.png"
+          },
+          "NormalTextColour": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": -0.3
+            },
+            "UDim_Y": {
+              "Offect": 2.04
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/Gui/button_yellow_act.png"
+          },
+          "PushedTextColour": {
+            "b": 117,
+            "r": 138
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 152.27
+            },
+            "UDim_Y": {
+              "Offect": 50.0
+            }
+          },
+          "Text": "Shop"
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "Font_size": 25,
+          "HoverImage": {
+            "asset": "asset/Texture/Gui/button_yellow_nor.png"
+          },
+          "HoverTextColour": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "id": {
+            "value": "3ada4f25-9393-48e2-b087-5201509c57a1"
+          },
+          "name": "UpgradeBtn",
+          "NormalImage": {
+            "asset": "asset/Texture/Gui/button_yellow_nor.png"
+          },
+          "NormalTextColour": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 156.41
+            },
+            "UDim_Y": {
+              "Offect": 2.04
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/Gui/button_yellow_act.png"
+          },
+          "PushedTextColour": {
+            "b": 117,
+            "r": 138
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 152.27
+            },
+            "UDim_Y": {
+              "Offect": 50.0
+            }
+          },
+          "Text": "Upgrade"
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "id": {
+            "value": "4f3244be-f7d4-4462-bd27-6c02faa9cef8"
+          },
+          "name": "ResetValueBtn",
+          "pos": {
+            "UDim_X": {
+              "Offect": 185.01
+            },
+            "UDim_Y": {
+              "Offect": 52.58
+            }
+          },
+          "Text": "Reset Value"
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "id": {
+            "value": "11d0121c-5cd3-418f-a5a5-bdbc2e38e261"
+          },
+          "name": "BackpackBtn",
+          "pos": {
+            "UDim_X": {
+              "Offect": 370.03
+            },
+            "UDim_Y": {
+              "Offect": 52.58
+            }
+          },
+          "Text": "Backpack"
+        }
+      ],
+      "id": {
+        "value": "8e3f88a3-ef86-40dc-838d-bc494fd44f51"
+      },
+      "pos": {
+        "UDim_X": {
+          "Offect": 727.93
+        },
+        "UDim_Y": {
+          "Offect": 4.63
+        }
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 466.2
+        },
+        "UDim_Y": {
+          "Offect": 54.02
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "020464ccb28bd2677e6d9c6b78f8fbc0",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

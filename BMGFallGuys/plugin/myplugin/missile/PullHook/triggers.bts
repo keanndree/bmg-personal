@@ -1,0 +1,4 @@
+HIT_ENTITY {
+	setPlayCameraYawToAttacker(entity = $obj1, target = $obj2)
+	ExecScript(getPlayerHit = $obj1, getTargetPos = $obj2, script_name = "ScriptableNode_3")
+}

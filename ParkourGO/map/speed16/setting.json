@@ -1,10 +1,13 @@
 {
+  "blinn": 0,
   "canBreak": true,
+  "hdr": 0,
   "hideCloud": true,
   "moveDownGravity": 0.15,
   "scene": [
     {
       "class": "VoxelTerrain",
+      "customProperties": [],
       "properties": {
         "id": "8506582507153031169",
         "name": "VoxelTerrain",
@@ -14,7 +17,9 @@
     {
       "class": "Entity",
       "config": "myplugin/player1",
+      "customProperties": [],
       "properties": {
+        "batchType": "Static",
         "id": "8506582580145520641",
         "name": "Player",
         "needSync": "true",
@@ -28,6 +33,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -42,6 +48,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -56,25 +63,28 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "083b5600-d6c1-461c-8be7-57f2f71e879d",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510694722111242241",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
-        "materialColor": "r:0.20392156862745 g:0.5921568627451 b:0.20392156862745 a:1.0",
+        "materialColor": "r:0.20392156862745 g:0.59607843137255 b:0.20392156862745 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Part",
@@ -98,6 +108,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -112,6 +123,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -126,25 +138,28 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "5c788b52-e2c8-47f1-a1a6-2477b6e9ea18",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510700201778413569",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
-        "materialColor": "r:0.20392156862745 g:0.5921568627451 b:0.20392156862745 a:1.0",
+        "materialColor": "r:0.20392156862745 g:0.59607843137255 b:0.20392156862745 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Part",
@@ -168,6 +183,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -182,6 +198,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -196,25 +213,28 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "7480d809-80a4-4cd1-94c3-2e76c454a05d",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510700300831211521",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
-        "materialColor": "r:0.20392156862745 g:0.5921568627451 b:0.20392156862745 a:1.0",
+        "materialColor": "r:0.20392156862745 g:0.59607843137255 b:0.20392156862745 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Part",
@@ -238,6 +258,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -252,6 +273,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -266,25 +288,28 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "c13df8ac-dee7-4f72-b9d3-64967b006985",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510701528451661825",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
-        "materialColor": "r:0.20392156862745 g:0.5921568627451 b:0.20392156862745 a:1.0",
+        "materialColor": "r:0.20392156862745 g:0.59607843137255 b:0.20392156862745 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Part",
@@ -308,6 +333,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -322,6 +348,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -336,25 +363,28 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "36d30256-0298-430a-9bad-5d3a9e8adece",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510701826890088449",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
-        "materialColor": "r:0.20392156862745 g:0.5921568627451 b:0.20392156862745 a:1.0",
+        "materialColor": "r:0.20392156862745 g:0.59607843137255 b:0.20392156862745 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Part",
@@ -378,6 +408,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -392,6 +423,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -406,25 +438,28 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "fe2cfdb0-cb36-4f32-83e8-ec02d08d8b7d",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510702617747406849",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
-        "materialColor": "r:0.20392156862745 g:0.5921568627451 b:0.20392156862745 a:1.0",
+        "materialColor": "r:0.20392156862745 g:0.59607843137255 b:0.20392156862745 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Part",
@@ -448,6 +483,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -462,6 +498,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -476,25 +513,28 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "3917419e-19d1-4d6d-a573-800092cad3a7",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510703057072865281",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
-        "materialColor": "r:0.20392156862745 g:0.5921568627451 b:0.20392156862745 a:1.0",
+        "materialColor": "r:0.20392156862745 g:0.59607843137255 b:0.20392156862745 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Part",
@@ -518,6 +558,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -532,6 +573,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -546,25 +588,28 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "db23c956-1990-4345-8292-2a1e8e837e38",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510703304300691457",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
-        "materialColor": "r:0.20392156862745 g:0.5921568627451 b:0.20392156862745 a:1.0",
+        "materialColor": "r:0.20392156862745 g:0.59607843137255 b:0.20392156862745 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Part",
@@ -588,6 +633,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -602,6 +648,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -616,25 +663,28 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "290988f2-b552-4c4a-923f-c221aa7399bf",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510704157917265921",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
-        "materialColor": "r:0.20392156862745 g:0.5921568627451 b:0.20392156862745 a:1.0",
+        "materialColor": "r:0.20392156862745 g:0.59607843137255 b:0.20392156862745 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Part",
@@ -658,6 +708,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -672,6 +723,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -686,25 +738,28 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "efd89012-0087-456f-aee1-92071cc4e23a",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510704825303744513",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
-        "materialColor": "r:0.20392156862745 g:0.5921568627451 b:0.20392156862745 a:1.0",
+        "materialColor": "r:0.20392156862745 g:0.59607843137255 b:0.20392156862745 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Part",
@@ -728,6 +783,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -742,6 +798,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -756,25 +813,28 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "741460bb-74d8-46d5-b013-ff8a72f2d539",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510706945108688897",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
-        "materialColor": "r:0.20392156862745 g:0.5921568627451 b:0.20392156862745 a:1.0",
+        "materialColor": "r:0.20392156862745 g:0.59607843137255 b:0.20392156862745 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Part",
@@ -798,6 +858,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -812,6 +873,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -826,25 +888,28 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "0c1ce039-f4df-42fb-ae05-9f1d5f2240fa",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510707611846737921",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
-        "materialColor": "r:0.20392156862745 g:0.5921568627451 b:0.20392156862745 a:1.0",
+        "materialColor": "r:0.20392156862745 g:0.59607843137255 b:0.20392156862745 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Part",
@@ -868,6 +933,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -882,6 +948,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -896,25 +963,28 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "a2a87490-21d6-4637-a208-1693e661355c",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510708483951558657",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
-        "materialColor": "r:0.20392156862745 g:0.5921568627451 b:0.20392156862745 a:1.0",
+        "materialColor": "r:0.20392156862745 g:0.59607843137255 b:0.20392156862745 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Part",
@@ -938,6 +1008,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -952,6 +1023,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -966,25 +1038,28 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "01f1afdf-0e16-4f6e-b72e-8601ee34826f",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510709052591882241",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
-        "materialColor": "r:0.20392156862745 g:0.5921568627451 b:0.20392156862745 a:1.0",
+        "materialColor": "r:0.20392156862745 g:0.59607843137255 b:0.20392156862745 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Part",
@@ -1008,6 +1083,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -1022,6 +1098,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -1036,25 +1113,28 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "13bb71c4-0069-42f4-aae3-6513efed8abd",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510710274579185665",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
-        "materialColor": "r:0.20392156862745 g:0.5921568627451 b:0.20392156862745 a:1.0",
+        "materialColor": "r:0.20392156862745 g:0.59607843137255 b:0.20392156862745 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Part",
@@ -1078,6 +1158,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -1092,6 +1173,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -1106,25 +1188,28 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "5e80ec58-0364-4c56-9031-d3cbb401f952",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510710936227627009",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
-        "materialColor": "r:0.20392156862745 g:0.5921568627451 b:0.20392156862745 a:1.0",
+        "materialColor": "r:0.20392156862745 g:0.59607843137255 b:0.20392156862745 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Part",
@@ -1148,6 +1233,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -1162,6 +1248,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -1176,23 +1263,26 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "01fbea80-0dcb-42d2-9434-146bc24a806f",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510711592534999041",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
         "materialColor": "r:0.2 g:0.57647058823529 b:0.2 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
@@ -1218,6 +1308,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -1232,6 +1323,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -1246,25 +1338,28 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "b74e6ade-81e8-4f61-bfc4-0998c003873e",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510713474136408065",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
-        "materialColor": "r:0.22352941176471 g:0.64313725490196 b:0.22352941176471 a:1.0",
+        "materialColor": "r:0.22745098039216 g:0.64313725490196 b:0.22745098039216 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Part",
@@ -1288,6 +1383,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -1302,6 +1398,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -1316,25 +1413,28 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "60aab38f-8544-4ebd-8dee-71f81d91b50a",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510714003066716161",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
-        "materialColor": "r:0.21960784313725 g:0.63921568627451 b:0.21960784313725 a:1.0",
+        "materialColor": "r:0.21960784313725 g:0.64313725490196 b:0.21960784313725 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Part",
@@ -1358,6 +1458,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -1372,6 +1473,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -1386,25 +1488,28 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "6ed99a2d-ac32-4eb5-a611-0b9e7eee35ac",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510714187031396353",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
-        "materialColor": "r:0.1921568627451 g:0.56078431372549 b:0.1921568627451 a:1.0",
+        "materialColor": "r:0.19607843137255 g:0.56078431372549 b:0.19607843137255 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Part",
@@ -1428,6 +1533,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -1442,6 +1548,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -1456,25 +1563,28 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "15ef71bd-fe35-44be-a765-950dcf186ced",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510714613063368705",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
-        "materialColor": "r:0.1921568627451 g:0.56078431372549 b:0.1921568627451 a:1.0",
+        "materialColor": "r:0.19607843137255 g:0.56078431372549 b:0.19607843137255 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Part",
@@ -1498,6 +1608,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -1512,6 +1623,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -1526,23 +1638,26 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "d029f3c1-7243-4bf1-aa7a-ec3f6f0831e3",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510715642704510977",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "131.91334075928",
+        "mass": "0",
         "materialAlpha": "1.0",
         "materialColor": "r:0.24313725490196 g:0.69803921568627 b:0.24313725490196 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
@@ -1570,6 +1685,7 @@
           "children": [
             {
               "class": "FixedConstraint",
+              "customProperties": [],
               "properties": {
                 "collision": "false",
                 "id": "8510718536856158209",
@@ -1581,22 +1697,25 @@
             }
           ],
           "class": "Part",
+          "customProperties": [],
           "properties": {
             "angleVelocity": "x:0 y:0 z:0",
+            "batchType": "Static",
             "bloom": "false",
             "booleanOperation": "0",
             "btsKey": "48cadafd-e3e7-4034-8973-f39bb3617dce",
             "cameraCollideEnable": "true",
+            "collisionFidelity": "0",
             "collisionUniqueKey": "",
             "customThreshold": "1",
             "density": "2.5",
-            "discardAlpha": "1.0",
+            "discardAlpha": "1",
             "friction": "0.6",
             "id": "8510716448874577921",
             "isLockedInEditor": "false",
             "isVisibleInEditor": "true",
             "lineVelocity": "x:0 y:0 z:0",
-            "mass": "8.3092731237411",
+            "mass": "0",
             "materialAlpha": "1.0",
             "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
             "materialOffset": "x:1 y:1 z:1.0",
@@ -1622,6 +1741,7 @@
           "children": [
             {
               "class": "FixedConstraint",
+              "customProperties": [],
               "properties": {
                 "collision": "false",
                 "id": "8510718493426204673",
@@ -1633,22 +1753,25 @@
             }
           ],
           "class": "Part",
+          "customProperties": [],
           "properties": {
             "angleVelocity": "x:0 y:0 z:0",
+            "batchType": "Static",
             "bloom": "false",
             "booleanOperation": "0",
             "btsKey": "3e8b7b14-9235-4534-be94-c491bf6e4b05",
             "cameraCollideEnable": "true",
+            "collisionFidelity": "0",
             "collisionUniqueKey": "",
             "customThreshold": "1",
             "density": "2.5",
-            "discardAlpha": "1.0",
+            "discardAlpha": "1",
             "friction": "0.6",
             "id": "8510717559257071617",
             "isLockedInEditor": "false",
             "isVisibleInEditor": "true",
             "lineVelocity": "x:0 y:0 z:0",
-            "mass": "1.9954240322113",
+            "mass": "0",
             "materialAlpha": "1.0",
             "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
             "materialOffset": "x:1 y:1 z:1.0",
@@ -1674,6 +1797,7 @@
           "children": [
             {
               "class": "FixedConstraint",
+              "customProperties": [],
               "properties": {
                 "collision": "false",
                 "id": "8510718465801617409",
@@ -1685,22 +1809,25 @@
             }
           ],
           "class": "Part",
+          "customProperties": [],
           "properties": {
             "angleVelocity": "x:0 y:0 z:0",
+            "batchType": "Static",
             "bloom": "false",
             "booleanOperation": "0",
             "btsKey": "8b91f7d7-b772-4d95-95f1-e0dc0662320a",
             "cameraCollideEnable": "true",
+            "collisionFidelity": "0",
             "collisionUniqueKey": "",
             "customThreshold": "1",
             "density": "2.5",
-            "discardAlpha": "1.0",
+            "discardAlpha": "1",
             "friction": "0.6",
             "id": "8510717801665789953",
             "isLockedInEditor": "false",
             "isVisibleInEditor": "true",
             "lineVelocity": "x:0 y:0 z:0",
-            "mass": "1.9954240322113",
+            "mass": "0",
             "materialAlpha": "1.0",
             "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
             "materialOffset": "x:1 y:1 z:1.0",
@@ -1726,6 +1853,7 @@
           "children": [
             {
               "class": "FixedConstraint",
+              "customProperties": [],
               "properties": {
                 "collision": "false",
                 "id": "8510718440600125441",
@@ -1737,22 +1865,25 @@
             }
           ],
           "class": "Part",
+          "customProperties": [],
           "properties": {
             "angleVelocity": "x:0 y:0 z:0",
+            "batchType": "Static",
             "bloom": "false",
             "booleanOperation": "0",
             "btsKey": "ac3e9530-ee47-4c23-8f7b-b501310bed83",
             "cameraCollideEnable": "true",
+            "collisionFidelity": "0",
             "collisionUniqueKey": "",
             "customThreshold": "1",
             "density": "2.5",
-            "discardAlpha": "1.0",
+            "discardAlpha": "1",
             "friction": "0.6",
             "id": "8510718183101775873",
             "isLockedInEditor": "false",
             "isVisibleInEditor": "true",
             "lineVelocity": "x:0 y:0 z:0",
-            "mass": "1.9954240322113",
+            "mass": "0",
             "materialAlpha": "1.0",
             "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
             "materialOffset": "x:1 y:1 z:1.0",
@@ -1778,6 +1909,7 @@
           "children": [
             {
               "class": "FixedConstraint",
+              "customProperties": [],
               "properties": {
                 "collision": "false",
                 "id": "8510718391078928385",
@@ -1789,22 +1921,25 @@
             }
           ],
           "class": "Part",
+          "customProperties": [],
           "properties": {
             "angleVelocity": "x:0 y:0 z:0",
+            "batchType": "Static",
             "bloom": "false",
             "booleanOperation": "0",
             "btsKey": "8f0bc95c-08bc-47ee-8da6-5009d3dc6993",
             "cameraCollideEnable": "true",
+            "collisionFidelity": "0",
             "collisionUniqueKey": "",
             "customThreshold": "1",
             "density": "2.5",
-            "discardAlpha": "1.0",
+            "discardAlpha": "1",
             "friction": "0.6",
             "id": "8510718127993683969",
             "isLockedInEditor": "false",
             "isVisibleInEditor": "true",
             "lineVelocity": "x:0 y:0 z:0",
-            "mass": "1.9954240322113",
+            "mass": "0",
             "materialAlpha": "1.0",
             "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
             "materialOffset": "x:1 y:1 z:1.0",
@@ -1830,6 +1965,7 @@
           "children": [
             {
               "class": "FixedConstraint",
+              "customProperties": [],
               "properties": {
                 "collision": "false",
                 "id": "8510718362637877249",
@@ -1841,22 +1977,25 @@
             }
           ],
           "class": "Part",
+          "customProperties": [],
           "properties": {
             "angleVelocity": "x:0 y:0 z:0",
+            "batchType": "Static",
             "bloom": "false",
             "booleanOperation": "0",
             "btsKey": "31345ffa-e204-485a-a2e2-16ba7119ecd3",
             "cameraCollideEnable": "true",
+            "collisionFidelity": "0",
             "collisionUniqueKey": "",
             "customThreshold": "1",
             "density": "2.5",
-            "discardAlpha": "1.0",
+            "discardAlpha": "1",
             "friction": "0.6",
             "id": "8510717021010313217",
             "isLockedInEditor": "false",
             "isVisibleInEditor": "true",
             "lineVelocity": "x:0 y:0 z:0",
-            "mass": "1.9954240322113",
+            "mass": "0",
             "materialAlpha": "1.0",
             "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
             "materialOffset": "x:1 y:1 z:1.0",
@@ -1882,6 +2021,7 @@
           "children": [
             {
               "class": "FixedConstraint",
+              "customProperties": [],
               "properties": {
                 "collision": "false",
                 "id": "8510718328739545089",
@@ -1893,6 +2033,7 @@
             },
             {
               "class": "FixedConstraint",
+              "customProperties": [],
               "properties": {
                 "collision": "false",
                 "id": "8510718575582216193",
@@ -1904,22 +2045,25 @@
             }
           ],
           "class": "Part",
+          "customProperties": [],
           "properties": {
             "angleVelocity": "x:0 y:0 z:0",
+            "batchType": "Static",
             "bloom": "false",
             "booleanOperation": "0",
             "btsKey": "63e2ee24-6364-4b5f-91da-710fb3a8b3a6",
             "cameraCollideEnable": "true",
+            "collisionFidelity": "0",
             "collisionUniqueKey": "",
             "customThreshold": "1",
             "density": "2.5",
-            "discardAlpha": "1.0",
+            "discardAlpha": "1",
             "friction": "0.6",
             "id": "8510716895095816193",
             "isLockedInEditor": "false",
             "isVisibleInEditor": "true",
             "lineVelocity": "x:0 y:0 z:0",
-            "mass": "8.3092731237411",
+            "mass": "0",
             "materialAlpha": "1.0",
             "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
             "materialOffset": "x:1 y:1 z:1.0",
@@ -1943,7 +2087,9 @@
         }
       ],
       "class": "Model",
+      "customProperties": [],
       "properties": {
+        "batchType": "Static",
         "id": "8510718752935493633",
         "name": "cong",
         "needSync": "true",
@@ -1955,23 +2101,26 @@
     },
     {
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "3710f50a-c0d6-4fd5-be97-eaf0702d4658",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "false",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510719607875174401",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "493879.99375",
+        "mass": "0",
         "materialAlpha": "1.0",
         "materialColor": "r:0.16078431372549 g:0.52941176470588 b:0.28235294117647 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
@@ -1997,6 +2146,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -2011,6 +2161,7 @@
         },
         {
           "class": "FixedConstraint",
+          "customProperties": [],
           "properties": {
             "collision": "false",
             "id": "8510723637320941569",
@@ -2022,6 +2173,7 @@
         },
         {
           "class": "FixedConstraint",
+          "customProperties": [],
           "properties": {
             "collision": "false",
             "id": "8510723748802084865",
@@ -2033,6 +2185,7 @@
         },
         {
           "class": "FixedConstraint",
+          "customProperties": [],
           "properties": {
             "collision": "false",
             "id": "8510727473313808385",
@@ -2044,23 +2197,26 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "c0f7a122-ec07-40c2-b1ff-3b7206b29317",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510720471417913345",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "55996.286328125",
+        "mass": "0",
         "materialAlpha": "1.0",
         "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
@@ -2086,6 +2242,7 @@
       "children": [
         {
           "class": "FixedConstraint",
+          "customProperties": [],
           "properties": {
             "collision": "false",
             "id": "8510723800008916993",
@@ -2097,6 +2254,7 @@
         },
         {
           "class": "FixedConstraint",
+          "customProperties": [],
           "properties": {
             "collision": "false",
             "id": "8510723827107414017",
@@ -2108,6 +2266,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -2122,6 +2281,7 @@
         },
         {
           "class": "FixedConstraint",
+          "customProperties": [],
           "properties": {
             "collision": "false",
             "id": "8510727620694786049",
@@ -2133,23 +2293,26 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "387b3adf-a83b-473d-a060-6909c9e6e9b9",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510721826213838849",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "49492.575",
+        "mass": "0",
         "materialAlpha": "1.0",
         "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
@@ -2175,6 +2338,7 @@
       "children": [
         {
           "class": "FixedConstraint",
+          "customProperties": [],
           "properties": {
             "collision": "false",
             "id": "8510723521312653313",
@@ -2186,6 +2350,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -2200,6 +2365,7 @@
         },
         {
           "class": "FixedConstraint",
+          "customProperties": [],
           "properties": {
             "collision": "false",
             "id": "8510727543851532289",
@@ -2211,23 +2377,26 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "de261559-516f-43d7-a23e-b57a2f58ff14",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510722494738235393",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "54950.29375",
+        "mass": "0",
         "materialAlpha": "1.0",
         "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
@@ -2253,6 +2422,7 @@
       "children": [
         {
           "class": "FixedConstraint",
+          "customProperties": [],
           "properties": {
             "collision": "false",
             "id": "8510723423840124929",
@@ -2264,6 +2434,7 @@
         },
         {
           "class": "FixedConstraint",
+          "customProperties": [],
           "properties": {
             "collision": "false",
             "id": "8510723463800684545",
@@ -2275,6 +2446,7 @@
         },
         {
           "class": "FixedConstraint",
+          "customProperties": [],
           "properties": {
             "collision": "false",
             "id": "8510723588545544193",
@@ -2286,6 +2458,7 @@
         },
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -2300,6 +2473,7 @@
         },
         {
           "class": "FixedConstraint",
+          "customProperties": [],
           "properties": {
             "collision": "false",
             "id": "8510727737607307265",
@@ -2311,23 +2485,26 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "6f4aa482-d6a5-45f2-b3ff-c085a7143a93",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510723049198141441",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "35265.271679688",
+        "mass": "0",
         "materialAlpha": "1.0",
         "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
@@ -2353,6 +2530,7 @@
       "children": [
         {
           "class": "FixedConstraint",
+          "customProperties": [],
           "properties": {
             "collision": "false",
             "id": "8510727342203895809",
@@ -2364,25 +2542,28 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "3feb0136-478a-43f6-98bd-0a098b64f028",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "false",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510726420830142465",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "625713.89375",
+        "mass": "0",
         "materialAlpha": "0.46",
-        "materialColor": "r:0.12549019607843 g:0.33333333333333 b:0.058823529411765 a:1.0",
+        "materialColor": "r:0.12549019607843 g:0.33333333333333 b:0.062745098039216 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Part",
@@ -2404,23 +2585,26 @@
     },
     {
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "707bf02e-f77c-41c3-819f-dbc394cf9cea",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8510728017628790785",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "4.6127010822296",
+        "mass": "0",
         "materialAlpha": "1.0",
         "materialColor": "r:1.0 g:1.0 b:0.0 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
@@ -2446,6 +2630,7 @@
       "children": [
         {
           "class": "Decal",
+          "customProperties": [],
           "properties": {
             "decalAlpha": "1",
             "decalColor": "r:1.0 g:1.0 b:1.0 a:1.0",
@@ -2460,23 +2645,26 @@
         }
       ],
       "class": "Part",
+      "customProperties": [],
       "properties": {
         "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
         "bloom": "false",
         "booleanOperation": "0",
         "btsKey": "a0bbf754-e14b-46ba-837c-24f32623532a",
         "cameraCollideEnable": "true",
         "cameraEnableCollide": "true",
+        "collisionFidelity": "0",
         "collisionUniqueKey": "",
         "customThreshold": "1",
         "density": "2.2",
-        "discardAlpha": "1.0",
+        "discardAlpha": "1",
         "friction": "0.37",
         "id": "8540941000284176385",
         "isLockedInEditor": "false",
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
-        "mass": "47.781967544556",
+        "mass": "0",
         "materialAlpha": "1.0",
         "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
@@ -2500,7 +2688,9 @@
     },
     {
       "class": "RegionPart",
+      "customProperties": [],
       "properties": {
+        "batchType": "Static",
         "cfgName": "myplugin/7c619371-aea0-43ae-b929-5ee0640c0aed",
         "id": "8545130523197046785",
         "name": "Region",
@@ -2524,6 +2714,7 @@
       ]
     }
   ],
+  "skyBoxMode": "static_display",
   "skyBoxRotate": {
     "x": 0,
     "y": 0,

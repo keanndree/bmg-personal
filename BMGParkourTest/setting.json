@@ -17,6 +17,12 @@
         "enable": true,
         "enableCollisionDetect": true,
         "lockSlideScreen": false,
+        "offset": {
+          "__OBJ_TYPE": "Vector3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "viewFovAngle": 75
       },
       {
@@ -24,6 +30,12 @@
         "enable": false,
         "enableCollisionDetect": true,
         "lockSlideScreen": false,
+        "offset": {
+          "__OBJ_TYPE": "Vector3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "viewFovAngle": 75
       },
       {
@@ -32,6 +44,12 @@
         "enableCollisionDetect": true,
         "lockBodyRotation": false,
         "lockSlideScreen": false,
+        "offset": {
+          "__OBJ_TYPE": "Vector3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "viewFovAngle": 75
       },
       {
@@ -51,11 +69,12 @@
   },
   "canJoinMidway": false,
   "defaultMap": "map001",
-  "defaultQualityLevel": 0,
+  "defaultQualityLevel": 2,
   "dragControlConfig": {
     "useDragControl": true
   },
   "editorFovAngle": 65,
+  "enableNewLighting": false,
   "engineDefUIEnable": {
     "actionControl": true,
     "appMainRole": true,
@@ -65,6 +84,8 @@
     "toolbar": true
   },
   "forcePickBlock": true,
+  "glesMinorVersion": 0,
+  "glesVersion": 3,
   "hideCloud": false,
   "hideTeamStatusBar": false,
   "ignoreEmptyStartPos": false,
@@ -110,7 +131,7 @@
   "needSave": true,
   "noLoadHp": true,
   "notReadUserSettingCfgAtEditor": true,
-  "nowTime": 18000.0,
+  "nowTime": 0.0,
   "oneDayTime": 600.0,
   "personalSettingUI": {
     "controlMode": true,
@@ -262,17 +283,16 @@
     "entity": [
       {
         "key": "mind",
+        "run_type": "server",
         "save": false,
         "value": 1
       }
     ],
-    "global": []
+    "global": [],
+    "ui": []
   },
   "waitAtInitPos": true,
   "waitGoTime": 0,
   "waitPlayerTime": 0,
-  "waitStartTime": 0,
-  "glesMinorVersion": 0,
-  "glesVersion": 3,
-  "enableNewLighting":false
+  "waitStartTime": 0
 }

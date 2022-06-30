@@ -43,12 +43,21 @@
     "selfOnly": false,
     "yaw": 0
   },
+  "cdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "",
+    "FillType": "Horizontal",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
   "cdTime": 5,
   "consumeVp": 0,
   "customizeSkill": true,
   "draggingEnabled": false,
   "enable_pre": false,
   "enable_rear": false,
+  "enableCdMask": false,
+  "enableCdTip": false,
   "enableMoveBrkBackS": false,
   "enableMoveBrkPreS": false,
   "frontSight": "",
@@ -61,6 +70,7 @@
   "ignoreMoveBackS": false,
   "ignoreMovePreS": false,
   "isClick": false,
+  "isShowCdPoint": true,
   "isTouch": false,
   "missileCfg": [
     "myplugin/attcak"

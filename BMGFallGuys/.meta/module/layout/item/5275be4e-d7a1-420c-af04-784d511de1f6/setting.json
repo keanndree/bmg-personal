@@ -1,0 +1,162 @@
+{
+  "data": {
+    "md5": "bf17e29d644fd1fac8a8114a38cf2ea7",
+    "path": "asset/UI/MainMenu.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "id": {
+            "value": "99894c94-e3ab-47de-9247-3ae41ee651b5"
+          },
+          "Image": {
+            "asset": "asset/UI/MainMenu/BG.png"
+          },
+          "name": "Background",
+          "pos": {
+            "UDim_X": {
+              "Offect": 1.0874363183975
+            },
+            "UDim_Y": {
+              "Offect": -1.0876133441925
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "horzFormatting": "CentreAligned",
+          "id": {
+            "value": "61eb6f7c-25b3-4c5d-ad2c-6a5dc326c82d"
+          },
+          "Image": {
+            "asset": "asset/UI/MainMenu/Logo.png"
+          },
+          "name": "Logo",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.1
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.65
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.2
+            }
+          },
+          "vertFormatting": "CentreAligned",
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "DisabledImage": {
+            "asset": "asset/UI/MainMenu/JoinButton.png"
+          },
+          "HorzImageFormatting": "CentreAligned",
+          "HoverImage": {
+            "asset": "asset/UI/MainMenu/JoinButton.png"
+          },
+          "id": {
+            "value": "7418465f-2b5a-4430-b94c-061aa97c20fe"
+          },
+          "name": "JoinBtn",
+          "NormalImage": {
+            "asset": "asset/UI/MainMenu/JoinButton.png"
+          },
+          "pos": {
+            "UDim_Y": {
+              "Offect": 50
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/UI/MainMenu/JoinButton.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.2
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.3
+            }
+          },
+          "Text": "",
+          "VertImageFormatting": "CentreAligned"
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Bottom"
+          },
+          "Font": "HarmonyOS_Sans_SC_Black",
+          "Font_size": 15,
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "a67872dd-b66d-419e-9b95-45c2a0facd4b"
+          },
+          "name": "BottomText",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.05
+            }
+          },
+          "Text": "- Blockman GO -",
+          "TextColours": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "VertFormatting": "CentreAligned",
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        }
+      ],
+      "id": {
+        "value": "dc56422e-6711-4f76-b59b-34fd257e61f0"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "bf17e29d644fd1fac8a8114a38cf2ea7",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

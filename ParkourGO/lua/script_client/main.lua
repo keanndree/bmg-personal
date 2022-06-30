@@ -1,4 +1,4 @@
-print('script_client:hello world')
+wprint('script_client:hello world')
 
 require "script_client.backpack_client"
 require "script_client.secondjump_client"

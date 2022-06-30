@@ -1,0 +1,39 @@
+{
+  "data": {
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 60
+    },
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_Invishield"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Buff",
+        "buffTime": {
+          "value": 100
+        },
+        "target": "self"
+      },
+      "type": "Buff"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/UI/ShieldIcon.png"
+      },
+      "iconPos": {
+        "area_number": 7
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2411928c2e8580c33895ef3f32d687fa",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}
