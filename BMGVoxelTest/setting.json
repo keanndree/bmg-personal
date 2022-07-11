@@ -17,6 +17,12 @@
         "enable": true,
         "enableCollisionDetect": true,
         "lockSlideScreen": false,
+        "offset": {
+          "__OBJ_TYPE": "Vector3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "viewFovAngle": 75
       },
       {
@@ -24,6 +30,12 @@
         "enable": false,
         "enableCollisionDetect": true,
         "lockSlideScreen": false,
+        "offset": {
+          "__OBJ_TYPE": "Vector3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "viewFovAngle": 75
       },
       {
@@ -32,6 +44,12 @@
         "enableCollisionDetect": true,
         "lockBodyRotation": false,
         "lockSlideScreen": false,
+        "offset": {
+          "__OBJ_TYPE": "Vector3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "viewFovAngle": 75
       },
       {
@@ -51,15 +69,16 @@
   },
   "canJoinMidway": false,
   "defaultMap": "map001",
-  "defaultQualityLevel": 0,
+  "defaultQualityLevel": 2,
   "dragControlConfig": {
     "useDragControl": true
   },
   "editorFovAngle": 65,
+  "enableNewLighting": false,
   "engineDefUIEnable": {
     "actionControl": true,
     "actionControlMode": "flexibleDragControl",
-	"appMainRole": true,
+    "appMainRole": true,
     "chat": true,
     "playerinfo": true,
     "shortcutBar": true,
@@ -111,7 +130,7 @@
   "needSave": false,
   "noLoadHp": true,
   "notReadUserSettingCfgAtEditor": true,
-  "nowTime": 18001.666666667,
+  "nowTime": 1666.6666666667,
   "oneDayTime": 600.0,
   "personalSettingUI": {
     "controlMode": true,
@@ -261,10 +280,11 @@
   "vars": {
     "__OBJ_TYPE": [],
     "entity": [],
-    "global": []
+    "global": [],
+    "ui": []
   },
   "waitAtInitPos": true,
-  "waitGoTime": 100,
-  "waitPlayerTime": 100,
-  "waitStartTime": 100
+  "waitGoTime": 0,
+  "waitPlayerTime": 0,
+  "waitStartTime": 0
 }

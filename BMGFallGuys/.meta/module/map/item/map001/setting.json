@@ -50,34 +50,147 @@
         "children": [
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "27db7b99-d8cb-49b4-8b69-ca45370236ac",
-            "density": 0.6,
-            "friction": 0.46,
-            "id": "8663476891681161217",
+            "btsKey": "1830de0c-1cae-4f16-b78b-410a614ea355",
+            "cameraCollideEnable": false,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8709913335976345601",
+            "massCenter": {
+              "x": -0.53000003099442,
+              "y": 18.959505081177,
+              "z": 16.635597229004
+            },
             "material": {
+              "alpha": 0.806,
               "color": {
-                "g": 110,
-                "r": 0
-              },
-              "discardAlpha": 1,
-              "texture": "part_buliao.tga"
+                "b": 37,
+                "g": 211
+              }
             },
             "name": "SpawnPlatform",
             "position": {
-              "z": -18
+              "x": -0.53000003099442,
+              "y": 18.959505081177,
+              "z": 16.635597229004
             },
-            "restitution": 0.03,
+            "restitution": 0.3,
             "scale": {
-              "x": 39,
-              "y": 0.5,
-              "z": 10
+              "x": 65,
+              "y": 0.558999,
+              "z": 65
             },
+            "shape": "3",
             "size": {
-              "x": 39,
-              "y": 0.5,
-              "z": 10
+              "x": 65,
+              "y": 0.55899894237518,
+              "z": 65.0
             },
             "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_PartOperation",
+            "btsKey": "b5989663-70ee-43c8-a58f-5fe405fc34d2",
+            "cameraCollideEnable": false,
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "10bf1b2d-f8ad-4881-80e8-b04fa1aa71c8",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8709919548654288897",
+                "massCenter": {
+                  "x": -0.71700000762939,
+                  "y": 23.704168319702,
+                  "z": 16.879549026489
+                },
+                "material": {
+                  "alpha": 0.639
+                },
+                "position": {
+                  "x": -0.71700000762939,
+                  "y": 23.704168319702,
+                  "z": 16.879549026489
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 54,
+                  "y": 10,
+                  "z": 54
+                },
+                "shape": "3",
+                "size": {
+                  "x": 54,
+                  "y": 10,
+                  "z": 54.0
+                }
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "booleanOperation": 2,
+                "btsKey": "f29a14c8-dc83-47f1-a70a-b87b652e4e21",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8709919548658286593",
+                "massCenter": {
+                  "x": -0.71700000762939,
+                  "y": 23.704168319702,
+                  "z": 16.879549026489
+                },
+                "material": {
+                  "alpha": 0.639
+                },
+                "position": {
+                  "x": -0.71700000762939,
+                  "y": 23.704168319702,
+                  "z": 16.879549026489
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 52,
+                  "y": 10,
+                  "z": 52
+                },
+                "shape": "3",
+                "size": {
+                  "x": 52,
+                  "y": 9.9999990463257,
+                  "z": 52.0
+                }
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8709919548756574209",
+            "isVisibleInEditor": false,
+            "massCenter": {
+              "x": -0.71699994802475,
+              "y": 23.704166412354,
+              "z": 16.879547119141
+            },
+            "material": {
+              "alpha": 0
+            },
+            "mergeShapesDataKey": "8709919548661252097",
+            "name": "InvisibleWall",
+            "position": {
+              "x": -0.71699994802475,
+              "y": 23.704166412354,
+              "z": 16.879547119141
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 54,
+              "y": 10,
+              "z": 54
+            },
+            "size": {
+              "x": 53.999988555908,
+              "y": 9.9999980926514,
+              "z": 53.999984741211
+            },
+            "useAnchor": true,
+            "useCollide": false,
             "useGravity": false
           },
           {
@@ -110,38 +223,6 @@
               "x": 100,
               "y": 0.499994,
               "z": 100
-            },
-            "useAnchor": true,
-            "useGravity": false
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "75f32a36-0a8e-44c6-8659-ca8590ceb324",
-            "density": 0.6,
-            "friction": 0.46,
-            "id": "8674903147481071617",
-            "material": {
-              "color": {
-                "b": 4,
-                "g": 0
-              },
-              "discardAlpha": 1,
-              "texture": "part_buliao.tga"
-            },
-            "name": "SpawnPlatform",
-            "position": {
-              "z": 51.25
-            },
-            "restitution": 0.03,
-            "scale": {
-              "x": 39,
-              "y": 0.5,
-              "z": 10
-            },
-            "size": {
-              "x": 39,
-              "y": 0.5,
-              "z": 10
             },
             "useAnchor": true,
             "useGravity": false
@@ -6578,9 +6659,9 @@
               "z": 3.32902
             },
             "size": {
-              "x": 70.757843017578,
-              "y": 35.49621963501,
-              "z": 141.03666687012
+              "x": 70.757835388184,
+              "y": 35.496215820312,
+              "z": 141.03665161133
             },
             "useAnchor": true,
             "useCollide": false,
@@ -6616,9 +6697,9 @@
               "z": 3.32902
             },
             "size": {
-              "x": 70.757843017578,
-              "y": 35.49621963501,
-              "z": 141.03666687012
+              "x": 70.757835388184,
+              "y": 35.496215820312,
+              "z": 141.03665161133
             },
             "useAnchor": true,
             "useCollide": false,
@@ -6687,6 +6768,11 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8674849511856783361",
+            "massCenter": {
+              "x": -0.77000004053116,
+              "y": -21.022359848022,
+              "z": 16.451875686646
+            },
             "material": {
               "color": {
                 "b": 17,
@@ -6698,19 +6784,19 @@
             "mergeShapesDataKey": "8674849511787233281",
             "position": {
               "x": -0.77000004053116,
-              "y": -26.806360244751,
+              "y": -21.022359848022,
               "z": 16.451875686646
             },
             "restitution": 0.3,
             "scale": {
-              "x": 77.9986,
-              "y": 52.0886,
-              "z": 77.9986
+              "x": 75.999,
+              "y": 50.7532,
+              "z": 75.999
             },
             "size": {
-              "x": 77.9986,
-              "y": 52.0886,
-              "z": 77.9986
+              "x": 75.999000549316,
+              "y": 50.753246307373,
+              "z": 75.999000549316
             },
             "useAnchor": true,
             "useCollide": false,
@@ -6718,14 +6804,14 @@
           },
           {
             "__OBJ_TYPE": "Instance_PartOperation",
-            "btsKey": "b1b5a9c0-472f-4164-8872-406dfba3d08c",
+            "btsKey": "509186b5-1e15-4094-be88-d11f5f5b625a",
             "cameraCollideEnable": false,
             "children": [
               {
                 "__OBJ_TYPE": "Instance_Part",
                 "density": 2.2,
                 "friction": 0.37,
-                "id": "8692873101563723777",
+                "id": "8709929182428364801",
                 "position": {
                   "x": -0.228369,
                   "y": -26.8064,
@@ -6749,7 +6835,7 @@
                 "booleanOperation": 2,
                 "density": 2.2,
                 "friction": 0.37,
-                "id": "8692873101567492097",
+                "id": "8709929182431444993",
                 "material": {
                   "color": {
                     "b": 0,
@@ -6778,136 +6864,32 @@
             ],
             "density": 2.2,
             "friction": 0.37,
-            "id": "8692873101562380289",
+            "id": "8709929182427430913",
             "massCenter": {
-              "x": 6.1770000457764,
-              "y": 1.0266399383545,
-              "z": 15.942875862122
+              "x": -0.77000004053116,
+              "y": 6.0746421813965,
+              "z": 16.451875686646
             },
             "material": {
               "alpha": 0,
-              "color": {
-                "b": 17,
-                "g": 27,
-                "r": 38
-              },
               "discardAlpha": 1
             },
             "mergeShapesDataKey": "8674849511787233281",
-            "name": "InvisibleWall",
             "position": {
-              "x": 6.1770000457764,
-              "y": 1.0266399383545,
-              "z": 15.942875862122
+              "x": -0.77000004053116,
+              "y": 6.0746421813965,
+              "z": 16.451875686646
             },
             "restitution": 0.3,
             "scale": {
-              "x": 91.8456,
-              "y": 61.3358,
-              "z": 91.8456
+              "x": 76.999,
+              "y": 50.7618,
+              "z": 76.0118
             },
             "size": {
-              "x": 91.845573425293,
-              "y": 61.335834503174,
-              "z": 91.845558166504
-            },
-            "useAnchor": true,
-            "useGravity": false
-          },
-          {
-            "__OBJ_TYPE": "Instance_PartOperation",
-            "btsKey": "da610fd1-8066-4621-9cc4-8dfb8ce01235",
-            "cameraCollideEnable": false,
-            "children": [
-              {
-                "__OBJ_TYPE": "Instance_Part",
-                "density": 2.2,
-                "friction": 0.37,
-                "id": "8692992538199146497",
-                "position": {
-                  "x": -0.228369,
-                  "y": -26.8064,
-                  "z": 16.4519
-                },
-                "restitution": 0.3,
-                "scale": {
-                  "x": 77.9986,
-                  "y": 52.0886,
-                  "z": 77.9986
-                },
-                "shape": "3",
-                "size": {
-                  "x": 77.9986,
-                  "y": 52.0886,
-                  "z": 77.9986
-                }
-              },
-              {
-                "__OBJ_TYPE": "Instance_Part",
-                "booleanOperation": 2,
-                "density": 2.2,
-                "friction": 0.37,
-                "id": "8692992538202767361",
-                "material": {
-                  "color": {
-                    "b": 0,
-                    "g": 0,
-                    "r": 0
-                  }
-                },
-                "position": {
-                  "x": -0.228369,
-                  "y": -25.7429,
-                  "z": 16.4519
-                },
-                "restitution": 0.3,
-                "scale": {
-                  "x": 66,
-                  "y": 49.9615,
-                  "z": 66
-                },
-                "shape": "3",
-                "size": {
-                  "x": 66,
-                  "y": 49.9615,
-                  "z": 66
-                }
-              }
-            ],
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8692992538195705857",
-            "massCenter": {
-              "x": -7.308000087738,
-              "y": 1.0266399383545,
-              "z": 15.942875862122
-            },
-            "material": {
-              "alpha": 0,
-              "color": {
-                "b": 17,
-                "g": 27,
-                "r": 38
-              },
-              "discardAlpha": 1
-            },
-            "mergeShapesDataKey": "8674849511787233281",
-            "name": "InvisibleWall",
-            "position": {
-              "x": -7.308000087738,
-              "y": 1.0266399383545,
-              "z": 15.942875862122
-            },
-            "restitution": 0.3,
-            "scale": {
-              "x": 91.8456,
-              "y": 61.3358,
-              "z": 91.8456
-            },
-            "size": {
-              "x": 91.845573425293,
-              "y": 61.335834503174,
-              "z": 91.845558166504
+              "x": 76.999000549316,
+              "y": 50.761772155762,
+              "z": 76.011825561523
             },
             "useAnchor": true,
             "useGravity": false
@@ -6928,7 +6910,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "28011877fbd5c07e80ff1cc4cf564233"
+      "setting.json": "09a8760b4dd87bd81877f312ade93254"
     },
     "VERSION": "0.21"
   }

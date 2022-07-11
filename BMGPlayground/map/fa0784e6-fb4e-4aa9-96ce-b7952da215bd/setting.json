@@ -1,0 +1,156 @@
+{
+  "blinn": 0,
+  "canBreak": true,
+  "hdr": 0,
+  "hideCloud": true,
+  "moveDownGravity": 0.15,
+  "scene": [
+    {
+      "class": "VoxelTerrain",
+      "customProperties": [],
+      "properties": {
+        "id": "8706053633614430209",
+        "name": "VoxelTerrain",
+        "uniqueKey": ""
+      }
+    },
+    {
+      "class": "Light",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8706053633659715585",
+        "ID": "3",
+        "lightActived": "true",
+        "lightAngle": "30.0",
+        "lightBrightness": "1.0",
+        "lightColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "lightLength": "1.0",
+        "lightRange": "8.0",
+        "lightType": "GlobalLight",
+        "lightWidth": "1.0",
+        "name": "EnvironmentLight",
+        "needSync": "true",
+        "position": "x:0 y:0 z:0",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "shadowsDistance": "20.0",
+        "shadowsIntensity": "1.0",
+        "shadowsOffset": "0.02",
+        "shadowsPresicion": "1024",
+        "shadowsType": "null",
+        "skyColor": "r:0.49803921568627 g:0.51372549019608 b:0.54509803921569 a:1.0",
+        "skyLineColor": "r:0.23921568627451 g:0.22745098039216 b:0.2078431372549 a:1.0"
+      }
+    },
+    {
+      "class": "Part",
+      "customProperties": [],
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "5ff45072-8060-404a-98b0-5b4ffb5f1743",
+        "cameraCollideEnable": "true",
+        "collisionFidelity": "0",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "0.0",
+        "friction": "0.37",
+        "id": "8706062591497207809",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "136.36380386353",
+        "materialAlpha": "1",
+        "materialColor": "r:0.031372549019608 g:0.2078431372549 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-13.906938552856 y:2.5898959636688 z:8.400785446167",
+        "restitution": "0.3",
+        "rotation": "x:-0.0 y:0.0 z:0.0",
+        "scale": "x:4.98299 y:3.17999 z:4.98299",
+        "selectable": "true",
+        "shape": "3",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "false",
+        "useCollide": "true",
+        "useGravity": "true",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "class": "Part",
+      "customProperties": [],
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "5330f7c5-4cf2-4ba7-aa42-4f5c5de40d0f",
+        "cameraCollideEnable": "true",
+        "collisionFidelity": "0",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "0.0",
+        "friction": "0.37",
+        "id": "8706062591608176641",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "136.36380386353",
+        "materialAlpha": "1",
+        "materialColor": "r:1.0 g:0.003921568627451 b:0.003921568627451 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-6.1844778060913 y:2.8258845806122 z:9.6726913452148",
+        "restitution": "0.3",
+        "rotation": "x:-0.0 y:0.0 z:0.0",
+        "scale": "x:4.98299 y:3.17999 z:4.98299",
+        "selectable": "true",
+        "shape": "3",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "false",
+        "useCollide": "true",
+        "useGravity": "true",
+        "useTextureAlpha": "false"
+      }
+    }
+  ],
+  "skyBox": [
+    {
+      "texture": [
+        "@asset/Texture/SkyBox/Common2/Sky03_right.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_left.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_top.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_bottom.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_back.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_front.png"
+      ]
+    }
+  ],
+  "skyBoxMode": "static_display",
+  "skyBoxRotate": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "skyBoxTexPixFmt": "RGBA8",
+  "skyBoxTexSize": 512,
+  "touchPosY": {
+    "touchdownPosY": -30.0,
+    "touchupPosY": 720.0
+  }
+}

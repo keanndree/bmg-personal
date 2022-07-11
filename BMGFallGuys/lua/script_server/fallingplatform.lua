@@ -1,6 +1,6 @@
 local cfg = Entity.GetCfg("myplugin/player1")
 local function FallPlatformSequence(part)
-  local disappearTime = 50
+  local disappearTime = 10
   local appearTime = 75
   
   local intervalTime = disappearTime
@@ -29,7 +29,6 @@ local function FallPlatformSequence(part)
         end
     end)
 end
-
 
 --touch event with part
 Trigger.addHandler(cfg, "ENTITY_TOUCH_PART_BEGIN", function(context)

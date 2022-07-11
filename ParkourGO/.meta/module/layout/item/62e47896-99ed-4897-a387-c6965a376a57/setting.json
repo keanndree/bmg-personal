@@ -1,0 +1,119 @@
+{
+  "data": {
+    "md5": "5d96a5d38bd42398d60b0b141854481c",
+    "path": "asset/money.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "AutoScale": "3",
+              "BorderColor": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "BorderWidth": 1,
+              "ClippedByParent": true,
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 15,
+              "id": {
+                "value": "20f5a94a-ee1e-4fce-a3f3-5bd6e3c3a526"
+              },
+              "name": "CashTxt",
+              "pos": {
+                "UDim_X": {
+                  "Offect": -20
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 137.0
+                },
+                "UDim_Y": {
+                  "Offect": 34.9
+                }
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "word_warpped": false
+            }
+          ],
+          "id": {
+            "value": "80bb62da-e606-4ff1-a65b-da0776f2dfc9"
+          },
+          "Image": {
+            "asset": "asset/Texture/UI/moneybar.png"
+          },
+          "name": "Background",
+          "pos": {
+            "UDim_X": {
+              "Offect": 340.01180521011
+            },
+            "UDim_Y": {
+              "Offect": -10.76
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 203.67819478989
+            },
+            "UDim_Y": {
+              "Offect": 69.680135478974
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "id": {
+            "value": "7cd1068a-c523-47da-a374-34b164c86a34"
+          },
+          "name": "GenerateBtn",
+          "pos": {
+            "UDim_X": {
+              "Offect": 397.77541023254
+            },
+            "UDim_Y": {
+              "Offect": 97.736580123897
+            }
+          },
+          "size": {
+            "UDim_Y": {
+              "Offect": 32.000000000003
+            }
+          },
+          "Text": "Generate",
+          "Visible": false
+        }
+      ],
+      "id": {
+        "value": "9d838efc-f8f5-40d0-b7a2-a97521c7b7a2"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 1284.23
+        },
+        "UDim_Y": {
+          "Offect": 725.06
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "5d96a5d38bd42398d60b0b141854481c",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

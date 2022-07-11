@@ -1,0 +1,205 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetGlobalVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_GlobalVar",
+                        "rawval": "OneScore"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "fbc04c39-da9c-41b9-b5b4-ffcc92b6867c",
+                        "rawval": 100
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "f1287a0f-57df-49d5-89ee-b8f23729c9d3"
+              },
+              "pos": {
+                "x": 659,
+                "y": 229
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ComputeInt",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "e6bd3dca-4d2e-48e0-848b-ea46df911170"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BinaryOperCompute"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 100
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "fbc04c39-da9c-41b9-b5b4-ffcc92b6867c"
+              },
+              "pos": {
+                "x": 1067,
+                "y": 218
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetGlobalVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_GlobalVar",
+                        "rawval": "OneScore"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e6bd3dca-4d2e-48e0-848b-ea46df911170"
+              },
+              "pos": {
+                "x": 1456,
+                "y": 212
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "c42a9fcc-4d69-47bd-9057-5ebb1f362d7e",
+                      "param_name": "BlueScore"
+                    },
+                    {
+                      "action": "12fb38a8-e416-4afd-809a-e44447447e57",
+                      "param_name": "RedScore"
+                    }
+                  ],
+                  "script_name": "ScriptableNode"
+                }
+              ],
+              "id": {
+                "value": "261ea8b4-c479-4c3f-bfd4-fee497555a77"
+              },
+              "pos": {
+                "x": 918,
+                "y": 490
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetGlobalVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_GlobalVar",
+                        "rawval": "OneScore"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c42a9fcc-4d69-47bd-9057-5ebb1f362d7e"
+              },
+              "pos": {
+                "x": 1310,
+                "y": 515
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetGlobalVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_GlobalVar",
+                        "rawval": "TwoScore"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "12fb38a8-e416-4afd-809a-e44447447e57"
+              },
+              "pos": {
+                "x": 1317,
+                "y": 646
+              },
+              "type": "T_Int"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "9f1b4416-2719-4d4d-92fb-51edf872c0e7"
+            },
+            "type": "Trigger_PartClicked"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "f1287a0f-57df-49d5-89ee-b8f23729c9d3"
+                  },
+                  {
+                    "action": "261ea8b4-c479-4c3f-bfd4-fee497555a77"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "fdac2b73-a90b-4840-a054-59438f91f19d"
+            }
+          },
+          "type": "Trigger_PartClicked"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "triggers.bts": "5b1f05b8f4a33c7f94963ba5f4f931f2"
+    },
+    "VERSION": "0.21"
+  }
+}

@@ -3,16 +3,44 @@
     "triggers": {
       "list": [
         {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_CreateMap",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapStr"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "bd9b90c4-51b6-40c5-8218-0a419865ca7b"
+              },
+              "pos": {
+                "x": 837,
+                "y": 262
+              }
+            }
+          ],
           "custom_trigger_data": {
             "name": {
               "value": "1506cf2d-5d41-4eda-9cff-0c6a67baaa0a"
-            }
+            },
+            "type": "Trigger_PartTouchEntityEnd"
           },
           "root": {
             "components": [
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
+                  {
+                    "action": "bd9b90c4-51b6-40c5-8218-0a419865ca7b"
+                  },
                   []
                 ]
               }
@@ -32,7 +60,7 @@
   },
   "meta": {
     "EXPORT": {
-      "triggers.bts": "887d3d7754f54b06fa5d838fd884be28"
+      "triggers.bts": "789378f647ce17e3d89ec131f6f6afad"
     },
     "VERSION": "0.21"
   }

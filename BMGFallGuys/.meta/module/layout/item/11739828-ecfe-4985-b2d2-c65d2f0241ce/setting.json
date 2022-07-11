@@ -1,0 +1,182 @@
+{
+  "data": {
+    "md5": "20f3e59f519dc9829b096e64d9bc9b99",
+    "path": "asset/UI/GameScore.layout",
+    "root": {
+      "Alpha": 0.997,
+      "anchor": {
+        "HorizontalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Alpha": 0.997,
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 21,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "31e6ca70-5475-4c3c-bebe-fe6bf7ec0ee1"
+              },
+              "name": "RedScore",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.4
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.7
+                }
+              },
+              "Text": "0",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughAlpha"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Alpha": 0.997,
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 21,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "b2aa22ef-fa14-4e6e-9590-7da869d84b93"
+              },
+              "name": "BlueScore",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.4
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.7
+                }
+              },
+              "Text": "0",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughAlpha"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "BorderColor": {
+                "b": 54,
+                "g": 54,
+                "r": 54
+              },
+              "BorderWidth": 3,
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 18,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "8d452e53-30e7-4728-b27a-a4878a7b82e9"
+              },
+              "name": "Title",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.32
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                }
+              },
+              "Text": "Team Score",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "WindowTouchThroughMode": "MousePassThroughAlpha"
+            }
+          ],
+          "id": {
+            "value": "4a1bae7f-19d1-40e7-a837-9e19f6f06213"
+          },
+          "Image": {
+            "asset": "asset/UI/GladiatorBannerUI.png"
+          },
+          "name": "ScoreBG",
+          "pos": {
+            "UDim_Y": {
+              "Offect": 25
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.3
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.1
+            }
+          },
+          "WindowTouchThroughMode": "MousePassThroughAlpha"
+        }
+      ],
+      "id": {
+        "value": "ce96d5fe-da30-4adb-8403-b01b17d93053"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "20f3e59f519dc9829b096e64d9bc9b99",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

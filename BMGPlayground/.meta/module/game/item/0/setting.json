@@ -1,0 +1,112 @@
+{
+  "data": {
+    "canJoinMidway": false,
+    "fixed_viewPos": {
+      "pos": {
+        "__OBJ_TYPE": "Vector3i"
+      }
+    },
+    "initPos": {
+      "map": "map001",
+      "pos": {
+        "x": 7,
+        "y": 1.04,
+        "z": 37
+      }
+    },
+    "nowTime": {
+      "h": 7,
+      "m": 40
+    },
+    "player_range": {
+      "max": 10,
+      "min": 1
+    },
+    "startPos": {
+      "map": "map001",
+      "pos": {
+        "x": 7,
+        "y": 1.04,
+        "z": 37
+      }
+    },
+    "team": {
+      "automatch": true,
+      "team": [
+        {
+          "image": {
+            "asset": "asset/Texture/Team/flag/flag_8.png",
+            "selector": "editor/BMGPlayground/asset/Texture/Team/flag/flag_8.png"
+          },
+          "initPos": {
+            "map": "map001",
+            "pos": {
+              "x": 7,
+              "y": 1.04,
+              "z": 37
+            }
+          },
+          "memberLimit": 3,
+          "name": "team1",
+          "startPos": {
+            "map": "map001",
+            "pos": {
+              "x": 7,
+              "y": 1.04,
+              "z": 37
+            }
+          },
+          "use_init_pos": false,
+          "use_start_pos": false
+        },
+        {
+          "id": 2,
+          "image": {
+            "asset": "asset/Texture/Team/flag/flag_2.png",
+            "selector": "editor/BMGPlayground/asset/Texture/Team/flag/flag_2.png"
+          },
+          "initPos": {
+            "map": "map001",
+            "pos": {
+              "x": 7,
+              "y": 1.04,
+              "z": 37
+            }
+          },
+          "memberLimit": 3,
+          "name": "team2",
+          "startPos": {
+            "map": "map001",
+            "pos": {
+              "x": 7,
+              "y": 1.04,
+              "z": 37
+            }
+          },
+          "use_init_pos": false,
+          "use_start_pos": false
+        }
+      ]
+    },
+    "unlimitedPlayTime": true,
+    "vars": {
+      "global": [
+        {
+          "key": "OneScore"
+        },
+        {
+          "key": "TwoScore"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "80d1c7972daf043087569ad95816a50f",
+      "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
+      "triggers.bts": "",
+      "triggers_client.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

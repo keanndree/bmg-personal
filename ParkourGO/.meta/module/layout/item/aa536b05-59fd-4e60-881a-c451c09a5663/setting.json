@@ -1,0 +1,656 @@
+{
+  "data": {
+    "md5": "44395fe92adbdf823bcb8cab11d14034",
+    "path": "asset/upgradelist.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "d704cb89-4806-41a0-b810-64fde98c5105"
+          },
+          "Image": {
+            "asset": "asset/Texture/UI/blackbackground.png"
+          },
+          "name": "Behind",
+          "size": {
+            "UDim_X": {
+              "Offect": 0.0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0.0,
+              "Scale": 1
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "id": {
+                "value": "05089e86-20c3-4d11-ac2a-84652f6aedce"
+              },
+              "Image": {
+                "asset": "asset/Texture/UI/ParkourGo_Upgrade.png"
+              },
+              "name": "TextFrame",
+              "pos": {
+                "UDim_Y": {
+                  "Offect": 35
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 481.79
+                },
+                "UDim_Y": {
+                  "Offect": 48.7
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "ScrollableView",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "BackGroundImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "BgImageStretch": {
+                "bottom_left": 106,
+                "bottom_right": 112,
+                "top_left": 102,
+                "top_right": 103
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "GridView",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre"
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "children": [
+                            {
+                              "__OBJ_TYPE": "StaticImage",
+                              "anchor": {
+                                "HorizontalAlignment": "Centre",
+                                "VerticalAlignment": "Centre"
+                              },
+                              "ClippedByParent": true,
+                              "id": {
+                                "value": "f33f18b8-6fe6-4625-ab1d-6d9d2d9dbb5e"
+                              },
+                              "Image": {
+                                "asset": "asset/Texture/boots_brigan.png"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 100.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 100.0
+                                }
+                              }
+                            }
+                          ],
+                          "ClippedByParent": true,
+                          "id": {
+                            "value": "1e3948da-e0a4-435d-a139-c4e5b1d0f452"
+                          },
+                          "Image": {
+                            "asset": "asset/Texture/UI/backpackframe.png"
+                          },
+                          "name": "Frame"
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/GoButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/GoButton_nor.png"
+                          },
+                          "id": {
+                            "value": "d4a0df40-2576-497c-a526-78d7d0a7076e"
+                          },
+                          "name": "SpeedBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/GoButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/GoButton_act.png"
+                          },
+                          "Text": ""
+                        }
+                      ],
+                      "ClippedByParent": true,
+                      "id": {
+                        "value": "b599d961-4bb5-42fb-a099-3395dc6a13e1"
+                      },
+                      "Image": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "name": "Slot1",
+                      "size": {
+                        "UDim_Y": {
+                          "Offect": 198.04
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "children": [
+                            {
+                              "__OBJ_TYPE": "StaticImage",
+                              "anchor": {
+                                "HorizontalAlignment": "Centre",
+                                "VerticalAlignment": "Centre"
+                              },
+                              "ClippedByParent": true,
+                              "id": {
+                                "value": "c623e35d-7cb4-44ed-9f8e-9b0ceb79aa00"
+                              },
+                              "Image": {
+                                "asset": "asset/Texture/Crafting_Item_Spring.PNG.png"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 100.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 100.0
+                                }
+                              }
+                            }
+                          ],
+                          "ClippedByParent": true,
+                          "id": {
+                            "value": "df21a729-6881-4e1a-9daf-49615ce4055c"
+                          },
+                          "Image": {
+                            "asset": "asset/Texture/UI/backpackframe.png"
+                          },
+                          "name": "Frame"
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/GoButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/GoButton_nor.png"
+                          },
+                          "id": {
+                            "value": "8d1013e2-b143-4155-8392-5d224b42a40b"
+                          },
+                          "name": "SpringBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/GoButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/GoButton_act.png"
+                          },
+                          "Text": ""
+                        }
+                      ],
+                      "ClippedByParent": true,
+                      "id": {
+                        "value": "a9b22a30-5d9b-4b5a-8485-85cefa97e489"
+                      },
+                      "Image": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "name": "Slot2",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 163.0
+                        }
+                      },
+                      "size": {
+                        "UDim_Y": {
+                          "Offect": 198.04
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "children": [
+                            {
+                              "__OBJ_TYPE": "StaticImage",
+                              "anchor": {
+                                "HorizontalAlignment": "Centre",
+                                "VerticalAlignment": "Centre"
+                              },
+                              "ClippedByParent": true,
+                              "id": {
+                                "value": "65bdbd4a-916c-40b8-b0d8-aa2959d2d5cc"
+                              },
+                              "Image": {
+                                "asset": "asset/Texture/gold-spring.png"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 100.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 100.0
+                                }
+                              }
+                            }
+                          ],
+                          "ClippedByParent": true,
+                          "id": {
+                            "value": "606a9481-67c7-4579-9266-bb266e6917ad"
+                          },
+                          "Image": {
+                            "asset": "asset/Texture/UI/backpackframe.png"
+                          },
+                          "name": "Frame"
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/GoButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/GoButton_nor.png"
+                          },
+                          "id": {
+                            "value": "1029ca6e-8922-4d0b-9c8a-8f13f3a13974"
+                          },
+                          "name": "GoldenSpringBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/GoButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/GoButton_act.png"
+                          },
+                          "Text": ""
+                        }
+                      ],
+                      "ClippedByParent": true,
+                      "id": {
+                        "value": "c1a735f9-b932-4509-930c-08554e3fbb6d"
+                      },
+                      "Image": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "name": "Slot3",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 326.0
+                        }
+                      },
+                      "size": {
+                        "UDim_Y": {
+                          "Offect": 198.04
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "children": [
+                            {
+                              "__OBJ_TYPE": "StaticImage",
+                              "anchor": {
+                                "HorizontalAlignment": "Centre",
+                                "VerticalAlignment": "Centre"
+                              },
+                              "ClippedByParent": true,
+                              "id": {
+                                "value": "49aa6523-1cc1-4ba3-910b-dac517dd2b75"
+                              },
+                              "Image": {
+                                "asset": "asset/Texture/Dark-Shield.png"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 100.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 100.0
+                                }
+                              }
+                            }
+                          ],
+                          "ClippedByParent": true,
+                          "id": {
+                            "value": "ccc2ed88-7fec-422f-9d8f-2dd6e6c2a5cf"
+                          },
+                          "Image": {
+                            "asset": "asset/Texture/UI/backpackframe.png"
+                          },
+                          "name": "Frame"
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/GoButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/GoButton_nor.png"
+                          },
+                          "id": {
+                            "value": "0e0e388d-c1cb-4772-9126-d4a26ac693f5"
+                          },
+                          "name": "ShieldBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/GoButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/GoButton_act.png"
+                          },
+                          "Text": ""
+                        }
+                      ],
+                      "ClippedByParent": true,
+                      "id": {
+                        "value": "a03d0815-4d1f-429a-beb2-ae0de9fc32bc"
+                      },
+                      "Image": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "name": "Slot4",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 489.0
+                        }
+                      },
+                      "size": {
+                        "UDim_Y": {
+                          "Offect": 198.04
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "children": [
+                            {
+                              "__OBJ_TYPE": "StaticImage",
+                              "anchor": {
+                                "HorizontalAlignment": "Centre",
+                                "VerticalAlignment": "Centre"
+                              },
+                              "ClippedByParent": true,
+                              "id": {
+                                "value": "aa1b41ab-f167-43fc-aa83-5f10bbf7bcf7"
+                              },
+                              "Image": {
+                                "asset": "asset/Texture/Icon_weapon_AWM.png"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 100.0
+                                },
+                                "UDim_Y": {
+                                  "Offect": 100.0
+                                }
+                              }
+                            }
+                          ],
+                          "ClippedByParent": true,
+                          "id": {
+                            "value": "69ca42a3-963b-460e-a717-83d5293ce6f7"
+                          },
+                          "Image": {
+                            "asset": "asset/Texture/UI/backpackframe.png"
+                          },
+                          "name": "Frame"
+                        },
+                        {
+                          "__OBJ_TYPE": "Button",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "DisabledImage": {
+                            "asset": "asset/Texture/UI/GoButton_nor.png"
+                          },
+                          "HoverImage": {
+                            "asset": "asset/Texture/UI/GoButton_nor.png"
+                          },
+                          "id": {
+                            "value": "f887f762-2dc4-4241-a8e8-8fc5b76d7107"
+                          },
+                          "name": "SniperBtn",
+                          "NormalImage": {
+                            "asset": "asset/Texture/UI/GoButton_nor.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 2.22
+                            },
+                            "UDim_Y": {
+                              "Offect": 65
+                            }
+                          },
+                          "PushedImage": {
+                            "asset": "asset/Texture/UI/GoButton_act.png"
+                          },
+                          "Text": ""
+                        }
+                      ],
+                      "ClippedByParent": true,
+                      "id": {
+                        "value": "93b2a8cb-b55c-4a4e-a066-fa70b0857962"
+                      },
+                      "Image": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "name": "Slot5",
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": 198.0
+                        }
+                      },
+                      "size": {
+                        "UDim_Y": {
+                          "Offect": 198.04
+                        }
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "2613065c-a38b-4944-9ffa-543e97d6f471"
+                  },
+                  "rowSize": 4,
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 617.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 396.0
+                    }
+                  },
+                  "Space": {
+                    "x": 35
+                  }
+                }
+              ],
+              "id": {
+                "value": "80bafd40-2095-4b84-993a-1ec7a013fb2b"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Offect": 35
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 680.07
+                },
+                "UDim_Y": {
+                  "Offect": 348.17
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "DisabledImage": {
+                "asset": "asset/Texture/UI/DeathCross_PlayerTab_CloseBtn.png"
+              },
+              "HoverImage": {
+                "asset": "asset/Texture/UI/DeathCross_PlayerTab_CloseBtn.png"
+              },
+              "id": {
+                "value": "6f90a171-7879-4aed-83d2-7814762d9e41"
+              },
+              "name": "CloseBtn",
+              "NormalImage": {
+                "asset": "asset/Texture/UI/DeathCross_PlayerTab_CloseBtn.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": -5
+                },
+                "UDim_Y": {
+                  "Offect": 5
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/UI/DeathCross_PlayerTab_CloseBtn.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 75
+                },
+                "UDim_Y": {
+                  "Offect": 75
+                }
+              },
+              "Text": ""
+            }
+          ],
+          "id": {
+            "value": "6e72c1f5-56b5-4119-bdd5-2dc345c53d6f"
+          },
+          "Image": {
+            "asset": "asset/Texture/UI/MenuBackground.png"
+          },
+          "name": "Background",
+          "size": {
+            "UDim_X": {
+              "Offect": 900
+            },
+            "UDim_Y": {
+              "Offect": 537
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "309bd05d-07df-4471-8c98-7c91d7cb7a89"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "44395fe92adbdf823bcb8cab11d14034",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

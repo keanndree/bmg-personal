@@ -5,6 +5,8 @@
         "value": 0
       }
     },
+    "canBreak": false,
+    "canClick": true,
     "dropSelf": {
       "canDropSelf": false
     },
@@ -36,12 +38,88 @@
       "up": {
         "asset": "asset/Texture/Block/gold_ore.png"
       }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_KillEntity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "976be3e7-a50e-4983-929c-437c4bb74f2d"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c8151ed4-8e38-4636-8fe9-5b605b03d924"
+              },
+              "pos": {
+                "x": 864,
+                "y": 334
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "976be3e7-a50e-4983-929c-437c4bb74f2d"
+              },
+              "pos": {
+                "x": 1250,
+                "y": 259
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "8fdf1114-556e-4470-b417-3006b4095cb9"
+            },
+            "type": "Trigger_BlockClick"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "c8151ed4-8e38-4636-8fe9-5b605b03d924"
+                  },
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "af602780-8e1f-47fd-ae36-6f5d9f1d75d1"
+            }
+          },
+          "type": "Trigger_BlockClick"
+        }
+      ]
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "64b937306255d9f53508b26e530133f1",
-      "triggers.bts": ""
+      "setting.json": "6f1a4f45aa775aa51d991a5de6b422b7",
+      "triggers.bts": "8a70814636709f34965ce7272afe263d"
     },
     "VERSION": "0.21"
   }

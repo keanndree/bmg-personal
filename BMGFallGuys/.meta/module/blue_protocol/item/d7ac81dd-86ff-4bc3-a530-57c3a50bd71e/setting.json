@@ -1,0 +1,42 @@
+{
+  "data": {
+    "id": {
+      "value": "d7ac81dd-86ff-4bc3-a530-57c3a50bd71e"
+    },
+    "name": "DamagePlayer",
+    "register_object": "part/f28a42c5-0eb5-48c6-8250-2b3d0c651b19/triggers/list/1",
+    "save": true,
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "fb42101c-f1c5-45ea-9363-3988422c4264"
+            },
+            "type": "Trigger_RegisterServerProto"
+          },
+          "func_name": "serverMessage_1",
+          "proto_uuid": "d7ac81dd-86ff-4bc3-a530-57c3a50bd71e",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence"
+              }
+            ],
+            "id": {
+              "value": "f173fd54-29df-44cd-afc9-21855f804a15"
+            }
+          },
+          "type": "Trigger_RegisterServerProto"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "9509c96d0712d7fe13307d54f2dc4c3d",
+      "triggers.bts": "830de87a635c52cb8ea3215c2d230531"
+    },
+    "VERSION": "0.21"
+  }
+}

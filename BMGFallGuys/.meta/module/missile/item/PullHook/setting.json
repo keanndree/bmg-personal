@@ -7,7 +7,7 @@
       "once": true
     },
     "lifeTime": {
-      "value": 40
+      "value": 20
     },
     "missileModel": {
       "modelMesh": {
@@ -125,8 +125,8 @@
                 "value": "d29bb896-c240-479e-a0bd-8985ed13b741"
               },
               "pos": {
-                "x": 1136,
-                "y": 594
+                "x": 1092,
+                "y": 533
               },
               "type": "T_Entity"
             },
@@ -142,8 +142,8 @@
                 "value": "cc29f16a-b63b-4fce-ae4d-8cfe43b4d855"
               },
               "pos": {
-                "x": 1142,
-                "y": 786
+                "x": 1090,
+                "y": 667
               },
               "type": "T_Entity"
             }
@@ -180,7 +180,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "2aa64aa00fc7a797189f194397971b22",
+      "setting.json": "aa7273b0159c1223b36e855a720652af",
       "triggers.bts": "c87e00c52fe61ecc0aeceec3c3091818"
     },
     "VERSION": "0.21"

@@ -34,8 +34,8 @@
                 "value": "5a38291c-0812-4603-baaa-3652440f3adc"
               },
               "pos": {
-                "x": 744,
-                "y": 265
+                "x": 671.42857142857,
+                "y": 802.57142857143
               }
             },
             {
@@ -50,10 +50,518 @@
                 "value": "a71676ba-f9e8-4e05-bdf4-5147bd49b61b"
               },
               "pos": {
-                "x": 1276,
-                "y": 270
+                "x": 1166.4285714286,
+                "y": 790.57142857143
               },
               "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "c4a1ad9a-429b-456b-9e7d-59fbc61df79b",
+                      "param_name": "redScore"
+                    },
+                    {
+                      "action": "e56bf334-2ef0-4bab-83c2-833cb6a1c71c",
+                      "param_name": "blueScore"
+                    }
+                  ],
+                  "desc": "UpdateScoreNode",
+                  "script_name": "ScriptableNode_2"
+                }
+              ],
+              "id": {
+                "value": "b4a15d0b-5176-4df0-8148-d3f7899b6c1e"
+              },
+              "pos": {
+                "x": 772.78728830966,
+                "y": 423.78262270682
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetGlobalVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_GlobalVar",
+                        "rawval": "redScoreVal"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c4a1ad9a-429b-456b-9e7d-59fbc61df79b"
+              },
+              "pos": {
+                "x": 1196.1904761905,
+                "y": 375.2380952381
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetGlobalVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_GlobalVar",
+                        "rawval": "blueScoreVal"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e56bf334-2ef0-4bab-83c2-833cb6a1c71c"
+              },
+              "pos": {
+                "x": 1203.8095238095,
+                "y": 485.71428571429
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Node_CollapseGraph",
+              "actions": [
+                {
+                  "__OBJ_TYPE": "Action_ComputeInt",
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Params",
+                      "params": [
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_Int",
+                            "action": "453bb7db-c314-45c8-85cf-9aefad37ff88"
+                          }
+                        },
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_BinaryOperCompute"
+                          }
+                        },
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_Int",
+                            "action": "062e7a55-c860-4e82-842b-6ecab95759f6"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "2999a71e-667d-4ec3-8883-6423d0c193b4"
+                  },
+                  "pos": {
+                    "x": 1405.5,
+                    "y": 860
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "Action_IfBranch",
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Params",
+                      "params": [
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_Bool",
+                            "action": "fed90a94-f514-4882-9bb9-ada39c4a8ff5"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "__OBJ_TYPE": "Component_Sequence",
+                      "children": [
+                        {
+                          "action": "d87e854d-146b-4470-a0e1-6e4b03932c43"
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "0167c902-601a-431e-afaf-6e46cde9684d"
+                  },
+                  "pos": {
+                    "x": 768.5,
+                    "y": 734
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "Action_IsEntityInTeam",
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Params",
+                      "params": [
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_Entity",
+                            "action": "24339ff2-4f87-4dab-9976-66d6426d95ab"
+                          }
+                        },
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_Int",
+                            "rawval": 1
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "e5a45053-88cb-4c99-8aad-9ad69fdf4ee1"
+                  },
+                  "pos": {
+                    "x": 1000,
+                    "y": 282
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "Action_SetGlobalVar",
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Params",
+                      "params": [
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_GlobalVar",
+                            "rawval": "blueScoreVal"
+                          }
+                        },
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_Int",
+                            "action": "2999a71e-667d-4ec3-8883-6423d0c193b4"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "d87e854d-146b-4470-a0e1-6e4b03932c43"
+                  },
+                  "pos": {
+                    "x": 1000.5,
+                    "y": 844
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "Action_GetGlobalVar",
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Params",
+                      "params": [
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_GlobalVar",
+                            "rawval": "scoreIncrement"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "062e7a55-c860-4e82-842b-6ecab95759f6"
+                  },
+                  "pos": {
+                    "x": 1814.5,
+                    "y": 953
+                  },
+                  "type": "T_Int"
+                },
+                {
+                  "__OBJ_TYPE": "Action_GetGlobalVar",
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Params",
+                      "params": [
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_GlobalVar",
+                            "rawval": "blueScoreVal"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "453bb7db-c314-45c8-85cf-9aefad37ff88"
+                  },
+                  "pos": {
+                    "x": 1823.5,
+                    "y": 821
+                  },
+                  "type": "T_Int"
+                },
+                {
+                  "__OBJ_TYPE": "Action_If",
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Condition",
+                      "children": [
+                        {
+                          "action": "2cfe140c-f4c4-43f5-8758-20474acbbd8b"
+                        },
+                        {
+                          "action": "0167c902-601a-431e-afaf-6e46cde9684d"
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "0b21d4d7-bfdd-4261-a704-ea3b5c53d162"
+                  },
+                  "pos": {
+                    "x": 524,
+                    "y": 458
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "Action_ComputeInt",
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Params",
+                      "params": [
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_Int",
+                            "action": "c1d490cb-6bc2-4483-ad3e-6495fc6ea88a"
+                          }
+                        },
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_BinaryOperCompute"
+                          }
+                        },
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_Int",
+                            "action": "143d2a01-2d52-4ae9-b7ba-84a32852b68f"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "292306a3-f843-4e41-b68c-1587ee92dc44"
+                  },
+                  "pos": {
+                    "x": 1404,
+                    "y": 441
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "Action_GetGlobalVar",
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Params",
+                      "params": [
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_GlobalVar",
+                            "rawval": "scoreIncrement"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "143d2a01-2d52-4ae9-b7ba-84a32852b68f"
+                  },
+                  "pos": {
+                    "x": 1813,
+                    "y": 534
+                  },
+                  "type": "T_Int"
+                },
+                {
+                  "__OBJ_TYPE": "Action_GetContextVar",
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Context",
+                      "key": "obj2"
+                    }
+                  ],
+                  "id": {
+                    "value": "3ebbd44a-e2e7-40a3-aae4-aa21a133f6f5"
+                  },
+                  "pos": {
+                    "x": 1404.5,
+                    "y": 681
+                  },
+                  "type": "T_Entity"
+                },
+                {
+                  "__OBJ_TYPE": "Action_IfBranch",
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Params",
+                      "params": [
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_Bool",
+                            "action": "e5a45053-88cb-4c99-8aad-9ad69fdf4ee1"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "__OBJ_TYPE": "Component_Sequence",
+                      "children": [
+                        {
+                          "action": "a66528a2-05d5-4846-9ea7-07fa0281d0a1"
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "2cfe140c-f4c4-43f5-8758-20474acbbd8b"
+                  },
+                  "pos": {
+                    "x": 767,
+                    "y": 315
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "Action_SetGlobalVar",
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Params",
+                      "params": [
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_GlobalVar",
+                            "rawval": "redScoreVal"
+                          }
+                        },
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_Int",
+                            "action": "292306a3-f843-4e41-b68c-1587ee92dc44"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "a66528a2-05d5-4846-9ea7-07fa0281d0a1"
+                  },
+                  "pos": {
+                    "x": 999,
+                    "y": 425
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "Action_IsEntityInTeam",
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Params",
+                      "params": [
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_Entity",
+                            "action": "3ebbd44a-e2e7-40a3-aae4-aa21a133f6f5"
+                          }
+                        },
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_Int",
+                            "rawval": 2
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "fed90a94-f514-4882-9bb9-ada39c4a8ff5"
+                  },
+                  "pos": {
+                    "x": 1001.5,
+                    "y": 701
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "Action_GetContextVar",
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Context",
+                      "key": "obj2"
+                    }
+                  ],
+                  "id": {
+                    "value": "24339ff2-4f87-4dab-9976-66d6426d95ab"
+                  },
+                  "pos": {
+                    "x": 1403,
+                    "y": 262
+                  },
+                  "type": "T_Entity"
+                },
+                {
+                  "__OBJ_TYPE": "Action_GetGlobalVar",
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Params",
+                      "params": [
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_GlobalVar",
+                            "rawval": "redScoreVal"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "c1d490cb-6bc2-4483-ad3e-6495fc6ea88a"
+                  },
+                  "pos": {
+                    "x": 1822,
+                    "y": 402
+                  },
+                  "type": "T_Int"
+                }
+              ],
+              "export_node": {
+                "id": {
+                  "value": "9634246b-df77-4ddd-8b82-abf88bf8901a"
+                },
+                "ports": [
+                  {
+                    "id": "0b21d4d7-bfdd-4261-a704-ea3b5c53d162",
+                    "name": {
+                      "value": "03184638-4118-416f-9e66-e88c1f120d24"
+                    },
+                    "type": "T_Void"
+                  }
+                ]
+              },
+              "id": {
+                "value": "159062c1-ac5a-491e-8dbb-b09fe5b15339"
+              },
+              "import_node": {
+                "id": {
+                  "value": "08be6ea6-d642-4cea-bd6b-e0602743f700"
+                }
+              },
+              "name": {
+                "value": "9dd2ceeb-298d-4654-830d-96fefa0c685b"
+              },
+              "pos": {
+                "x": 839.46493256919,
+                "y": 146.61322897118
+              }
             }
           ],
           "custom_trigger_data": {
@@ -68,6 +576,12 @@
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
                   {
+                    "action": "0b21d4d7-bfdd-4261-a704-ea3b5c53d162"
+                  },
+                  {
+                    "action": "b4a15d0b-5176-4df0-8148-d3f7899b6c1e"
+                  },
+                  {
                     "action": "5a38291c-0812-4603-baaa-3652440f3adc"
                   }
                 ]
@@ -75,6 +589,10 @@
             ],
             "id": {
               "value": "319ab5b6-961f-4bcc-8d7e-4980f2dc7611"
+            },
+            "pos": {
+              "x": 224,
+              "y": 257
             }
           },
           "type": "Trigger_PartTouchEntityBegin"
@@ -84,7 +602,7 @@
   },
   "meta": {
     "EXPORT": {
-      "triggers.bts": "f85dc9dfa85bec9e15e2cd48044d21c5"
+      "triggers.bts": "a5876e42fb1c0287a99ad6fe999653a4"
     },
     "VERSION": "0.21"
   }

@@ -1,0 +1,108 @@
+{
+  "data": {
+    "name": {
+      "value": "function_1"
+    },
+    "params": [
+      {
+        "param_name": "player",
+        "param_type": "T_Entity"
+      }
+    ],
+    "ret_type": "T_Entity",
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "faf1a14e-9c9f-4ce4-8c22-97e99a8a9919"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 1
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "77ea8efc-a1ce-45f5-bedc-cea96708f297"
+              },
+              "pos": {
+                "x": 529,
+                "y": 250
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "player"
+                }
+              ],
+              "function_name": "function_1",
+              "id": {
+                "value": "faf1a14e-9c9f-4ce4-8c22-97e99a8a9919"
+              },
+              "pos": {
+                "x": 944,
+                "y": 169
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "ef2d6c04-653f-4d05-a0fe-f8ef14f5fa3b"
+            },
+            "type": "Function_Called"
+          },
+          "func_name": "function_1",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "77ea8efc-a1ce-45f5-bedc-cea96708f297"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "a3968720-6635-44b5-bf90-81ea9fe04310"
+            },
+            "pos": {
+              "x": 229,
+              "y": 251
+            }
+          },
+          "type": "Function_Called"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "01bcf3a8f59b824f9c279b89da701e7f",
+      "triggers.bts": "8c268bfc912b9b9b45753bf972e4cd4c"
+    },
+    "VERSION": "0.21"
+  }
+}

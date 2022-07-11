@@ -5,6 +5,7 @@
         "Sphere": "1.800000-0.450000"
       }
     },
+    "gravity": 1,
     "hitCount": {
       "hitEntityCount": 1,
       "isValid": true
@@ -28,11 +29,17 @@
     "name": {
       "value": "missile_KnockBomb"
     },
-    "target_team": "hitOtherTeam"
+    "target_team": "hitOtherTeam",
+    "vanishEffect": {
+      "effect": {
+        "asset": "asset/custom_effect/Explode.effect"
+      }
+    },
+    "vanishSkill": "myplugin/PushPlayer"
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "9760df1d251900ef7204dd5e220f9d22",
+      "setting.json": "afc9c0739118f5086b4a7610adf83e37",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

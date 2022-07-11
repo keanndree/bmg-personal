@@ -1,0 +1,102 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8706050031609020417"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8706050031655026689",
+        "ID": 2,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "eda3bd01-209b-48f9-a4bd-d08018692ef5",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8706062203700740097",
+        "massCenter": {
+          "x": 5.9020614624023,
+          "y": 2.5898959636688,
+          "z": 8.3276615142822
+        },
+        "material": {
+          "color": {
+            "g": 53,
+            "r": 8
+          }
+        },
+        "position": {
+          "x": 5.9020614624023,
+          "y": 2.5898959636688,
+          "z": 8.3276615142822
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 4.98299,
+          "y": 3.17999,
+          "z": 4.98299
+        },
+        "shape": "3",
+        "size": {
+          "x": 4.9829936027527,
+          "y": 3.179993391037,
+          "z": 4.9829936027527
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "092c9072-988d-44e8-8ef4-689ca7b59466",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8706062203859632129",
+        "massCenter": {
+          "x": 5.3353881835938,
+          "y": 5.7717618942261,
+          "z": 15.560020446777
+        },
+        "material": {
+          "color": {
+            "b": 1,
+            "g": 1
+          }
+        },
+        "position": {
+          "x": 5.3353881835938,
+          "y": 5.7717618942261,
+          "z": 15.560020446777
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 4.98299,
+          "y": 3.17999,
+          "z": 4.98299
+        },
+        "shape": "3",
+        "size": {
+          "x": 4.9829936027527,
+          "y": 3.179993391037,
+          "z": 4.9829936027527
+        }
+      }
+    ],
+    "name": {
+      "value": "map_c39c59eb-6305-446c-ab4d-333f19e90a45"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "a7bcca51f7508bd90f23a6fd9e07062a"
+    },
+    "VERSION": "0.21"
+  }
+}

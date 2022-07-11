@@ -1,0 +1,78 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "26644713697705985",
+        "uniqueKey": "map001"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8706042728286027777",
+        "ID": 1,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "3098a2ac-8511-4acc-a9c2-06c60c976836",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8706046187175215105",
+        "massCenter": {
+          "x": 9.0530004501343,
+          "y": 1.4998998641968,
+          "z": 4.4010000228882
+        },
+        "material": {
+          "color": {
+            "g": 110,
+            "r": 0
+          }
+        },
+        "position": {
+          "x": 9.0530004501343,
+          "y": 1.4998998641968,
+          "z": 4.4010000228882
+        },
+        "restitution": 0.3
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "f2cff363-2cbf-46ad-97c1-af4d4ce9df16",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8706049713560420353",
+        "massCenter": {
+          "x": 4.4767327308655,
+          "y": 1.4999008178711,
+          "z": 3.447868347168
+        },
+        "position": {
+          "x": 4.4767327308655,
+          "y": 1.4999008178711,
+          "z": 3.447868347168
+        },
+        "restitution": 0.3
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "d0db252c26585f7e9f8ddb24f19d3c85"
+    },
+    "VERSION": "0.21"
+  }
+}

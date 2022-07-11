@@ -1,0 +1,91 @@
+{
+  "data": {
+    "md5": "ff733a8e7bd22608cc3843a08ab99653",
+    "path": "asset/TestScore.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Alpha": 0.985,
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "BackgroundEnabled": true,
+              "Font_size": 22,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "4f6dc94c-60ba-4c44-bdc3-c5c77f6196da"
+              },
+              "name": "score",
+              "pos": {
+                "UDim_X": {
+                  "Offect": -634.83664202697,
+                  "Scale": 0.5
+                },
+                "UDim_Y": {
+                  "Offect": -176.0846227152
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 609.9354313612,
+                  "Scale": 0.2
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "99999999",
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "id": {
+            "value": "b61b2d3a-5269-4353-8dd8-6ce25d5c317b"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          },
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        }
+      ],
+      "id": {
+        "value": "4a858e81-39cd-473a-b662-11e829cea649"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "ff733a8e7bd22608cc3843a08ab99653",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

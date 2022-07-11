@@ -1,3 +1,6 @@
-print('INITIALIZING CLIENT MAIN SCRIPT!')
+print('script_client:hello world')
 
-UI:openWindow("UI/MainMenu")
+PackageHandlers.registerClientHandler("TeamInitialization", function(player)
+    UI:openWindow("UI/GameScore")
+    UI:openWindow("UI/TimerPanel")
+end)

@@ -5,6 +5,7 @@
       "value": 60
     },
     "enableCdMask": true,
+    "enableCdTip": true,
     "FillPosition": "Top_With360Degree",
     "FillType": "With360Degree",
     "name": {
@@ -13,6 +14,7 @@
     "skill": {
       "base": {
         "__OBJ_TYPE": "Skill_Buff",
+        "buffCfg": "myplugin/InvicibleBuff",
         "buffTime": {
           "value": 100
         },
@@ -31,7 +33,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "2411928c2e8580c33895ef3f32d687fa",
+      "setting.json": "398cc619d4d689d0d8dec029d002b248",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

@@ -11,6 +11,13 @@
         "id": "8506636151918215169"
       },
       {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8706077975060938753",
+        "ID": 2,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
         "__OBJ_TYPE": "Instance_Entity",
         "config": "myplugin/player1",
         "id": "8506636202566631425",
@@ -17071,7 +17078,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "4de419014e9a95d3450374470e3bee1f"
+      "setting.json": "1b16ba81361601cd13110462ca9e22fd"
     },
     "VERSION": "0.21"
   }

@@ -1,5 +1,10 @@
 {
   "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/custom_effect/ShieldEffect.effect"
+      }
+    },
     "name": {
       "value": "buff_InvicibleBuff"
     },
@@ -7,7 +12,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "31d5e99e7e70753c304ba27604dc8c1c"
+      "setting.json": "6fa020152abcc591aa628d6d351505c6"
     },
     "VERSION": "0.21"
   }

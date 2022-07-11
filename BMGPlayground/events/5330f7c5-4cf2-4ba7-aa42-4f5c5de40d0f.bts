@@ -1,0 +1,4 @@
+PART_CLICKED {
+	@TwoScore = @TwoScore + 100
+	ExecScript(BlueScore = @OneScore, RedScore = @TwoScore, script_name = "ScriptableNode_1")
+}

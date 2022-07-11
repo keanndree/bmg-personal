@@ -1,0 +1,181 @@
+{
+  "data": {
+    "md5": "0c4196d8b7500fa17ddf10ac1ed19d57",
+    "path": "asset/UI/TimerPanel.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Alpha": 0.87,
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "BackgroundColours": {
+                "b": 0,
+                "g": 0,
+                "r": 85
+              },
+              "BackgroundEnabled": true,
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 63,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "91b82077-d914-4a63-9142-1eb645668af6"
+              },
+              "name": "TimerBG",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Text": "",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "BackgroundColours": {
+                "b": 0,
+                "g": 0,
+                "r": 85
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 15,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "27fa5f16-c7ed-4f37-a667-c18b04f1ee2a"
+              },
+              "name": "TimerTitle",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.2
+                }
+              },
+              "Text": "Game Starting In...",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "BackgroundColours": {
+                "b": 0,
+                "g": 0,
+                "r": 85
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 63,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "d2aaf8f5-43fc-4804-bc7a-3357cf2e0a09"
+              },
+              "name": "TimerText",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Text": "10",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "id": {
+            "value": "50e1852d-3fb7-444b-ae50-60f964d1b41c"
+          },
+          "name": "TimerWindow",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          },
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        }
+      ],
+      "id": {
+        "value": "a4d91d54-2ac2-4c1a-bb31-2603f351de2b"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 0.25
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "0c4196d8b7500fa17ddf10ac1ed19d57",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}
