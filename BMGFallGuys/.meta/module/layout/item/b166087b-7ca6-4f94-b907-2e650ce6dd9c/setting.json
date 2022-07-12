@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "0c4196d8b7500fa17ddf10ac1ed19d57",
+    "md5": "86c314b23ecf0d8213ed5fb5be85e8e3",
     "path": "asset/UI/TimerPanel.layout",
     "root": {
       "anchor": {
@@ -28,6 +28,92 @@
                 "r": 85
               },
               "BackgroundEnabled": true,
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre"
+                  },
+                  "BackgroundColours": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 85
+                  },
+                  "Font": "HarmonyOS_Sans_SC_Black",
+                  "Font_size": 15,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "27fa5f16-c7ed-4f37-a667-c18b04f1ee2a"
+                  },
+                  "name": "TimerTitle",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": 0.05
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.2
+                    }
+                  },
+                  "Text": "Game Starting In...",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Alpha": 0.991,
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "BackgroundColours": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 85
+                  },
+                  "Font": "HarmonyOS_Sans_SC_Black",
+                  "Font_size": 63,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "d2aaf8f5-43fc-4804-bc7a-3357cf2e0a09"
+                  },
+                  "name": "TimerText",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": 0.05
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "99",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                }
+              ],
               "Font": "HarmonyOS_Sans_SC_Black",
               "Font_size": 63,
               "HorzFormatting": "CentreAligned",
@@ -46,89 +132,6 @@
                 }
               },
               "Text": "",
-              "TextColours": {
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "VertFormatting": "CentreAligned",
-              "WindowTouchThroughMode": "MousePassThroughOpen"
-            },
-            {
-              "__OBJ_TYPE": "StaticText",
-              "anchor": {
-                "HorizontalAlignment": "Centre"
-              },
-              "BackgroundColours": {
-                "b": 0,
-                "g": 0,
-                "r": 85
-              },
-              "Font": "HarmonyOS_Sans_SC_Black",
-              "Font_size": 15,
-              "HorzFormatting": "CentreAligned",
-              "id": {
-                "value": "27fa5f16-c7ed-4f37-a667-c18b04f1ee2a"
-              },
-              "name": "TimerTitle",
-              "pos": {
-                "UDim_Y": {
-                  "Scale": 0.05
-                }
-              },
-              "size": {
-                "UDim_X": {
-                  "Offect": 0,
-                  "Scale": 1
-                },
-                "UDim_Y": {
-                  "Offect": 0,
-                  "Scale": 0.2
-                }
-              },
-              "Text": "Game Starting In...",
-              "TextColours": {
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "VertFormatting": "CentreAligned",
-              "WindowTouchThroughMode": "MousePassThroughOpen"
-            },
-            {
-              "__OBJ_TYPE": "StaticText",
-              "anchor": {
-                "HorizontalAlignment": "Centre",
-                "VerticalAlignment": "Centre"
-              },
-              "BackgroundColours": {
-                "b": 0,
-                "g": 0,
-                "r": 85
-              },
-              "Font": "HarmonyOS_Sans_SC_Black",
-              "Font_size": 63,
-              "HorzFormatting": "CentreAligned",
-              "id": {
-                "value": "d2aaf8f5-43fc-4804-bc7a-3357cf2e0a09"
-              },
-              "name": "TimerText",
-              "pos": {
-                "UDim_Y": {
-                  "Scale": 0.05
-                }
-              },
-              "size": {
-                "UDim_X": {
-                  "Offect": 0,
-                  "Scale": 1
-                },
-                "UDim_Y": {
-                  "Offect": 0,
-                  "Scale": 1
-                }
-              },
-              "Text": "10",
               "TextColours": {
                 "b": 255,
                 "g": 255,
@@ -173,7 +176,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "0c4196d8b7500fa17ddf10ac1ed19d57",
+      "layout": "86c314b23ecf0d8213ed5fb5be85e8e3",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.21"

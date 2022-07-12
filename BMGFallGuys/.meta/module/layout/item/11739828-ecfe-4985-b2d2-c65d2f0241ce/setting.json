@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "20f3e59f519dc9829b096e64d9bc9b99",
+    "md5": "bef91558886addb9827385f3eb0151d5",
     "path": "asset/UI/GameScore.layout",
     "root": {
       "Alpha": 0.997,
@@ -129,6 +129,48 @@
                 "r": 255
               },
               "WindowTouchThroughMode": "MousePassThroughAlpha"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "BorderColor": {
+                "b": 54,
+                "g": 54,
+                "r": 54
+              },
+              "BorderWidth": 3,
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 18,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "95eaa621-bc9b-43df-897e-92536d4f98e4"
+              },
+              "name": "TimeText",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.3201
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                }
+              },
+              "Text": "Time Left : 120",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "WindowTouchThroughMode": "MousePassThroughAlpha"
             }
           ],
           "id": {
@@ -174,7 +216,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "20f3e59f519dc9829b096e64d9bc9b99",
+      "layout": "bef91558886addb9827385f3eb0151d5",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.21"

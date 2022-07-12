@@ -129,7 +129,7 @@
   "moveStateConfig": {
     "isShow": false
   },
-  "needSave": false,
+  "needSave": true,
   "noLoadHp": true,
   "notReadUserSettingCfgAtEditor": true,
   "nowTime": 10666.666666667,
@@ -330,7 +330,20 @@
   "useVoxelTerrain": true,
   "vars": {
     "__OBJ_TYPE": [],
-    "entity": [],
+    "entity": [
+      {
+        "key": "GameScore",
+        "run_type": "server",
+        "save": false,
+        "value": 0
+      },
+      {
+        "key": "Deaths",
+        "run_type": "server",
+        "save": false,
+        "value": 0
+      }
+    ],
     "global": [
       {
         "key": "redScoreVal",
@@ -354,7 +367,7 @@
     "ui": []
   },
   "waitAtInitPos": true,
-  "waitGoTime": 200,
-  "waitPlayerTime": 200,
-  "waitStartTime": 0
+  "waitGoTime": 0,
+  "waitPlayerTime": 80,
+  "waitStartTime": 20
 }

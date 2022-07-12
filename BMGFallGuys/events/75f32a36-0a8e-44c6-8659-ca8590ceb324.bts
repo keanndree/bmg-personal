@@ -1,3 +1,0 @@
-PART_TOUCH_ENTITY_BEGIN {
-	RemoveBuffByFullName(buff = "myplugin/JumpDebuff", entity = $obj2, toTeam = false)
-}

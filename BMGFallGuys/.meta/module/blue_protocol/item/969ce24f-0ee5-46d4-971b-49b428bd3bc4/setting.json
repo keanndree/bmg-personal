@@ -1,0 +1,42 @@
+{
+  "data": {
+    "id": {
+      "value": "969ce24f-0ee5-46d4-971b-49b428bd3bc4"
+    },
+    "name": "SetSpawnPlatform",
+    "register_object": "part/1830de0c-1cae-4f16-b78b-410a614ea355/triggers/list/1",
+    "save": true,
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "0a0838b1-ed45-4670-af62-34ab18969228"
+            },
+            "type": "Trigger_RegisterServerProto"
+          },
+          "func_name": "serverMessage_3",
+          "proto_uuid": "969ce24f-0ee5-46d4-971b-49b428bd3bc4",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence"
+              }
+            ],
+            "id": {
+              "value": "f52779a0-4fa5-4238-9262-b4781cf18fd9"
+            }
+          },
+          "type": "Trigger_RegisterServerProto"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "765522821d2b636d847fd86ba6a31d39",
+      "triggers.bts": "f2d7047d85f30a3446fc1a347a520487"
+    },
+    "VERSION": "0.21"
+  }
+}

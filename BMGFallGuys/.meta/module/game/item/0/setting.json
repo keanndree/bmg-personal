@@ -18,6 +18,7 @@
         "z": -33.713424682617
       }
     },
+    "needSave": true,
     "nowTime": {
       "h": 16,
       "m": 40
@@ -93,8 +94,42 @@
         }
       ]
     },
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "341c899d-fea4-468a-b64c-41b8a0ddc199"
+            },
+            "type": "Trigger_GameOver"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "b9916597-e5e7-4dcd-8c8b-85d5632c5f8f"
+            }
+          },
+          "type": "Trigger_GameOver"
+        }
+      ]
+    },
     "unlimitedPlayTime": true,
     "vars": {
+      "entity": [
+        {
+          "key": "GameScore"
+        },
+        {
+          "key": "Deaths"
+        }
+      ],
       "global": [
         {
           "key": "redScoreVal"
@@ -110,18 +145,18 @@
         }
       ]
     },
-    "waitGoTime": {
-      "value": 200
-    },
     "waitPlayerTime": {
-      "value": 200
+      "value": 80
+    },
+    "waitStartTime": {
+      "value": 20
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "3544a95c265c7e36672112f5c3099b74",
+      "setting.json": "61abc05b1ed7c521b407b10a8738b4ab",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
-      "triggers.bts": "",
+      "triggers.bts": "c85721c85d98df6e929a6c46c36fc673",
       "triggers_client.bts": ""
     },
     "VERSION": "0.21"

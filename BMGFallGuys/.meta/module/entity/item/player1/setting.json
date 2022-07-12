@@ -42,12 +42,175 @@
       "myplugin/KnockbackBomb",
       "myplugin/31708230-1e3e-4c06-be4a-a7af3e0c5e2c",
       "myplugin/Invishield"
-    ]
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "Deaths"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "751df4d4-8b90-45ec-8f71-a9f92e990228"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "9b7c24f8-1932-4298-8c02-7179b79941cb"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "bf04bd41-8a40-44d8-9ae0-10bfcb580a84"
+              },
+              "pos": {
+                "x": 652,
+                "y": 278
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "9b7c24f8-1932-4298-8c02-7179b79941cb"
+              },
+              "pos": {
+                "x": 1103,
+                "y": 415
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ComputeInt",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "558fed01-e06e-4091-9a32-a2d957171881"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BinaryOperCompute"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 1
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "751df4d4-8b90-45ec-8f71-a9f92e990228"
+              },
+              "pos": {
+                "x": 1042,
+                "y": 224
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "Deaths"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "d98618ca-8024-456b-aba1-4e6cecb75706"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "558fed01-e06e-4091-9a32-a2d957171881"
+              },
+              "pos": {
+                "x": 1424,
+                "y": 191
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "d98618ca-8024-456b-aba1-4e6cecb75706"
+              },
+              "pos": {
+                "x": 1769,
+                "y": 337
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "ef50366f-fcf1-465d-aa38-49d769c4d1a4"
+            },
+            "type": "Trigger_EntityDie"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "bf04bd41-8a40-44d8-9ae0-10bfcb580a84"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "d957709d-3c48-4628-97d9-360881f5cae0"
+            }
+          },
+          "type": "Trigger_EntityDie"
+        }
+      ]
+    }
   },
   "meta": {
     "EXPORT": {
       "setting.json": "4c9b6900594fc630bbe1d296e57a4d4b",
-      "triggers.bts": ""
+      "triggers.bts": "05e87ef12518d7751f841e08284ed2f6"
     },
     "VERSION": "0.21"
   }
