@@ -78,10 +78,10 @@
   "engineDefUIEnable": {
     "actionControl": true,
     "actionControlMode": "flexibleDragControl",
-    "appMainRole": true,
+    "appMainRole": false,
     "chat": true,
-    "playerinfo": true,
-    "shortcutBar": true,
+    "playerinfo": false,
+    "shortcutBar": false,
     "toolbar": true
   },
   "forcePickBlock": true,
@@ -254,7 +254,7 @@
         {
           "map": "map001",
           "x": -0.94771802425385,
-          "y": 19.280581512451,
+          "y": 20.281,
           "z": 34.573356628418
         }
       ]
@@ -278,7 +278,7 @@
         {
           "map": "map001",
           "x": -0.65329551696777,
-          "y": 19.279892959595,
+          "y": 20.28,
           "z": -0.31000900268555
         }
       ]
@@ -330,20 +330,7 @@
   "useVoxelTerrain": true,
   "vars": {
     "__OBJ_TYPE": [],
-    "entity": [
-      {
-        "key": "GameScore",
-        "run_type": "server",
-        "save": false,
-        "value": 0
-      },
-      {
-        "key": "Deaths",
-        "run_type": "server",
-        "save": false,
-        "value": 0
-      }
-    ],
+    "entity": [],
     "global": [
       {
         "key": "redScoreVal",

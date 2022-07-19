@@ -1,0 +1,760 @@
+{
+  "data": {
+    "md5": "6155387f180ac1e58a281ee8b5f13d57",
+    "path": "asset/UI/EndGameUI.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Alpha": 0.994,
+                  "anchor": {
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 21,
+                  "FrameEnabled": true,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "1589f419-8b2a-4d93-aa80-10b1894f41b7"
+                  },
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": 1
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.66
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "NAME",
+                  "TextBoldWeight": "1",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Alpha": 0.994,
+                  "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 21,
+                  "FrameEnabled": true,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "730ce84e-d6c4-4aaf-807c-1462c8eedd66"
+                  },
+                  "name": "Text2",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": 1
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.33
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "SCORE",
+                  "TextBoldWeight": "1",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned"
+                }
+              ],
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 29,
+              "FrameEnabled": true,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "b5c476b1-92d3-441e-892d-d43333a3fd88"
+              },
+              "name": "TitleText",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.15
+                }
+              },
+              "Text": "Red Team",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "VerticalLayoutContainer",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Alpha": 0.994,
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Alpha": 0.994,
+                      "Font": "HarmonyOS_Sans_SC_Bold",
+                      "Font_size": 21,
+                      "HorzFormatting": "RightAligned",
+                      "id": {
+                        "value": "bc0ee93b-2e02-4441-8b5d-ce51b7eff6b3"
+                      },
+                      "name": "score",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": "---",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "VertFormatting": "CentreAligned",
+                      "WindowTouchThroughMode": "MousePassThroughOpen"
+                    }
+                  ],
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 21,
+                  "id": {
+                    "value": "6fce97ab-e098-48a4-8120-963b6ee978ea"
+                  },
+                  "name": "red1",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.95
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.15
+                    }
+                  },
+                  "Text": "-----",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Alpha": 0.994,
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Alpha": 0.994,
+                      "Font": "HarmonyOS_Sans_SC_Bold",
+                      "Font_size": 21,
+                      "HorzFormatting": "RightAligned",
+                      "id": {
+                        "value": "e9e4bd49-6a96-4a2a-be2d-a89619c3e8be"
+                      },
+                      "name": "score",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": "---",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "VertFormatting": "CentreAligned",
+                      "WindowTouchThroughMode": "MousePassThroughOpen"
+                    }
+                  ],
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 21,
+                  "id": {
+                    "value": "fc8ce99d-508f-42d7-ace2-ace1b440184e"
+                  },
+                  "name": "red2",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 72
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.95
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.15
+                    }
+                  },
+                  "Text": "-----",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Alpha": 0.994,
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Alpha": 0.994,
+                      "Font": "HarmonyOS_Sans_SC_Bold",
+                      "Font_size": 21,
+                      "HorzFormatting": "RightAligned",
+                      "id": {
+                        "value": "93cb5ec7-2277-4b83-8cef-04009479cada"
+                      },
+                      "name": "score",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": "---",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "VertFormatting": "CentreAligned",
+                      "WindowTouchThroughMode": "MousePassThroughOpen"
+                    }
+                  ],
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 21,
+                  "id": {
+                    "value": "a67e5846-7cdd-46e0-b153-b6925de169ce"
+                  },
+                  "name": "red3",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 144
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.95
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.15
+                    }
+                  },
+                  "Text": "-----",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                }
+              ],
+              "id": {
+                "value": "e814b170-4931-4f6b-8660-437e5c45ae84"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.4
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 427
+                },
+                "UDim_Y": {
+                  "Offect": 198
+                }
+              },
+              "space": 18,
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "id": {
+            "value": "ff5d8426-3dd6-4188-b954-7da322e7c065"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/scrollable_pane_bg.png"
+          },
+          "ImageColours": {
+            "b": 4,
+            "g": 0
+          },
+          "name": "RedTeamBG",
+          "pos": {
+            "UDim_X": {
+              "Scale": 0.15
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.35
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.5
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Alpha": 0.994,
+                  "anchor": {
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 21,
+                  "FrameEnabled": true,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "bdd6fc7d-dae7-499f-9157-91aa7fa4ffd4"
+                  },
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": 1
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.66
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "NAME",
+                  "TextBoldWeight": "1",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Alpha": 0.994,
+                  "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 21,
+                  "FrameEnabled": true,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "1d9e3fd9-da92-46ff-a2d3-63efcc11ee18"
+                  },
+                  "name": "Text2",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": 1
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.33
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "SCORE",
+                  "TextBoldWeight": "1",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned"
+                }
+              ],
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 29,
+              "FrameEnabled": true,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "8e253a8f-2ae5-4649-9275-5b050769927c"
+              },
+              "name": "TitleText",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.15
+                }
+              },
+              "Text": "Blue Team",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "VerticalLayoutContainer",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Alpha": 0.994,
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Alpha": 0.994,
+                      "Font": "HarmonyOS_Sans_SC_Bold",
+                      "Font_size": 21,
+                      "HorzFormatting": "RightAligned",
+                      "id": {
+                        "value": "239442d7-6ff8-42b8-8667-273ac933e2c2"
+                      },
+                      "name": "score",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": "---",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "VertFormatting": "CentreAligned",
+                      "WindowTouchThroughMode": "MousePassThroughOpen"
+                    }
+                  ],
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 21,
+                  "id": {
+                    "value": "8a3151ad-38cc-46f5-9d65-89a8e981d111"
+                  },
+                  "name": "blue1",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.95
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.15
+                    }
+                  },
+                  "Text": "-----",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Alpha": 0.994,
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Alpha": 0.994,
+                      "Font": "HarmonyOS_Sans_SC_Bold",
+                      "Font_size": 21,
+                      "HorzFormatting": "RightAligned",
+                      "id": {
+                        "value": "b6c926b0-f60c-4f66-8ffd-f6e33f74374f"
+                      },
+                      "name": "score",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": "---",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "VertFormatting": "CentreAligned",
+                      "WindowTouchThroughMode": "MousePassThroughOpen"
+                    }
+                  ],
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 21,
+                  "id": {
+                    "value": "bebec9cc-9765-44f2-aac3-5158f74aad6c"
+                  },
+                  "name": "blue2",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 54
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.95
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.15
+                    }
+                  },
+                  "Text": "-----",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Alpha": 0.994,
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Alpha": 0.994,
+                      "Font": "HarmonyOS_Sans_SC_Bold",
+                      "Font_size": 21,
+                      "HorzFormatting": "RightAligned",
+                      "id": {
+                        "value": "81afad78-dc77-43b1-ac02-f74636559dfc"
+                      },
+                      "name": "score",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      },
+                      "Text": "---",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "VertFormatting": "CentreAligned",
+                      "WindowTouchThroughMode": "MousePassThroughOpen"
+                    }
+                  ],
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 21,
+                  "id": {
+                    "value": "5c3aa931-6efa-4cb2-b7b0-56ed119b7cc3"
+                  },
+                  "name": "blue3",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 108
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.95
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.15
+                    }
+                  },
+                  "Text": "-----",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                }
+              ],
+              "id": {
+                "value": "96b66c46-22cb-4845-8c14-8e1a567fa6bb"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.4
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 427
+                },
+                "UDim_Y": {
+                  "Offect": 198
+                }
+              },
+              "space": 18,
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "id": {
+            "value": "d22b9c53-1de4-4538-8b4a-9b4734331536"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/scrollable_pane_bg.png"
+          },
+          "ImageColours": {
+            "g": 0,
+            "r": 72
+          },
+          "name": "BlueTeamBG",
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.15
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.35
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.5
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "6a771ef4-7e90-436c-8393-0f3c2076c2c9"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "6155387f180ac1e58a281ee8b5f13d57",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.22"
+  }
+}

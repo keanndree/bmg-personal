@@ -1,11 +1,6 @@
 {
   "data": {
-    "boundingVolume": {
-      "memory": {
-        "Sphere": "1.800000-0.450000"
-      }
-    },
-    "gravity": 1,
+    "gravity": 1.0,
     "hitCount": {
       "hitEntityCount": 1,
       "isValid": true
@@ -39,9 +34,9 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "afc9c0739118f5086b4a7610adf83e37",
+      "setting.json": "3e268e5e19d56c18fe3c895884742874",
       "triggers.bts": ""
     },
-    "VERSION": "0.21"
+    "VERSION": "0.22"
   }
 }

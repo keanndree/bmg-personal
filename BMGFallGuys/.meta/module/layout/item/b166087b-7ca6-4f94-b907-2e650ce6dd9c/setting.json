@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "86c314b23ecf0d8213ed5fb5be85e8e3",
+    "md5": "0fec6a244320b669d0160dc4de6b95fc",
     "path": "asset/UI/TimerPanel.layout",
     "root": {
       "anchor": {
@@ -43,7 +43,7 @@
                   "Font_size": 15,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "27fa5f16-c7ed-4f37-a667-c18b04f1ee2a"
+                    "value": "8c62943b-f1e0-4d93-99ae-7f8150aa2c98"
                   },
                   "name": "TimerTitle",
                   "pos": {
@@ -53,11 +53,11 @@
                   },
                   "size": {
                     "UDim_X": {
-                      "Offect": 0,
+                      "Offect": 0.0,
                       "Scale": 1
                     },
                     "UDim_Y": {
-                      "Offect": 0,
+                      "Offect": 0.0,
                       "Scale": 0.2
                     }
                   },
@@ -86,7 +86,7 @@
                   "Font_size": 63,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "d2aaf8f5-43fc-4804-bc7a-3357cf2e0a09"
+                    "value": "1890f791-e091-48d6-b528-1e180d8f8e7c"
                   },
                   "name": "TimerText",
                   "pos": {
@@ -96,12 +96,12 @@
                   },
                   "size": {
                     "UDim_X": {
-                      "Offect": 0,
+                      "Offect": 0.0,
                       "Scale": 1
                     },
                     "UDim_Y": {
-                      "Offect": 0,
-                      "Scale": 1
+                      "Offect": 0.0,
+                      "Scale": 1.0
                     }
                   },
                   "Text": "99",
@@ -118,16 +118,16 @@
               "Font_size": 63,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "91b82077-d914-4a63-9142-1eb645668af6"
+                "value": "920e758e-225c-4a17-9329-8efcb25e5446"
               },
               "name": "TimerBG",
               "size": {
                 "UDim_X": {
-                  "Offect": 0,
+                  "Offect": 0.0,
                   "Scale": 1
                 },
                 "UDim_Y": {
-                  "Offect": 0,
+                  "Offect": 0.0,
                   "Scale": 1
                 }
               },
@@ -142,7 +142,7 @@
             }
           ],
           "id": {
-            "value": "50e1852d-3fb7-444b-ae50-60f964d1b41c"
+            "value": "e2b5633b-a22a-4e55-b8c0-b44b0a57fe5d"
           },
           "name": "TimerWindow",
           "size": {
@@ -159,7 +159,7 @@
         }
       ],
       "id": {
-        "value": "a4d91d54-2ac2-4c1a-bb31-2603f351de2b"
+        "value": "4aa1db07-c575-41db-907a-05eca83253d7"
       },
       "size": {
         "UDim_X": {
@@ -176,9 +176,9 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "86c314b23ecf0d8213ed5fb5be85e8e3",
+      "layout": "0fec6a244320b669d0160dc4de6b95fc",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
-    "VERSION": "0.21"
+    "VERSION": "0.22"
   }
 }

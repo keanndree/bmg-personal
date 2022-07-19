@@ -415,6 +415,11 @@
                     },
                     {
                       "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
                         "__OBJ_TYPE": "T_Bool",
                         "rawval": false
                       }
@@ -489,6 +494,6 @@
     "EXPORT": {
       "triggers.bts": "366fe6b117125523dc304761b8d975ab"
     },
-    "VERSION": "0.21"
+    "VERSION": "0.22"
   }
 }

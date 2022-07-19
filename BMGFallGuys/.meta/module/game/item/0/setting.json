@@ -44,11 +44,11 @@
             "selector": "editor/BMGFallGuys/asset/Texture/Team/flag/flag_8.png"
           },
           "initPos": {
-            "map": "map001",
+            "map": "Lobby",
             "pos": {
-              "x": -0.67314851284027,
-              "y": 0.29003385543823,
-              "z": -16.517881393433
+              "x": -1.465,
+              "y": 1.0399008178711,
+              "z": -33.713424682617
             }
           },
           "memberLimit": 3,
@@ -57,27 +57,22 @@
             "map": "map001",
             "pos": {
               "x": -0.94771802425385,
-              "y": 19.280581512451,
+              "y": 20.281,
               "z": 34.573356628418
             }
-          },
-          "use_init_pos": false
+          }
         },
         {
           "actorName": {
-            "asset": "asset/Actor/charactor/charactor_girl/character_girl.actor",
-            "selector": "editor/BMGFallGuys/asset/Actor/charactor/charactor_girl/character_girl.actor"
+            "asset": "asset/Actor/charactor/charactor_girl/character_girl.actor"
           },
           "id": 2,
-          "image": {
-            "selector": "editor/BMGFallGuys/asset/Texture/Team/flag/flag_1.png"
-          },
           "initPos": {
-            "map": "map001",
+            "map": "Lobby",
             "pos": {
-              "x": -1.0575616359711,
-              "y": 0.29003337860107,
-              "z": 49.136127471924
+              "x": -1.465,
+              "y": 1.0399008178711,
+              "z": -33.713424682617
             }
           },
           "memberLimit": 3,
@@ -86,11 +81,10 @@
             "map": "map001",
             "pos": {
               "x": -0.65329551696777,
-              "y": 19.279892959595,
+              "y": 20.28,
               "z": -0.31000900268555
             }
-          },
-          "use_init_pos": false
+          }
         }
       ]
     },
@@ -120,16 +114,13 @@
         }
       ]
     },
+    "ui_enable": {
+      "appMainRole": false,
+      "playerinfo": false,
+      "shortcutBar": false
+    },
     "unlimitedPlayTime": true,
     "vars": {
-      "entity": [
-        {
-          "key": "GameScore"
-        },
-        {
-          "key": "Deaths"
-        }
-      ],
       "global": [
         {
           "key": "redScoreVal"
@@ -154,11 +145,11 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "61abc05b1ed7c521b407b10a8738b4ab",
+      "setting.json": "5d7764c4ccbe22fbc175e5fb232cc65f",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "c85721c85d98df6e929a6c46c36fc673",
       "triggers_client.bts": ""
     },
-    "VERSION": "0.21"
+    "VERSION": "0.22"
   }
 }
