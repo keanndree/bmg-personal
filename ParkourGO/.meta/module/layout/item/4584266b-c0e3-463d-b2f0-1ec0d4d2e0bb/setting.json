@@ -35,11 +35,11 @@
               },
               "size": {
                 "UDim_X": {
-                  "Offect": 0.0,
+                  "Offect": 0,
                   "Scale": 0.95
                 },
                 "UDim_Y": {
-                  "Offect": 0.0,
+                  "Offect": 0,
                   "Scale": 0.75
                 }
               }
@@ -64,7 +64,7 @@
               },
               "size": {
                 "UDim_X": {
-                  "Offect": 201.0
+                  "Offect": 201
                 },
                 "UDim_Y": {
                   "Offect": 50.01
@@ -95,7 +95,7 @@
               },
               "size": {
                 "UDim_X": {
-                  "Offect": 0.0,
+                  "Offect": 0,
                   "Scale": 0.8
                 }
               }
@@ -110,11 +110,11 @@
           "name": "Background",
           "size": {
             "UDim_X": {
-              "Offect": 0.0,
+              "Offect": 0,
               "Scale": 1
             },
             "UDim_Y": {
-              "Offect": 0.0,
+              "Offect": 0,
               "Scale": 1
             }
           }
@@ -136,10 +136,7 @@
     }
   },
   "meta": {
-    "EXPORT": {
-      "layout": "e3fed12ac91ea452648b68230a173fa8",
-      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
-    },
-    "VERSION": "0.21"
+    "EXPORT": [],
+    "VERSION": "0.22"
   }
 }

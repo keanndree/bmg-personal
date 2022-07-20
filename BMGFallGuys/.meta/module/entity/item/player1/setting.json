@@ -13,8 +13,7 @@
       "patrolMode": "randomPath"
     },
     "boundingVolume": {
-      "height": 1.7,
-      "radius": 0.43,
+      "height": 1.5,
       "type": "Capsule"
     },
     "canRevive": true,
@@ -37,16 +36,11 @@
     },
     "reviveTime": {
       "value": 40
-    },
-    "skill": [
-      "myplugin/KnockbackBomb",
-      "myplugin/31708230-1e3e-4c06-be4a-a7af3e0c5e2c",
-      "myplugin/Invishield"
-    ]
+    }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "d965fda63cf87932eb5346eba572d4ba",
+      "setting.json": "1e719a8d7b0d562e407cb7071d8fb83f",
       "triggers.bts": ""
     },
     "VERSION": "0.22"

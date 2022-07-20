@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "61c9cdaacd83c1df9b75c4aef4cbf64d",
+    "md5": "c339bb045bb2aea847f960502eb15a9e",
     "path": "gui/layout_presets/actionControl.layout",
     "root": {
       "children": [
@@ -21,9 +21,8 @@
             "selector": ""
           },
           "id": {
-            "value": "13943c3f-7e0c-426d-9fc4-7ff4be0c42d7"
+            "value": "00af88d6-9863-4543-8b6b-756408ec19a5"
           },
-          "lock": true,
           "name": "SwitchButtonTest",
           "NormalImage": {
             "asset": "",
@@ -59,9 +58,8 @@
             "selector": ""
           },
           "id": {
-            "value": "df6dfb82-f1c0-4223-b11e-ec69fee98986"
+            "value": "0bc69365-fa17-4091-aac9-1e0001cb2e92"
           },
-          "lock": true,
           "name": "GM",
           "NormalImage": {
             "asset": "",
@@ -108,14 +106,13 @@
                         "VerticalAlignment": "Centre"
                       },
                       "id": {
-                        "value": "b48dc935-7064-45ae-8b1d-5cdceaca024a"
+                        "value": "dc2c06b7-fc7b-42e8-bc5b-c243b0aa29df"
                       },
                       "Image": {
                         "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
                         "imageset_key": "linghuo_up",
                         "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
                       },
-                      "lock": true,
                       "name": "UpImage",
                       "size": {
                         "UDim_X": {
@@ -129,14 +126,13 @@
                     }
                   ],
                   "id": {
-                    "value": "0442b72a-6532-4f37-9e06-03fa3a794bd3"
+                    "value": "05846ea5-bbf5-461b-8686-ece87c6e5759"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
                     "imageset_key": "linghuo_bottom",
                     "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
                   },
-                  "lock": true,
                   "name": "BottomImage",
                   "pos": {
                     "UDim_X": {
@@ -158,9 +154,8 @@
                 }
               ],
               "id": {
-                "value": "d5bde998-75df-4d3a-b510-95743a711693"
+                "value": "b4a8d076-0b77-4431-ace7-8a855fbad08a"
               },
-              "lock": true,
               "name": "FlexibleDragControl",
               "pos": {
                 "UDim_X": {
@@ -188,14 +183,13 @@
                   "Alpha": 0.75,
                   "ClippedByParent": true,
                   "id": {
-                    "value": "090a8194-6375-4ba4-a9f2-4e3fcddd1860"
+                    "value": "7dbe5f5d-2de4-4551-b908-497bdf65ff14"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/pole.imageset",
                     "imageset_key": "pole_bg",
                     "selector": "asset/Texture/Gui/imagesets/pole.imageset"
                   },
-                  "lock": true,
                   "name": "MoveBg",
                   "size": {
                     "UDim_X": {
@@ -212,14 +206,13 @@
                   "__OBJ_TYPE": "StaticImage",
                   "ClippedByParent": true,
                   "id": {
-                    "value": "85a4fff7-59e5-446e-8446-4c4ee3b095b2"
+                    "value": "ae4c2980-9d20-4322-a8a8-7501f2a895c3"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/pole.imageset",
                     "imageset_key": "pole_center",
                     "selector": "asset/Texture/Gui/imagesets/pole.imageset"
                   },
-                  "lock": true,
                   "name": "Point",
                   "size": {
                     "UDim_X": {
@@ -235,9 +228,8 @@
                 {
                   "__OBJ_TYPE": "DefaultWindow",
                   "id": {
-                    "value": "2ac6bf3b-a8c0-4002-b404-4d5a0265ae6e"
+                    "value": "0fbbe23c-6334-44dd-bb1f-de764c4191b4"
                   },
-                  "lock": true,
                   "name": "MoveArea",
                   "pos": {
                     "UDim_X": {
@@ -260,9 +252,8 @@
                 }
               ],
               "id": {
-                "value": "7d7ffed2-c583-4ce9-a6b4-9d92e88158b7"
+                "value": "90739761-d8b3-44c6-befb-0ad9fe5dfcd0"
               },
-              "lock": true,
               "name": "Pole",
               "pos": {
                 "UDim_X": {
@@ -290,14 +281,13 @@
                   "__OBJ_TYPE": "StaticImage",
                   "ClippedByParent": true,
                   "id": {
-                    "value": "dfdd7b64-998a-4da0-acf9-7226c0de97e8"
+                    "value": "e0d0c08d-4d82-478a-b9b3-166def16e0b0"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/new_gui_material.imageset",
                     "imageset_key": "zuoxieshang",
                     "selector": "asset/Texture/Gui/imagesets/new_gui_material.imageset"
                   },
-                  "lock": true,
                   "name": "LeftTop",
                   "size": {
                     "UDim_X": {
@@ -314,14 +304,13 @@
                   "__OBJ_TYPE": "StaticImage",
                   "ClippedByParent": true,
                   "id": {
-                    "value": "69468ca2-c836-43f2-b982-7eea34174e7f"
+                    "value": "d0b9245d-dfd6-4651-b966-8d370f07ca88"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/new_gui_material.imageset",
                     "imageset_key": "shang",
                     "selector": "asset/Texture/Gui/imagesets/new_gui_material.imageset"
                   },
-                  "lock": true,
                   "name": "CenterTop",
                   "pos": {
                     "UDim_X": {
@@ -343,14 +332,13 @@
                   "__OBJ_TYPE": "StaticImage",
                   "ClippedByParent": true,
                   "id": {
-                    "value": "924141c0-600d-4781-9be9-fd5e5e29779e"
+                    "value": "60cb0242-b540-4295-a5d3-acefb1b45e8a"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/new_gui_material.imageset",
                     "imageset_key": "youxieshang",
                     "selector": "asset/Texture/Gui/imagesets/new_gui_material.imageset"
                   },
-                  "lock": true,
                   "name": "RightTop",
                   "pos": {
                     "UDim_X": {
@@ -372,14 +360,13 @@
                   "__OBJ_TYPE": "StaticImage",
                   "ClippedByParent": true,
                   "id": {
-                    "value": "78b51ca1-cef6-4ced-9b5c-14794a42d5e6"
+                    "value": "a688d508-f331-40a8-b7df-ba84857f54b2"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/new_gui_material.imageset",
                     "imageset_key": "zuo",
                     "selector": "asset/Texture/Gui/imagesets/new_gui_material.imageset"
                   },
-                  "lock": true,
                   "name": "LeftCenter",
                   "pos": {
                     "UDim_Y": {
@@ -401,14 +388,13 @@
                   "__OBJ_TYPE": "StaticImage",
                   "ClippedByParent": true,
                   "id": {
-                    "value": "3d5d3ac3-7b11-4b7c-8fcc-e4520cfd81b9"
+                    "value": "cf34707e-4764-453d-a4e1-c4b5ddcfbc38"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/new_gui_material.imageset",
                     "imageset_key": "you",
                     "selector": "asset/Texture/Gui/imagesets/new_gui_material.imageset"
                   },
-                  "lock": true,
                   "name": "RightCenter",
                   "pos": {
                     "UDim_X": {
@@ -433,14 +419,13 @@
                   "__OBJ_TYPE": "StaticImage",
                   "ClippedByParent": true,
                   "id": {
-                    "value": "1f61e28a-a0dd-447c-935b-a2ad17c46a31"
+                    "value": "3f3143d6-1a79-4879-9d82-7cc8f9cbe1bb"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/new_gui_material.imageset",
                     "imageset_key": "xia",
                     "selector": "asset/Texture/Gui/imagesets/new_gui_material.imageset"
                   },
-                  "lock": true,
                   "name": "CenterBottom",
                   "pos": {
                     "UDim_X": {
@@ -465,14 +450,13 @@
                   "__OBJ_TYPE": "StaticImage",
                   "ClippedByParent": true,
                   "id": {
-                    "value": "f9e192c8-b7fd-4972-a529-97637b9676de"
+                    "value": "795bc79b-4a8c-4687-9933-c1be0140b807"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/new_gui_material.imageset",
                     "imageset_key": "qifei",
                     "selector": "asset/Texture/Gui/imagesets/new_gui_material.imageset"
                   },
-                  "lock": true,
                   "name": "CenterJump",
                   "pos": {
                     "UDim_X": {
@@ -497,14 +481,13 @@
                   "__OBJ_TYPE": "StaticImage",
                   "ClippedByParent": true,
                   "id": {
-                    "value": "ac0b53eb-800e-4c5c-af89-b70b016dfcd5"
+                    "value": "056e9a73-2eb1-4e50-8b38-4f86ebe21903"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/new_gui_material.imageset",
                     "imageset_key": "sneak",
                     "selector": "asset/Texture/Gui/imagesets/new_gui_material.imageset"
                   },
-                  "lock": true,
                   "name": "CenterSneak",
                   "pos": {
                     "UDim_X": {
@@ -529,9 +512,8 @@
                   "__OBJ_TYPE": "DefaultWindow",
                   "ClippedByParent": true,
                   "id": {
-                    "value": "172c4468-ebb7-41e4-ae1c-03923c0ad455"
+                    "value": "dca882a3-fdf8-4c2f-bd64-e1fe46c13b40"
                   },
-                  "lock": true,
                   "name": "LeftTopTouch",
                   "size": {
                     "UDim_X": {
@@ -549,9 +531,8 @@
                   "__OBJ_TYPE": "DefaultWindow",
                   "ClippedByParent": true,
                   "id": {
-                    "value": "a60464a0-5f44-4fbc-8100-e463e1ca9dad"
+                    "value": "fdea162a-f099-43c8-90b8-1b29f5f261f0"
                   },
-                  "lock": true,
                   "name": "RightTopTouch",
                   "pos": {
                     "UDim_X": {
@@ -572,9 +553,8 @@
                 }
               ],
               "id": {
-                "value": "04b47775-f61d-4095-a014-5db6980408ac"
+                "value": "bb757f67-3ed1-465f-bab2-0f7f6f4221be"
               },
-              "lock": true,
               "name": "Keyboard",
               "pos": {
                 "UDim_X": {
@@ -602,14 +582,13 @@
                 {
                   "__OBJ_TYPE": "StaticImage",
                   "id": {
-                    "value": "0b7dc757-ffa5-467e-9823-fb403b5d6a65"
+                    "value": "6ca5630e-65da-4f4f-b3c1-502e22248df0"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/endless_main.imageset",
                     "imageset_key": "control_bg_normal",
                     "selector": "asset/Texture/Gui/imagesets/endless_main.imageset"
                   },
-                  "lock": true,
                   "name": "MoveBg",
                   "size": {
                     "UDim_X": {
@@ -625,14 +604,13 @@
                 {
                   "__OBJ_TYPE": "StaticImage",
                   "id": {
-                    "value": "c23b8247-02bf-4cf2-b2c0-d8efb724382d"
+                    "value": "d17b7065-fe37-4eaa-bc03-aca93e2e8de0"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/endless_main.imageset",
                     "imageset_key": "control_bg_push",
                     "selector": "asset/Texture/Gui/imagesets/endless_main.imageset"
                   },
-                  "lock": true,
                   "name": "MoveBgPush",
                   "size": {
                     "UDim_X": {
@@ -648,9 +626,8 @@
                 {
                   "__OBJ_TYPE": "DefaultWindow",
                   "id": {
-                    "value": "98aa6c72-0126-4c93-92d7-95f02ee759b3"
+                    "value": "ffc31f0f-5912-4f03-bb8f-68d9a572509d"
                   },
-                  "lock": true,
                   "name": "MoveArea",
                   "size": {
                     "UDim_X": {
@@ -665,9 +642,8 @@
                 }
               ],
               "id": {
-                "value": "4bb91aa8-a220-4ee6-9345-20256e1a6a82"
+                "value": "2dfddaf3-6fcc-4fd6-9042-6e2f6ed5a831"
               },
-              "lock": true,
               "name": "DragControl",
               "size": {
                 "UDim_X": {
@@ -684,9 +660,8 @@
           ],
           "ClippedByParent": true,
           "id": {
-            "value": "dbd58467-95d9-4e0c-910b-cd44f0c8b4a0"
+            "value": "20fe11d1-14d3-4dc5-9b13-a4a97199c395"
           },
-          "lock": true,
           "name": "MoveCompomentBase",
           "pos": {
             "UDim_Y": {
@@ -712,14 +687,13 @@
                   "__OBJ_TYPE": "StaticImage",
                   "ClippedByParent": true,
                   "id": {
-                    "value": "38b2a14a-91fd-473d-aa25-686ce2a4fa50"
+                    "value": "25592de7-38c3-4811-b72f-3de0a1c29100"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/new_gui_material.imageset",
                     "imageset_key": "sneak",
                     "selector": "asset/Texture/Gui/imagesets/new_gui_material.imageset"
                   },
-                  "lock": true,
                   "name": "Sneak",
                   "size": {
                     "UDim_X": {
@@ -737,14 +711,13 @@
                   "__OBJ_TYPE": "StaticImage",
                   "ClippedByParent": true,
                   "id": {
-                    "value": "22144753-11d6-44fa-b5cf-a2edff472991"
+                    "value": "2c88eab6-e735-44e6-8d3e-37ad03275ea1"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/new_gui_material.imageset",
                     "imageset_key": "run",
                     "selector": "asset/Texture/Gui/imagesets/new_gui_material.imageset"
                   },
-                  "lock": true,
                   "name": "Run",
                   "size": {
                     "UDim_X": {
@@ -760,9 +733,8 @@
                 }
               ],
               "id": {
-                "value": "baac7b04-c46a-43f1-a9ca-df5c506361cf"
+                "value": "8b1c1296-7cb2-4b33-98e1-8008784c6fdd"
               },
-              "lock": true,
               "name": "MoveState",
               "pos": {
                 "UDim_X": {
@@ -790,14 +762,13 @@
                   "__OBJ_TYPE": "StaticImage",
                   "ClippedByParent": true,
                   "id": {
-                    "value": "93faa75b-dcf2-4a6f-af4b-93f45dc9e5ba"
+                    "value": "f5899507-fe63-4c92-a790-d1e92887962d"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
                     "imageset_key": "icon_jump_nor",
                     "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
                   },
-                  "lock": true,
                   "name": "Sneak",
                   "size": {
                     "UDim_X": {
@@ -816,13 +787,12 @@
                     {
                       "__OBJ_TYPE": "StaticImage",
                       "id": {
-                        "value": "322932d3-6c00-447f-9111-c7be562067cc"
+                        "value": "0c8e6758-af2e-4e36-9c93-283a1a9eab63"
                       },
                       "Image": {
                         "asset": "",
                         "selector": ""
                       },
-                      "lock": true,
                       "name": "JumpProgress",
                       "pos": {
                         "UDim_X": {
@@ -847,14 +817,13 @@
                       "__OBJ_TYPE": "StaticImage",
                       "ClippedByParent": true,
                       "id": {
-                        "value": "9878a7d8-204e-465e-8486-64d0a75c8399"
+                        "value": "1dfd92b1-8434-43e9-947f-eb09abdfc706"
                       },
                       "Image": {
                         "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
                         "imageset_key": "icon_jump_nor",
                         "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
                       },
-                      "lock": true,
                       "name": "JumpPush",
                       "size": {
                         "UDim_X": {
@@ -872,14 +841,13 @@
                       "__OBJ_TYPE": "StaticImage",
                       "ClippedByParent": true,
                       "id": {
-                        "value": "62f9a866-e19b-4132-b735-3d2a1831cb73"
+                        "value": "dceaf3fa-6800-4307-a907-6055c483e00c"
                       },
                       "Image": {
                         "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
                         "imageset_key": "icon_jump_nor",
                         "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
                       },
-                      "lock": true,
                       "name": "Jump",
                       "size": {
                         "UDim_X": {
@@ -895,9 +863,8 @@
                   ],
                   "ClippedByParent": true,
                   "id": {
-                    "value": "8f2bf3e5-a0de-40d8-b1d4-f8034756e0e0"
+                    "value": "36517c69-38e2-48d5-83ee-84605afe8cde"
                   },
-                  "lock": true,
                   "name": "JumpLayout",
                   "size": {
                     "UDim_X": {
@@ -913,9 +880,8 @@
               ],
               "ClippedByParent": true,
               "id": {
-                "value": "1d1484d0-36d7-4267-a3a6-a3ec941d0372"
+                "value": "c115cd23-22cb-4071-a589-f861b5f46c35"
               },
-              "lock": true,
               "name": "JumpControl",
               "pos": {
                 "UDim_X": {
@@ -939,9 +905,8 @@
           ],
           "ClippedByParent": true,
           "id": {
-            "value": "161e3870-5130-49f1-840f-4edb05ab6607"
+            "value": "995a42f3-a368-421f-a1a6-b1c024ec948f"
           },
-          "lock": true,
           "name": "StateControlBase",
           "pos": {
             "UDim_X": {
@@ -962,9 +927,8 @@
       ],
       "ClippedByParent": true,
       "id": {
-        "value": "9514a4f3-934f-4600-aa87-3bab7fb184ef"
+        "value": "4be6fcc5-d9ab-4ff0-b44c-f8df906df16f"
       },
-      "lock": true,
       "size": {
         "UDim_X": {
           "Offect": 0,
@@ -979,7 +943,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "61c9cdaacd83c1df9b75c4aef4cbf64d",
+      "layout": "c339bb045bb2aea847f960502eb15a9e",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.22"

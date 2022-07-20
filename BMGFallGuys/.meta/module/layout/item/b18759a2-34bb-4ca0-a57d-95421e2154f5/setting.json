@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "6155387f180ac1e58a281ee8b5f13d57",
+    "md5": "667e0c2ba5eb4f88c8f3cef8b2b6044d",
     "path": "asset/UI/EndGameUI.layout",
     "root": {
       "anchor": {
@@ -19,6 +19,12 @@
               "anchor": {
                 "HorizontalAlignment": "Centre"
               },
+              "BorderColor": {
+                "b": 2,
+                "g": 0,
+                "r": 102
+              },
+              "BorderWidth": 2,
               "children": [
                 {
                   "__OBJ_TYPE": "StaticText",
@@ -31,7 +37,7 @@
                   "FrameEnabled": true,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "1589f419-8b2a-4d93-aa80-10b1894f41b7"
+                    "value": "cb33c176-860b-421f-af56-cce8bef9e815"
                   },
                   "pos": {
                     "UDim_Y": {
@@ -69,7 +75,7 @@
                   "FrameEnabled": true,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "730ce84e-d6c4-4aaf-807c-1462c8eedd66"
+                    "value": "7796509e-86bd-4330-91db-d9182e2e1775"
                   },
                   "name": "Text2",
                   "pos": {
@@ -102,7 +108,7 @@
               "FrameEnabled": true,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "b5c476b1-92d3-441e-892d-d43333a3fd88"
+                "value": "22a5a632-55e8-4506-ac26-461f16f55454"
               },
               "name": "TitleText",
               "pos": {
@@ -122,7 +128,7 @@
               },
               "Text": "Red Team",
               "TextColours": {
-                "b": 255,
+                "b": 127,
                 "g": 255,
                 "r": 255
               },
@@ -146,7 +152,7 @@
                       "Font_size": 21,
                       "HorzFormatting": "RightAligned",
                       "id": {
-                        "value": "bc0ee93b-2e02-4441-8b5d-ce51b7eff6b3"
+                        "value": "03d3cc4f-7ca2-45d2-9cb8-023b8a24540e"
                       },
                       "name": "score",
                       "size": {
@@ -172,7 +178,7 @@
                   "Font": "HarmonyOS_Sans_SC_Bold",
                   "Font_size": 21,
                   "id": {
-                    "value": "6fce97ab-e098-48a4-8120-963b6ee978ea"
+                    "value": "d32bbf5c-75a1-45a3-8d83-a5873ecfadaa"
                   },
                   "name": "red1",
                   "size": {
@@ -205,7 +211,7 @@
                       "Font_size": 21,
                       "HorzFormatting": "RightAligned",
                       "id": {
-                        "value": "e9e4bd49-6a96-4a2a-be2d-a89619c3e8be"
+                        "value": "c2847aa3-1750-43b6-8fbf-ccc5a97e720a"
                       },
                       "name": "score",
                       "size": {
@@ -231,7 +237,7 @@
                   "Font": "HarmonyOS_Sans_SC_Bold",
                   "Font_size": 21,
                   "id": {
-                    "value": "fc8ce99d-508f-42d7-ace2-ace1b440184e"
+                    "value": "66deefb0-bfa5-4c1b-b5aa-f990313ac991"
                   },
                   "name": "red2",
                   "pos": {
@@ -269,7 +275,7 @@
                       "Font_size": 21,
                       "HorzFormatting": "RightAligned",
                       "id": {
-                        "value": "93cb5ec7-2277-4b83-8cef-04009479cada"
+                        "value": "3c2b68da-8610-4405-a71f-800d09c23033"
                       },
                       "name": "score",
                       "size": {
@@ -295,7 +301,7 @@
                   "Font": "HarmonyOS_Sans_SC_Bold",
                   "Font_size": 21,
                   "id": {
-                    "value": "a67e5846-7cdd-46e0-b153-b6925de169ce"
+                    "value": "6c529c00-f997-4e92-ab24-e18f141f7379"
                   },
                   "name": "red3",
                   "pos": {
@@ -324,7 +330,7 @@
                 }
               ],
               "id": {
-                "value": "e814b170-4931-4f6b-8660-437e5c45ae84"
+                "value": "9d6a26bd-9d24-403c-b17b-100ec3035b67"
               },
               "pos": {
                 "UDim_Y": {
@@ -344,7 +350,7 @@
             }
           ],
           "id": {
-            "value": "ff5d8426-3dd6-4188-b954-7da322e7c065"
+            "value": "b65246fb-8c22-461f-9257-b07b48894849"
           },
           "Image": {
             "asset": "asset/Texture/Gui/scrollable_pane_bg.png"
@@ -368,7 +374,8 @@
               "Offect": 0,
               "Scale": 0.5
             }
-          }
+          },
+          "WindowTouchThroughMode": "MousePassThroughOpen"
         },
         {
           "__OBJ_TYPE": "StaticImage",
@@ -382,6 +389,12 @@
               "anchor": {
                 "HorizontalAlignment": "Centre"
               },
+              "BorderColor": {
+                "b": 93,
+                "g": 0,
+                "r": 23
+              },
+              "BorderWidth": 2,
               "children": [
                 {
                   "__OBJ_TYPE": "StaticText",
@@ -394,7 +407,7 @@
                   "FrameEnabled": true,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "bdd6fc7d-dae7-499f-9157-91aa7fa4ffd4"
+                    "value": "5d89b5d0-6e2b-4959-b6a1-f95e802ed9b2"
                   },
                   "pos": {
                     "UDim_Y": {
@@ -432,7 +445,7 @@
                   "FrameEnabled": true,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "1d9e3fd9-da92-46ff-a2d3-63efcc11ee18"
+                    "value": "a23e5284-387b-47b1-9c5e-e444d3ce7bde"
                   },
                   "name": "Text2",
                   "pos": {
@@ -465,7 +478,7 @@
               "FrameEnabled": true,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "8e253a8f-2ae5-4649-9275-5b050769927c"
+                "value": "fcf655c5-f347-4594-bc24-ff65c888bd6c"
               },
               "name": "TitleText",
               "pos": {
@@ -485,7 +498,7 @@
               },
               "Text": "Blue Team",
               "TextColours": {
-                "b": 255,
+                "b": 127,
                 "g": 255,
                 "r": 255
               },
@@ -504,12 +517,11 @@
                   "children": [
                     {
                       "__OBJ_TYPE": "StaticText",
-                      "Alpha": 0.994,
                       "Font": "HarmonyOS_Sans_SC_Bold",
                       "Font_size": 21,
                       "HorzFormatting": "RightAligned",
                       "id": {
-                        "value": "239442d7-6ff8-42b8-8667-273ac933e2c2"
+                        "value": "da07aa43-02c4-4de4-8adf-5f957ced3c51"
                       },
                       "name": "score",
                       "size": {
@@ -535,7 +547,7 @@
                   "Font": "HarmonyOS_Sans_SC_Bold",
                   "Font_size": 21,
                   "id": {
-                    "value": "8a3151ad-38cc-46f5-9d65-89a8e981d111"
+                    "value": "b71c5076-b2d6-4bf8-9df7-60e98bfa0e91"
                   },
                   "name": "blue1",
                   "size": {
@@ -568,7 +580,7 @@
                       "Font_size": 21,
                       "HorzFormatting": "RightAligned",
                       "id": {
-                        "value": "b6c926b0-f60c-4f66-8ffd-f6e33f74374f"
+                        "value": "13e21d83-c35e-47c8-8e4e-5d2c7995cf8a"
                       },
                       "name": "score",
                       "size": {
@@ -594,7 +606,7 @@
                   "Font": "HarmonyOS_Sans_SC_Bold",
                   "Font_size": 21,
                   "id": {
-                    "value": "bebec9cc-9765-44f2-aac3-5158f74aad6c"
+                    "value": "e4a4f606-ba3c-4d79-999b-63468e477b68"
                   },
                   "name": "blue2",
                   "pos": {
@@ -632,7 +644,7 @@
                       "Font_size": 21,
                       "HorzFormatting": "RightAligned",
                       "id": {
-                        "value": "81afad78-dc77-43b1-ac02-f74636559dfc"
+                        "value": "7e987d73-d78c-41ab-9c02-7422322e180b"
                       },
                       "name": "score",
                       "size": {
@@ -658,7 +670,7 @@
                   "Font": "HarmonyOS_Sans_SC_Bold",
                   "Font_size": 21,
                   "id": {
-                    "value": "5c3aa931-6efa-4cb2-b7b0-56ed119b7cc3"
+                    "value": "0e24f5ee-a20c-46a5-b6ce-d0251dc114bd"
                   },
                   "name": "blue3",
                   "pos": {
@@ -687,7 +699,7 @@
                 }
               ],
               "id": {
-                "value": "96b66c46-22cb-4845-8c14-8e1a567fa6bb"
+                "value": "d507bcac-b9a4-40ea-8a2d-fb7ebb4800d5"
               },
               "pos": {
                 "UDim_Y": {
@@ -707,7 +719,7 @@
             }
           ],
           "id": {
-            "value": "d22b9c53-1de4-4538-8b4a-9b4734331536"
+            "value": "2329a4f6-6739-45df-a44d-061a669a83cd"
           },
           "Image": {
             "asset": "asset/Texture/Gui/scrollable_pane_bg.png"
@@ -731,11 +743,53 @@
               "Offect": 0,
               "Scale": 0.5
             }
-          }
+          },
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "BorderColor": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "BorderWidth": 4,
+          "Font": "HarmonyOS_Sans_SC_Black",
+          "Font_size": 61,
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "36e74c0c-0081-47fa-8b80-8b753470fdfa"
+          },
+          "name": "AnnounceText",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.15
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.5
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.15
+            }
+          },
+          "Text": "BLUE WINS!",
+          "TextColours": {
+            "b": 127,
+            "g": 255,
+            "r": 255
+          },
+          "VertFormatting": "CentreAligned"
         }
       ],
       "id": {
-        "value": "6a771ef4-7e90-436c-8393-0f3c2076c2c9"
+        "value": "90ea1408-beb9-424a-83ea-e30684ad83ba"
       },
       "size": {
         "UDim_X": {
@@ -752,7 +806,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "6155387f180ac1e58a281ee8b5f13d57",
+      "layout": "667e0c2ba5eb4f88c8f3cef8b2b6044d",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.22"

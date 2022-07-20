@@ -5,5 +5,5 @@ PART_TOUCH_ENTITY_BEGIN {
 		@blueScoreVal = @blueScoreVal + @scoreIncrement
 	}
 	ExecScript(blueScore = @blueScoreVal, redScore = @redScoreVal, script_name = "ScriptableNode_2")
-	Damage(damage = 1, entity = $obj2)
+	KillEntity(entity = $obj2)
 }

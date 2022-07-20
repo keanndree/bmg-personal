@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "9e4aa4df334f2edc611537d94bb391ae",
+    "md5": "75fdd8b08fbd731086aad1c33c2116fc",
     "path": "gui/layout_presets/shortcutBar.layout",
     "root": {
       "anchor": {
@@ -16,14 +16,13 @@
           },
           "ClippedByParent": true,
           "id": {
-            "value": "9d9e736b-b014-4f77-bb26-a183651c1ade"
+            "value": "7273aad9-9ed2-49f4-a0b8-715976d21913"
           },
           "Image": {
             "asset": "asset/Texture/Gui/imagesets/bottom_bar.imageset",
             "imageset_key": "bar_bg",
             "selector": "asset/Texture/Gui/imagesets/bottom_bar.imageset"
           },
-          "lock": true,
           "name": "BG",
           "size": {
             "UDim_X": {
@@ -43,14 +42,13 @@
             "VerticalAlignment": "Bottom"
           },
           "id": {
-            "value": "2152a346-855a-4d65-83b8-dac55537b617"
+            "value": "6da2e42f-9548-4498-8da9-cb6985fb9200"
           },
           "Image": {
             "asset": "asset/Texture/Gui/imagesets/bottom_bar.imageset",
             "imageset_key": "bar_bag",
             "selector": "asset/Texture/Gui/imagesets/bottom_bar.imageset"
           },
-          "lock": true,
           "name": "OpenBagItem",
           "pos": {
             "UDim_X": {
@@ -75,9 +73,8 @@
             "VerticalAlignment": "Bottom"
           },
           "id": {
-            "value": "24668e54-978b-426e-86a9-8f35d46ddb7f"
+            "value": "91f4ec5d-0418-42d2-bc6e-04e1b612b6e7"
           },
-          "lock": true,
           "name": "ItemCellBase",
           "pos": {
             "UDim_X": {
@@ -100,9 +97,8 @@
       ],
       "ClippedByParent": true,
       "id": {
-        "value": "843fc25b-1f19-4433-986f-5eeb4db91d1c"
+        "value": "d94cfd4f-4839-48c8-ac3d-47b676b8ce54"
       },
-      "lock": true,
       "size": {
         "UDim_X": {
           "Offect": 746
@@ -115,7 +111,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "9e4aa4df334f2edc611537d94bb391ae",
+      "layout": "75fdd8b08fbd731086aad1c33c2116fc",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.22"

@@ -4,8 +4,8 @@
 local redScore = params.redScore
 local blueScore = params.blueScore
 
-print("Redscore = "..redScore)
-print("BlueScore = "..blueScore)
+--print("Redscore = "..redScore)
+--print("BlueScore = "..blueScore)
 
 
 PackageHandlers.sendServerHandlerToAll("RefreshGameScore", {redScore,blueScore})

@@ -1,0 +1,396 @@
+{
+  "data": {
+    "md5": "c680c79719011a7b578bb0681b64800e",
+    "path": "asset/UI/leaderboard.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "Font": "HarmonyOS_Sans_SC_Black",
+          "Font_size": 45,
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "058e549c-a849-49c7-8944-abde84d1e9ad"
+          },
+          "name": "LeaderboardTitle",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.9
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.15
+            }
+          },
+          "Text": "- LEADERBOARD -",
+          "TextColours": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "VertFormatting": "CentreAligned",
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        },
+        {
+          "__OBJ_TYPE": "VerticalLayoutContainer",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Bottom"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font": "HarmonyOS_Sans_SC_Black",
+                  "Font_size": 45,
+                  "HorzFormatting": "RightAligned",
+                  "id": {
+                    "value": "d447e5b7-5b64-4a14-b39e-c3d277644e3f"
+                  },
+                  "name": "score",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "---",
+                  "TextColours": {
+                    "b": 19,
+                    "g": 247,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                }
+              ],
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 45,
+              "id": {
+                "value": "11441304-7e2e-46cf-abad-b4f7f24fe588"
+              },
+              "name": "plr1",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.95
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.15
+                }
+              },
+              "Text": "1] -----",
+              "TextColours": {
+                "b": 19,
+                "g": 247,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font": "HarmonyOS_Sans_SC_Black",
+                  "Font_size": 45,
+                  "HorzFormatting": "RightAligned",
+                  "id": {
+                    "value": "58480abf-277a-40b9-870f-70b9b8649e6d"
+                  },
+                  "name": "score",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "---",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 120,
+                    "r": 30
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                }
+              ],
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 45,
+              "id": {
+                "value": "7cb888a7-df6b-4674-9a24-9fd88c6c109b"
+              },
+              "name": "plr2",
+              "pos": {
+                "UDim_Y": {
+                  "Offect": 108
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.95
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.15
+                }
+              },
+              "Text": "2] -----",
+              "TextColours": {
+                "b": 255,
+                "g": 120,
+                "r": 30
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font": "HarmonyOS_Sans_SC_Black",
+                  "Font_size": 45,
+                  "HorzFormatting": "RightAligned",
+                  "id": {
+                    "value": "9eb6c7c0-599c-4263-ba7d-e96c2021b844"
+                  },
+                  "name": "score",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "---",
+                  "TextColours": {
+                    "b": 51,
+                    "g": 180,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                }
+              ],
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 45,
+              "id": {
+                "value": "3b39b9cc-59a8-42ee-8317-dcd27a4c3859"
+              },
+              "name": "plr3",
+              "pos": {
+                "UDim_Y": {
+                  "Offect": 216
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.95
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.15
+                }
+              },
+              "Text": "3] -----",
+              "TextColours": {
+                "b": 51,
+                "g": 180,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font": "HarmonyOS_Sans_SC_Black",
+                  "Font_size": 45,
+                  "HorzFormatting": "RightAligned",
+                  "id": {
+                    "value": "5679b99c-dddb-4dcf-99d4-4f8d796bb4b5"
+                  },
+                  "name": "score",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "---",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                }
+              ],
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 45,
+              "id": {
+                "value": "cdeab19f-997a-492b-b026-4de0bc71e2e5"
+              },
+              "name": "plr4",
+              "pos": {
+                "UDim_Y": {
+                  "Offect": 324
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.95
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.15
+                }
+              },
+              "Text": "4] -----",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font": "HarmonyOS_Sans_SC_Black",
+                  "Font_size": 45,
+                  "HorzFormatting": "RightAligned",
+                  "id": {
+                    "value": "026fbd19-a779-4cf1-b62f-56f28f978d61"
+                  },
+                  "name": "score",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "---",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                }
+              ],
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 45,
+              "id": {
+                "value": "810e4c3b-b4af-4432-abc2-ff03c7b04488"
+              },
+              "name": "plr5",
+              "pos": {
+                "UDim_Y": {
+                  "Offect": 432
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.95
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.15
+                }
+              },
+              "Text": "5] -----",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "id": {
+            "value": "eb14960e-41f1-4040-bad2-505a73d8e54b"
+          },
+          "pos": {
+            "UDim_Y": {
+              "Scale": -0.1
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 1217
+            },
+            "UDim_Y": {
+              "Offect": 540
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "368db837-cff7-47f7-8789-9ac8ab2f73e0"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "c680c79719011a7b578bb0681b64800e",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -16,7 +16,9 @@
     },
     "boundingVolume": {
       "height": 1.7,
+      "height_c": 1.7,
       "radius": 0.43,
+      "radius_c": 0.43,
       "type": "Capsule"
     },
     "canRevive": true,
@@ -38,9 +40,9 @@
     ],
     "gravity": 2.5,
     "isPlayer": true,
-    "jumpSpeed": 16.0,
+    "jumpSpeed": 16,
     "maxHp": 1,
-    "moveSpeed": 8.0,
+    "moveSpeed": 8,
     "name": {
       "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
     },
@@ -54,9 +56,9 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "06cda2c03e29215e7a50e547de45b972",
+      "setting.json": "f6bc7dd5e38ac62775f0f3bc9911660a",
       "triggers.bts": ""
     },
-    "VERSION": "0.21"
+    "VERSION": "0.22"
   }
 }

@@ -19,6 +19,19 @@
         "name": "EnvironmentLight"
       },
       {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8722718872218206209",
+        "ID": 2,
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
         "__OBJ_TYPE": "Instance_Entity",
         "config": "myplugin/player1",
         "id": "8504222558422384641",
@@ -2040,8 +2053,8 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "468ccc7ab7c79a3604844a4dc902737e"
+      "setting.json": "6d760a91bed63aa61050cb19b3377332"
     },
-    "VERSION": "0.21"
+    "VERSION": "0.22"
   }
 }

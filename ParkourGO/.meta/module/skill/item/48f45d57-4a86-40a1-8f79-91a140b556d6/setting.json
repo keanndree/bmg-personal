@@ -9,6 +9,9 @@
       "value": "skill_48f45d57-4a86-40a1-8f79-91a140b556d6"
     },
     "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack"
+      },
       "type": "Base"
     },
     "skillReleaseWay": {
@@ -17,7 +20,8 @@
       },
       "iconPos": {
         "area_number": 6
-      }
+      },
+      "isClickIcon": true
     },
     "triggers": {
       "list": [
@@ -194,9 +198,9 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "6c09de46ab3ba489ad0a9bea70099d41",
+      "setting.json": "4607f910f38916a5b728cea3bcdf78c0",
       "triggers.bts": "7a72072bcf5d4e9329e1f5e9288f9dcc"
     },
-    "VERSION": "0.21"
+    "VERSION": "0.22"
   }
 }

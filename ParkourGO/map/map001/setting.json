@@ -41,7 +41,39 @@
         "shadowsPresicion": "1024",
         "shadowsType": "null",
         "skyColor": "r:0.49803921568627 g:0.51372549019608 b:0.54509803921569 a:1.0",
-        "skyLineColor": "r:0.23921568627451 g:0.22745098039216 b:0.2078431372549 a:1.0"
+        "skyLineColor": "r:0.23921568627451 g:0.22745098039216 b:0.2078431372549 a:1.0",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Light",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8722718872218206209",
+        "ID": "2",
+        "lightActived": "true",
+        "lightAngle": "30.0",
+        "lightBrightness": "1.0",
+        "lightColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "lightLength": "1.0",
+        "lightRange": "8.0",
+        "lightType": "DirectionalLight",
+        "lightWidth": "1.0",
+        "name": "DirectionalLight",
+        "needSync": "true",
+        "position": "x:0 y:5 z:0",
+        "rotation": "x:0 y:-90 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "shadowsDistance": "20.0",
+        "shadowsIntensity": "1.0",
+        "shadowsOffset": "0.02",
+        "shadowsPresicion": "1024",
+        "shadowsType": "null",
+        "skyColor": "r:0.49803921568627 g:0.51372549019608 b:0.54509803921569 a:1.0",
+        "skyLineColor": "r:0.23921568627451 g:0.22745098039216 b:0.2078431372549 a:1.0",
+        "useAnchor": "false"
       }
     },
     {
@@ -56,7 +88,8 @@
         "position": "x:0 y:1.5 z:0",
         "rotation": "x:0 y:0 z:0",
         "scale": "x:1 y:1 z:1",
-        "selectable": "true"
+        "selectable": "true",
+        "useAnchor": "false"
       }
     },
     {
@@ -611,7 +644,8 @@
         "position": "x:-1.9999992847443 y:1 z:28",
         "rotation": "x:0 y:-29.999996185303 z:0",
         "scale": "x:1 y:1 z:1",
-        "selectable": "true"
+        "selectable": "true",
+        "useAnchor": "false"
       }
     },
     {
@@ -745,7 +779,8 @@
         "position": "x:1.4641048908234 y:1 z:32",
         "rotation": "x:0 y:-59.999992370605 z:0",
         "scale": "x:1 y:1 z:1",
-        "selectable": "true"
+        "selectable": "true",
+        "useAnchor": "false"
       }
     },
     {
@@ -879,7 +914,8 @@
         "position": "x:-2.8660130500793 y:1 z:35.5",
         "rotation": "x:0 y:-9.9999904632568 z:0",
         "scale": "x:1 y:1 z:1",
-        "selectable": "true"
+        "selectable": "true",
+        "useAnchor": "false"
       }
     },
     {
@@ -1013,7 +1049,8 @@
         "position": "x:1.8324499130249 y:1 z:38",
         "rotation": "x:0 y:-49.999988555908 z:0",
         "scale": "x:1 y:1 z:1",
-        "selectable": "true"
+        "selectable": "true",
+        "useAnchor": "false"
       }
     },
     {
@@ -1936,7 +1973,8 @@
         "position": "x:-22 y:1 z:38",
         "rotation": "x:0 y:0 z:0",
         "scale": "x:1 y:1 z:1",
-        "selectable": "true"
+        "selectable": "true",
+        "useAnchor": "false"
       }
     },
     {
@@ -2120,7 +2158,8 @@
         "position": "x:-22 y:1 z:34",
         "rotation": "x:0 y:0 z:0",
         "scale": "x:1 y:1 z:1",
-        "selectable": "true"
+        "selectable": "true",
+        "useAnchor": "false"
       }
     },
     {
@@ -2304,7 +2343,8 @@
         "position": "x:-22 y:1 z:30",
         "rotation": "x:0 y:0 z:0",
         "scale": "x:1 y:1 z:1",
-        "selectable": "true"
+        "selectable": "true",
+        "useAnchor": "false"
       }
     },
     {
@@ -2674,7 +2714,8 @@
         "position": "x:-22.06000328064 y:3.6649990081787 z:-16.108283996582",
         "rotation": "x:0 y:0 z:0",
         "scale": "x:1 y:1 z:1",
-        "selectable": "true"
+        "selectable": "true",
+        "useAnchor": "false"
       }
     },
     {
@@ -2689,7 +2730,8 @@
         "position": "x:1.6236610412598 y:1.0999984741211 z:46.289916992188",
         "rotation": "x:0 y:0 z:0",
         "scale": "x:1 y:1 z:1",
-        "selectable": "true"
+        "selectable": "true",
+        "useAnchor": "false"
       }
     }
   ],

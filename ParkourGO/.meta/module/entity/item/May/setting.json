@@ -10,7 +10,11 @@
       "patrolMode": "randomPath"
     },
     "boundingVolume": {
-      "params": {
+      "height": 1.8,
+      "height_c": 1.8,
+      "radius": 0.45,
+      "radius_c": 0.45,
+      "size": {
         "x": 22.6,
         "y": 5.8,
         "z": 13.6
@@ -34,9 +38,9 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "dfb27aef4c2c6c22e8c849a8f2b4f812",
+      "setting.json": "17aee80b0d6fc1f3e097e9c388e66986",
       "triggers.bts": ""
     },
-    "VERSION": "0.21"
+    "VERSION": "0.22"
   }
 }

@@ -19,11 +19,11 @@
           "name": "Behind",
           "size": {
             "UDim_X": {
-              "Offect": 0.0,
+              "Offect": 0,
               "Scale": 1
             },
             "UDim_Y": {
-              "Offect": 0.0,
+              "Offect": 0,
               "Scale": 1
             }
           }
@@ -105,10 +105,10 @@
                               },
                               "size": {
                                 "UDim_X": {
-                                  "Offect": 100.0
+                                  "Offect": 100
                                 },
                                 "UDim_Y": {
-                                  "Offect": 100.0
+                                  "Offect": 100
                                 }
                               }
                             }
@@ -192,10 +192,10 @@
                               },
                               "size": {
                                 "UDim_X": {
-                                  "Offect": 100.0
+                                  "Offect": 100
                                 },
                                 "UDim_Y": {
-                                  "Offect": 100.0
+                                  "Offect": 100
                                 }
                               }
                             }
@@ -254,7 +254,7 @@
                       "name": "Slot2",
                       "pos": {
                         "UDim_X": {
-                          "Offect": 163.0
+                          "Offect": 163
                         }
                       },
                       "size": {
@@ -284,10 +284,10 @@
                               },
                               "size": {
                                 "UDim_X": {
-                                  "Offect": 100.0
+                                  "Offect": 100
                                 },
                                 "UDim_Y": {
-                                  "Offect": 100.0
+                                  "Offect": 100
                                 }
                               }
                             }
@@ -346,7 +346,7 @@
                       "name": "Slot3",
                       "pos": {
                         "UDim_X": {
-                          "Offect": 326.0
+                          "Offect": 326
                         }
                       },
                       "size": {
@@ -376,10 +376,10 @@
                               },
                               "size": {
                                 "UDim_X": {
-                                  "Offect": 100.0
+                                  "Offect": 100
                                 },
                                 "UDim_Y": {
-                                  "Offect": 100.0
+                                  "Offect": 100
                                 }
                               }
                             }
@@ -438,7 +438,7 @@
                       "name": "Slot4",
                       "pos": {
                         "UDim_X": {
-                          "Offect": 489.0
+                          "Offect": 489
                         }
                       },
                       "size": {
@@ -468,10 +468,10 @@
                               },
                               "size": {
                                 "UDim_X": {
-                                  "Offect": 100.0
+                                  "Offect": 100
                                 },
                                 "UDim_Y": {
-                                  "Offect": 100.0
+                                  "Offect": 100
                                 }
                               }
                             }
@@ -530,7 +530,7 @@
                       "name": "Slot5",
                       "pos": {
                         "UDim_Y": {
-                          "Offect": 198.0
+                          "Offect": 198
                         }
                       },
                       "size": {
@@ -546,10 +546,10 @@
                   "rowSize": 4,
                   "size": {
                     "UDim_X": {
-                      "Offect": 617.0
+                      "Offect": 617
                     },
                     "UDim_Y": {
-                      "Offect": 396.0
+                      "Offect": 396
                     }
                   },
                   "Space": {
@@ -647,10 +647,7 @@
     }
   },
   "meta": {
-    "EXPORT": {
-      "layout": "44395fe92adbdf823bcb8cab11d14034",
-      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
-    },
-    "VERSION": "0.21"
+    "EXPORT": [],
+    "VERSION": "0.22"
   }
 }

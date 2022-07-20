@@ -6,6 +6,12 @@
     "AI_patrol": {
       "patrolMode": "randomPath"
     },
+    "boundingVolume": {
+      "height": 1.8,
+      "height_c": 1.8,
+      "radius": 0.45,
+      "radius_c": 0.45
+    },
     "deadSound": {
       "volume": {
         "value": 0
@@ -17,9 +23,9 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "af743d0b1fffd264a12eb342986c79c7",
+      "setting.json": "2e834a859dc74bf174e60e9f3741f836",
       "triggers.bts": ""
     },
-    "VERSION": "0.21"
+    "VERSION": "0.22"
   }
 }
